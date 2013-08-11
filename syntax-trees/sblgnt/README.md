@@ -8,11 +8,13 @@ Morphological parsing and lemmatization copyright 2013 by MorphGNT,  made availa
 SBLGNT text copyright 2010 by the Society of Biblical Literature and Logos Bible Software, 
 use subject to the [SBLGNT EULA](http://sblgnt.com/license/).
 
-Current markup scheme:
+These syntax trees were automatically generated, then carefully corrected by hand.  Please report any errors you encounter.
+
+
+Current markup scheme (github browser garbles this - read it in Zen mode or download):
 
 Cat = Part-of-speech Category
-Rule = Rule used to combine nodes—some of these are arbitrary, some make meaningful distinctions (for example, when two nouns are connected together, we have different rules differentiating apposition, genitive modification, or two nouns
-conjoined/juxtaposed without conjunction in between).
+Rule = Rule used to combine nodes—some of these are arbitrary, some make meaningful distinctions (for example, when two nouns are connected together, we have different rules differentiating apposition, genitive modification, or two nouns conjoined/juxtaposed without conjunction in between).
 Start = indicates starting position of the node in the tree
 End = indicates ending position of the node in the tree (at the word level start & end would be the same; at a higher node, e.g., a multi-word phrase, the starting & ending position indicates the span of the multi-word phrase)
 Person = grammatical person
