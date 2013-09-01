@@ -1,14 +1,4 @@
-<?xml version="1.0" encoding="utf-8" ?>
-<!--
-Greek New Testament Syntax Trees (SBLGNT)
-https://github.com/biblicalhumanities/greek-new-testament/syntax-trees/sblgnt
-
-Syntax diagram markup copyright 2013 by the Asia Bible Society, made available under under a [CC-BY-SA License] (http://creativecommons.org/licenses/by-sa/3.0/). 
-
-Morphological parsing and lemmatization copyright 2013 by MorphGNT,  made available under a [CC-BY-SA License](http://creativecommons.org/licenses/by-sa/3.0/).  
-
-SBLGNT text copyright 2010 by the Society of Biblical Literature and Logos Bible Software, use subject to the [SBLGNT EULA](http://sblgnt.com/license/).
--->
+﻿<?xml version="1.0" encoding="utf-8" ?>
 <Sentences>
 <Sentence ID = "2Jn1:1:1-1:2:14">
 <Trees>
@@ -951,9 +941,9 @@ SBLGNT text copyright 2010 by the Society of Biblical Literature and Logos Bible
       <Node Cat="conj" Start="0" End="0" UnicodeLemma="εἰ" Unicode="εἴ" morphId="63001010001" nodeId="630010100010010">εἴ</Node>
       <Node Cat="CL" Start="1" End="10" Rule="Conj2CL" Head="0" UnicodeLemma="ἔρχομαι" Person="Third" Voice="Middle" Unicode="ἔρχεται" Tense="Present" Number="Singular" morphId="63001010003" Mood="Indicative" nodeId="630010100020100">
         <Node Cat="CL" Start="1" End="4" Rule="S-V-ADV" Head="1" UnicodeLemma="ἔρχομαι" Person="Third" Voice="Middle" Tense="Present" Number="Singular" morphId="63001010003" Mood="Indicative" Unicode="ἔρχεται" nodeId="630010100020040">
-          <Node Cat="S" Start="1" End="1" Rule="np2S" Head="0" Demonstrative="False" Personal="False" Interrogative="True" Relative="False" Case="Nominative" UnicodeLemma="τις" Unicode="τις" Gender="Masculine" Number="Singular" morphId="63001010002" nodeId="630010100020012">
-            <Node Cat="np" Start="1" End="1" Rule="Pron2NP" Head="0" Demonstrative="False" Personal="False" Interrogative="True" Relative="False" UnicodeLemma="τις" Unicode="τις" Gender="Masculine" Number="Singular" Case="Nominative" morphId="63001010002" nodeId="630010100020011">
-              <Node Cat="pron" Start="1" End="1" Demonstrative="False" Personal="False" Interrogative="True" Relative="False" Case="Nominative" UnicodeLemma="τις" Unicode="τις" Gender="Masculine" Number="Singular" morphId="63001010002" nodeId="630010100020010">τις</Node>
+          <Node Cat="S" Start="1" End="1" Rule="np2S" Head="0" Demonstrative="False" Personal="False" Interrogative="False" Relative="False" Case="Nominative" UnicodeLemma="τις" Unicode="τις" Gender="Masculine" Number="Singular" morphId="63001010002" nodeId="630010100020012">
+            <Node Cat="np" Start="1" End="1" Rule="Pron2NP" Head="0" Demonstrative="False" Personal="False" Interrogative="False" Relative="False" UnicodeLemma="τις" Unicode="τις" Gender="Masculine" Number="Singular" morphId="63001010002" Case="Nominative" nodeId="630010100020011">
+              <Node Cat="pron" Start="1" End="1" Demonstrative="False" Personal="False" Interrogative="False" Relative="False" UnicodeLemma="τις" Unicode="τις" Number="Singular" morphId="63001010002" Case="Nominative" Gender="Masculine" nodeId="630010100020010">τις</Node>
             </Node>
           </Node>
           <Node Cat="V" Start="2" End="2" Rule="vp2V" Head="0" UnicodeLemma="ἔρχομαι" Person="Third" Voice="Middle" Unicode="ἔρχεται" Tense="Present" Number="Singular" morphId="63001010003" Mood="Indicative" nodeId="630010100030012">

@@ -1,14 +1,4 @@
-<?xml version="1.0" encoding="utf-8" ?>
-<!--
-Greek New Testament Syntax Trees (SBLGNT)
-https://github.com/biblicalhumanities/greek-new-testament/syntax-trees/sblgnt
-
-Syntax diagram markup copyright 2013 by the Asia Bible Society, made available under under a [CC-BY-SA License] (http://creativecommons.org/licenses/by-sa/3.0/). 
-
-Morphological parsing and lemmatization copyright 2013 by MorphGNT,  made available under a [CC-BY-SA License](http://creativecommons.org/licenses/by-sa/3.0/).  
-
-SBLGNT text copyright 2010 by the Society of Biblical Literature and Logos Bible Software, use subject to the [SBLGNT EULA](http://sblgnt.com/license/).
--->
+﻿<?xml version="1.0" encoding="utf-8" ?>
 <Sentences>
 <Sentence ID = "1Tm1:1:1-1:2:5">
 <Trees>
@@ -232,9 +222,9 @@ SBLGNT text copyright 2010 by the Society of Biblical Literature and Logos Bible
             <Node Cat="verb" Start="10" End="10" UnicodeLemma="παραγγέλλω" Person="Second" Voice="Active" Unicode="παραγγείλῃς" Tense="Aorist" Number="Singular" morphId="54001003011" Mood="Subjunctive" nodeId="540010030110010">παραγγείλῃς</Node>
           </Node>
         </Node>
-        <Node Cat="IO" Start="11" End="11" Rule="np2IO" Head="0" Demonstrative="False" Personal="False" Interrogative="True" Relative="False" Case="Dative" UnicodeLemma="τις" Unicode="τισὶν" Gender="Masculine" Number="Plural" morphId="54001003012" nodeId="540010030120012">
-          <Node Cat="np" Start="11" End="11" Rule="Pron2NP" Head="0" Demonstrative="False" Personal="False" Interrogative="True" Relative="False" UnicodeLemma="τις" Unicode="τισὶν" Gender="Masculine" Number="Plural" Case="Dative" morphId="54001003012" nodeId="540010030120011">
-            <Node Cat="pron" Start="11" End="11" Demonstrative="False" Personal="False" Interrogative="True" Relative="False" Case="Dative" UnicodeLemma="τις" Unicode="τισὶν" Gender="Masculine" Number="Plural" morphId="54001003012" nodeId="540010030120010">τισὶν</Node>
+        <Node Cat="IO" Start="11" End="11" Rule="np2IO" Head="0" Demonstrative="False" Personal="False" Interrogative="False" Relative="False" Case="Dative" UnicodeLemma="τις" Unicode="τισὶν" Gender="Masculine" Number="Plural" morphId="54001003012" nodeId="540010030120012">
+          <Node Cat="np" Start="11" End="11" Rule="Pron2NP" Head="0" Demonstrative="False" Personal="False" Interrogative="False" Relative="False" UnicodeLemma="τις" Unicode="τισὶν" Gender="Masculine" Number="Plural" morphId="54001003012" Case="Dative" nodeId="540010030120011">
+            <Node Cat="pron" Start="11" End="11" Demonstrative="False" Personal="False" Interrogative="False" Relative="False" UnicodeLemma="τις" Unicode="τισὶν" Number="Plural" morphId="54001003012" Case="Dative" Gender="Masculine" nodeId="540010030120010">τισὶν</Node>
           </Node>
         </Node>
         <Node Cat="O" Start="12" End="29" Rule="CL2O" Head="0" Voice="Active" UnicodeLemma="ἑτεροδιδασκαλέω" Unicode="ἑτεροδιδασκαλεῖν" Tense="Present" Mood="Infinitive" morphId="54001003014" nodeId="540010030130181">
@@ -415,9 +405,9 @@ SBLGNT text copyright 2010 by the Society of Biblical Literature and Logos Bible
                     </Node>
                   </Node>
                 </Node>
-                <Node Cat="S" Start="18" End="18" Rule="np2S" Head="0" Demonstrative="False" Personal="False" Interrogative="True" Relative="False" Case="Nominative" UnicodeLemma="τις" Unicode="τινες" Gender="Masculine" Number="Plural" morphId="54001006002" nodeId="540010060020012">
-                  <Node Cat="np" Start="18" End="18" Rule="Pron2NP" Head="0" Demonstrative="False" Personal="False" Interrogative="True" Relative="False" UnicodeLemma="τις" Unicode="τινες" Gender="Masculine" Number="Plural" Case="Nominative" morphId="54001006002" nodeId="540010060020011">
-                    <Node Cat="pron" Start="18" End="18" Demonstrative="False" Personal="False" Interrogative="True" Relative="False" Case="Nominative" UnicodeLemma="τις" Unicode="τινες" Gender="Masculine" Number="Plural" morphId="54001006002" nodeId="540010060020010">τινες</Node>
+                <Node Cat="S" Start="18" End="18" Rule="np2S" Head="0" Demonstrative="False" Personal="False" Interrogative="False" Relative="False" Case="Nominative" UnicodeLemma="τις" Unicode="τινες" Gender="Masculine" Number="Plural" morphId="54001006002" nodeId="540010060020012">
+                  <Node Cat="np" Start="18" End="18" Rule="Pron2NP" Head="0" Demonstrative="False" Personal="False" Interrogative="False" Relative="False" UnicodeLemma="τις" Unicode="τινες" Gender="Masculine" Number="Plural" morphId="54001006002" Case="Nominative" nodeId="540010060020011">
+                    <Node Cat="pron" Start="18" End="18" Demonstrative="False" Personal="False" Interrogative="False" Relative="False" UnicodeLemma="τις" Unicode="τινες" Number="Plural" morphId="54001006002" Case="Nominative" Gender="Masculine" nodeId="540010060020010">τινες</Node>
                   </Node>
                 </Node>
                 <Node Cat="V" Start="19" End="19" Rule="vp2V" Head="0" UnicodeLemma="ἐκτρέπομαι" Person="Third" Voice="Passive" Unicode="ἐξετράπησαν" Tense="Aorist" Number="Plural" morphId="54001006004" Mood="Indicative" nodeId="540010060040012">
@@ -487,11 +477,11 @@ SBLGNT text copyright 2010 by the Society of Biblical Literature and Logos Bible
                           <Node Cat="conj" Start="30" End="30" UnicodeLemma="μήτε" Unicode="μήτε" morphId="54001007009" nodeId="540010070090010">μήτε</Node>
                           <Node Cat="np" Start="31" End="33" Rule="CL2NP" Head="0" Relative="False" UnicodeLemma="διαβεβαιόομαι" Person="Third" Voice="Middle" Unicode="διαβεβαιοῦνται." Tense="Present" Number="Plural" morphId="54001007012" Mood="Indicative" nodeId="540010070100031">
                             <Node Cat="CL" Start="31" End="33" Rule="ADV-V" Head="1" UnicodeLemma="διαβεβαιόομαι" Person="Third" Voice="Middle" Tense="Present" Number="Plural" morphId="54001007012" Mood="Indicative" Unicode="διαβεβαιοῦνται." nodeId="540010070100030">
-                              <Node Cat="ADV" Start="31" End="32" Rule="pp2ADV" Head="0" Demonstrative="False" Personal="False" Interrogative="True" Relative="False" UnicodeLemma="τίς" Gender="Neuter" Unicode="τίνων" Number="Plural" morphId="54001007011" Case="" nodeId="540010070100021">
-                                <Node Cat="pp" Start="31" End="32" Rule="PrepNP" Head="1" Demonstrative="False" Personal="False" Interrogative="True" Relative="False" UnicodeLemma="τίς" Gender="Neuter" Unicode="τίνων" Number="Plural" morphId="54001007011" Case="" nodeId="540010070100020">
+                              <Node Cat="ADV" Start="31" End="32" Rule="pp2ADV" Head="0" Demonstrative="False" Personal="False" Interrogative="True" Relative="False" UnicodeLemma="τίς" Number="Plural" morphId="54001007011" Case="" Gender="Neuter" Unicode="τίνων" nodeId="540010070100021">
+                                <Node Cat="pp" Start="31" End="32" Rule="PrepNP" Head="1" Demonstrative="False" Personal="False" Interrogative="True" Relative="False" UnicodeLemma="τίς" Unicode="τίνων" Number="Plural" morphId="54001007011" Case="" Gender="Neuter" nodeId="540010070100020">
                                   <Node Cat="prep" Start="31" End="31" UnicodeLemma="περί" Unicode="περὶ" morphId="54001007010" nodeId="540010070100010">περὶ</Node>
-                                  <Node Cat="np" Start="32" End="32" Rule="Pron2NP" Head="0" Demonstrative="False" Personal="False" Interrogative="True" Relative="False" UnicodeLemma="τίς" Unicode="τίνων" Gender="Neuter" Number="Plural" Case="Genitive" morphId="54001007011" nodeId="540010070110011">
-                                    <Node Cat="pron" Start="32" End="32" Demonstrative="False" Personal="False" Interrogative="True" Relative="False" Case="Genitive" UnicodeLemma="τίς" Unicode="τίνων" Gender="Neuter" Number="Plural" morphId="54001007011" nodeId="540010070110010">τίνων</Node>
+                                  <Node Cat="np" Start="32" End="32" Rule="Pron2NP" Head="0" Demonstrative="False" Personal="False" Interrogative="True" Relative="False" UnicodeLemma="τίς" Unicode="τίνων" Gender="Neuter" Number="Plural" morphId="54001007011" Case="Genitive" nodeId="540010070110011">
+                                    <Node Cat="pron" Start="32" End="32" Demonstrative="False" Personal="False" Interrogative="True" Relative="False" UnicodeLemma="τίς" Unicode="τίνων" Number="Plural" morphId="54001007011" Case="Genitive" Gender="Neuter" nodeId="540010070110010">τίνων</Node>
                                   </Node>
                                 </Node>
                               </Node>
@@ -553,9 +543,9 @@ SBLGNT text copyright 2010 by the Society of Biblical Literature and Logos Bible
           <Node Cat="CL" Start="6" End="55" Rule="sub-CL" Head="1" UnicodeLemma="χράομαι" Person="Third" Voice="Middle" Unicode="χρῆται," Tense="Present" Number="Singular" morphId="54001008011" Mood="Subjunctive" nodeId="540010080070500">
             <Node Cat="conj" Start="6" End="6" UnicodeLemma="ἐάν" Unicode="ἐάν" morphId="54001008007" nodeId="540010080070010">ἐάν</Node>
             <Node Cat="CL" Start="7" End="55" Rule="S-O-ADV-V-ADV" Head="3" UnicodeLemma="χράομαι" Person="Third" Voice="Middle" Tense="Present" Number="Singular" morphId="54001008011" Mood="Subjunctive" Unicode="χρῆται," nodeId="540010080080490">
-              <Node Cat="S" Start="7" End="7" Rule="np2S" Head="0" Demonstrative="False" Personal="False" Interrogative="True" Relative="False" Case="Nominative" UnicodeLemma="τις" Unicode="τις" Gender="Masculine" Number="Singular" morphId="54001008008" nodeId="540010080080012">
-                <Node Cat="np" Start="7" End="7" Rule="Pron2NP" Head="0" Demonstrative="False" Personal="False" Interrogative="True" Relative="False" UnicodeLemma="τις" Unicode="τις" Gender="Masculine" Number="Singular" Case="Nominative" morphId="54001008008" nodeId="540010080080011">
-                  <Node Cat="pron" Start="7" End="7" Demonstrative="False" Personal="False" Interrogative="True" Relative="False" Case="Nominative" UnicodeLemma="τις" Unicode="τις" Gender="Masculine" Number="Singular" morphId="54001008008" nodeId="540010080080010">τις</Node>
+              <Node Cat="S" Start="7" End="7" Rule="np2S" Head="0" Demonstrative="False" Personal="False" Interrogative="False" Relative="False" Case="Nominative" UnicodeLemma="τις" Unicode="τις" Gender="Masculine" Number="Singular" morphId="54001008008" nodeId="540010080080012">
+                <Node Cat="np" Start="7" End="7" Rule="Pron2NP" Head="0" Demonstrative="False" Personal="False" Interrogative="False" Relative="False" UnicodeLemma="τις" Unicode="τις" Gender="Masculine" Number="Singular" morphId="54001008008" Case="Nominative" nodeId="540010080080011">
+                  <Node Cat="pron" Start="7" End="7" Demonstrative="False" Personal="False" Interrogative="False" Relative="False" UnicodeLemma="τις" Unicode="τις" Number="Singular" morphId="54001008008" Case="Nominative" Gender="Masculine" nodeId="540010080080010">τις</Node>
                 </Node>
               </Node>
               <Node Cat="O" Start="8" End="8" Rule="np2O" Head="0" Demonstrative="False" Personal="True" Interrogative="False" Relative="False" Case="Dative" UnicodeLemma="αὐτός" Unicode="αὐτῷ" Gender="Masculine" Number="Singular" morphId="54001008009" nodeId="540010080090012">
@@ -694,10 +684,10 @@ SBLGNT text copyright 2010 by the Society of Biblical Literature and Logos Bible
                         <Node Cat="CL" Start="38" End="55" Rule="sub-CL" Head="1" UnicodeLemma="ἀντίκειμαι" Person="Third" Voice="Middle" Unicode="ἀντίκειται," Tense="Present" Number="Singular" morphId="54001010013" Mood="Indicative" nodeId="540010100070180">
                           <Node Cat="conj" Start="38" End="38" UnicodeLemma="εἰ" Unicode="εἴ" morphId="54001010007" nodeId="540010100070010">εἴ</Node>
                           <Node Cat="CL" Start="39" End="55" Rule="S-V-O" Head="1" UnicodeLemma="ἀντίκειμαι" Person="Third" Voice="Middle" Tense="Present" Number="Singular" morphId="54001010013" Mood="Indicative" Unicode="ἀντίκειται," nodeId="540010100080170">
-                            <Node Cat="S" Start="39" End="40" Rule="np2S" Head="0" Demonstrative="False" Personal="False" Interrogative="True" Relative="False" UnicodeLemma="τις" Unicode="τι" Gender="Neuter" Number="Singular" Case="Nominative" morphId="54001010008" nodeId="540010100080021">
-                              <Node Cat="np" Start="39" End="40" Rule="NP-AdjP" Head="0" Demonstrative="False" Personal="False" Interrogative="True" Relative="False" Case="Nominative" UnicodeLemma="τις" Unicode="τι" Gender="Neuter" Number="Singular" morphId="54001010008" nodeId="540010100080020">
-                                <Node Cat="np" Start="39" End="39" Rule="Pron2NP" Head="0" Demonstrative="False" Personal="False" Interrogative="True" Relative="False" UnicodeLemma="τις" Unicode="τι" Gender="Neuter" Number="Singular" Case="Nominative" morphId="54001010008" nodeId="540010100080011">
-                                  <Node Cat="pron" Start="39" End="39" Demonstrative="False" Personal="False" Interrogative="True" Relative="False" Case="Nominative" UnicodeLemma="τις" Unicode="τι" Gender="Neuter" Number="Singular" morphId="54001010008" nodeId="540010100080010">τι</Node>
+                            <Node Cat="S" Start="39" End="40" Rule="np2S" Head="0" Demonstrative="False" Personal="False" Interrogative="False" Relative="False" UnicodeLemma="τις" Unicode="τι" Gender="Neuter" Number="Singular" morphId="54001010008" Case="Nominative" nodeId="540010100080021">
+                              <Node Cat="np" Start="39" End="40" Rule="NP-AdjP" Head="0" Demonstrative="False" Personal="False" Interrogative="False" Relative="False" UnicodeLemma="τις" Unicode="τι" Number="Singular" morphId="54001010008" Case="Nominative" Gender="Neuter" nodeId="540010100080020">
+                                <Node Cat="np" Start="39" End="39" Rule="Pron2NP" Head="0" Demonstrative="False" Personal="False" Interrogative="False" Relative="False" UnicodeLemma="τις" Unicode="τι" Gender="Neuter" Number="Singular" morphId="54001010008" Case="Nominative" nodeId="540010100080011">
+                                  <Node Cat="pron" Start="39" End="39" Demonstrative="False" Personal="False" Interrogative="False" Relative="False" UnicodeLemma="τις" Unicode="τι" Number="Singular" morphId="54001010008" Case="Nominative" Gender="Neuter" nodeId="540010100080010">τι</Node>
                                 </Node>
                                 <Node Cat="adjp" Start="40" End="40" Rule="Adj2AdjP" Head="0" UnicodeLemma="ἕτερος" Unicode="ἕτερον" Gender="Neuter" Number="Singular" morphId="54001010009" Case="Nominative" nodeId="540010100090011">
                                   <Node Cat="adj" Start="40" End="40" UnicodeLemma="ἕτερος" Unicode="ἕτερον" Number="Singular" morphId="54001010009" Case="Nominative" Gender="Neuter" nodeId="540010100090010">ἕτερον</Node>
@@ -1507,9 +1497,9 @@ SBLGNT text copyright 2010 by the Society of Biblical Literature and Logos Bible
                             </Node>
                           </Node>
                         </Node>
-                        <Node Cat="S" Start="27" End="27" Rule="np2S" Head="0" Demonstrative="False" Personal="False" Interrogative="True" Relative="False" Case="Nominative" UnicodeLemma="τις" Unicode="τινες" Gender="Masculine" Number="Plural" morphId="54001019007" nodeId="540010190070012">
-                          <Node Cat="np" Start="27" End="27" Rule="Pron2NP" Head="0" Demonstrative="False" Personal="False" Interrogative="True" Relative="False" UnicodeLemma="τις" Unicode="τινες" Gender="Masculine" Number="Plural" Case="Nominative" morphId="54001019007" nodeId="540010190070011">
-                            <Node Cat="pron" Start="27" End="27" Demonstrative="False" Personal="False" Interrogative="True" Relative="False" Case="Nominative" UnicodeLemma="τις" Unicode="τινες" Gender="Masculine" Number="Plural" morphId="54001019007" nodeId="540010190070010">τινες</Node>
+                        <Node Cat="S" Start="27" End="27" Rule="np2S" Head="0" Demonstrative="False" Personal="False" Interrogative="False" Relative="False" Case="Nominative" UnicodeLemma="τις" Unicode="τινες" Gender="Masculine" Number="Plural" morphId="54001019007" nodeId="540010190070012">
+                          <Node Cat="np" Start="27" End="27" Rule="Pron2NP" Head="0" Demonstrative="False" Personal="False" Interrogative="False" Relative="False" UnicodeLemma="τις" Unicode="τινες" Gender="Masculine" Number="Plural" morphId="54001019007" Case="Nominative" nodeId="540010190070011">
+                            <Node Cat="pron" Start="27" End="27" Demonstrative="False" Personal="False" Interrogative="False" Relative="False" UnicodeLemma="τις" Unicode="τινες" Number="Plural" morphId="54001019007" Case="Nominative" Gender="Masculine" nodeId="540010190070010">τινες</Node>
                           </Node>
                         </Node>
                         <Node Cat="ADV" Start="28" End="30" Rule="pp2ADV" Head="0" HasDet="True" UnicodeLemma="πίστις" Gender="Feminine" Unicode="πίστιν" Number="Singular" morphId="54001019011" Case="" nodeId="540010190090031">
@@ -1629,13 +1619,17 @@ SBLGNT text copyright 2010 by the Society of Biblical Literature and Logos Bible
         </Node>
         <Node Cat="O" Start="2" End="19" Rule="CL2O" Head="0" Voice="Passive" UnicodeLemma="ποιέω" Unicode="ποιεῖσθαι" Tense="Present" Mood="Infinitive" morphId="54002001005" nodeId="540020010030181">
           <Node Cat="CL" Start="2" End="19" Rule="ADV-V-S-ADV" Head="1" UnicodeLemma="ποιέω" Voice="Passive" Tense="Present" morphId="54002001005" Mood="Infinitive" Unicode="ποιεῖσθαι" nodeId="540020010030180">
-            <Node Cat="ADV" Start="2" End="3" Rule="advp2ADV" Head="0" UnicodeLemma="πρῶτος" Unicode="πρῶτον" morphId="54002001003" nodeId="540020010030021">
-              <Node Cat="advp" Start="2" End="3" Rule="AdvpAdvp" Head="0" UnicodeLemma="πρῶτος" Unicode="πρῶτον" morphId="54002001003" nodeId="540020010030020">
-                <Node Cat="advp" Start="2" End="2" Rule="Adv2Advp" Head="0" UnicodeLemma="πρῶτος" Unicode="πρῶτον" morphId="54002001003" nodeId="540020010030011">
-                  <Node Cat="adv" Start="2" End="2" UnicodeLemma="πρῶτος" Unicode="πρῶτον" morphId="54002001003" nodeId="540020010030010">πρῶτον</Node>
+            <Node Cat="ADV" Start="2" End="3" Rule="np2ADV" Head="0" UnicodeLemma="πρῶτος" Unicode="πρῶτον" Number="Singular" morphId="54002001003" Case="Accusative" Gender="Neuter" nodeId="540020010030021">
+              <Node Cat="np" Start="2" End="3" Rule="NPofNP" Head="0" UnicodeLemma="πρῶτος" Number="Singular" morphId="54002001003" Case="Accusative" Gender="Neuter" Unicode="πρῶτον" nodeId="540020010030020">
+                <Node Cat="np" Start="2" End="2" Rule="Adj2NP" Head="0" UnicodeLemma="πρῶτος" Unicode="πρῶτον" Number="Singular" morphId="54002001003" Case="Accusative" Gender="Neuter" nodeId="540020010030012">
+                  <Node Cat="adjp" Start="2" End="2" Rule="Adj2AdjP" Head="0" UnicodeLemma="πρῶτος" Number="Singular" morphId="54002001003" Case="Accusative" Gender="Neuter" Unicode="πρῶτον" nodeId="540020010030011">
+                    <Node Cat="adj" Start="2" End="2" UnicodeLemma="πρῶτος" Unicode="πρῶτον" Number="Singular" morphId="54002001003" Case="Accusative" Gender="Neuter" nodeId="540020010030010">πρῶτον</Node>
+                  </Node>
                 </Node>
-                <Node Cat="advp" Start="3" End="3" Rule="Adj2Advp" Head="0" UnicodeLemma="πᾶς" Unicode="πάντων" Gender="Neuter" Number="Plural" morphId="54002001004" Case="Genitive" nodeId="540020010040011">
-                  <Node Cat="adj" Start="3" End="3" UnicodeLemma="πᾶς" Unicode="πάντων" Number="Plural" morphId="54002001004" Case="Genitive" Gender="Neuter" nodeId="540020010040010">πάντων</Node>
+                <Node Cat="np" Start="3" End="3" Rule="Adj2NP" Head="0" Case="Genitive" UnicodeLemma="πᾶς" Unicode="πάντων" Gender="Neuter" Number="Plural" morphId="54002001004" nodeId="540020010040012">
+                  <Node Cat="adjp" Start="3" End="3" Rule="Adj2AdjP" Head="0" UnicodeLemma="πᾶς" Unicode="πάντων" Gender="Neuter" Number="Plural" morphId="54002001004" Case="Genitive" nodeId="540020010040011">
+                    <Node Cat="adj" Start="3" End="3" UnicodeLemma="πᾶς" Unicode="πάντων" Number="Plural" morphId="54002001004" Case="Genitive" Gender="Neuter" nodeId="540020010040010">πάντων</Node>
+                  </Node>
                 </Node>
               </Node>
             </Node>
@@ -2611,9 +2605,9 @@ SBLGNT text copyright 2010 by the Society of Biblical Literature and Logos Bible
     <Node Cat="CL" Start="0" End="3" Rule="sub-CL" Head="1" UnicodeLemma="ὀρέγομαι" Person="Third" Voice="Middle" Unicode="ὀρέγεται," Tense="Present" Number="Singular" morphId="54003001007" Mood="Indicative" nodeId="540030010040040">
       <Node Cat="conj" Start="0" End="0" UnicodeLemma="εἰ" Unicode="εἴ" morphId="54003001004" nodeId="540030010040010">εἴ</Node>
       <Node Cat="CL" Start="1" End="3" Rule="S-O-V" Head="2" UnicodeLemma="ὀρέγομαι" Person="Third" Voice="Middle" Tense="Present" Number="Singular" morphId="54003001007" Mood="Indicative" Unicode="ὀρέγεται," nodeId="540030010050030">
-        <Node Cat="S" Start="1" End="1" Rule="np2S" Head="0" Demonstrative="False" Personal="False" Interrogative="True" Relative="False" Case="Nominative" UnicodeLemma="τις" Unicode="τις" Gender="Masculine" Number="Singular" morphId="54003001005" nodeId="540030010050012">
-          <Node Cat="np" Start="1" End="1" Rule="Pron2NP" Head="0" Demonstrative="False" Personal="False" Interrogative="True" Relative="False" UnicodeLemma="τις" Unicode="τις" Gender="Masculine" Number="Singular" Case="Nominative" morphId="54003001005" nodeId="540030010050011">
-            <Node Cat="pron" Start="1" End="1" Demonstrative="False" Personal="False" Interrogative="True" Relative="False" Case="Nominative" UnicodeLemma="τις" Unicode="τις" Gender="Masculine" Number="Singular" morphId="54003001005" nodeId="540030010050010">τις</Node>
+        <Node Cat="S" Start="1" End="1" Rule="np2S" Head="0" Demonstrative="False" Personal="False" Interrogative="False" Relative="False" Case="Nominative" UnicodeLemma="τις" Unicode="τις" Gender="Masculine" Number="Singular" morphId="54003001005" nodeId="540030010050012">
+          <Node Cat="np" Start="1" End="1" Rule="Pron2NP" Head="0" Demonstrative="False" Personal="False" Interrogative="False" Relative="False" UnicodeLemma="τις" Unicode="τις" Gender="Masculine" Number="Singular" morphId="54003001005" Case="Nominative" nodeId="540030010050011">
+            <Node Cat="pron" Start="1" End="1" Demonstrative="False" Personal="False" Interrogative="False" Relative="False" UnicodeLemma="τις" Unicode="τις" Number="Singular" morphId="54003001005" Case="Nominative" Gender="Masculine" nodeId="540030010050010">τις</Node>
           </Node>
         </Node>
         <Node Cat="O" Start="2" End="2" Rule="np2O" Head="0" UnicodeLemma="ἐπισκοπή" Gender="Feminine" Unicode="ἐπισκοπῆς" Number="Singular" morphId="54003001006" Case="Genitive" nodeId="540030010060012">
@@ -2844,9 +2838,9 @@ SBLGNT text copyright 2010 by the Society of Biblical Literature and Logos Bible
       <Node Cat="CL" Start="1" End="8" Rule="sub-CL" Head="1" UnicodeLemma="οἶδα" Person="Third" Voice="Active" Unicode="οἶδεν," Tense="Perfect" Number="Singular" morphId="54003005009" Mood="Indicative" nodeId="540030050010080">
         <Node Cat="conj" Start="1" End="1" UnicodeLemma="εἰ" Unicode="(εἰ" morphId="54003005001" nodeId="540030050010010">εἰ</Node>
         <Node Cat="CL" Start="2" End="8" Rule="S-O-ADV-V" Head="3" UnicodeLemma="οἶδα" Person="Third" Voice="Active" Tense="Perfect" Number="Singular" morphId="54003005009" Mood="Indicative" Unicode="οἶδεν," nodeId="540030050030070">
-          <Node Cat="S" Start="2" End="2" Rule="np2S" Head="0" Demonstrative="False" Personal="False" Interrogative="True" Relative="False" Case="Nominative" UnicodeLemma="τις" Unicode="τις" Gender="Masculine" Number="Singular" morphId="54003005003" nodeId="540030050030012">
-            <Node Cat="np" Start="2" End="2" Rule="Pron2NP" Head="0" Demonstrative="False" Personal="False" Interrogative="True" Relative="False" UnicodeLemma="τις" Unicode="τις" Gender="Masculine" Number="Singular" Case="Nominative" morphId="54003005003" nodeId="540030050030011">
-              <Node Cat="pron" Start="2" End="2" Demonstrative="False" Personal="False" Interrogative="True" Relative="False" Case="Nominative" UnicodeLemma="τις" Unicode="τις" Gender="Masculine" Number="Singular" morphId="54003005003" nodeId="540030050030010">τις</Node>
+          <Node Cat="S" Start="2" End="2" Rule="np2S" Head="0" Demonstrative="False" Personal="False" Interrogative="False" Relative="False" Case="Nominative" UnicodeLemma="τις" Unicode="τις" Gender="Masculine" Number="Singular" morphId="54003005003" nodeId="540030050030012">
+            <Node Cat="np" Start="2" End="2" Rule="Pron2NP" Head="0" Demonstrative="False" Personal="False" Interrogative="False" Relative="False" UnicodeLemma="τις" Unicode="τις" Gender="Masculine" Number="Singular" morphId="54003005003" Case="Nominative" nodeId="540030050030011">
+              <Node Cat="pron" Start="2" End="2" Demonstrative="False" Personal="False" Interrogative="False" Relative="False" UnicodeLemma="τις" Unicode="τις" Number="Singular" morphId="54003005003" Case="Nominative" Gender="Masculine" nodeId="540030050030010">τις</Node>
             </Node>
           </Node>
           <Node Cat="O" Start="3" End="6" Rule="CL2O" Head="0" Voice="Active" UnicodeLemma="προΐστημι" Unicode="προστῆναι" Tense="Aorist" Mood="Infinitive" morphId="54003005007" nodeId="540030050040041">
@@ -3833,9 +3827,9 @@ SBLGNT text copyright 2010 by the Society of Biblical Literature and Logos Bible
               <Node Cat="verb" Start="9" End="9" UnicodeLemma="ἀφίσταμαι" Person="Third" Voice="Middle" Unicode="ἀποστήσονταί" Tense="Future" Number="Plural" morphId="54004001010" Mood="Indicative" nodeId="540040010100010">ἀποστήσονταί</Node>
             </Node>
           </Node>
-          <Node Cat="S" Start="10" End="10" Rule="np2S" Head="0" Demonstrative="False" Personal="False" Interrogative="True" Relative="False" Case="Nominative" UnicodeLemma="τις" Unicode="τινες" Gender="Masculine" Number="Plural" morphId="54004001011" nodeId="540040010110012">
-            <Node Cat="np" Start="10" End="10" Rule="Pron2NP" Head="0" Demonstrative="False" Personal="False" Interrogative="True" Relative="False" UnicodeLemma="τις" Unicode="τινες" Gender="Masculine" Number="Plural" Case="Nominative" morphId="54004001011" nodeId="540040010110011">
-              <Node Cat="pron" Start="10" End="10" Demonstrative="False" Personal="False" Interrogative="True" Relative="False" Case="Nominative" UnicodeLemma="τις" Unicode="τινες" Gender="Masculine" Number="Plural" morphId="54004001011" nodeId="540040010110010">τινες</Node>
+          <Node Cat="S" Start="10" End="10" Rule="np2S" Head="0" Demonstrative="False" Personal="False" Interrogative="False" Relative="False" Case="Nominative" UnicodeLemma="τις" Unicode="τινες" Gender="Masculine" Number="Plural" morphId="54004001011" nodeId="540040010110012">
+            <Node Cat="np" Start="10" End="10" Rule="Pron2NP" Head="0" Demonstrative="False" Personal="False" Interrogative="False" Relative="False" UnicodeLemma="τις" Unicode="τινες" Gender="Masculine" Number="Plural" morphId="54004001011" Case="Nominative" nodeId="540040010110011">
+              <Node Cat="pron" Start="10" End="10" Demonstrative="False" Personal="False" Interrogative="False" Relative="False" UnicodeLemma="τις" Unicode="τινες" Number="Plural" morphId="54004001011" Case="Nominative" Gender="Masculine" nodeId="540040010110010">τινες</Node>
             </Node>
           </Node>
           <Node Cat="ADV" Start="11" End="12" Rule="np2ADV" Head="0" HasDet="True" UnicodeLemma="πίστις" Gender="Feminine" Number="Singular" morphId="54004001013" Case="Genitive" Unicode="πίστεως," nodeId="540040010120021">
@@ -5162,9 +5156,9 @@ SBLGNT text copyright 2010 by the Society of Biblical Literature and Logos Bible
         <Node Cat="CL" Start="2" End="7" Rule="S-O-V" Head="2" UnicodeLemma="ἔχω" Person="Third" Voice="Active" Tense="Present" Number="Singular" morphId="54005004008" Mood="Indicative" Unicode="ἔχει," nodeId="540050040030060">
           <Node Cat="S" Start="2" End="3" Rule="np2S" Head="0" Case="Nominative" UnicodeLemma="χήρα" Unicode="χήρα" Gender="Feminine" Number="Singular" morphId="54005004004" nodeId="540050040030021">
             <Node Cat="np" Start="2" End="3" Rule="AdjpNP" Head="1" UnicodeLemma="χήρα" Unicode="χήρα" Gender="Feminine" Number="Singular" Case="Nominative" morphId="54005004004" nodeId="540050040030020">
-              <Node Cat="adjp" Start="2" End="2" Rule="Adj2AdjP" Head="0" Demonstrative="False" Personal="False" Interrogative="True" Relative="False" Case="Nominative" UnicodeLemma="τις" Unicode="τις" Gender="Feminine" Number="Singular" morphId="54005004003" nodeId="540050040030012">
-                <Node Cat="adj" Start="2" End="2" Rule="pron2adj" Head="0" Demonstrative="False" Personal="False" Interrogative="True" Relative="False" UnicodeLemma="τις" Unicode="τις" Gender="Feminine" Number="Singular" Case="Nominative" morphId="54005004003" nodeId="540050040030011">
-                  <Node Cat="pron" Start="2" End="2" Demonstrative="False" Personal="False" Interrogative="True" Relative="False" Case="Nominative" UnicodeLemma="τις" Unicode="τις" Gender="Feminine" Number="Singular" morphId="54005004003" nodeId="540050040030010">τις</Node>
+              <Node Cat="adjp" Start="2" End="2" Rule="Adj2AdjP" Head="0" Demonstrative="False" Personal="False" Interrogative="False" Relative="False" Case="Nominative" UnicodeLemma="τις" Unicode="τις" Gender="Feminine" Number="Singular" morphId="54005004003" nodeId="540050040030012">
+                <Node Cat="adj" Start="2" End="2" Rule="pron2adj" Head="0" Demonstrative="False" Personal="False" Interrogative="False" Relative="False" UnicodeLemma="τις" Unicode="τις" Gender="Feminine" Number="Singular" morphId="54005004003" Case="Nominative" nodeId="540050040030011">
+                  <Node Cat="pron" Start="2" End="2" Demonstrative="False" Personal="False" Interrogative="False" Relative="False" UnicodeLemma="τις" Unicode="τις" Number="Singular" morphId="54005004003" Case="Nominative" Gender="Feminine" nodeId="540050040030010">τις</Node>
                 </Node>
               </Node>
               <Node Cat="np" Start="3" End="3" Rule="Adj2NP" Head="0" Case="Nominative" UnicodeLemma="χήρα" Unicode="χήρα" Gender="Feminine" Number="Singular" morphId="54005004004" nodeId="540050040040012">
@@ -5428,33 +5422,35 @@ SBLGNT text copyright 2010 by the Society of Biblical Literature and Logos Bible
 <Trees>
 <Tree>
 <Node Cat="S" Head="0" nodeId="540050070010061">
-  <Node Cat="CL" Start="0" End="5" Rule="Conj-CL" Head="1" UnicodeLemma="παραγγέλλω" Person="Second" Voice="Active" Tense="Present" Number="Singular" morphId="54005007003" Mood="Imperative" Unicode="παράγγελλε," nodeId="540050070010060">
-    <Node Cat="conj" Start="0" End="0" UnicodeLemma="καί" Unicode="καὶ" morphId="54005007001" nodeId="540050070010010">καὶ</Node>
-    <Node Cat="CL" Start="1" End="5" Rule="ClCl" Head="0" UnicodeLemma="παραγγέλλω" Person="Second" Voice="Active" Unicode="παράγγελλε," Tense="Present" Number="Singular" morphId="54005007003" Mood="Imperative" nodeId="540050070020050">
-      <Node Cat="CL" Start="1" End="2" Rule="O-V" Head="1" UnicodeLemma="παραγγέλλω" Person="Second" Voice="Active" Tense="Present" Number="Singular" morphId="54005007003" Mood="Imperative" Unicode="παράγγελλε," nodeId="540050070020020">
-        <Node Cat="O" Start="1" End="1" Rule="np2O" Head="0" Demonstrative="True" Personal="False" Interrogative="False" Relative="False" Case="Accusative" UnicodeLemma="οὗτος" Unicode="ταῦτα" Gender="Neuter" Number="Plural" morphId="54005007002" nodeId="540050070020012">
+  <Node Cat="CL" Start="0" End="5" Rule="ClCl" Head="0" UnicodeLemma="παραγγέλλω" Person="Second" Voice="Active" Unicode="παράγγελλε," Tense="Present" Number="Singular" morphId="54005007003" Mood="Imperative" nodeId="540050070010060">
+    <Node Cat="CL" Start="0" End="2" Rule="O-V" Head="1" UnicodeLemma="παραγγέλλω" Person="Second" Voice="Active" Tense="Present" Number="Singular" morphId="54005007003" Mood="Imperative" Unicode="παράγγελλε," nodeId="540050070010030">
+      <Node Cat="O" Start="0" End="1" Rule="np2O" Head="0" Demonstrative="True" Personal="False" Interrogative="False" Relative="False" UnicodeLemma="οὗτος" Unicode="ταῦτα" Gender="Neuter" Number="Plural" Case="Accusative" morphId="54005007002" nodeId="540050070010021">
+        <Node Cat="np" Start="0" End="1" Rule="AdvNP" Head="1" Demonstrative="True" Personal="False" Interrogative="False" Relative="False" Case="Accusative" UnicodeLemma="οὗτος" Unicode="ταῦτα" Gender="Neuter" Number="Plural" morphId="54005007002" nodeId="540050070010020">
+          <Node Cat="advp" Start="0" End="0" Rule="Adv2Advp" Head="0" UnicodeLemma="καί" Unicode="καὶ" morphId="54005007001" nodeId="540050070010011">
+            <Node Cat="adv" Start="0" End="0" UnicodeLemma="καί" Unicode="καὶ" morphId="54005007001" nodeId="540050070010010">καὶ</Node>
+          </Node>
           <Node Cat="np" Start="1" End="1" Rule="Pron2NP" Head="0" Demonstrative="True" Personal="False" Interrogative="False" Relative="False" UnicodeLemma="οὗτος" Unicode="ταῦτα" Gender="Neuter" Number="Plural" Case="Accusative" morphId="54005007002" nodeId="540050070020011">
             <Node Cat="pron" Start="1" End="1" Demonstrative="True" Personal="False" Interrogative="False" Relative="False" Case="Accusative" UnicodeLemma="οὗτος" Unicode="ταῦτα" Gender="Neuter" Number="Plural" morphId="54005007002" nodeId="540050070020010">ταῦτα</Node>
           </Node>
         </Node>
-        <Node Cat="V" Start="2" End="2" Rule="vp2V" Head="0" UnicodeLemma="παραγγέλλω" Person="Second" Voice="Active" Unicode="παράγγελλε," Tense="Present" Number="Singular" morphId="54005007003" Mood="Imperative" nodeId="540050070030012">
-          <Node Cat="vp" Start="2" End="2" Rule="V2VP" Head="0" UnicodeLemma="παραγγέλλω" Person="Second" Voice="Active" Tense="Present" Number="Singular" morphId="54005007003" Mood="Imperative" Unicode="παράγγελλε," nodeId="540050070030011">
-            <Node Cat="verb" Start="2" End="2" UnicodeLemma="παραγγέλλω" Person="Second" Voice="Active" Unicode="παράγγελλε," Tense="Present" Number="Singular" morphId="54005007003" Mood="Imperative" nodeId="540050070030010">παράγγελλε</Node>
-          </Node>
+      </Node>
+      <Node Cat="V" Start="2" End="2" Rule="vp2V" Head="0" UnicodeLemma="παραγγέλλω" Person="Second" Voice="Active" Unicode="παράγγελλε," Tense="Present" Number="Singular" morphId="54005007003" Mood="Imperative" nodeId="540050070030012">
+        <Node Cat="vp" Start="2" End="2" Rule="V2VP" Head="0" UnicodeLemma="παραγγέλλω" Person="Second" Voice="Active" Tense="Present" Number="Singular" morphId="54005007003" Mood="Imperative" Unicode="παράγγελλε," nodeId="540050070030011">
+          <Node Cat="verb" Start="2" End="2" UnicodeLemma="παραγγέλλω" Person="Second" Voice="Active" Unicode="παράγγελλε," Tense="Present" Number="Singular" morphId="54005007003" Mood="Imperative" nodeId="540050070030010">παράγγελλε</Node>
         </Node>
       </Node>
-      <Node Cat="CL" Start="3" End="5" Rule="sub-CL" Head="1" UnicodeLemma="ἀνεπίλημπτος" Gender="Masculine" Unicode="ἀνεπίλημπτοι" Number="Plural" morphId="54005007005" Mood="Subjunctive" Case="Nominative" nodeId="540050070040030">
-        <Node Cat="conj" Start="3" End="3" UnicodeLemma="ἵνα" Unicode="ἵνα" morphId="54005007004" nodeId="540050070040010">ἵνα</Node>
-        <Node Cat="CL" Start="4" End="5" Rule="P-VC" Head="0" UnicodeLemma="ἀνεπίλημπτος" Gender="Masculine" Number="Plural" morphId="54005007005" Mood="Subjunctive" Case="Nominative" Unicode="ἀνεπίλημπτοι" nodeId="540050070050020">
-          <Node Cat="P" Start="4" End="4" Rule="adjp2P" Head="0" Case="Nominative" UnicodeLemma="ἀνεπίλημπτος" Unicode="ἀνεπίλημπτοι" Gender="Masculine" Number="Plural" morphId="54005007005" nodeId="540050070050012">
-            <Node Cat="adjp" Start="4" End="4" Rule="Adj2AdjP" Head="0" UnicodeLemma="ἀνεπίλημπτος" Unicode="ἀνεπίλημπτοι" Gender="Masculine" Number="Plural" morphId="54005007005" Case="Nominative" nodeId="540050070050011">
-              <Node Cat="adj" Start="4" End="4" UnicodeLemma="ἀνεπίλημπτος" Unicode="ἀνεπίλημπτοι" Number="Plural" morphId="54005007005" Case="Nominative" Gender="Masculine" nodeId="540050070050010">ἀνεπίλημπτοι</Node>
-            </Node>
+    </Node>
+    <Node Cat="CL" Start="3" End="5" Rule="sub-CL" Head="1" UnicodeLemma="ἀνεπίλημπτος" Gender="Masculine" Unicode="ἀνεπίλημπτοι" Number="Plural" morphId="54005007005" Mood="Subjunctive" Case="Nominative" nodeId="540050070040030">
+      <Node Cat="conj" Start="3" End="3" UnicodeLemma="ἵνα" Unicode="ἵνα" morphId="54005007004" nodeId="540050070040010">ἵνα</Node>
+      <Node Cat="CL" Start="4" End="5" Rule="P-VC" Head="0" UnicodeLemma="ἀνεπίλημπτος" Gender="Masculine" Number="Plural" morphId="54005007005" Mood="Subjunctive" Case="Nominative" Unicode="ἀνεπίλημπτοι" nodeId="540050070050020">
+        <Node Cat="P" Start="4" End="4" Rule="adjp2P" Head="0" Case="Nominative" UnicodeLemma="ἀνεπίλημπτος" Unicode="ἀνεπίλημπτοι" Gender="Masculine" Number="Plural" morphId="54005007005" nodeId="540050070050012">
+          <Node Cat="adjp" Start="4" End="4" Rule="Adj2AdjP" Head="0" UnicodeLemma="ἀνεπίλημπτος" Unicode="ἀνεπίλημπτοι" Gender="Masculine" Number="Plural" morphId="54005007005" Case="Nominative" nodeId="540050070050011">
+            <Node Cat="adj" Start="4" End="4" UnicodeLemma="ἀνεπίλημπτος" Unicode="ἀνεπίλημπτοι" Number="Plural" morphId="54005007005" Case="Nominative" Gender="Masculine" nodeId="540050070050010">ἀνεπίλημπτοι</Node>
           </Node>
-          <Node Cat="VC" Start="5" End="5" Rule="vp2VC" Head="0" UnicodeLemma="εἰμί" Person="Third" Voice="Active" Unicode="ὦσιν·" Tense="Present" Number="Plural" morphId="54005007006" Mood="Subjunctive" nodeId="540050070060012">
-            <Node Cat="vp" Start="5" End="5" Rule="V2VP" Head="0" UnicodeLemma="εἰμί" Person="Third" Voice="Active" Tense="Present" Number="Plural" morphId="54005007006" Mood="Subjunctive" Unicode="ὦσιν·" nodeId="540050070060011">
-              <Node Cat="verb" Start="5" End="5" UnicodeLemma="εἰμί" Person="Third" Voice="Active" Unicode="ὦσιν·" Tense="Present" Number="Plural" morphId="54005007006" Mood="Subjunctive" nodeId="540050070060010">ὦσιν</Node>
-            </Node>
+        </Node>
+        <Node Cat="VC" Start="5" End="5" Rule="vp2VC" Head="0" UnicodeLemma="εἰμί" Person="Third" Voice="Active" Unicode="ὦσιν·" Tense="Present" Number="Plural" morphId="54005007006" Mood="Subjunctive" nodeId="540050070060012">
+          <Node Cat="vp" Start="5" End="5" Rule="V2VP" Head="0" UnicodeLemma="εἰμί" Person="Third" Voice="Active" Tense="Present" Number="Plural" morphId="54005007006" Mood="Subjunctive" Unicode="ὦσιν·" nodeId="540050070060011">
+            <Node Cat="verb" Start="5" End="5" UnicodeLemma="εἰμί" Person="Third" Voice="Active" Unicode="ὦσιν·" Tense="Present" Number="Plural" morphId="54005007006" Mood="Subjunctive" nodeId="540050070060010">ὦσιν</Node>
           </Node>
         </Node>
       </Node>
@@ -5474,9 +5470,9 @@ SBLGNT text copyright 2010 by the Society of Biblical Literature and Logos Bible
       <Node Cat="CL" Start="1" End="9" Rule="sub-CL" Head="1" UnicodeLemma="προνοέω" Person="Third" Voice="Active" Unicode="προνοεῖ," Tense="Present" Number="Singular" morphId="54005008010" Mood="Indicative" nodeId="540050080010090">
         <Node Cat="conj" Start="1" End="1" UnicodeLemma="εἰ" Unicode="εἰ" morphId="54005008001" nodeId="540050080010010">εἰ</Node>
         <Node Cat="CL" Start="2" End="9" Rule="S-O-ADV-V" Head="3" UnicodeLemma="προνοέω" Person="Third" Voice="Active" Tense="Present" Number="Singular" morphId="54005008010" Mood="Indicative" Unicode="προνοεῖ," nodeId="540050080030080">
-          <Node Cat="S" Start="2" End="2" Rule="np2S" Head="0" Demonstrative="False" Personal="False" Interrogative="True" Relative="False" Case="Nominative" UnicodeLemma="τις" Unicode="τις" Gender="Masculine" Number="Singular" morphId="54005008003" nodeId="540050080030012">
-            <Node Cat="np" Start="2" End="2" Rule="Pron2NP" Head="0" Demonstrative="False" Personal="False" Interrogative="True" Relative="False" UnicodeLemma="τις" Unicode="τις" Gender="Masculine" Number="Singular" Case="Nominative" morphId="54005008003" nodeId="540050080030011">
-              <Node Cat="pron" Start="2" End="2" Demonstrative="False" Personal="False" Interrogative="True" Relative="False" Case="Nominative" UnicodeLemma="τις" Unicode="τις" Gender="Masculine" Number="Singular" morphId="54005008003" nodeId="540050080030010">τις</Node>
+          <Node Cat="S" Start="2" End="2" Rule="np2S" Head="0" Demonstrative="False" Personal="False" Interrogative="False" Relative="False" Case="Nominative" UnicodeLemma="τις" Unicode="τις" Gender="Masculine" Number="Singular" morphId="54005008003" nodeId="540050080030012">
+            <Node Cat="np" Start="2" End="2" Rule="Pron2NP" Head="0" Demonstrative="False" Personal="False" Interrogative="False" Relative="False" UnicodeLemma="τις" Unicode="τις" Gender="Masculine" Number="Singular" morphId="54005008003" Case="Nominative" nodeId="540050080030011">
+              <Node Cat="pron" Start="2" End="2" Demonstrative="False" Personal="False" Interrogative="False" Relative="False" UnicodeLemma="τις" Unicode="τις" Number="Singular" morphId="54005008003" Case="Nominative" Gender="Masculine" nodeId="540050080030010">τις</Node>
             </Node>
           </Node>
           <Node Cat="O" Start="3" End="7" Rule="np2O" Head="0" HasDet="True" UnicodeLemma="ἴδιος" Unicode="ἰδίων" Gender="Masculine" Number="Plural" Case="Genitive" morphId="54005008005" nodeId="540050080040051">
@@ -6079,9 +6075,9 @@ SBLGNT text copyright 2010 by the Society of Biblical Literature and Logos Bible
           <Node Cat="adv" Start="1" End="1" UnicodeLemma="ἤδη" Unicode="ἤδη" morphId="54005015001" nodeId="540050150010010">ἤδη</Node>
         </Node>
       </Node>
-      <Node Cat="S" Start="2" End="2" Rule="np2S" Head="0" Demonstrative="False" Personal="False" Interrogative="True" Relative="False" Case="Nominative" UnicodeLemma="τις" Unicode="τινες" Gender="Feminine" Number="Plural" morphId="54005015003" nodeId="540050150030012">
-        <Node Cat="np" Start="2" End="2" Rule="Pron2NP" Head="0" Demonstrative="False" Personal="False" Interrogative="True" Relative="False" UnicodeLemma="τις" Unicode="τινες" Gender="Feminine" Number="Plural" Case="Nominative" morphId="54005015003" nodeId="540050150030011">
-          <Node Cat="pron" Start="2" End="2" Demonstrative="False" Personal="False" Interrogative="True" Relative="False" Case="Nominative" UnicodeLemma="τις" Unicode="τινες" Gender="Feminine" Number="Plural" morphId="54005015003" nodeId="540050150030010">τινες</Node>
+      <Node Cat="S" Start="2" End="2" Rule="np2S" Head="0" Demonstrative="False" Personal="False" Interrogative="False" Relative="False" Case="Nominative" UnicodeLemma="τις" Unicode="τινες" Gender="Feminine" Number="Plural" morphId="54005015003" nodeId="540050150030012">
+        <Node Cat="np" Start="2" End="2" Rule="Pron2NP" Head="0" Demonstrative="False" Personal="False" Interrogative="False" Relative="False" UnicodeLemma="τις" Unicode="τινες" Gender="Feminine" Number="Plural" morphId="54005015003" Case="Nominative" nodeId="540050150030011">
+          <Node Cat="pron" Start="2" End="2" Demonstrative="False" Personal="False" Interrogative="False" Relative="False" UnicodeLemma="τις" Unicode="τινες" Number="Plural" morphId="54005015003" Case="Nominative" Gender="Feminine" nodeId="540050150030010">τινες</Node>
         </Node>
       </Node>
       <Node Cat="V" Start="3" End="3" Rule="vp2V" Head="0" UnicodeLemma="ἐκτρέπομαι" Person="Third" Voice="Passive" Unicode="ἐξετράπησαν" Tense="Aorist" Number="Plural" morphId="54005015004" Mood="Indicative" nodeId="540050150040012">
@@ -6116,9 +6112,9 @@ SBLGNT text copyright 2010 by the Society of Biblical Literature and Logos Bible
       <Node Cat="CL" Start="1" End="4" Rule="S-V-O" Head="1" UnicodeLemma="ἔχω" Person="Third" Voice="Active" Tense="Present" Number="Singular" morphId="54005016004" Mood="Indicative" Unicode="ἔχει" nodeId="540050160020040">
         <Node Cat="S" Start="1" End="2" Rule="np2S" Head="0" Case="Nominative" UnicodeLemma="πιστός" Unicode="πιστὴ" Gender="Feminine" Number="Singular" morphId="54005016003" nodeId="540050160020021">
           <Node Cat="np" Start="1" End="2" Rule="AdjpNP" Head="1" UnicodeLemma="πιστός" Unicode="πιστὴ" Gender="Feminine" Number="Singular" Case="Nominative" morphId="54005016003" nodeId="540050160020020">
-            <Node Cat="adjp" Start="1" End="1" Rule="Adj2AdjP" Head="0" Demonstrative="False" Personal="False" Interrogative="True" Relative="False" Case="Nominative" UnicodeLemma="τις" Unicode="τις" Gender="Feminine" Number="Singular" morphId="54005016002" nodeId="540050160020012">
-              <Node Cat="adj" Start="1" End="1" Rule="pron2adj" Head="0" Demonstrative="False" Personal="False" Interrogative="True" Relative="False" UnicodeLemma="τις" Unicode="τις" Gender="Feminine" Number="Singular" Case="Nominative" morphId="54005016002" nodeId="540050160020011">
-                <Node Cat="pron" Start="1" End="1" Demonstrative="False" Personal="False" Interrogative="True" Relative="False" Case="Nominative" UnicodeLemma="τις" Unicode="τις" Gender="Feminine" Number="Singular" morphId="54005016002" nodeId="540050160020010">τις</Node>
+            <Node Cat="adjp" Start="1" End="1" Rule="Adj2AdjP" Head="0" Demonstrative="False" Personal="False" Interrogative="False" Relative="False" Case="Nominative" UnicodeLemma="τις" Unicode="τις" Gender="Feminine" Number="Singular" morphId="54005016002" nodeId="540050160020012">
+              <Node Cat="adj" Start="1" End="1" Rule="pron2adj" Head="0" Demonstrative="False" Personal="False" Interrogative="False" Relative="False" UnicodeLemma="τις" Unicode="τις" Gender="Feminine" Number="Singular" morphId="54005016002" Case="Nominative" nodeId="540050160020011">
+                <Node Cat="pron" Start="1" End="1" Demonstrative="False" Personal="False" Interrogative="False" Relative="False" UnicodeLemma="τις" Unicode="τις" Number="Singular" morphId="54005016002" Case="Nominative" Gender="Feminine" nodeId="540050160020010">τις</Node>
               </Node>
             </Node>
             <Node Cat="np" Start="2" End="2" Rule="Adj2NP" Head="0" Case="Nominative" UnicodeLemma="πιστός" Unicode="πιστὴ" Gender="Feminine" Number="Singular" morphId="54005016003" nodeId="540050160030012">
@@ -6770,8 +6766,10 @@ SBLGNT text copyright 2010 by the Society of Biblical Literature and Logos Bible
       <Node Cat="S" Start="0" End="3" Rule="np2S" Head="0" HasDet="True" UnicodeLemma="ἁμαρτία" Gender="Feminine" Unicode="ἁμαρτίαι" Number="Plural" morphId="54005024004" Case="Nominative" nodeId="540050240010041">
         <Node Cat="np" Start="0" End="3" Rule="ofNPNP" Head="1" HasDet="True" UnicodeLemma="ἁμαρτία" Gender="Feminine" Number="Plural" morphId="54005024004" Case="Nominative" Unicode="ἁμαρτίαι" nodeId="540050240010040">
           <Node Cat="np" Start="0" End="1" Rule="AdjpNP" Head="1" UnicodeLemma="ἄνθρωπος" Gender="Masculine" Unicode="ἀνθρώπων" Number="Plural" morphId="54005024002" Case="Genitive" nodeId="540050240010020">
-            <Node Cat="adjp" Start="0" End="0" Rule="Adj2AdjP" Head="0" UnicodeLemma="τις" Unicode="Τινῶν" Gender="Masculine" Number="Plural" morphId="54005024001" Case="Genitive" nodeId="540050240010011">
-              <Node Cat="adj" Start="0" End="0" UnicodeLemma="τις" Unicode="Τινῶν" Number="Plural" morphId="54005024001" Case="Genitive" Gender="Masculine" nodeId="540050240010010">Τινῶν</Node>
+            <Node Cat="adjp" Start="0" End="0" Rule="Adj2AdjP" Head="0" Demonstrative="False" Personal="False" Interrogative="False" Relative="False" Case="Genitive" UnicodeLemma="τις" Unicode="Τινῶν" Gender="Masculine" Number="Plural" morphId="54005024001" nodeId="540050240010012">
+              <Node Cat="adj" Start="0" End="0" Rule="pron2adj" Head="0" Demonstrative="False" Personal="False" Interrogative="False" Relative="False" UnicodeLemma="τις" Unicode="Τινῶν" Gender="Masculine" Number="Plural" morphId="54005024001" Case="Genitive" nodeId="540050240010011">
+                <Node Cat="pron" Start="0" End="0" Demonstrative="False" Personal="False" Interrogative="False" Relative="False" UnicodeLemma="τις" Unicode="Τινῶν" Number="Plural" morphId="54005024001" Case="Genitive" Gender="Masculine" nodeId="540050240010010">Τινῶν</Node>
+              </Node>
             </Node>
             <Node Cat="np" Start="1" End="1" Rule="N2NP" Head="0" UnicodeLemma="ἄνθρωπος" Number="Plural" morphId="54005024002" Case="Genitive" Gender="Masculine" Unicode="ἀνθρώπων" nodeId="540050240020011">
               <Node Cat="noun" Start="1" End="1" UnicodeLemma="ἄνθρωπος" Unicode="ἀνθρώπων" Number="Plural" morphId="54005024002" Case="Genitive" Gender="Masculine" nodeId="540050240020010">ἀνθρώπων</Node>
@@ -6815,9 +6813,9 @@ SBLGNT text copyright 2010 by the Society of Biblical Literature and Logos Bible
     </Node>
     <Node Cat="conj" Start="9" End="9" UnicodeLemma="δέ" Unicode="δὲ" morphId="54005024011" nodeId="540050240110010">δὲ</Node>
     <Node Cat="CL" Start="10" End="12" Rule="ADV-ADV-V" Head="2" UnicodeLemma="ἐπακολουθέω" Person="Third" Voice="Active" Tense="Present" Number="Plural" morphId="54005024013" Mood="Indicative" Unicode="ἐπακολουθοῦσιν·" nodeId="540050240100030">
-      <Node Cat="ADV" Start="10" End="10" Rule="np2ADV" Head="0" Demonstrative="False" Personal="False" Interrogative="True" Relative="False" Case="Dative" UnicodeLemma="τις" Unicode="τισὶν" Gender="Masculine" Number="Plural" morphId="54005024010" nodeId="540050240100012">
-        <Node Cat="np" Start="10" End="10" Rule="Pron2NP" Head="0" Demonstrative="False" Personal="False" Interrogative="True" Relative="False" UnicodeLemma="τις" Unicode="τισὶν" Gender="Masculine" Number="Plural" Case="Dative" morphId="54005024010" nodeId="540050240100011">
-          <Node Cat="pron" Start="10" End="10" Demonstrative="False" Personal="False" Interrogative="True" Relative="False" Case="Dative" UnicodeLemma="τις" Unicode="τισὶν" Gender="Masculine" Number="Plural" morphId="54005024010" nodeId="540050240100010">τισὶν</Node>
+      <Node Cat="ADV" Start="10" End="10" Rule="np2ADV" Head="0" Demonstrative="False" Personal="False" Interrogative="False" Relative="False" Case="Dative" UnicodeLemma="τις" Unicode="τισὶν" Gender="Masculine" Number="Plural" morphId="54005024010" nodeId="540050240100012">
+        <Node Cat="np" Start="10" End="10" Rule="Pron2NP" Head="0" Demonstrative="False" Personal="False" Interrogative="False" Relative="False" UnicodeLemma="τις" Unicode="τισὶν" Gender="Masculine" Number="Plural" morphId="54005024010" Case="Dative" nodeId="540050240100011">
+          <Node Cat="pron" Start="10" End="10" Demonstrative="False" Personal="False" Interrogative="False" Relative="False" UnicodeLemma="τις" Unicode="τισὶν" Number="Plural" morphId="54005024010" Case="Dative" Gender="Masculine" nodeId="540050240100010">τισὶν</Node>
         </Node>
       </Node>
       <Node Cat="ADV" Start="11" End="11" Rule="advp2ADV" Head="0" UnicodeLemma="καί" Unicode="καὶ" morphId="54005024012" nodeId="540050240120012">
@@ -7201,9 +7199,9 @@ SBLGNT text copyright 2010 by the Society of Biblical Literature and Logos Bible
       <Node Cat="conj" Start="0" End="0" UnicodeLemma="εἰ" Unicode="εἴ" morphId="54006003001" nodeId="540060030010010">εἴ</Node>
       <Node Cat="CL" Start="1" End="18" Rule="Conj2CL" Head="0" UnicodeLemma="ἑτεροδιδασκαλέω" Person="Third" Voice="Active" Unicode="ἑτεροδιδασκαλεῖ" Tense="Present" Number="Singular" morphId="54006003003" Mood="Indicative" nodeId="540060030020180">
         <Node Cat="CL" Start="1" End="2" Rule="S-V" Head="1" UnicodeLemma="ἑτεροδιδασκαλέω" Person="Third" Voice="Active" Tense="Present" Number="Singular" morphId="54006003003" Mood="Indicative" Unicode="ἑτεροδιδασκαλεῖ" nodeId="540060030020020">
-          <Node Cat="S" Start="1" End="1" Rule="np2S" Head="0" Demonstrative="False" Personal="False" Interrogative="True" Relative="False" Case="Nominative" UnicodeLemma="τις" Unicode="τις" Gender="Masculine" Number="Singular" morphId="54006003002" nodeId="540060030020012">
-            <Node Cat="np" Start="1" End="1" Rule="Pron2NP" Head="0" Demonstrative="False" Personal="False" Interrogative="True" Relative="False" UnicodeLemma="τις" Unicode="τις" Gender="Masculine" Number="Singular" Case="Nominative" morphId="54006003002" nodeId="540060030020011">
-              <Node Cat="pron" Start="1" End="1" Demonstrative="False" Personal="False" Interrogative="True" Relative="False" Case="Nominative" UnicodeLemma="τις" Unicode="τις" Gender="Masculine" Number="Singular" morphId="54006003002" nodeId="540060030020010">τις</Node>
+          <Node Cat="S" Start="1" End="1" Rule="np2S" Head="0" Demonstrative="False" Personal="False" Interrogative="False" Relative="False" Case="Nominative" UnicodeLemma="τις" Unicode="τις" Gender="Masculine" Number="Singular" morphId="54006003002" nodeId="540060030020012">
+            <Node Cat="np" Start="1" End="1" Rule="Pron2NP" Head="0" Demonstrative="False" Personal="False" Interrogative="False" Relative="False" UnicodeLemma="τις" Unicode="τις" Gender="Masculine" Number="Singular" morphId="54006003002" Case="Nominative" nodeId="540060030020011">
+              <Node Cat="pron" Start="1" End="1" Demonstrative="False" Personal="False" Interrogative="False" Relative="False" UnicodeLemma="τις" Unicode="τις" Number="Singular" morphId="54006003002" Case="Nominative" Gender="Masculine" nodeId="540060030020010">τις</Node>
             </Node>
           </Node>
           <Node Cat="V" Start="2" End="2" Rule="vp2V" Head="0" UnicodeLemma="ἑτεροδιδασκαλέω" Person="Third" Voice="Active" Unicode="ἑτεροδιδασκαλεῖ" Tense="Present" Number="Singular" morphId="54006003003" Mood="Indicative" nodeId="540060030030012">
@@ -7543,9 +7541,9 @@ SBLGNT text copyright 2010 by the Society of Biblical Literature and Logos Bible
                   <Node Cat="verb" Start="8" End="8" UnicodeLemma="ἐκφέρω" Voice="Active" Unicode="ἐξενεγκεῖν" Tense="Aorist" morphId="54006007009" Mood="Infinitive" nodeId="540060070090010">ἐξενεγκεῖν</Node>
                 </Node>
               </Node>
-              <Node Cat="O" Start="9" End="9" Rule="np2O" Head="0" Demonstrative="False" Personal="False" Interrogative="True" Relative="False" Case="Accusative" UnicodeLemma="τις" Unicode="τι" Gender="Neuter" Number="Singular" morphId="54006007010" nodeId="540060070100012">
-                <Node Cat="np" Start="9" End="9" Rule="Pron2NP" Head="0" Demonstrative="False" Personal="False" Interrogative="True" Relative="False" UnicodeLemma="τις" Unicode="τι" Gender="Neuter" Number="Singular" Case="Accusative" morphId="54006007010" nodeId="540060070100011">
-                  <Node Cat="pron" Start="9" End="9" Demonstrative="False" Personal="False" Interrogative="True" Relative="False" Case="Accusative" UnicodeLemma="τις" Unicode="τι" Gender="Neuter" Number="Singular" morphId="54006007010" nodeId="540060070100010">τι</Node>
+              <Node Cat="O" Start="9" End="9" Rule="np2O" Head="0" Demonstrative="False" Personal="False" Interrogative="False" Relative="False" Case="Accusative" UnicodeLemma="τις" Unicode="τι" Gender="Neuter" Number="Singular" morphId="54006007010" nodeId="540060070100012">
+                <Node Cat="np" Start="9" End="9" Rule="Pron2NP" Head="0" Demonstrative="False" Personal="False" Interrogative="False" Relative="False" UnicodeLemma="τις" Unicode="τι" Gender="Neuter" Number="Singular" morphId="54006007010" Case="Accusative" nodeId="540060070100011">
+                  <Node Cat="pron" Start="9" End="9" Demonstrative="False" Personal="False" Interrogative="False" Relative="False" UnicodeLemma="τις" Unicode="τι" Number="Singular" morphId="54006007010" Case="Accusative" Gender="Neuter" nodeId="540060070100010">τι</Node>
                 </Node>
               </Node>
             </Node>
@@ -7769,9 +7767,9 @@ SBLGNT text copyright 2010 by the Society of Biblical Literature and Logos Bible
                   </Node>
                 </Node>
               </Node>
-              <Node Cat="S" Start="10" End="10" Rule="np2S" Head="0" Demonstrative="False" Personal="False" Interrogative="True" Relative="False" Case="Nominative" UnicodeLemma="τις" Unicode="τινες" Gender="Masculine" Number="Plural" morphId="54006010010" nodeId="540060100100012">
-                <Node Cat="np" Start="10" End="10" Rule="Pron2NP" Head="0" Demonstrative="False" Personal="False" Interrogative="True" Relative="False" UnicodeLemma="τις" Unicode="τινες" Gender="Masculine" Number="Plural" Case="Nominative" morphId="54006010010" nodeId="540060100100011">
-                  <Node Cat="pron" Start="10" End="10" Demonstrative="False" Personal="False" Interrogative="True" Relative="False" Case="Nominative" UnicodeLemma="τις" Unicode="τινες" Gender="Masculine" Number="Plural" morphId="54006010010" nodeId="540060100100010">τινες</Node>
+              <Node Cat="S" Start="10" End="10" Rule="np2S" Head="0" Demonstrative="False" Personal="False" Interrogative="False" Relative="False" Case="Nominative" UnicodeLemma="τις" Unicode="τινες" Gender="Masculine" Number="Plural" morphId="54006010010" nodeId="540060100100012">
+                <Node Cat="np" Start="10" End="10" Rule="Pron2NP" Head="0" Demonstrative="False" Personal="False" Interrogative="False" Relative="False" UnicodeLemma="τις" Unicode="τινες" Gender="Masculine" Number="Plural" morphId="54006010010" Case="Nominative" nodeId="540060100100011">
+                  <Node Cat="pron" Start="10" End="10" Demonstrative="False" Personal="False" Interrogative="False" Relative="False" UnicodeLemma="τις" Unicode="τινες" Number="Plural" morphId="54006010010" Case="Nominative" Gender="Masculine" nodeId="540060100100010">τινες</Node>
                 </Node>
               </Node>
               <Node Cat="V" Start="11" End="11" Rule="vp2V" Head="0" UnicodeLemma="ἀποπλανάω" Person="Third" Voice="Passive" Unicode="ἀπεπλανήθησαν" Tense="Aorist" Number="Plural" morphId="54006010012" Mood="Indicative" nodeId="540060100120012">
@@ -8699,9 +8697,9 @@ SBLGNT text copyright 2010 by the Society of Biblical Literature and Logos Bible
                             </Node>
                           </Node>
                         </Node>
-                        <Node Cat="S" Start="16" End="16" Rule="np2S" Head="0" Demonstrative="False" Personal="False" Interrogative="True" Relative="False" Case="Nominative" UnicodeLemma="τις" Unicode="τινες" Gender="Masculine" Number="Plural" morphId="54006021002" nodeId="540060210020012">
-                          <Node Cat="np" Start="16" End="16" Rule="Pron2NP" Head="0" Demonstrative="False" Personal="False" Interrogative="True" Relative="False" UnicodeLemma="τις" Unicode="τινες" Gender="Masculine" Number="Plural" Case="Nominative" morphId="54006021002" nodeId="540060210020011">
-                            <Node Cat="pron" Start="16" End="16" Demonstrative="False" Personal="False" Interrogative="True" Relative="False" Case="Nominative" UnicodeLemma="τις" Unicode="τινες" Gender="Masculine" Number="Plural" morphId="54006021002" nodeId="540060210020010">τινες</Node>
+                        <Node Cat="S" Start="16" End="16" Rule="np2S" Head="0" Demonstrative="False" Personal="False" Interrogative="False" Relative="False" Case="Nominative" UnicodeLemma="τις" Unicode="τινες" Gender="Masculine" Number="Plural" morphId="54006021002" nodeId="540060210020012">
+                          <Node Cat="np" Start="16" End="16" Rule="Pron2NP" Head="0" Demonstrative="False" Personal="False" Interrogative="False" Relative="False" UnicodeLemma="τις" Unicode="τινες" Gender="Masculine" Number="Plural" morphId="54006021002" Case="Nominative" nodeId="540060210020011">
+                            <Node Cat="pron" Start="16" End="16" Demonstrative="False" Personal="False" Interrogative="False" Relative="False" UnicodeLemma="τις" Unicode="τινες" Number="Plural" morphId="54006021002" Case="Nominative" Gender="Masculine" nodeId="540060210020010">τινες</Node>
                           </Node>
                         </Node>
                         <Node Cat="ADV" Start="17" End="19" Rule="pp2ADV" Head="0" HasDet="True" UnicodeLemma="πίστις" Gender="Feminine" Unicode="πίστιν" Number="Singular" morphId="54006021006" Case="" nodeId="540060210040031">

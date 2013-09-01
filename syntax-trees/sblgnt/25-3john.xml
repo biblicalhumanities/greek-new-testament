@@ -1,14 +1,4 @@
-<?xml version="1.0" encoding="utf-8" ?>
-<!--
-Greek New Testament Syntax Trees (SBLGNT)
-https://github.com/biblicalhumanities/greek-new-testament/syntax-trees/sblgnt
-
-Syntax diagram markup copyright 2013 by the Asia Bible Society, made available under under a [CC-BY-SA License] (http://creativecommons.org/licenses/by-sa/3.0/). 
-
-Morphological parsing and lemmatization copyright 2013 by MorphGNT,  made available under a [CC-BY-SA License](http://creativecommons.org/licenses/by-sa/3.0/).  
-
-SBLGNT text copyright 2010 by the Society of Biblical Literature and Logos Bible Software, use subject to the [SBLGNT EULA](http://sblgnt.com/license/).
--->
+﻿<?xml version="1.0" encoding="utf-8" ?>
 <Sentences>
 <Sentence ID = "3Jn1:1:1-1:1:10">
 <Trees>
@@ -601,9 +591,9 @@ SBLGNT text copyright 2010 by the Society of Biblical Literature and Logos Bible
         <Node Cat="verb" Start="0" End="0" UnicodeLemma="γράφω" Person="First" Voice="Active" Unicode="Ἔγραψά" Tense="Aorist" Number="Singular" morphId="64001009001" Mood="Indicative" nodeId="640010090010010">Ἔγραψά</Node>
       </Node>
     </Node>
-    <Node Cat="O" Start="1" End="1" Rule="np2O" Head="0" Demonstrative="False" Personal="False" Interrogative="True" Relative="False" Case="Accusative" UnicodeLemma="τις" Unicode="τι" Gender="Neuter" Number="Singular" morphId="64001009002" nodeId="640010090020012">
-      <Node Cat="np" Start="1" End="1" Rule="Pron2NP" Head="0" Demonstrative="False" Personal="False" Interrogative="True" Relative="False" UnicodeLemma="τις" Unicode="τι" Gender="Neuter" Number="Singular" Case="Accusative" morphId="64001009002" nodeId="640010090020011">
-        <Node Cat="pron" Start="1" End="1" Demonstrative="False" Personal="False" Interrogative="True" Relative="False" Case="Accusative" UnicodeLemma="τις" Unicode="τι" Gender="Neuter" Number="Singular" morphId="64001009002" nodeId="640010090020010">τι</Node>
+    <Node Cat="O" Start="1" End="1" Rule="np2O" Head="0" Demonstrative="False" Personal="False" Interrogative="False" Relative="False" Case="Accusative" UnicodeLemma="τις" Unicode="τι" Gender="Neuter" Number="Singular" morphId="64001009002" nodeId="640010090020012">
+      <Node Cat="np" Start="1" End="1" Rule="Pron2NP" Head="0" Demonstrative="False" Personal="False" Interrogative="False" Relative="False" UnicodeLemma="τις" Unicode="τι" Gender="Neuter" Number="Singular" morphId="64001009002" Case="Accusative" nodeId="640010090020011">
+        <Node Cat="pron" Start="1" End="1" Demonstrative="False" Personal="False" Interrogative="False" Relative="False" UnicodeLemma="τις" Unicode="τι" Number="Singular" morphId="64001009002" Case="Accusative" Gender="Neuter" nodeId="640010090020010">τι</Node>
       </Node>
     </Node>
     <Node Cat="IO" Start="2" End="3" Rule="np2IO" Head="0" HasDet="True" UnicodeLemma="ἐκκλησία" Gender="Feminine" Number="Singular" morphId="64001009004" Case="Dative" Unicode="ἐκκλησίᾳ·" nodeId="640010090030021">
