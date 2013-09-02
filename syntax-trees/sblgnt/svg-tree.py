@@ -5,17 +5,21 @@
 
 # Could do a function for row() to avoid this global
 
-row = 1
+def row(add=0):
+    row.counter = row.counter + add
+    return row.counter
+
+if "counter" not in row.__dict__: 
+    row.counter = 1
 
 def graph(node, column):
-    global row
     first = True;
-    print node.attrib.get("Cat"), row, column, node.text
+    print node.attrib.get("Cat"), row(), column, node.text
     for child in node:
         if first:
            first=False
         else:
-           row = row + 1
+           row(1)
         graph(child, column+1)
 
 import xml.etree.ElementTree as ET
