@@ -3,6 +3,17 @@
 # http://www.w3.org/TR/SVG/coords.html#ViewportSpace
 # http://www.w3.org/Graphics/SVG/IG/resources/svgprimer.html
 
+
+
+#  Next attempt:  
+# 
+#  Place text in leftmost column
+# 
+#  Algorithm:
+#  1. Dive down to text node, place it in the column
+#  2. Ascend to analysis nodes, mark as 'visited' as you go (discard afterward)
+#     compute 'just enough distance' for each node
+
 from lxml import etree
 
 width = 60  # 20 + 30  (x+25, x-5?)
@@ -26,13 +37,19 @@ def graph(svgroot, node, column, parent_row):
     svg_node.set('y', str(height*row()))
     svg_node.text = node.attrib.get("Cat")
     
-    if node.text:
+    if node.text and not node.text.isspace():
         t =  etree.SubElement( svgroot, "{http://www.w3.org/2000/svg}text")
-        t.set('font-size', str(18))
+        t.set('font-size', str(24))
         t.set('fill', 'blue')
-        t.set('x', str(width*25))
+        t.set('x', str(width*14))
         t.set('y', str(height*row()))
         t.text = node.text
+
+        l =  etree.SubElement( svgroot, "{http://www.w3.org/2000/svg}path")
+        l.set('stroke', 'grey')
+        l.set('stroke-dasharray', '10,10')
+        d = "M %d %d L %d %d"  % (width*column+45, row()*height-5, width*14-20, row()*height-5, )
+        l.set('d', d)
 
     print "row: %d, parent row: %d" % (row(), parent_row)
 
@@ -46,9 +63,9 @@ def graph(svgroot, node, column, parent_row):
             vert.set('stroke','black') 
             d = "M %d %d L %d %d"  % (width*column-20, row()*height-5, width*column-20, parent_row*height-5 )
             vert.set('d', d)
-    
+
+    r = row()
     for child in node:
-        r = row()
         if child.getprevious() != None:
            row(1)
         graph(svgroot, child, column+1, r)
