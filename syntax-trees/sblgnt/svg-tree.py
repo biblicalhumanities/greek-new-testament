@@ -3,7 +3,10 @@
 # http://www.w3.org/TR/SVG/coords.html#ViewportSpace
 # http://www.w3.org/Graphics/SVG/IG/resources/svgprimer.html
 
-# Could do a function for row() to avoid this global
+from lxml import etree
+
+width = 60  # 20 + 30  (x+25, x-5?)
+height = 30
 
 def row(add=0):
     row.counter = row.counter + add
@@ -12,42 +15,57 @@ def row(add=0):
 if "counter" not in row.__dict__: 
     row.counter = 1
 
-def graph(node, column):
-    first = True;
-    print node.attrib.get("Cat"), row(), column, node.text
-    for child in node:
-        if first:
-           first=False
-        else:
-           row(1)
-        graph(child, column+1)
+def graph(svgroot, node, column, parent_row):
 
-import xml.etree.ElementTree as ET
-tree = ET.parse('10-ephesians.xml')
+    print node.attrib.get("Cat"), row(), column, node.text
+
+    svg_node = etree.SubElement( svgroot, "{http://www.w3.org/2000/svg}text")   
+    svg_node.set('font-size', str(18))
+    svg_node.set('fill', 'black')
+    svg_node.set('x', str(width*column))
+    svg_node.set('y', str(height*row()))
+    svg_node.text = node.attrib.get("Cat")
+    
+    if node.text:
+        t =  etree.SubElement( svgroot, "{http://www.w3.org/2000/svg}text")
+        t.set('font-size', str(18))
+        t.set('fill', 'blue')
+        t.set('x', str(width*25))
+        t.set('y', str(height*row()))
+        t.text = node.text
+
+    print "row: %d, parent row: %d" % (row(), parent_row)
+
+    if column > 1: 
+        horiz = etree.SubElement( svgroot, "{http://www.w3.org/2000/svg}path") 
+        horiz.set('stroke','black') 
+        d = "M %d %d L %d %d"  % (width*column-20, row()*height-5, width*column-5, row()*height-5 )
+        horiz.set('d', d)
+        if node.getnext() == None:
+            vert = etree.SubElement( svgroot, "{http://www.w3.org/2000/svg}path") 
+            vert.set('stroke','black') 
+            d = "M %d %d L %d %d"  % (width*column-20, row()*height-5, width*column-20, parent_row*height-5 )
+            vert.set('d', d)
+    
+    for child in node:
+        r = row()
+        if child.getprevious() != None:
+           row(1)
+        graph(svgroot, child, column+1, r)
+
+
+tree = etree.parse('10-ephesians.xml')
 sblroot = tree.getroot()
 
-width = 40
-height = 30
-text_column = 40
-
-print tree
-print sblroot
 sentence = sblroot.find("Sentence")
-print sentence.attrib.get("ID")
 
 trees = sentence.find("Trees")
 t = trees.find("Tree")
 n = t.find("Node")
 
-print n
+svgroot = etree.Element("{http://www.w3.org/2000/svg}svg")
+svgtree = etree.ElementTree(svgroot)
 
-graph(n, 1)
+graph(svgroot, n, 1, row())
 
-# svgtree = ET.Element("{http://www.w3.org/2000/svg}svg")
-# print svgtree
-
-# Strategy:
-# 
-# Grow from left to right UNTIl you hit a node with text in it.  Nodes
-# like [verb GREEK] go on the right, as two boxes.
-# (Analysis could go after that, if need be)
+svgtree.write('test.svg', xml_declaration=True, encoding='UTF-8')
