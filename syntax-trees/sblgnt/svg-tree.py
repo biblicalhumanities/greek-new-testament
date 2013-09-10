@@ -1,22 +1,6 @@
-# http://www.petercollingridge.co.uk/book/export/html/437
-# http://docs.python.org/2/library/xml.etree.elementtree.htm
-# http://www.w3.org/TR/SVG/coords.html#ViewportSpace
-# http://www.w3.org/Graphics/SVG/IG/resources/svgprimer.html
-
-
-
-#  Next attempt:  
-# 
-#  Place text in leftmost column
-# 
-#  Algorithm:
-#  1. Dive down to text node, place it in the column
-#  2. Ascend to analysis nodes, mark as 'visited' as you go (discard afterward)
-#     compute 'just enough distance' for each node
-
 from lxml import etree
 
-width = 60  # 20 + 30  (x+25, x-5?)
+width = 60
 height = 30
 
 def row(add=0):
