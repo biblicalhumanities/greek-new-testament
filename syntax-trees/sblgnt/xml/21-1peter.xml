@@ -8575,57 +8575,51 @@
           </Node>
         </Node>
       </Node>
-      <Node Cat="CL" Start="15" End="21" Rule="ADV-S-V" Head="2" nodeId="600050100160070">
-        <Node Cat="ADV" Start="15" End="16" Rule="CL2ADV" Head="0" nodeId="600050100160021">
-          <Node Cat="CL" Start="15" End="16" Rule="ADV-V" Head="1" nodeId="600050100160020">
-            <Node Cat="ADV" Start="15" End="15" Rule="adjp2ADV" Head="0" nodeId="600050100160012">
-              <Node Cat="adjp" Start="15" End="15" Rule="Adj2AdjP" Head="0" nodeId="600050100160011">
-                <Node Cat="adj" Start="15" End="15" Case="Accusative" UnicodeLemma="ὀλίγος" Unicode="ὀλίγον" Gender="Neuter" Number="Singular" morphId="60005010016" nodeId="600050100160010">ὀλίγον</Node>
+      <Node Cat="CL" Start="15" End="21" Rule="ClClClCl" Head="0" nodeId="600050100160070">
+        <Node Cat="CL" Start="15" End="18" Rule="ADV-S-V" Head="2" nodeId="600050100160040">
+          <Node Cat="ADV" Start="15" End="16" Rule="CL2ADV" Head="0" nodeId="600050100160021">
+            <Node Cat="CL" Start="15" End="16" Rule="ADV-V" Head="1" nodeId="600050100160020">
+              <Node Cat="ADV" Start="15" End="15" Rule="adjp2ADV" Head="0" nodeId="600050100160012">
+                <Node Cat="adjp" Start="15" End="15" Rule="Adj2AdjP" Head="0" nodeId="600050100160011">
+                  <Node Cat="adj" Start="15" End="15" Case="Accusative" UnicodeLemma="ὀλίγος" Unicode="ὀλίγον" Gender="Neuter" Number="Singular" morphId="60005010016" nodeId="600050100160010">ὀλίγον</Node>
+                </Node>
               </Node>
-            </Node>
-            <Node Cat="V" Start="16" End="16" Rule="vp2V" Head="0" nodeId="600050100170012">
-              <Node Cat="vp" Start="16" End="16" Rule="V2VP" Head="0" nodeId="600050100170011">
-                <Node Cat="verb" Start="16" End="16" UnicodeLemma="πάσχω" Voice="Active" Unicode="παθόντας" Tense="Aorist" Number="Plural" morphId="60005010017" Mood="Participle" Case="Accusative" Gender="Masculine" nodeId="600050100170010">παθόντας</Node>
+              <Node Cat="V" Start="16" End="16" Rule="vp2V" Head="0" nodeId="600050100170012">
+                <Node Cat="vp" Start="16" End="16" Rule="V2VP" Head="0" nodeId="600050100170011">
+                  <Node Cat="verb" Start="16" End="16" UnicodeLemma="πάσχω" Voice="Active" Unicode="παθόντας" Tense="Aorist" Number="Plural" morphId="60005010017" Mood="Participle" Case="Accusative" Gender="Masculine" nodeId="600050100170010">παθόντας</Node>
+                </Node>
               </Node>
             </Node>
           </Node>
-        </Node>
-        <Node Cat="S" Start="17" End="17" Rule="np2S" Head="0" nodeId="600050100180012">
-          <Node Cat="np" Start="17" End="17" Rule="Pron2NP" Head="0" nodeId="600050100180011">
-            <Node Cat="pron" Start="17" End="17" UnicodeLemma="αὐτός" Unicode="αὐτὸς" Number="Singular" Type="Personal" morphId="60005010018" Case="Nominative" Gender="Masculine" nodeId="600050100180010">αὐτὸς</Node>
+          <Node Cat="S" Start="17" End="17" Rule="np2S" Head="0" nodeId="600050100180012">
+            <Node Cat="np" Start="17" End="17" Rule="Pron2NP" Head="0" nodeId="600050100180011">
+              <Node Cat="pron" Start="17" End="17" UnicodeLemma="αὐτός" Unicode="αὐτὸς" Number="Singular" Type="Personal" morphId="60005010018" Case="Nominative" Gender="Masculine" nodeId="600050100180010">αὐτὸς</Node>
+            </Node>
+          </Node>
+          <Node Cat="V" Start="18" End="18" Rule="vp2V" Head="0" nodeId="600050100190012">
+            <Node Cat="vp" Start="18" End="18" Rule="V2VP" Head="0" nodeId="600050100190011">
+              <Node Cat="verb" Start="18" End="18" UnicodeLemma="καταρτίζω" Person="Third" Voice="Active" Unicode="καταρτίσει," Tense="Future" Number="Singular" morphId="60005010019" Mood="Indicative" nodeId="600050100190010">καταρτίσει</Node>
+            </Node>
           </Node>
         </Node>
-        <Node Cat="V" Start="18" End="21" Rule="vp2V" Head="0" nodeId="600050100190042">
-          <Node Cat="vp" Start="18" End="21" Rule="CL2VP" Head="0" nodeId="600050100190041">
-            <Node Cat="CL" Start="18" End="21" Rule="ClClClCl" Head="0" nodeId="600050100190040">
-              <Node Cat="CL" Start="18" End="18" Rule="V2CL" Head="0" nodeId="600050100190013">
-                <Node Cat="V" Start="18" End="18" Rule="vp2V" Head="0" nodeId="600050100190012">
-                  <Node Cat="vp" Start="18" End="18" Rule="V2VP" Head="0" nodeId="600050100190011">
-                    <Node Cat="verb" Start="18" End="18" UnicodeLemma="καταρτίζω" Person="Third" Voice="Active" Unicode="καταρτίσει," Tense="Future" Number="Singular" morphId="60005010019" Mood="Indicative" nodeId="600050100190010">καταρτίσει</Node>
-                  </Node>
-                </Node>
-              </Node>
-              <Node Cat="CL" Start="19" End="19" Rule="V2CL" Head="0" nodeId="600050100200013">
-                <Node Cat="V" Start="19" End="19" Rule="vp2V" Head="0" nodeId="600050100200012">
-                  <Node Cat="vp" Start="19" End="19" Rule="V2VP" Head="0" nodeId="600050100200011">
-                    <Node Cat="verb" Start="19" End="19" UnicodeLemma="στηρίζω" Person="Third" Voice="Active" Unicode="στηρίξει," Tense="Future" Number="Singular" morphId="60005010020" Mood="Indicative" nodeId="600050100200010">στηρίξει</Node>
-                  </Node>
-                </Node>
-              </Node>
-              <Node Cat="CL" Start="20" End="20" Rule="V2CL" Head="0" nodeId="600050100210013">
-                <Node Cat="V" Start="20" End="20" Rule="vp2V" Head="0" nodeId="600050100210012">
-                  <Node Cat="vp" Start="20" End="20" Rule="V2VP" Head="0" nodeId="600050100210011">
-                    <Node Cat="verb" Start="20" End="20" UnicodeLemma="σθενόω" Person="Third" Voice="Active" Unicode="σθενώσει," Tense="Future" Number="Singular" morphId="60005010021" Mood="Indicative" nodeId="600050100210010">σθενώσει</Node>
-                  </Node>
-                </Node>
-              </Node>
-              <Node Cat="CL" Start="21" End="21" Rule="V2CL" Head="0" nodeId="600050100220013">
-                <Node Cat="V" Start="21" End="21" Rule="vp2V" Head="0" nodeId="600050100220012">
-                  <Node Cat="vp" Start="21" End="21" Rule="V2VP" Head="0" nodeId="600050100220011">
-                    <Node Cat="verb" Start="21" End="21" UnicodeLemma="θεμελιόω" Person="Third" Voice="Active" Unicode="θεμελιώσει." Tense="Future" Number="Singular" morphId="60005010022" Mood="Indicative" nodeId="600050100220010">θεμελιώσει</Node>
-                  </Node>
-                </Node>
-              </Node>
+        <Node Cat="CL" Start="19" End="19" Rule="V2CL" Head="0" nodeId="600050100200013">
+          <Node Cat="V" Start="19" End="19" Rule="vp2V" Head="0" nodeId="600050100200012">
+            <Node Cat="vp" Start="19" End="19" Rule="V2VP" Head="0" nodeId="600050100200011">
+              <Node Cat="verb" Start="19" End="19" UnicodeLemma="στηρίζω" Person="Third" Voice="Active" Unicode="στηρίξει," Tense="Future" Number="Singular" morphId="60005010020" Mood="Indicative" nodeId="600050100200010">στηρίξει</Node>
+            </Node>
+          </Node>
+        </Node>
+        <Node Cat="CL" Start="20" End="20" Rule="V2CL" Head="0" nodeId="600050100210013">
+          <Node Cat="V" Start="20" End="20" Rule="vp2V" Head="0" nodeId="600050100210012">
+            <Node Cat="vp" Start="20" End="20" Rule="V2VP" Head="0" nodeId="600050100210011">
+              <Node Cat="verb" Start="20" End="20" UnicodeLemma="σθενόω" Person="Third" Voice="Active" Unicode="σθενώσει," Tense="Future" Number="Singular" morphId="60005010021" Mood="Indicative" nodeId="600050100210010">σθενώσει</Node>
+            </Node>
+          </Node>
+        </Node>
+        <Node Cat="CL" Start="21" End="21" Rule="V2CL" Head="0" nodeId="600050100220013">
+          <Node Cat="V" Start="21" End="21" Rule="vp2V" Head="0" nodeId="600050100220012">
+            <Node Cat="vp" Start="21" End="21" Rule="V2VP" Head="0" nodeId="600050100220011">
+              <Node Cat="verb" Start="21" End="21" UnicodeLemma="θεμελιόω" Person="Third" Voice="Active" Unicode="θεμελιώσει." Tense="Future" Number="Singular" morphId="60005010022" Mood="Indicative" nodeId="600050100220010">θεμελιώσει</Node>
             </Node>
           </Node>
         </Node>

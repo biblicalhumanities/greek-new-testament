@@ -10683,20 +10683,20 @@
         </Node>
         <Node Cat="CL" Start="14" End="17" Rule="that-VP" Head="1" nodeId="620050130060040">
           <Node Cat="conj" Start="14" End="14" UnicodeLemma="ὅτι" Unicode="ὅτι" morphId="62005013006" nodeId="620050130060010">ὅτι</Node>
-          <Node Cat="CL" Start="15" End="17" Rule="V-O" Head="0" nodeId="620050130080030">
-            <Node Cat="V" Start="15" End="15" Rule="vp2V" Head="0" nodeId="620050130080012">
-              <Node Cat="vp" Start="15" End="15" Rule="V2VP" Head="0" nodeId="620050130080011">
-                <Node Cat="verb" Start="15" End="15" UnicodeLemma="ἔχω" Person="Second" Voice="Active" Unicode="ἔχετε" Tense="Present" Number="Plural" morphId="62005013008" Mood="Indicative" nodeId="620050130080010">ἔχετε</Node>
+          <Node Cat="CL" Start="15" End="17" Rule="O-V" Head="1" nodeId="620050130070030">
+            <Node Cat="O" Start="15" End="16" Rule="np2O" Head="0" nodeId="620050130070021">
+              <Node Cat="np" Start="15" End="16" Rule="NP-AdjP" Head="0" nodeId="620050130070020">
+                <Node Cat="np" Start="15" End="15" Rule="N2NP" Head="0" nodeId="620050130070011">
+                  <Node Cat="noun" Start="15" End="15" UnicodeLemma="ζωή" Unicode="ζωὴν" Number="Singular" Type="Common" morphId="62005013007" Case="Accusative" Gender="Feminine" nodeId="620050130070010">ζωὴν</Node>
+                </Node>
+                <Node Cat="adjp" Start="16" End="16" Rule="Adj2AdjP" Head="0" nodeId="620050130090011">
+                  <Node Cat="adj" Start="16" End="16" Case="Accusative" UnicodeLemma="αἰώνιος" Unicode="αἰώνιον," Gender="Feminine" Number="Singular" morphId="62005013009" nodeId="620050130090010">αἰώνιον</Node>
+                </Node>
               </Node>
             </Node>
-            <Node Cat="O" Start="16" End="17" Rule="np2O" Head="0" nodeId="620050130070021">
-              <Node Cat="np" Start="16" End="17" Rule="NP-AdjP" Head="0" nodeId="620050130070020">
-                <Node Cat="np" Start="16" End="16" Rule="N2NP" Head="0" nodeId="620050130070011">
-                  <Node Cat="noun" Start="16" End="16" UnicodeLemma="ζωή" Unicode="ζωὴν" Number="Singular" Type="Common" morphId="62005013007" Case="Accusative" Gender="Feminine" nodeId="620050130070010">ζωὴν</Node>
-                </Node>
-                <Node Cat="adjp" Start="17" End="17" Rule="Adj2AdjP" Head="0" nodeId="620050130090011">
-                  <Node Cat="adj" Start="17" End="17" Case="Accusative" UnicodeLemma="αἰώνιος" Unicode="αἰώνιον," Gender="Feminine" Number="Singular" morphId="62005013009" nodeId="620050130090010">αἰώνιον</Node>
-                </Node>
+            <Node Cat="V" Start="17" End="17" Rule="vp2V" Head="0" nodeId="620050130080012">
+              <Node Cat="vp" Start="17" End="17" Rule="V2VP" Head="0" nodeId="620050130080011">
+                <Node Cat="verb" Start="17" End="17" UnicodeLemma="ἔχω" Person="Second" Voice="Active" Unicode="ἔχετε" Tense="Present" Number="Plural" morphId="62005013008" Mood="Indicative" nodeId="620050130080010">ἔχετε</Node>
               </Node>
             </Node>
           </Node>
