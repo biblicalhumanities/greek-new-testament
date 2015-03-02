@@ -1,18 +1,24 @@
-# Greek New Testament Syntax Trees (Nestle 1904)
+# Nestle1904 Lowfat: Greek New Testament Syntax Trees
 
 https://github.com/biblicalhumanities/greek-new-testament/syntax-trees/nestle1904
 
 Last modified: 2 Feb, 2015
 
-These syntax trees were created to be easier to query and to display using standard Web technologies.
-
-This is based on the 1904 edition of Eberhard Nestle's Greek New
+These syntax trees were created to be easier to query and to display using standard Web technologies. They are based on the 1904 edition of Eberhard Nestle's Greek New
 Testament, often referred to as the Nestle 1904 or British Foreign
 Bible Society 1904.
 
+Please report bugs by creating issues on this github directory. You can also contact us at:
+
+- Twitter: @bibhumanities.org
+- Email: jonathan.robie@ibiblio.org
+- Forums: biblicalhumanities.org or ibiblio.org/bgreek
+
+## Copyright
+
 Syntax diagram markup copyright 2014-2015 by Jonathan Robie and Micheal Palmer,  made available under under a
 [CC-BY-SA License] (http://creativecommons.org/licenses/by-sa/3.0/).  
-Created by a transformation from Syntax diagram markup copyright 2014-2015 by the Global Bible Initiative, made available under under a 
+Created by a transformation from Syntax diagram markup copyright 2014-2015 by the Global Bible Initiative, made available under under a
 [CC-BY-SA License] (http://creativecommons.org/licenses/by-sa/3.0/).  
 
 Morphological parsing and lemmatization by Dr. Ulrik Sandborg-Petersen
@@ -25,31 +31,57 @@ https://sites.google.com/site/nestle1904/.
 These syntax trees were automatically generated, then carefully corrected by hand.  Please report any errors you encounter.
 
 
-Current markup scheme:
+## Markup scheme
 
-Cat = Part-of-speech Category  
-Rule = Rule used to combine nodes—some of these are arbitrary, some make meaningful distinctions (for example, when two nouns are connected together, we have different rules differentiating apposition, genitive modification, or two nouns conjoined/juxtaposed without conjunction in between).  
-Start = indicates starting position of the node in the tree  
-End = indicates ending position of the node in the tree (at the word level start & end would be the same; at a higher node, e.g., a multi-word phrase, the starting & ending position indicates the span of the multi-word phrase)  
-Person = grammatical person  
-Number = grammatical number  
-Gender = grammatical gender  
-Case = grammatical case  
-Degree = degree of adjectives  
-Tense = grammatical tense of verbs  
-Voice = grammatical voice of verbs  
-Mood = grammatical mood of verbs  
-Relative = appears only with pronouns, will have True value if pronoun is a Relative pronoun  
-Personal = appears only with pronouns, will have True value if pronoun is a Personal pronoun  
-Demonstrative = appears only with pronouns, will have True value if pronoun is a Demonstrative pronoun  
-Interrogative = appears only with pronouns, will have True value if pronoun is an Interrogative pronoun  
-Unicode = Unicode of surface text  
-UnicodeLemma = Unicode of lexical lemma  
-morphId = morphId was developed as unique ID for building our translation memory & a host of other interlinear tools  
-nodeId = BBCCCVVVWWWSSSL as previously noted, where WWW represents the beginning position (the Nth word) of a node/sub-tree
-SSS represents the SPAN of a node (how many words it covers) L (Level) is used to distinguish nodes which have the same span (in cases of non-branching nodes)  
+This is an example of the current markup scheme:
 
-The following only occur in non-terminal nodes:
+```xml
+<sentence>
+   <cite>Jhn11:35:1-11:35:3</cite>
+   <wg nodeId="430110350010030" class="cl">
+      <w morphId="43011035001" class="verb" role="v" head="true" lemma="δακρύω"
+         person="third"
+         number="singular"
+         tense="aorist"
+         voice="active"
+         mood="indicative">ἐδάκρυσεν</w>
+      <wg nodeId="430110350020020" class="np" role="s">
+         <w morphId="43011035002" class="det" lemma="ὁ" case="nominative"
+            gender="masculine"
+            number="singular">ὁ</w>
+         <w morphId="43011035003" class="noun" head="true" lemma="ἰησοῦς" case="nominative"
+            gender="masculine"
+            number="singular">Ἰησοῦς.</w>
+      </wg>
+   </wg>
+</sentence>
+```
 
-ClType = This occurs only for CL nodes. By default, there is no Type value--all clauses with V or VC (any verbal form) have no value. It is the clauses without a V or VC (any verbal form) that have Type value to distinguish Verbless from VerbElided clauses  
-HasDet = Has True value when a phrase has a determiner included in it  
+Here is an overview of this format:
+
+- &lt;sentence> is, obviously, a sentence. Sentences are determined based purely on punctuation used in the original text.
+- &lt;cite> is a citation that identifies the text in a sentence.
+- &lt;wg> stands for "word group", and is used to identify a group of words.
+- &lt;w> stands for "word", and identifies a single word.
+
+A &lt;wg> can have the following attributes:
+
+- nodeId: an identifier for the &lt;wg> node
+- class: the class of the word group. Permitted values: np cl pp vp adjp advp nump adv conj
+- role: the clause-level role of the world group. Permitted values: s v vc o p io o2 adv
+
+A &lt;w> can have the following attributes:
+
+- morphId: identifier for the word occurrence
+- class: the class of the word. Permitted values: noun verb det conj pron prep adj adv ptcl num int
+- role: the clause-level role of the word. Permitted values: s v vc o  io o2 p adv
+- head: 'true' if the word is the head of the phrase.
+- discontinuous: 'true' if the word is discontinuous with respect to sentence order due to reordering in the syntax tree
+- lemma: the lemma of the word
+- person: first, second, or third
+- number: singular or plural
+- gender: masculine, feminine, or neuter
+- case: nominative, genitive, dative, accusative, or vocative
+- tense: aorist, present, imperfect, future, perfect, or pluperfect
+- voice: active, passive, middle, or middlepassive
+- mood: indicative, imperative, subjunctive, optative, participle, or infinitive
