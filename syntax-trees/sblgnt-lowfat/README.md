@@ -4,11 +4,14 @@ https://github.com/biblicalhumanities/greek-new-testament/syntax-trees/sblgnt-lo
 
 Last modified: 2 Feb, 2015
 
-These syntax trees were created to be easier to query and to display using standard Web technologies.  Please report bugs by creating issues on this github directory. You can also contact us at:
+These syntax trees were created to be easier to query and to display using standard Web technologies.  They are called "lowfat" because they are simpler and have fewer nodes than the equivalent GBI trees: about 1/2 as many elements, and about 1/3 as many attributes.
 
-- Twitter: @bibhumanities.org
+Please report bugs by creating issues on this github directory. You can also contact us at:
+
+- Twitter: @bibhumanities
 - Email: jonathan.robie@ibiblio.org
 - Forums: biblicalhumanities.org or ibiblio.org/bgreek
+
 
 ## Copyright
 
