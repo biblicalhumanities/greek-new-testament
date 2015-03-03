@@ -4,13 +4,15 @@ https://github.com/biblicalhumanities/greek-new-testament/syntax-trees/nestle190
 
 Last modified: 2 Feb, 2015
 
-These syntax trees were created to be easier to query and to display using standard Web technologies. They are based on the 1904 edition of Eberhard Nestle's Greek New
+These syntax trees were created to be easier to query and to display using standard Web technologies. They are called "lowfat" because they are simpler and have fewer nodes than the equivalent GBI trees: about 1/2 as many elements, and about 1/3 as many attributes.
+
+They are based on the 1904 edition of Eberhard Nestle's Greek New
 Testament, often referred to as the Nestle 1904 or British Foreign
 Bible Society 1904.
 
 Please report bugs by creating issues on this github directory. You can also contact us at:
 
-- Twitter: @bibhumanities.org
+- Twitter: @bibhumanities
 - Email: jonathan.robie@ibiblio.org
 - Forums: biblicalhumanities.org or ibiblio.org/bgreek
 
