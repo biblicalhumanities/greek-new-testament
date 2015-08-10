@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" ?>
+﻿<?xml version="1.0" encoding="utf-8" ?>
 <Sentences>
 <Sentence ID = "Jms1:1:1-1:1:15">
 <Trees>
@@ -5641,8 +5641,8 @@
           </Node>
           <Node Cat="np" Start="13" End="17" Rule="DetCL" Head="1" nodeId="590030090140050">
             <Node Cat="det" Start="13" End="13" StrongNumber="3588" UnicodeLemma="ὁ" Gender="Masculine" Number="Plural" FunctionalTag="T-APM" Type="" morphId="59003009014" NormalizedForm="τούς" Case="Accusative" Unicode="τοὺς" FormalTag="T-APM" nodeId="590030090140010">τοὺς</Node>
-            <Node Cat="CL" Start="14" End="17" Rule="P-VC" Head="0" nodeId="590030090150040">
-              <Node Cat="P" Start="14" End="16" Rule="pp2P" Head="0" nodeId="590030090150031">
+            <Node Cat="CL" Start="14" End="17" Rule="ADV-V" Head="1" nodeId="590030090150040">
+              <Node Cat="ADV" Start="14" End="16" Rule="pp2ADV" Head="0" nodeId="590030090150031">
                 <Node Cat="pp" Start="14" End="16" Rule="PrepNP" Head="1" nodeId="590030090150030">
                   <Node Cat="prep" Start="14" End="14" StrongNumber="2596" UnicodeLemma="κατά" FunctionalTag="PREP" Type="" morphId="59003009015" NormalizedForm="καθ’" Unicode="καθ’" FormalTag="PREP" nodeId="590030090150010">καθ’</Node>
                   <Node Cat="np" Start="15" End="16" Rule="NPofNP" Head="0" nodeId="590030090160020">
@@ -5655,7 +5655,7 @@
                   </Node>
                 </Node>
               </Node>
-              <Node Cat="VC" Start="17" End="17" Rule="vp2VC" Head="0" nodeId="590030090180012">
+              <Node Cat="V" Start="17" End="17" Rule="vp2V" Head="0" nodeId="590030090180012">
                 <Node Cat="vp" Start="17" End="17" Rule="V2VP" Head="0" nodeId="590030090180011">
                   <Node Cat="verb" Start="17" End="17" StrongNumber="1096" UnicodeLemma="γίνομαι" Gender="Masculine" Mood="Participle" Tense="Perfect" Number="Plural" FunctionalTag="V-2RAP-APM" Type="" morphId="59003009018" NormalizedForm="γεγονότας" Case="Accusative" Unicode="γεγονότας·" FormalTag="V-2REP-APM" Voice="Active" nodeId="590030090180010">γεγονότας·</Node>
                 </Node>
@@ -7990,18 +7990,18 @@
           </Node>
         </Node>
       </Node>
-      <Node Cat="CL" Start="7" End="9" Rule="S-P-VC" Head="1" nodeId="590040170080030">
+      <Node Cat="CL" Start="7" End="9" Rule="S-ADV-V" Head="2" nodeId="590040170080030">
         <Node Cat="S" Start="7" End="7" Rule="np2S" Head="0" nodeId="590040170080012">
           <Node Cat="np" Start="7" End="7" Rule="N2NP" Head="0" nodeId="590040170080011">
             <Node Cat="noun" Start="7" End="7" StrongNumber="266" UnicodeLemma="ἁμαρτία" Gender="Feminine" Number="Singular" FunctionalTag="N-NSF" Type="Common" morphId="59004017008" NormalizedForm="ἁμαρτία" Case="Nominative" Unicode="ἁμαρτία" FormalTag="N-NSF" nodeId="590040170080010">ἁμαρτία</Node>
           </Node>
         </Node>
-        <Node Cat="P" Start="8" End="8" Rule="np2P" Head="0" nodeId="590040170090012">
+        <Node Cat="ADV" Start="8" End="8" Rule="np2ADV" Head="0" nodeId="590040170090012">
           <Node Cat="np" Start="8" End="8" Rule="Pron2NP" Head="0" nodeId="590040170090011">
             <Node Cat="pron" Start="8" End="8" StrongNumber="846" UnicodeLemma="αὐτός" Gender="Masculine" Number="Singular" FunctionalTag="P-DSM" Type="Personal" morphId="59004017009" NormalizedForm="αὐτῷ" Case="Dative" Unicode="αὐτῷ" FormalTag="P-DSM" nodeId="590040170090010">αὐτῷ</Node>
           </Node>
         </Node>
-        <Node Cat="VC" Start="9" End="9" Rule="vp2VC" Head="0" nodeId="590040170100012">
+        <Node Cat="V" Start="9" End="9" Rule="vp2V" Head="0" nodeId="590040170100012">
           <Node Cat="vp" Start="9" End="9" Rule="V2VP" Head="0" nodeId="590040170100011">
             <Node Cat="verb" Start="9" End="9" StrongNumber="1510" UnicodeLemma="εἰμί" Person="Third" Mood="Indicative" Tense="Present" Number="Singular" FunctionalTag="V-PAI-3S" Type="" morphId="59004017010" NormalizedForm="ἐστιν" Unicode="ἐστιν." FormalTag="V-PAI-3S" Voice="Active" nodeId="590040170100010">ἐστιν.</Node>
           </Node>

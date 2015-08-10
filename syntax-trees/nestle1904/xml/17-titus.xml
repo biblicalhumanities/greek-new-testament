@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" ?>
+﻿<?xml version="1.0" encoding="utf-8" ?>
 <Sentences>
 <Sentence ID = "Tit1:1:1-1:4:6">
 <Trees>
@@ -751,7 +751,7 @@
 <Node Cat="S" Head="0" nodeId="560010100020261">
   <Node Cat="CL" Start="0" End="25" Rule="Conj-CL" nodeId="560010100020260">
     <Node Cat="conj" Start="0" End="0" StrongNumber="1063" UnicodeLemma="γάρ" FunctionalTag="CONJ" Type="" morphId="56001010002" NormalizedForm="γάρ" Unicode="γὰρ" FormalTag="CONJ" nodeId="560010100020010">γὰρ</Node>
-    <Node Cat="CL" Start="1" End="25" Rule="VC-P-S" Head="2" nodeId="560010100010250">
+    <Node Cat="CL" Start="1" End="25" Rule="VC-P-S" Head="1" nodeId="560010100010250">
       <Node Cat="VC" Start="1" End="1" Rule="vp2VC" Head="0" nodeId="560010100010012">
         <Node Cat="vp" Start="1" End="1" Rule="V2VP" Head="0" nodeId="560010100010011">
           <Node Cat="verb" Start="1" End="1" StrongNumber="1510" UnicodeLemma="εἰμί" Person="Third" Mood="Indicative" Tense="Present" Number="Plural" FunctionalTag="V-PAI-3P" Type="" morphId="56001010001" NormalizedForm="Εἰσίν" Unicode="Εἰσὶν" FormalTag="V-PAI-3P" Voice="Active" nodeId="560010100010010">Εἰσὶν</Node>
@@ -3521,7 +3521,7 @@
 <Trees>
 <Tree>
 <Node Cat="S" Head="0" nodeId="560030150130051">
-  <Node Cat="CL" Start="0" End="4" Rule="S-ADV" Head="0" HasDet="True" ClType="VerbElided" nodeId="560030150130050">
+  <Node Cat="CL" Start="0" End="4" Rule="S-P" Head="1" ClType="Verbless" nodeId="560030150130050">
     <Node Cat="S" Start="0" End="1" Rule="np2S" Head="0" HasDet="True" nodeId="560030150130021">
       <Node Cat="np" Start="0" End="1" Rule="DetNP" Head="1" HasDet="True" nodeId="560030150130020">
         <Node Cat="det" Start="0" End="0" StrongNumber="3588" UnicodeLemma="ὁ" Gender="Feminine" Number="Singular" FunctionalTag="T-NSF" Type="" morphId="56003015013" NormalizedForm="Ἠ" Case="Nominative" Unicode="Ἠ" FormalTag="T-NSF" nodeId="560030150130010">Ἠ</Node>
@@ -3530,7 +3530,7 @@
         </Node>
       </Node>
     </Node>
-    <Node Cat="ADV" Start="2" End="4" Rule="pp2ADV" Head="0" nodeId="560030150150031">
+    <Node Cat="P" Start="2" End="4" Rule="pp2P" Head="0" nodeId="560030150150031">
       <Node Cat="pp" Start="2" End="4" Rule="PrepNP" Head="1" nodeId="560030150150030">
         <Node Cat="prep" Start="2" End="2" StrongNumber="3326" UnicodeLemma="μετά" FunctionalTag="PREP" Type="" morphId="56003015015" NormalizedForm="μετά" Unicode="μετὰ" FormalTag="PREP" nodeId="560030150150010">μετὰ</Node>
         <Node Cat="np" Start="3" End="4" Rule="All-NP" Head="1" nodeId="560030150160020">

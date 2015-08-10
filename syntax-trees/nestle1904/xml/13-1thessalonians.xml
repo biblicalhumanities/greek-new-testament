@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" ?>
+﻿<?xml version="1.0" encoding="utf-8" ?>
 <Sentences>
 <Sentence ID = "1Th1:1:1-1:1:15">
 <Trees>
@@ -3383,8 +3383,8 @@
             </Node>
           </Node>
           <Node Cat="conj" Start="18" End="18" StrongNumber="2532" UnicodeLemma="καί" FunctionalTag="CONJ" Type="" morphId="52003005019" NormalizedForm="καί" Unicode="καὶ" FormalTag="CONJ" nodeId="520030050190010">καὶ</Node>
-          <Node Cat="CL" Start="19" End="24" Rule="P-VC-S" Head="0" nodeId="520030050200060">
-            <Node Cat="P" Start="19" End="20" Rule="pp2P" Head="0" nodeId="520030050200021">
+          <Node Cat="CL" Start="19" End="24" Rule="ADV-V-S" Head="1" nodeId="520030050200060">
+            <Node Cat="ADV" Start="19" End="20" Rule="pp2ADV" Head="0" nodeId="520030050200021">
               <Node Cat="pp" Start="19" End="20" Rule="PrepNP" Head="1" nodeId="520030050200020">
                 <Node Cat="prep" Start="19" End="19" StrongNumber="1519" UnicodeLemma="εἰς" FunctionalTag="PREP" Type="" morphId="52003005020" NormalizedForm="εἰς" Unicode="εἰς" FormalTag="PREP" nodeId="520030050200010">εἰς</Node>
                 <Node Cat="np" Start="20" End="20" Rule="Adj2NP" Head="0" nodeId="520030050210012">
@@ -3394,7 +3394,7 @@
                 </Node>
               </Node>
             </Node>
-            <Node Cat="VC" Start="21" End="21" Rule="vp2VC" Head="0" nodeId="520030050220012">
+            <Node Cat="V" Start="21" End="21" Rule="vp2V" Head="0" nodeId="520030050220012">
               <Node Cat="vp" Start="21" End="21" Rule="V2VP" Head="0" nodeId="520030050220011">
                 <Node Cat="verb" Start="21" End="21" StrongNumber="1096" UnicodeLemma="γίνομαι" Person="Third" Mood="Subjunctive" Tense="Aorist" Number="Singular" FunctionalTag="V-2ADS-3S" Type="" morphId="52003005022" NormalizedForm="γένηται" Unicode="γένηται" FormalTag="V-2ADS-3S" Voice="Middle" nodeId="520030050220010">γένηται</Node>
               </Node>

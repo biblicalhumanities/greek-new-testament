@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" ?>
+﻿<?xml version="1.0" encoding="utf-8" ?>
 <Sentences>
 <Sentence ID = "2Tm1:1:1-1:2:3">
 <Trees>
@@ -4152,13 +4152,13 @@
                 <Node Cat="noun" Start="14" End="14" StrongNumber="444" UnicodeLemma="ἄνθρωπος" Gender="Masculine" Number="Plural" FunctionalTag="N-NPM" Type="Common" morphId="55003008015" NormalizedForm="ἄνθρωποι" Case="Nominative" Unicode="ἄνθρωποι" FormalTag="N-NPM" nodeId="550030080150010">ἄνθρωποι</Node>
               </Node>
               <Node Cat="adjp" Start="15" End="17" Rule="CL2Adjp" Head="0" nodeId="550030080160031">
-                <Node Cat="CL" Start="15" End="17" Rule="V-O" Head="0" nodeId="550030080160030">
+                <Node Cat="CL" Start="15" End="17" Rule="V-ADV" Head="0" nodeId="550030080160030">
                   <Node Cat="V" Start="15" End="15" Rule="vp2V" Head="0" nodeId="550030080160012">
                     <Node Cat="vp" Start="15" End="15" Rule="V2VP" Head="0" nodeId="550030080160011">
                       <Node Cat="verb" Start="15" End="15" StrongNumber="2704" UnicodeLemma="καταφθείρω" Gender="Masculine" Mood="Participle" Tense="Perfect" Number="Plural" FunctionalTag="V-RPP-NPM" Type="" morphId="55003008016" NormalizedForm="κατεφθαρμένοι" Case="Nominative" Unicode="κατεφθαρμένοι" FormalTag="V-REP-NPM" Voice="Passive" nodeId="550030080160010">κατεφθαρμένοι</Node>
                     </Node>
                   </Node>
-                  <Node Cat="O" Start="16" End="17" Rule="np2O" Head="0" HasDet="True" nodeId="550030080170021">
+                  <Node Cat="ADV" Start="16" End="17" Rule="np2ADV" Head="0" HasDet="True" nodeId="550030080170021">
                     <Node Cat="np" Start="16" End="17" Rule="DetNP" Head="1" HasDet="True" nodeId="550030080170020">
                       <Node Cat="det" Start="16" End="16" StrongNumber="3588" UnicodeLemma="ὁ" Gender="Masculine" Number="Singular" FunctionalTag="T-ASM" Type="" morphId="55003008017" NormalizedForm="τόν" Case="Accusative" Unicode="τὸν" FormalTag="T-ASM" nodeId="550030080170010">τὸν</Node>
                       <Node Cat="np" Start="17" End="17" Rule="N2NP" Head="0" nodeId="550030080180011">
@@ -6740,7 +6740,7 @@
 <Trees>
 <Tree>
 <Node Cat="S" Head="0" nodeId="550040220010061">
-  <Node Cat="CL" Start="0" End="5" Rule="S-ADV" Head="0" HasDet="True" ClType="VerbElided" nodeId="550040220010060">
+  <Node Cat="CL" Start="0" End="5" Rule="S-P" Head="1" HasDet="True" ClType="Verbless" nodeId="550040220010060">
     <Node Cat="S" Start="0" End="1" Rule="np2S" Head="0" HasDet="True" nodeId="550040220010021">
       <Node Cat="np" Start="0" End="1" Rule="DetNP" Head="1" HasDet="True" nodeId="550040220010020">
         <Node Cat="det" Start="0" End="0" StrongNumber="3588" UnicodeLemma="ὁ" Gender="Masculine" Number="Singular" FunctionalTag="T-NSM" Type="" morphId="55004022001" NormalizedForm="Ὁ" Case="Nominative" Unicode="Ὁ" FormalTag="T-NSM" nodeId="550040220010010">Ὁ</Node>
@@ -6749,7 +6749,7 @@
         </Node>
       </Node>
     </Node>
-    <Node Cat="ADV" Start="2" End="5" Rule="pp2ADV" Head="0" HasDet="True" nodeId="550040220030041">
+    <Node Cat="P" Start="2" End="5" Rule="pp2P" Head="0" HasDet="True" nodeId="550040220030041">
       <Node Cat="pp" Start="2" End="5" Rule="PrepNP" Head="1" HasDet="True" nodeId="550040220030040">
         <Node Cat="prep" Start="2" End="2" StrongNumber="3326" UnicodeLemma="μετά" FunctionalTag="PREP" Type="" morphId="55004022003" NormalizedForm="μετά" Unicode="μετὰ" FormalTag="PREP" nodeId="550040220030010">μετὰ</Node>
         <Node Cat="np" Start="3" End="5" Rule="DetNP" Head="1" HasDet="True" nodeId="550040220040030">

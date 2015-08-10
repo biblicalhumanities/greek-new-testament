@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" ?>
+﻿<?xml version="1.0" encoding="utf-8" ?>
 <Sentences>
 <Sentence ID = "2Th1:1:1-1:1:16">
 <Trees>
@@ -419,7 +419,7 @@
           <Node Cat="prep" Start="6" End="6" StrongNumber="1519" UnicodeLemma="εἰς" FunctionalTag="PREP" Type="" morphId="53001005007" NormalizedForm="εἰς" Unicode="εἰς" FormalTag="PREP" nodeId="530010050070010">εἰς</Node>
           <Node Cat="np" Start="7" End="17" Rule="DetCL" Head="1" nodeId="530010050080110">
             <Node Cat="det" Start="7" End="7" StrongNumber="3588" UnicodeLemma="ὁ" Gender="Neuter" Number="Singular" FunctionalTag="T-ASN" Type="" morphId="53001005008" NormalizedForm="τό" Case="Accusative" Unicode="τὸ" FormalTag="T-ASN" nodeId="530010050080010">τὸ</Node>
-            <Node Cat="CL" Start="8" End="17" Rule="V-S-O" Head="0" nodeId="530010050090100">
+            <Node Cat="CL" Start="8" End="17" Rule="V-S-ADV" Head="0" nodeId="530010050090100">
               <Node Cat="V" Start="8" End="8" Rule="vp2V" Head="0" nodeId="530010050090012">
                 <Node Cat="vp" Start="8" End="8" Rule="V2VP" Head="0" nodeId="530010050090011">
                   <Node Cat="verb" Start="8" End="8" StrongNumber="2661" UnicodeLemma="καταξιόω" Mood="Infinitive" Tense="Aorist" FunctionalTag="V-APN" Type="" morphId="53001005009" NormalizedForm="καταξιωθῆναι" Unicode="καταξιωθῆναι" FormalTag="V-APN" Voice="Passive" nodeId="530010050090010">καταξιωθῆναι</Node>
@@ -430,7 +430,7 @@
                   <Node Cat="pron" Start="9" End="9" StrongNumber="4771" UnicodeLemma="σύ" Number="Plural" FunctionalTag="P-2AP" Type="Personal" morphId="53001005010" NormalizedForm="ὑμᾶς" Case="Accusative" Unicode="ὑμᾶς" FormalTag="P-2AP" nodeId="530010050100010">ὑμᾶς</Node>
                 </Node>
               </Node>
-              <Node Cat="O" Start="10" End="17" Rule="np2O" Head="0" HasDet="True" nodeId="530010050110081">
+              <Node Cat="ADV" Start="10" End="17" Rule="np2ADV" Head="0" HasDet="True" nodeId="530010050110081">
                 <Node Cat="np" Start="10" End="17" Rule="DetNP" Head="1" HasDet="True" nodeId="530010050110080">
                   <Node Cat="det" Start="10" End="10" StrongNumber="3588" UnicodeLemma="ὁ" Gender="Feminine" Number="Singular" FunctionalTag="T-GSF" Type="" morphId="53001005011" NormalizedForm="τῆς" Case="Genitive" Unicode="τῆς" FormalTag="T-GSF" nodeId="530010050110010">τῆς</Node>
                   <Node Cat="np" Start="11" End="17" Rule="NP-CL" Head="0" nodeId="530010050120070">
