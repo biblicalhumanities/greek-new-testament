@@ -3,12 +3,12 @@
    <sentence>
       <cite>1Tm1:1:1-1:2:5</cite>
       <wg nodeId="540010010010200" class="cl" role="s">
-         <wg nodeId="540010010010150" class="np" role="s">
+         <wg nodeId="540010010010150" class="np" role="s" head="true">
             <w morphId="54001001001" class="noun" head="true" lemma="παῦλος" case="nominative"
                gender="masculine"
                number="singular">Παῦλος</w>
             <wg nodeId="540010010020140" class="np">
-               <wg nodeId="540010010020030" class="np">
+               <wg nodeId="540010010020030" class="np" head="true">
                   <w morphId="54001001002" class="noun" head="true" lemma="ἀπόστολος"
                      case="nominative"
                      gender="masculine"
@@ -24,13 +24,13 @@
                </wg>
                <wg nodeId="540010010050110" class="pp">
                   <w morphId="54001001005" class="prep" lemma="κατά">κατ’</w>
-                  <wg nodeId="540010010060100" class="np">
+                  <wg nodeId="540010010060100" class="np" head="true">
                      <w morphId="54001001006" class="noun" head="true" lemma="ἐπιταγή"
                         case="accusative"
                         gender="feminine"
                         number="singular">ἐπιταγὴν</w>
                      <wg nodeId="540010010070090" class="np">
-                        <wg nodeId="540010010070030" class="np">
+                        <wg nodeId="540010010070030" class="np" head="true">
                            <w morphId="54001001007" class="noun" head="true" lemma="θεός" case="genitive"
                               gender="masculine"
                               number="singular">θεοῦ</w>
@@ -43,7 +43,7 @@
                         </wg>
                         <w morphId="54001001010" class="conj" lemma="καί">καὶ</w>
                         <wg nodeId="540010010110050" class="np">
-                           <wg nodeId="540010010110020" class="np">
+                           <wg nodeId="540010010110020" class="np" head="true">
                               <w morphId="54001001011" class="noun" head="true" lemma="χριστός" case="genitive"
                                  gender="masculine"
                                  number="singular">Χριστοῦ</w>
@@ -54,7 +54,7 @@
                            <wg nodeId="540010010130030" class="np">
                               <w morphId="54001001013" class="det" lemma="ὁ" case="genitive" gender="feminine"
                                  number="singular">τῆς</w>
-                              <wg nodeId="540010010140020" class="np">
+                              <wg nodeId="540010010140020" class="np" head="true">
                                  <w morphId="54001001014" class="noun" head="true" lemma="ἐλπίς" case="genitive"
                                     gender="feminine"
                                     number="singular">ἐλπίδος</w>
@@ -72,7 +72,7 @@
                gender="masculine"
                number="singular">Τιμοθέῳ</w>
             <wg nodeId="540010020020040" class="np">
-               <wg nodeId="540010020020020" class="np">
+               <wg nodeId="540010020020020" class="np" head="true">
                   <w morphId="54001002002" class="adj" lemma="γνήσιος" case="dative" gender="neuter"
                      number="singular">γνησίῳ</w>
                   <w morphId="54001002003" class="noun" head="true" lemma="τέκνον" case="dative"
@@ -93,7 +93,7 @@
    <sentence>
       <cite>1Tm1:2:6-1:2:17</cite>
       <wg nodeId="540010020060120" class="cl" role="s">
-         <wg nodeId="540010020060030" class="np" role="s">
+         <wg nodeId="540010020060030" class="np" role="s" head="true">
             <w morphId="54001002006" class="noun" head="true" lemma="χάρις" case="nominative"
                gender="feminine"
                number="singular">χάρις</w>
@@ -108,8 +108,8 @@
          </wg>
          <wg nodeId="540010020090090" class="pp" role="adv">
             <w morphId="54001002009" class="prep" lemma="ἀπό">ἀπὸ</w>
-            <wg nodeId="540010020100080" class="np">
-               <wg nodeId="540010020100020" class="np">
+            <wg nodeId="540010020100080" class="np" head="true">
+               <wg nodeId="540010020100020" class="np" head="true">
                   <w morphId="54001002010" class="noun" head="true" lemma="θεός" case="genitive"
                      gender="masculine"
                      number="singular">θεοῦ</w>
@@ -119,7 +119,7 @@
                </wg>
                <w morphId="54001002012" class="conj" lemma="καί">καὶ</w>
                <wg nodeId="540010020130050" class="np">
-                  <wg nodeId="540010020130020" class="np">
+                  <wg nodeId="540010020130020" class="np" head="true">
                      <w morphId="54001002013" class="noun" head="true" lemma="χριστός" case="genitive"
                         gender="masculine"
                         number="singular">Χριστοῦ</w>
@@ -130,7 +130,7 @@
                   <wg nodeId="540010020150030" class="np">
                      <w morphId="54001002015" class="det" lemma="ὁ" case="genitive" gender="masculine"
                         number="singular">τοῦ</w>
-                     <wg nodeId="540010020160020" class="np">
+                     <wg nodeId="540010020160020" class="np" head="true">
                         <w morphId="54001002016" class="noun" head="true" lemma="κύριος" case="genitive"
                            gender="masculine"
                            number="singular">κυρίου</w>
@@ -146,7 +146,7 @@
    <sentence>
       <cite>1Tm1:3:1-1:4:16</cite>
       <wg nodeId="540010030010300" class="cl" role="s">
-         <wg nodeId="540010030010090" class="cl">
+         <wg nodeId="540010030010090" class="cl" head="true">
             <w morphId="54001003001" class="conj" lemma="καθώς">Καθὼς</w>
             <wg nodeId="540010030020080" class="cl">
                <w morphId="54001003002" class="verb" role="v" head="true" lemma="παρακαλέω"
@@ -202,7 +202,7 @@
                   gender="masculine"
                   number="plural">τισὶν</w>
                <wg nodeId="540010030130180" class="cl" role="o">
-                  <wg nodeId="540010030130020" class="cl">
+                  <wg nodeId="540010030130020" class="cl" head="true">
                      <w morphId="54001003013" class="adv" role="adv" lemma="μή">μὴ</w>
                      <w morphId="54001003014" class="verb" role="v" head="true" lemma="ἑτεροδιδασκαλέω"
                         tense="present"
@@ -216,7 +216,7 @@
                         voice="active"
                         mood="infinitive">προσέχειν</w>
                      <wg nodeId="540010040030140" class="np" role="adv">
-                        <wg nodeId="540010040030040" class="np">
+                        <wg nodeId="540010040030040" class="np" head="true">
                            <w morphId="54001004003" class="noun" head="true" lemma="μῦθος" case="dative"
                               gender="masculine"
                               number="plural">μύθοις</w>
@@ -232,7 +232,7 @@
                            </wg>
                         </wg>
                         <wg nodeId="540010040070100" class="cl">
-                           <wg nodeId="540010040070040" class="cl">
+                           <wg nodeId="540010040070040" class="cl" head="true">
                               <w morphId="54001004007" class="pron" role="s" lemma="ὅστις" case="nominative"
                                  gender="feminine"
                                  number="plural">αἵτινες</w>
@@ -249,7 +249,7 @@
                            </wg>
                            <w morphId="54001004011" class="conj" lemma="ἤ">ἢ</w>
                            <wg nodeId="540010040120050" class="np">
-                              <wg nodeId="540010040120020" class="np">
+                              <wg nodeId="540010040120020" class="np" head="true">
                                  <w morphId="54001004012" class="noun" head="true" lemma="οἰκονομία"
                                     case="accusative"
                                     gender="feminine"
@@ -267,7 +267,6 @@
                                     <w morphId="54001004016" class="noun" head="true" lemma="πίστις" case="dative"
                                        gender="feminine"
                                        number="singular">πίστει</w>
-                                    <pu>—</pu>
                                  </wg>
                               </wg>
                            </wg>
@@ -287,7 +286,7 @@
             <wg nodeId="540010050010040" class="np" role="s">
                <w morphId="54001005001" class="det" lemma="ὁ" case="nominative" gender="neuter"
                   number="singular">τὸ</w>
-               <wg nodeId="540010050030030" class="np">
+               <wg nodeId="540010050030030" class="np" head="true">
                   <w morphId="54001005003" class="noun" head="true" lemma="τέλος" case="nominative"
                      gender="neuter"
                      number="singular">τέλος</w>
@@ -306,15 +305,15 @@
                tense="present"
                voice="active"
                mood="indicative">ἐστὶν</w>
-            <wg nodeId="540010050070280" class="np" role="p">
+            <wg nodeId="540010050070280" class="np" role="p" head="true">
                <w morphId="54001005007" class="noun" head="true" lemma="ἀγάπη" case="nominative"
                   gender="feminine"
                   number="singular">ἀγάπη</w>
                <wg nodeId="540010050080270" class="pp">
                   <w morphId="54001005008" class="prep" lemma="ἐκ">ἐκ</w>
-                  <wg nodeId="540010050090260" class="np">
-                     <wg nodeId="540010050090080" class="np">
-                        <wg nodeId="540010050090020" class="np">
+                  <wg nodeId="540010050090260" class="np" head="true">
+                     <wg nodeId="540010050090080" class="np" head="true">
+                        <wg nodeId="540010050090020" class="np" head="true">
                            <w morphId="54001005009" class="adj" lemma="καθαρός" case="genitive"
                               gender="feminine"
                               number="singular">καθαρᾶς</w>
@@ -375,7 +374,7 @@
                            <pu>,</pu>
                         </wg>
                         <wg nodeId="540010070010120" class="cl" role="adv">
-                           <wg nodeId="540010070010030" class="cl">
+                           <wg nodeId="540010070010030" class="cl" head="true">
                               <w morphId="54001007001" class="verb" role="v" head="true" lemma="θέλω"
                                  tense="present"
                                  voice="active"
@@ -405,7 +404,7 @@
                                  number="plural">νοοῦντες</w>
                               <wg nodeId="540010070060070" class="np" role="o">
                                  <w morphId="54001007006" class="conj" lemma="μήτε">μήτε</w>
-                                 <wg nodeId="540010070070020" class="cl">
+                                 <wg nodeId="540010070070020" class="cl" head="true">
                                     <w morphId="54001007007" class="pron" role="o" lemma="ὅς" case="accusative"
                                        gender="neuter"
                                        number="plural">ἃ</w>
@@ -455,7 +454,7 @@
             <wg nodeId="540010080030540" class="cl">
                <w morphId="54001008003" class="conj" lemma="ὅτι">ὅτι</w>
                <wg nodeId="540010080040530" class="cl">
-                  <wg nodeId="540010080040030" class="cl">
+                  <wg nodeId="540010080040030" class="cl" head="true">
                      <w morphId="54001008004" class="adj" role="p" head="true" lemma="καλός"
                         case="nominative"
                         gender="masculine"
@@ -487,7 +486,7 @@
                            mood="subjunctive">χρῆται</w>
                         <pu>,</pu>
                         <wg nodeId="540010090010450" class="cl" role="adv">
-                           <wg nodeId="540010090010020" class="cl">
+                           <wg nodeId="540010090010020" class="cl" head="true">
                               <w morphId="54001009001" class="verb" role="v" head="true" lemma="ὁράω"
                                  tense="perfect"
                                  voice="active"
@@ -520,9 +519,9 @@
                                     <pu>,</pu>
                                  </wg>
                                  <w morphId="54001009009" class="conj" lemma="δέ" discontinuous="true">δὲ</w>
-                                 <wg nodeId="540010090080370" class="cl">
-                                    <wg nodeId="540010090080180" class="np">
-                                       <wg nodeId="540010090080030" class="np">
+                                 <wg nodeId="540010090080370" class="cl" head="true">
+                                    <wg nodeId="540010090080180" class="np" head="true">
+                                       <wg nodeId="540010090080030" class="np" head="true">
                                           <w morphId="54001009008" class="adj" head="true" lemma="ἄνομος" case="dative"
                                              gender="masculine"
                                              number="plural">ἀνόμοις</w>
@@ -610,24 +609,24 @@
                                           <wg nodeId="540010100100140" class="np" role="o">
                                              <w morphId="54001010010" class="det" lemma="ὁ" case="dative" gender="feminine"
                                                 number="singular">τῇ</w>
-                                             <wg nodeId="540010100110130" class="np">
+                                             <wg nodeId="540010100110130" class="np" head="true">
                                                 <w morphId="54001010011" class="verb" lemma="ὑγιαίνω" tense="present"
                                                    voice="active"
                                                    mood="participle"
                                                    case="dative"
                                                    gender="feminine"
                                                    number="singular">ὑγιαινούσῃ</w>
-                                                <wg nodeId="540010100120120" class="np">
+                                                <wg nodeId="540010100120120" class="np" head="true">
                                                    <w morphId="54001010012" class="noun" head="true" lemma="διδασκαλία" case="dative"
                                                       gender="feminine"
                                                       number="singular">διδασκαλίᾳ</w>
                                                    <wg nodeId="540010110010110" class="pp">
                                                       <w morphId="54001011001" class="prep" lemma="κατά">κατὰ</w>
-                                                      <wg nodeId="540010110020100" class="np">
-                                                         <wg nodeId="540010110020070" class="np">
+                                                      <wg nodeId="540010110020100" class="np" head="true">
+                                                         <wg nodeId="540010110020070" class="np" head="true">
                                                             <w morphId="54001011002" class="det" lemma="ὁ" case="accusative" gender="neuter"
                                                                number="singular">τὸ</w>
-                                                            <wg nodeId="540010110030060" class="np">
+                                                            <wg nodeId="540010110030060" class="np" head="true">
                                                                <w morphId="54001011003" class="noun" head="true" lemma="εὐαγγέλιον"
                                                                   case="accusative"
                                                                   gender="neuter"
@@ -635,14 +634,14 @@
                                                                <wg nodeId="540010110040050" class="np">
                                                                   <w morphId="54001011004" class="det" lemma="ὁ" case="genitive" gender="feminine"
                                                                      number="singular">τῆς</w>
-                                                                  <wg nodeId="540010110050040" class="np">
+                                                                  <wg nodeId="540010110050040" class="np" head="true">
                                                                      <w morphId="54001011005" class="noun" head="true" lemma="δόξα" case="genitive"
                                                                         gender="feminine"
                                                                         number="singular">δόξης</w>
                                                                      <wg nodeId="540010110060030" class="np">
                                                                         <w morphId="54001011006" class="det" lemma="ὁ" case="genitive" gender="masculine"
                                                                            number="singular">τοῦ</w>
-                                                                        <wg nodeId="540010110070020" class="np">
+                                                                        <wg nodeId="540010110070020" class="np" head="true">
                                                                            <w morphId="54001011007" class="adj" lemma="μακάριος" case="genitive"
                                                                               gender="masculine"
                                                                               number="singular">μακαρίου</w>
@@ -691,7 +690,7 @@
    <sentence>
       <cite>1Tm1:12:1-1:13:8</cite>
       <wg nodeId="540010120010250" class="cl" role="s">
-         <wg nodeId="540010120010100" class="cl">
+         <wg nodeId="540010120010100" class="cl" head="true">
             <w morphId="54001012001" class="noun" role="o" lemma="χάρις" case="accusative"
                gender="feminine"
                number="singular">Χάριν</w>
@@ -702,10 +701,10 @@
                voice="active"
                mood="indicative">ἔχω</w>
             <wg nodeId="540010120030080" class="np" role="io">
-               <wg nodeId="540010120030030" class="np">
+               <wg nodeId="540010120030030" class="np" head="true">
                   <w morphId="54001012003" class="det" lemma="ὁ" case="dative" gender="masculine"
                      number="singular">τῷ</w>
-                  <wg nodeId="540010120040020" class="cl">
+                  <wg nodeId="540010120040020" class="cl" head="true">
                      <w morphId="54001012004" class="verb" role="v" head="true" lemma="ἐνδυναμόω"
                         tense="aorist"
                         voice="active"
@@ -718,7 +717,7 @@
                   </wg>
                </wg>
                <wg nodeId="540010120060050" class="np">
-                  <wg nodeId="540010120060020" class="np">
+                  <wg nodeId="540010120060020" class="np" head="true">
                      <w morphId="54001012006" class="noun" head="true" lemma="χριστός" case="dative"
                         gender="masculine"
                         number="singular">Χριστῷ</w>
@@ -729,7 +728,7 @@
                   <wg nodeId="540010120080030" class="np">
                      <w morphId="54001012008" class="det" lemma="ὁ" case="dative" gender="masculine"
                         number="singular">τῷ</w>
-                     <wg nodeId="540010120090020" class="np">
+                     <wg nodeId="540010120090020" class="np" head="true">
                         <w morphId="54001012009" class="noun" head="true" lemma="κύριος" case="dative"
                            gender="masculine"
                            number="singular">κυρίῳ</w>
@@ -786,20 +785,26 @@
                      case="accusative"
                      gender="masculine"
                      number="singular">ὄντα</w>
-                  <wg nodeId="540010130040050" class="np" role="p">
-                     <w morphId="54001013004" class="adj" head="true" lemma="βλάσφημος"
-                        case="accusative"
-                        gender="masculine"
-                        number="singular">βλάσφημον</w>
+                  <wg nodeId="540010130040050" class="np" role="p" head="true">
+                     <wg nodeId="540010130040012" class="np" head="true">
+                        <w morphId="54001013004" class="adj" head="true" lemma="βλάσφημος"
+                           case="accusative"
+                           gender="masculine"
+                           number="singular">βλάσφημον</w>
+                     </wg>
                      <w morphId="54001013005" class="conj" lemma="καί">καὶ</w>
-                     <w morphId="54001013006" class="noun" lemma="διώκτης" case="accusative"
-                        gender="masculine"
-                        number="singular">διώκτην</w>
+                     <wg nodeId="540010130060011" class="np">
+                        <w morphId="54001013006" class="noun" lemma="διώκτης" case="accusative"
+                           gender="masculine"
+                           number="singular">διώκτην</w>
+                     </wg>
                      <w morphId="54001013007" class="conj" lemma="καί">καὶ</w>
-                     <w morphId="54001013008" class="noun" lemma="ὑβριστής" case="accusative"
-                        gender="masculine"
-                        number="singular">ὑβριστήν</w>
-                     <pu>·</pu>
+                     <wg nodeId="540010130080011" class="np">
+                        <w morphId="54001013008" class="noun" lemma="ὑβριστής" case="accusative"
+                           gender="masculine"
+                           number="singular">ὑβριστήν</w>
+                        <pu>·</pu>
+                     </wg>
                   </wg>
                </wg>
             </wg>
@@ -811,7 +816,7 @@
       <wg nodeId="540010130090220" class="cl" role="s">
          <w morphId="54001013009" class="conj" lemma="ἀλλά">ἀλλὰ</w>
          <wg nodeId="540010130100210" class="cl">
-            <wg nodeId="540010130100060" class="cl">
+            <wg nodeId="540010130100060" class="cl" head="true">
                <w morphId="54001013010" class="verb" head="true" lemma="ἐλεάω" person="first"
                   number="singular"
                   tense="aorist"
@@ -854,14 +859,14 @@
                <wg nodeId="540010140030050" class="np" role="s">
                   <w morphId="54001014003" class="det" lemma="ὁ" case="nominative" gender="feminine"
                      number="singular">ἡ</w>
-                  <wg nodeId="540010140040040" class="np">
+                  <wg nodeId="540010140040040" class="np" head="true">
                      <w morphId="54001014004" class="noun" head="true" lemma="χάρις" case="nominative"
                         gender="feminine"
                         number="singular">χάρις</w>
                      <wg nodeId="540010140050030" class="np">
                         <w morphId="54001014005" class="det" lemma="ὁ" case="genitive" gender="masculine"
                            number="singular">τοῦ</w>
-                        <wg nodeId="540010140060020" class="np">
+                        <wg nodeId="540010140060020" class="np" head="true">
                            <w morphId="54001014006" class="noun" head="true" lemma="κύριος" case="genitive"
                               gender="masculine"
                               number="singular">κυρίου</w>
@@ -872,8 +877,8 @@
                </wg>
                <wg nodeId="540010140080080" class="pp" role="adv">
                   <w morphId="54001014008" class="prep" lemma="μετά">μετὰ</w>
-                  <wg nodeId="540010140090070" class="np">
-                     <wg nodeId="540010140090030" class="np">
+                  <wg nodeId="540010140090070" class="np" head="true">
+                     <wg nodeId="540010140090030" class="np" head="true">
                         <w morphId="54001014009" class="noun" head="true" lemma="πίστις" case="genitive"
                            gender="feminine"
                            number="singular">πίστεως</w>
@@ -888,7 +893,7 @@
                            number="singular">τῆς</w>
                         <wg nodeId="540010140130030" class="pp">
                            <w morphId="54001014013" class="prep" lemma="ἐν">ἐν</w>
-                           <wg nodeId="540010140140020" class="np">
+                           <wg nodeId="540010140140020" class="np" head="true">
                               <w morphId="54001014014" class="noun" head="true" lemma="χριστός" case="dative"
                                  gender="masculine"
                                  number="singular">Χριστῷ</w>
@@ -908,7 +913,7 @@
    <sentence>
       <cite>1Tm1:15:1-1:15:20</cite>
       <wg nodeId="540010150020200" class="cl" role="s">
-         <wg nodeId="540010150020070" class="cl">
+         <wg nodeId="540010150020070" class="cl" head="true">
             <wg nodeId="540010150020020" class="np" role="s">
                <w morphId="54001015002" class="det" lemma="ὁ" case="nominative"
                   gender="masculine"
@@ -919,7 +924,7 @@
                   gender="masculine"
                   number="singular">λόγος</w>
             </wg>
-            <wg nodeId="540010150010050" class="adjp" role="p">
+            <wg nodeId="540010150010050" class="adjp" role="p" head="true">
                <w morphId="54001015001" class="adj" head="true" lemma="πιστός" case="nominative"
                   gender="masculine"
                   number="singular">πιστὸς</w>
@@ -942,7 +947,7 @@
          <wg nodeId="540010150080130" class="cl">
             <w morphId="54001015008" class="adv" lemma="ὅτι">ὅτι</w>
             <wg nodeId="540010150090120" class="cl">
-               <wg nodeId="540010150090080" class="cl">
+               <wg nodeId="540010150090080" class="cl" head="true">
                   <wg nodeId="540010150090020" class="np" role="s">
                      <w morphId="54001015009" class="noun" head="true" lemma="χριστός"
                         case="nominative"
@@ -960,7 +965,7 @@
                      mood="indicative">ἦλθεν</w>
                   <wg nodeId="540010150120030" class="pp" role="adv">
                      <w morphId="54001015012" class="prep" lemma="εἰς">εἰς</w>
-                     <wg nodeId="540010150130020" class="np">
+                     <wg nodeId="540010150130020" class="np" head="true">
                         <w morphId="54001015013" class="det" lemma="ὁ" case="accusative"
                            gender="masculine"
                            number="singular">τὸν</w>
@@ -981,7 +986,7 @@
                   </wg>
                </wg>
                <wg nodeId="540010150170040" class="cl">
-                  <wg nodeId="540010150170020" class="np" role="p">
+                  <wg nodeId="540010150170020" class="np" role="p" head="true">
                      <w morphId="54001015017" class="pron" lemma="ὅς" case="genitive"
                         gender="masculine"
                         number="plural">ὧν</w>
@@ -1007,7 +1012,7 @@
       <wg nodeId="540010160010240" class="cl" role="s">
          <w morphId="54001016001" class="conj" lemma="ἀλλά">ἀλλὰ</w>
          <wg nodeId="540010160020230" class="cl">
-            <wg nodeId="540010160020030" class="cl">
+            <wg nodeId="540010160020030" class="cl" head="true">
                <wg nodeId="540010160020020" class="pp" role="adv">
                   <w morphId="54001016002" class="prep" lemma="διά">διὰ</w>
                   <w morphId="54001016003" class="pron" head="true" lemma="οὗτος" case="accusative"
@@ -1027,7 +1032,7 @@
                <wg nodeId="540010160060190" class="cl">
                   <wg nodeId="540010160060030" class="pp" role="adv">
                      <w morphId="54001016006" class="prep" lemma="ἐν">ἐν</w>
-                     <wg nodeId="540010160070020" class="np">
+                     <wg nodeId="540010160070020" class="np" head="true">
                         <w morphId="54001016007" class="pron" head="true" lemma="ἐγώ" case="dative"
                            number="singular">ἐμοὶ</w>
                         <w morphId="54001016008" class="adj" lemma="πρῶτος" case="dative"
@@ -1053,7 +1058,7 @@
                   <wg nodeId="540010160120030" class="np" role="o">
                      <w morphId="54001016012" class="det" lemma="ὁ" case="accusative" gender="feminine"
                         number="singular">τὴν</w>
-                     <wg nodeId="540010160130020" class="np">
+                     <wg nodeId="540010160130020" class="np" head="true">
                         <w morphId="54001016013" class="adj" lemma="ἅπας" case="accusative"
                            gender="feminine"
                            number="singular">ἅπασαν</w>
@@ -1066,7 +1071,7 @@
                   </wg>
                   <wg nodeId="540010160150100" class="pp" role="adv">
                      <w morphId="54001016015" class="prep" lemma="πρός">πρὸς</w>
-                     <wg nodeId="540010160160090" class="np">
+                     <wg nodeId="540010160160090" class="np" head="true">
                         <w morphId="54001016016" class="noun" head="true" lemma="ὑποτύπωσις"
                            case="accusative"
                            gender="feminine"
@@ -1074,7 +1079,7 @@
                         <wg nodeId="540010160170080" class="np">
                            <w morphId="54001016017" class="det" lemma="ὁ" case="genitive" gender="masculine"
                               number="plural">τῶν</w>
-                           <wg nodeId="540010160180070" class="cl">
+                           <wg nodeId="540010160180070" class="cl" head="true">
                               <w morphId="54001016018" class="verb" role="v" head="true" lemma="μέλλω"
                                  tense="present"
                                  voice="active"
@@ -1095,7 +1100,7 @@
                                  </wg>
                                  <wg nodeId="540010160220030" class="pp" role="adv">
                                     <w morphId="54001016022" class="prep" lemma="εἰς">εἰς</w>
-                                    <wg nodeId="540010160230020" class="np">
+                                    <wg nodeId="540010160230020" class="np" head="true">
                                        <w morphId="54001016023" class="noun" head="true" lemma="ζωή" case="accusative"
                                           gender="feminine"
                                           number="singular">ζωὴν</w>
@@ -1120,12 +1125,12 @@
       <wg nodeId="540010170020180" class="cl" role="s">
          <w morphId="54001017002" class="conj" lemma="δέ" discontinuous="true">δὲ</w>
          <wg nodeId="540010170010170" class="cl">
-            <wg nodeId="540010170010160" class="cl">
+            <wg nodeId="540010170010160" class="cl" head="true">
                <wg nodeId="540010170010080" class="np" role="io">
-                  <wg nodeId="540010170010040" class="np">
+                  <wg nodeId="540010170010040" class="np" head="true">
                      <w morphId="54001017001" class="det" lemma="ὁ" case="dative" gender="masculine"
                         number="singular">τῷ</w>
-                     <wg nodeId="540010170030030" class="np">
+                     <wg nodeId="540010170030030" class="np" head="true">
                         <w morphId="54001017003" class="noun" head="true" lemma="βασιλεύς" case="dative"
                            gender="masculine"
                            number="singular">βασιλεῖ</w>
@@ -1159,7 +1164,7 @@
                      <pu>,</pu>
                   </wg>
                </wg>
-               <wg nodeId="540010170100030" class="np" role="s">
+               <wg nodeId="540010170100030" class="np" role="s" head="true">
                   <w morphId="54001017010" class="noun" head="true" lemma="τιμή" case="nominative"
                      gender="feminine"
                      number="singular">τιμὴ</w>
@@ -1170,11 +1175,11 @@
                </wg>
                <wg nodeId="540010170130050" class="pp" role="adv">
                   <w morphId="54001017013" class="prep" lemma="εἰς">εἰς</w>
-                  <wg nodeId="540010170140040" class="np">
+                  <wg nodeId="540010170140040" class="np" head="true">
                      <w morphId="54001017014" class="det" lemma="ὁ" case="accusative"
                         gender="masculine"
                         number="plural">τοὺς</w>
-                     <wg nodeId="540010170150030" class="np">
+                     <wg nodeId="540010170150030" class="np" head="true">
                         <w morphId="54001017015" class="noun" head="true" lemma="αἰών" case="accusative"
                            gender="masculine"
                            number="plural">αἰῶνας</w>
@@ -1208,13 +1213,13 @@
                number="singular">Τιμόθεε</w>
             <pu>,</pu>
          </wg>
-         <wg nodeId="540010180010430" class="cl">
-            <wg nodeId="540010180010110" class="cl">
+         <wg nodeId="540010180010430" class="cl" head="true">
+            <wg nodeId="540010180010110" class="cl" head="true">
                <wg nodeId="540010180010030" class="np" role="o">
                   <w morphId="54001018001" class="pron" lemma="οὗτος" case="accusative"
                      gender="feminine"
                      number="singular">Ταύτην</w>
-                  <wg nodeId="540010180020020" class="np">
+                  <wg nodeId="540010180020020" class="np" head="true">
                      <w morphId="54001018002" class="det" lemma="ὁ" case="accusative" gender="feminine"
                         number="singular">τὴν</w>
                      <w morphId="54001018003" class="noun" head="true" lemma="παραγγελία"
@@ -1234,10 +1239,10 @@
                <pu>,</pu>
                <wg nodeId="540010180080060" class="pp" role="adv">
                   <w morphId="54001018008" class="prep" lemma="κατά">κατὰ</w>
-                  <wg nodeId="540010180090050" class="np">
+                  <wg nodeId="540010180090050" class="np" head="true">
                      <w morphId="54001018009" class="det" lemma="ὁ" case="accusative" gender="feminine"
                         number="plural">τὰς</w>
-                     <wg nodeId="540010180100040" class="np">
+                     <wg nodeId="540010180100040" class="np" head="true">
                         <wg nodeId="540010180100030" class="cl">
                            <w morphId="54001018010" class="verb" role="v" head="true" lemma="προάγω"
                               tense="present"
@@ -1279,7 +1284,7 @@
                   <wg nodeId="540010180180030" class="np" role="o">
                      <w morphId="54001018018" class="det" lemma="ὁ" case="accusative" gender="feminine"
                         number="singular">τὴν</w>
-                     <wg nodeId="540010180190020" class="np">
+                     <wg nodeId="540010180190020" class="np" head="true">
                         <w morphId="54001018019" class="adj" lemma="καλός" case="accusative"
                            gender="feminine"
                            number="singular">καλὴν</w>
@@ -1304,7 +1309,7 @@
                            number="singular">πίστιν</w>
                         <w morphId="54001019003" class="conj" lemma="καί">καὶ</w>
                         <wg nodeId="540010190040220" class="np">
-                           <wg nodeId="540010190040020" class="np">
+                           <wg nodeId="540010190040020" class="np" head="true">
                               <w morphId="54001019004" class="adj" lemma="ἀγαθός" case="accusative"
                                  gender="feminine"
                                  number="singular">ἀγαθὴν</w>
@@ -1315,7 +1320,7 @@
                               <pu>,</pu>
                            </wg>
                            <wg nodeId="540010190060200" class="cl">
-                              <wg nodeId="540010190060070" class="cl">
+                              <wg nodeId="540010190060070" class="cl" head="true">
                                  <wg nodeId="540010190060020" class="cl" role="adv">
                                     <w morphId="54001019006" class="pron" role="o" lemma="ὅς" case="accusative"
                                        gender="feminine"
@@ -1334,7 +1339,7 @@
                                     number="plural">τινες</w>
                                  <wg nodeId="540010190090030" class="pp" role="adv">
                                     <w morphId="54001019009" class="prep" lemma="περί">περὶ</w>
-                                    <wg nodeId="540010190100020" class="np">
+                                    <wg nodeId="540010190100020" class="np" head="true">
                                        <w morphId="54001019010" class="det" lemma="ὁ" case="accusative" gender="feminine"
                                           number="singular">τὴν</w>
                                        <w morphId="54001019011" class="noun" head="true" lemma="πίστις" case="accusative"
@@ -1361,7 +1366,7 @@
                                     voice="active"
                                     mood="indicative">ἐστιν</w>
                                  <wg nodeId="540010200030110" class="np" role="s">
-                                    <wg nodeId="540010200030030" class="np">
+                                    <wg nodeId="540010200030030" class="np" head="true">
                                        <w morphId="54001020003" class="noun" head="true" lemma="ὑμέναιος"
                                           case="nominative"
                                           gender="masculine"
@@ -1373,7 +1378,7 @@
                                        <pu>,</pu>
                                     </wg>
                                     <wg nodeId="540010200060080" class="cl">
-                                       <wg nodeId="540010200060040" class="cl">
+                                       <wg nodeId="540010200060040" class="cl" head="true">
                                           <w morphId="54001020006" class="pron" role="o" lemma="ὅς" case="accusative"
                                              gender="masculine"
                                              number="plural">οὓς</w>
@@ -1434,7 +1439,7 @@
                voice="active"
                mood="indicative">Παρακαλῶ</w>
             <wg nodeId="540020010030290" class="cl" role="o">
-               <wg nodeId="540020010030180" class="cl">
+               <wg nodeId="540020010030180" class="cl" head="true">
                   <wg nodeId="540020010030020" class="np" role="adv">
                      <w morphId="54002001003" class="adj" head="true" lemma="πρῶτος" case="accusative"
                         gender="neuter"
@@ -1465,9 +1470,9 @@
                      <pu>,</pu>
                   </wg>
                   <wg nodeId="540020010100110" class="pp" role="adv">
-                     <wg nodeId="540020010100030" class="pp">
+                     <wg nodeId="540020010100030" class="pp" head="true">
                         <w morphId="54002001010" class="prep" lemma="ὑπέρ">ὑπὲρ</w>
-                        <wg nodeId="540020010110020" class="np">
+                        <wg nodeId="540020010110020" class="np" head="true">
                            <w morphId="54002001011" class="adj" lemma="πᾶς" case="genitive"
                               gender="masculine"
                               number="plural">πάντων</w>
@@ -1479,7 +1484,7 @@
                      </wg>
                      <wg nodeId="540020020010080" class="pp">
                         <w morphId="54002002001" class="prep" lemma="ὑπέρ">ὑπὲρ</w>
-                        <wg nodeId="540020020020070" class="np">
+                        <wg nodeId="540020020020070" class="np" head="true">
                            <w morphId="54002002002" class="noun" head="true" lemma="βασιλεύς" case="genitive"
                               gender="masculine"
                               number="plural">βασιλέων</w>
@@ -1488,11 +1493,11 @@
                               <w morphId="54002002004" class="adj" lemma="πᾶς" case="genitive"
                                  gender="masculine"
                                  number="plural">πάντων</w>
-                              <wg nodeId="540020020050040" class="np">
+                              <wg nodeId="540020020050040" class="np" head="true">
                                  <w morphId="54002002005" class="det" lemma="ὁ" case="genitive" gender="masculine"
                                     number="plural">τῶν</w>
-                                 <wg nodeId="540020020060030" class="cl">
-                                    <wg nodeId="540020020060020" class="pp" role="p">
+                                 <wg nodeId="540020020060030" class="cl" head="true">
+                                    <wg nodeId="540020020060020" class="pp" role="p" head="true">
                                        <w morphId="54002002006" class="prep" lemma="ἐν">ἐν</w>
                                        <w morphId="54002002007" class="noun" head="true" lemma="ὑπεροχή" case="dative"
                                           gender="feminine"
@@ -1537,10 +1542,10 @@
                         mood="subjunctive">διάγωμεν</w>
                      <wg nodeId="540020020150050" class="pp" role="adv">
                         <w morphId="54002002015" class="prep" lemma="ἐν">ἐν</w>
-                        <wg nodeId="540020020160040" class="np">
+                        <wg nodeId="540020020160040" class="np" head="true">
                            <w morphId="54002002016" class="adj" lemma="πᾶς" case="dative" gender="feminine"
                               number="singular">πάσῃ</w>
-                           <wg nodeId="540020020170030" class="np">
+                           <wg nodeId="540020020170030" class="np" head="true">
                               <w morphId="54002002017" class="noun" head="true" lemma="εὐσέβεια" case="dative"
                                  gender="feminine"
                                  number="singular">εὐσεβείᾳ</w>
@@ -1564,7 +1569,7 @@
          <w morphId="54002003001" class="pron" role="s" lemma="οὗτος" case="nominative"
             gender="neuter"
             number="singular">τοῦτο</w>
-         <wg nodeId="540020030020030" class="adjp" role="p">
+         <wg nodeId="540020030020030" class="adjp" role="p" head="true">
             <w morphId="54002003002" class="adj" head="true" lemma="καλός" case="nominative"
                gender="neuter"
                number="singular">καλὸν</w>
@@ -1575,12 +1580,12 @@
          </wg>
          <wg nodeId="540020030050150" class="pp" role="adv">
             <w morphId="54002003005" class="prep" lemma="ἐνώπιον">ἐνώπιον</w>
-            <wg nodeId="540020030060140" class="np">
-               <wg nodeId="540020030060040" class="np">
+            <wg nodeId="540020030060140" class="np" head="true">
+               <wg nodeId="540020030060040" class="np" head="true">
                   <w morphId="54002003006" class="det" lemma="ὁ" case="genitive" gender="masculine"
                      number="singular">τοῦ</w>
-                  <wg nodeId="540020030070030" class="np">
-                     <wg nodeId="540020030070020" class="np">
+                  <wg nodeId="540020030070030" class="np" head="true">
+                     <wg nodeId="540020030070020" class="np" head="true">
                         <w morphId="54002003007" class="noun" head="true" lemma="σωτήρ" case="genitive"
                            gender="masculine"
                            number="singular">σωτῆρος</w>
@@ -1613,7 +1618,7 @@
                            gender="masculine"
                            number="plural">ἀνθρώπους</w>
                      </wg>
-                     <wg nodeId="540020040050060" class="cl" role="v">
+                     <wg nodeId="540020040050060" class="cl" role="v" head="true">
                         <w morphId="54002004005" class="verb" head="true" lemma="σῴζω" tense="aorist"
                            voice="passive"
                            mood="infinitive">σωθῆναι</w>
@@ -1621,7 +1626,7 @@
                         <wg nodeId="540020040070040" class="cl">
                            <wg nodeId="540020040070030" class="pp" role="adv">
                               <w morphId="54002004007" class="prep" lemma="εἰς">εἰς</w>
-                              <wg nodeId="540020040080020" class="np">
+                              <wg nodeId="540020040080020" class="np" head="true">
                                  <w morphId="54002004008" class="noun" head="true" lemma="ἐπίγνωσις"
                                     case="accusative"
                                     gender="feminine"
@@ -1649,7 +1654,7 @@
       <wg nodeId="540020050020180" class="cl" role="s">
          <w morphId="54002005002" class="conj" lemma="γάρ" discontinuous="true">γὰρ</w>
          <wg nodeId="540020050010170" class="cl">
-            <wg nodeId="540020050010020" class="cl">
+            <wg nodeId="540020050010020" class="cl" head="true">
                <w morphId="54002005001" class="adj" role="p" head="true" lemma="εἷς"
                   case="nominative"
                   gender="masculine"
@@ -1666,8 +1671,8 @@
                   number="singular">εἷς</w>
                <wg nodeId="540020050050140" class="np" role="s">
                   <w morphId="54002005005" class="adv" lemma="καί">καὶ</w>
-                  <wg nodeId="540020050060130" class="np">
-                     <wg nodeId="540020050060040" class="np">
+                  <wg nodeId="540020050060130" class="np" head="true">
+                     <wg nodeId="540020050060040" class="np" head="true">
                         <w morphId="54002005006" class="noun" head="true" lemma="μεσίτης"
                            case="nominative"
                            gender="masculine"
@@ -1683,7 +1688,7 @@
                         </wg>
                      </wg>
                      <wg nodeId="540020050100090" class="np">
-                        <wg nodeId="540020050100030" class="np">
+                        <wg nodeId="540020050100030" class="np" head="true">
                            <w morphId="54002005010" class="noun" head="true" lemma="ἄνθρωπος"
                               case="nominative"
                               gender="masculine"
@@ -1703,7 +1708,7 @@
                            <w morphId="54002006001" class="det" lemma="ὁ" case="nominative"
                               gender="masculine"
                               number="singular">ὁ</w>
-                           <wg nodeId="540020060020050" class="cl">
+                           <wg nodeId="540020060020050" class="cl" head="true">
                               <w morphId="54002006002" class="verb" role="v" head="true" lemma="δίδωμι"
                                  tense="aorist"
                                  voice="active"
@@ -1737,8 +1742,8 @@
    <sentence>
       <cite>1Tm2:6:7-2:7:17</cite>
       <wg nodeId="540020060070210" class="cl" role="s">
-         <wg nodeId="540020060070040" class="cl">
-            <wg nodeId="540020060070020" class="np" role="s">
+         <wg nodeId="540020060070040" class="cl" head="true">
+            <wg nodeId="540020060070020" class="np" role="s" head="true">
                <w morphId="54002006007" class="det" lemma="ὁ" case="nominative" gender="neuter"
                   number="singular">τὸ</w>
                <w morphId="54002006008" class="noun" head="true" lemma="μαρτύριον"
@@ -1746,7 +1751,7 @@
                   gender="neuter"
                   number="singular">μαρτύριον</w>
             </wg>
-            <wg nodeId="540020060090020" class="np" role="p">
+            <wg nodeId="540020060090020" class="np" role="adv">
                <w morphId="54002006009" class="noun" head="true" lemma="καιρός" case="dative"
                   gender="masculine"
                   number="plural">καιροῖς</w>
@@ -1771,8 +1776,8 @@
                   mood="indicative">ἐτέθην</w>
                <w morphId="54002007004" class="pron" role="s" lemma="ἐγώ" case="nominative"
                   number="singular">ἐγὼ</w>
-               <wg nodeId="540020070050090" class="np" role="p">
-                  <wg nodeId="540020070050030" class="np">
+               <wg nodeId="540020070050090" class="np" role="p" head="true">
+                  <wg nodeId="540020070050030" class="np" head="true">
                      <w morphId="54002007005" class="noun" head="true" lemma="κῆρυξ" case="nominative"
                         gender="masculine"
                         number="singular">κῆρυξ</w>
@@ -1780,10 +1785,9 @@
                      <w morphId="54002007007" class="noun" lemma="ἀπόστολος" case="nominative"
                         gender="masculine"
                         number="singular">ἀπόστολος</w>
-                     <pu>—</pu>
                   </wg>
                   <wg nodeId="540020070120060" class="np">
-                     <wg nodeId="540020070120020" class="np">
+                     <wg nodeId="540020070120020" class="np" head="true">
                         <w morphId="54002007012" class="noun" head="true" lemma="διδάσκαλος"
                            case="nominative"
                            gender="masculine"
@@ -1794,7 +1798,7 @@
                      </wg>
                      <wg nodeId="540020070140040" class="pp">
                         <w morphId="54002007014" class="prep" lemma="ἐν">ἐν</w>
-                        <wg nodeId="540020070150030" class="np">
+                        <wg nodeId="540020070150030" class="np" head="true">
                            <w morphId="54002007015" class="noun" head="true" lemma="πίστις" case="dative"
                               gender="feminine"
                               number="singular">πίστει</w>
@@ -1809,8 +1813,8 @@
                   </wg>
                </wg>
             </wg>
-            <wg nodeId="540020070080040" class="cl">
-               <wg nodeId="540020070080020" class="cl">
+            <wg nodeId="540020070080040" class="cl" head="true">
+               <wg nodeId="540020070080020" class="cl" head="true">
                   <w morphId="54002007008" class="noun" role="o" lemma="ἀλήθεια" case="accusative"
                      gender="feminine"
                      number="singular">ἀλήθειαν</w>
@@ -1830,7 +1834,6 @@
                      tense="present"
                      voice="middle"
                      mood="indicative">ψεύδομαι</w>
-                  <pu>—</pu>
                </wg>
             </wg>
          </wg>
@@ -1848,7 +1851,7 @@
                voice="middle"
                mood="indicative">Βούλομαι</w>
             <wg nodeId="540020080030440" class="cl" role="o">
-               <wg nodeId="540020080030130" class="cl">
+               <wg nodeId="540020080030130" class="cl" head="true">
                   <w morphId="54002008003" class="verb" role="v" head="true" lemma="προσεύχομαι"
                      tense="present"
                      voice="middle"
@@ -1863,7 +1866,7 @@
                   </wg>
                   <wg nodeId="540020080060030" class="pp" role="adv">
                      <w morphId="54002008006" class="prep" lemma="ἐν">ἐν</w>
-                     <wg nodeId="540020080070020" class="np">
+                     <wg nodeId="540020080070020" class="np" head="true">
                         <w morphId="54002008007" class="adj" lemma="πᾶς" case="dative" gender="masculine"
                            number="singular">παντὶ</w>
                         <w morphId="54002008008" class="noun" head="true" lemma="τόπος" case="dative"
@@ -1891,7 +1894,7 @@
                   </wg>
                   <wg nodeId="540020080120040" class="pp" role="adv">
                      <w morphId="54002008012" class="prep" lemma="χωρίς">χωρὶς</w>
-                     <wg nodeId="540020080130030" class="np">
+                     <wg nodeId="540020080130030" class="np" head="true">
                         <w morphId="54002008013" class="noun" head="true" lemma="ὀργή" case="genitive"
                            gender="feminine"
                            number="singular">ὀργῆς</w>
@@ -1905,7 +1908,7 @@
                </wg>
                <wg nodeId="540020090010310" class="cl">
                   <w morphId="54002009001" class="adv" lemma="ὡσαύτως">ὡσαύτως</w>
-                  <wg nodeId="540020090020300" class="cl">
+                  <wg nodeId="540020090020300" class="cl" head="true">
                      <wg nodeId="540020090020020" class="np" role="s">
                         <w morphId="54002009002" class="adv" lemma="καί">καὶ</w>
                         <w morphId="54002009003" class="noun" head="true" lemma="γυνή" case="accusative"
@@ -1914,7 +1917,7 @@
                      </wg>
                      <wg nodeId="540020090040030" class="pp" role="adv">
                         <w morphId="54002009004" class="prep" lemma="ἐν">ἐν</w>
-                        <wg nodeId="540020090050020" class="np">
+                        <wg nodeId="540020090050020" class="np" head="true">
                            <w morphId="54002009005" class="noun" head="true" lemma="καταστολή" case="dative"
                               gender="feminine"
                               number="singular">καταστολῇ</w>
@@ -1925,7 +1928,7 @@
                      </wg>
                      <wg nodeId="540020090070040" class="pp" role="adv">
                         <w morphId="54002009007" class="prep" lemma="μετά">μετὰ</w>
-                        <wg nodeId="540020090080030" class="np">
+                        <wg nodeId="540020090080030" class="np" head="true">
                            <w morphId="54002009008" class="noun" head="true" lemma="αἰδώς" case="genitive"
                               gender="feminine"
                               number="singular">αἰδοῦς</w>
@@ -1947,18 +1950,24 @@
                         <w morphId="54002009013" class="adv" lemma="μή">μὴ</w>
                         <wg nodeId="540020090140090" class="pp">
                            <w morphId="54002009014" class="prep" lemma="ἐν">ἐν</w>
-                           <wg nodeId="540020090150080" class="np">
-                              <w morphId="54002009015" class="noun" head="true" lemma="πλέγμα" case="dative"
-                                 gender="neuter"
-                                 number="plural">πλέγμασιν</w>
+                           <wg nodeId="540020090150080" class="np" head="true">
+                              <wg nodeId="540020090150011" class="np" head="true">
+                                 <w morphId="54002009015" class="noun" head="true" lemma="πλέγμα" case="dative"
+                                    gender="neuter"
+                                    number="plural">πλέγμασιν</w>
+                              </wg>
                               <w morphId="54002009016" class="conj" lemma="καί">καὶ</w>
-                              <w morphId="54002009017" class="noun" lemma="χρυσίον" case="dative"
-                                 gender="neuter"
-                                 number="singular">χρυσίῳ</w>
+                              <wg nodeId="540020090170011" class="np">
+                                 <w morphId="54002009017" class="noun" lemma="χρυσίον" case="dative"
+                                    gender="neuter"
+                                    number="singular">χρυσίῳ</w>
+                              </wg>
                               <w morphId="54002009018" class="conj" lemma="ἤ">ἢ</w>
-                              <w morphId="54002009019" class="noun" lemma="μαργαρίτης" case="dative"
-                                 gender="masculine"
-                                 number="plural">μαργαρίταις</w>
+                              <wg nodeId="540020090190011" class="np">
+                                 <w morphId="54002009019" class="noun" lemma="μαργαρίτης" case="dative"
+                                    gender="masculine"
+                                    number="plural">μαργαρίταις</w>
+                              </wg>
                               <w morphId="54002009020" class="conj" lemma="ἤ">ἢ</w>
                               <wg nodeId="540020090210020" class="np">
                                  <w morphId="54002009021" class="noun" head="true" lemma="ἱματισμός" case="dative"
@@ -1972,9 +1981,9 @@
                            </wg>
                         </wg>
                         <w morphId="54002010001" class="conj" lemma="ἀλλά">ἀλλ’</w>
-                        <wg nodeId="540020100070080" class="pp">
+                        <wg nodeId="540020100070080" class="pp" head="true">
                            <w morphId="54002010007" class="prep" lemma="διά" discontinuous="true">δι’</w>
-                           <wg nodeId="540020100020070" class="np">
+                           <wg nodeId="540020100020070" class="np" head="true">
                               <wg nodeId="540020100020050" class="cl">
                                  <w morphId="54002010002" class="pron" role="s" lemma="ὅς" case="nominative"
                                     gender="neuter"
@@ -2004,7 +2013,7 @@
                                     </wg>
                                  </wg>
                               </wg>
-                              <wg nodeId="540020100080020" class="np">
+                              <wg nodeId="540020100080020" class="np" head="true">
                                  <w morphId="54002010008" class="noun" head="true" lemma="ἔργον" case="genitive"
                                     gender="neuter"
                                     number="plural">ἔργων</w>
@@ -2042,7 +2051,7 @@
             mood="imperative">μανθανέτω</w>
          <wg nodeId="540020110050030" class="pp" role="adv">
             <w morphId="54002011005" class="prep" lemma="ἐν">ἐν</w>
-            <wg nodeId="540020110060020" class="np">
+            <wg nodeId="540020110060020" class="np" head="true">
                <w morphId="54002011006" class="adj" lemma="πᾶς" case="dative" gender="feminine"
                   number="singular">πάσῃ</w>
                <w morphId="54002011007" class="noun" head="true" lemma="ὑποταγή" case="dative"
@@ -2069,7 +2078,7 @@
             <wg nodeId="540020120040100" class="cl" role="o">
                <w morphId="54002012004" class="adv" lemma="οὐ" discontinuous="true">οὐκ</w>
                <wg nodeId="540020120010050" class="cl">
-                  <wg nodeId="540020120010020" class="cl">
+                  <wg nodeId="540020120010020" class="cl" head="true">
                      <w morphId="54002012001" class="verb" role="v" head="true" lemma="διδάσκω"
                         tense="present"
                         voice="active"
@@ -2091,11 +2100,11 @@
                   </wg>
                </wg>
                <w morphId="54002012009" class="conj" lemma="ἀλλά">ἀλλ’</w>
-               <wg nodeId="540020120100030" class="cl">
+               <wg nodeId="540020120100030" class="cl" head="true">
                   <w morphId="54002012010" class="verb" role="vc" lemma="εἰμί" tense="present"
                      voice="active"
                      mood="infinitive">εἶναι</w>
-                  <wg nodeId="540020120110020" class="pp" role="p">
+                  <wg nodeId="540020120110020" class="pp" role="p" head="true">
                      <w morphId="54002012011" class="prep" lemma="ἐν">ἐν</w>
                      <w morphId="54002012012" class="noun" head="true" lemma="ἡσυχία" case="dative"
                         gender="feminine"
@@ -2112,8 +2121,8 @@
       <wg nodeId="540020130020170" class="cl" role="s">
          <w morphId="54002013002" class="conj" lemma="γάρ" discontinuous="true">γὰρ</w>
          <wg nodeId="540020130010160" class="cl">
-            <wg nodeId="540020130010050" class="cl">
-               <wg nodeId="540020130010030" class="cl">
+            <wg nodeId="540020130010050" class="cl" head="true">
+               <wg nodeId="540020130010030" class="cl" head="true">
                   <w morphId="54002013001" class="noun" role="s" lemma="ἀδάμ" case="nominative"
                      gender="masculine"
                      number="singular">Ἀδὰμ</w>
@@ -2139,7 +2148,7 @@
             </wg>
             <w morphId="54002014001" class="conj" lemma="καί">καὶ</w>
             <wg nodeId="540020140020100" class="cl">
-               <wg nodeId="540020140020030" class="cl">
+               <wg nodeId="540020140020030" class="cl" head="true">
                   <w morphId="54002014002" class="noun" role="s" lemma="ἀδάμ" case="nominative"
                      gender="masculine"
                      number="singular">Ἀδὰμ</w>
@@ -2167,13 +2176,14 @@
                      case="nominative"
                      gender="feminine"
                      number="singular">ἐξαπατηθεῖσα</w>
-                  <wg nodeId="540020140090020" class="pp" role="p">
+                  <wg nodeId="540020140090020" class="pp" role="adv">
                      <w morphId="54002014009" class="prep" lemma="ἐν">ἐν</w>
                      <w morphId="54002014010" class="noun" head="true" lemma="παράβασις" case="dative"
                         gender="feminine"
                         number="singular">παραβάσει</w>
                   </wg>
-                  <w morphId="54002014011" class="verb" role="vc" lemma="γίνομαι" person="third"
+                  <w morphId="54002014011" class="verb" role="v" head="true" lemma="γίνομαι"
+                     person="third"
                      number="singular"
                      tense="perfect"
                      voice="active"
@@ -2189,7 +2199,7 @@
       <wg nodeId="540020150020150" class="cl" role="s">
          <w morphId="54002015002" class="conj" lemma="δέ" discontinuous="true">δὲ</w>
          <wg nodeId="540020150010140" class="cl">
-            <wg nodeId="540020150010040" class="cl">
+            <wg nodeId="540020150010040" class="cl" head="true">
                <w morphId="54002015001" class="verb" role="v" head="true" lemma="σῴζω"
                   person="third"
                   number="singular"
@@ -2198,7 +2208,7 @@
                   mood="indicative">σωθήσεται</w>
                <wg nodeId="540020150030030" class="pp" role="adv">
                   <w morphId="54002015003" class="prep" lemma="διά">διὰ</w>
-                  <wg nodeId="540020150040020" class="np">
+                  <wg nodeId="540020150040020" class="np" head="true">
                      <w morphId="54002015004" class="det" lemma="ὁ" case="genitive" gender="feminine"
                         number="singular">τῆς</w>
                      <w morphId="54002015005" class="noun" head="true" lemma="τεκνογονία"
@@ -2220,18 +2230,24 @@
                      mood="subjunctive">μείνωσιν</w>
                   <wg nodeId="540020150080060" class="pp" role="adv">
                      <w morphId="54002015008" class="prep" lemma="ἐν">ἐν</w>
-                     <wg nodeId="540020150090050" class="np">
-                        <w morphId="54002015009" class="noun" head="true" lemma="πίστις" case="dative"
-                           gender="feminine"
-                           number="singular">πίστει</w>
+                     <wg nodeId="540020150090050" class="np" head="true">
+                        <wg nodeId="540020150090011" class="np" head="true">
+                           <w morphId="54002015009" class="noun" head="true" lemma="πίστις" case="dative"
+                              gender="feminine"
+                              number="singular">πίστει</w>
+                        </wg>
                         <w morphId="54002015010" class="conj" lemma="καί">καὶ</w>
-                        <w morphId="54002015011" class="noun" lemma="ἀγάπη" case="dative"
-                           gender="feminine"
-                           number="singular">ἀγάπῃ</w>
+                        <wg nodeId="540020150110011" class="np">
+                           <w morphId="54002015011" class="noun" lemma="ἀγάπη" case="dative"
+                              gender="feminine"
+                              number="singular">ἀγάπῃ</w>
+                        </wg>
                         <w morphId="54002015012" class="conj" lemma="καί">καὶ</w>
-                        <w morphId="54002015013" class="noun" lemma="ἁγιασμός" case="dative"
-                           gender="masculine"
-                           number="singular">ἁγιασμῷ</w>
+                        <wg nodeId="540020150130011" class="np">
+                           <w morphId="54002015013" class="noun" lemma="ἁγιασμός" case="dative"
+                              gender="masculine"
+                              number="singular">ἁγιασμῷ</w>
+                        </wg>
                      </wg>
                   </wg>
                   <wg nodeId="540020150140020" class="pp" role="adv">
@@ -2286,7 +2302,7 @@
                <pu>,</pu>
             </wg>
          </wg>
-         <wg nodeId="540030010080030" class="cl">
+         <wg nodeId="540030010080030" class="cl" head="true">
             <wg nodeId="540030010080020" class="np" role="o">
                <w morphId="54003001008" class="adj" lemma="καλός" case="genitive" gender="neuter"
                   number="singular">καλοῦ</w>
@@ -2330,13 +2346,13 @@
                   voice="active"
                   mood="infinitive">εἶναι</w>
                <pu>,</pu>
-               <wg nodeId="540030020050170" class="np" role="p">
+               <wg nodeId="540030020050170" class="np" role="p" head="true">
                   <w morphId="54003002005" class="adj" head="true" lemma="ἀνεπίλημπτος"
                      case="accusative"
                      gender="masculine"
                      number="singular">ἀνεπίλημπτον</w>
                   <wg nodeId="540030020070160" class="np">
-                     <wg nodeId="540030020070030" class="np">
+                     <wg nodeId="540030020070030" class="np" head="true">
                         <wg nodeId="540030020070020" class="np">
                            <w morphId="54003002007" class="adj" lemma="εἷς" case="genitive" gender="feminine"
                               number="singular">μιᾶς</w>
@@ -2404,11 +2420,11 @@
                   </wg>
                </wg>
                <wg nodeId="540030040010120" class="cl" role="adv">
-                  <wg nodeId="540030040010050" class="cl">
+                  <wg nodeId="540030040010050" class="cl" head="true">
                      <wg nodeId="540030040010030" class="np" role="o">
                         <w morphId="54003004001" class="det" lemma="ὁ" case="genitive" gender="masculine"
                            number="singular">τοῦ</w>
-                        <wg nodeId="540030040020020" class="np">
+                        <wg nodeId="540030040020020" class="np" head="true">
                            <w morphId="54003004002" class="adj" lemma="ἴδιος" case="genitive"
                               gender="masculine"
                               number="singular">ἰδίου</w>
@@ -2446,7 +2462,7 @@
                      </wg>
                      <wg nodeId="540030040100030" class="pp" role="adv">
                         <w morphId="54003004010" class="prep" lemma="μετά">μετὰ</w>
-                        <wg nodeId="540030040110020" class="np">
+                        <wg nodeId="540030040110020" class="np" head="true">
                            <w morphId="54003004011" class="adj" lemma="πᾶς" case="genitive" gender="feminine"
                               number="singular">πάσης</w>
                            <w morphId="54003004012" class="noun" head="true" lemma="σεμνότης" case="genitive"
@@ -2468,7 +2484,6 @@
          <wg nodeId="540030050010120" class="cl">
             <wg nodeId="540030050010080" class="cl">
                <w morphId="54003005001" class="conj" lemma="εἰ">εἰ</w>
-               <pu>ἰ</pu>
                <wg nodeId="540030050030070" class="cl">
                   <w morphId="54003005003" class="pron" role="s" lemma="τις" case="nominative"
                      gender="masculine"
@@ -2477,7 +2492,7 @@
                      <wg nodeId="540030050040030" class="np" role="o">
                         <w morphId="54003005004" class="det" lemma="ὁ" case="genitive" gender="masculine"
                            number="singular">τοῦ</w>
-                        <wg nodeId="540030050050020" class="np">
+                        <wg nodeId="540030050050020" class="np" head="true">
                            <w morphId="54003005005" class="adj" lemma="ἴδιος" case="genitive"
                               gender="masculine"
                               number="singular">ἰδίου</w>
@@ -2501,7 +2516,7 @@
                   <pu>,</pu>
                </wg>
             </wg>
-            <wg nodeId="540030050100040" class="cl">
+            <wg nodeId="540030050100040" class="cl" head="true">
                <w morphId="54003005010" class="adv" role="adv" lemma="πῶς">πῶς</w>
                <wg nodeId="540030050110020" class="np" role="o">
                   <w morphId="54003005011" class="noun" head="true" lemma="ἐκκλησία" case="genitive"
@@ -2517,7 +2532,6 @@
                   tense="future"
                   voice="passive"
                   mood="indicative">ἐπιμελήσεται</w>
-               <pu>;)</pu>
             </wg>
          </wg>
       </wg>
@@ -2525,7 +2539,7 @@
    <sentence>
       <cite>1Tm3:6:1-3:6:10</cite>
       <wg nodeId="540030060010100" class="cl" role="s">
-         <wg nodeId="540030060010020" class="cl">
+         <wg nodeId="540030060010020" class="cl" head="true">
             <w morphId="54003006001" class="adv" role="adv" lemma="μή">μὴ</w>
             <w morphId="54003006002" class="adj" role="p" head="true" lemma="νεόφυτος"
                case="accusative"
@@ -2545,7 +2559,7 @@
                   number="singular">τυφωθεὶς</w>
                <wg nodeId="540030060060040" class="pp" role="adv">
                   <w morphId="54003006006" class="prep" lemma="εἰς">εἰς</w>
-                  <wg nodeId="540030060070030" class="np">
+                  <wg nodeId="540030060070030" class="np" head="true">
                      <w morphId="54003006007" class="noun" head="true" lemma="κρίμα" case="accusative"
                         gender="neuter"
                         number="singular">κρίμα</w>
@@ -2576,7 +2590,7 @@
       <wg nodeId="540030070020180" class="cl" role="s">
          <w morphId="54003007002" class="conj" lemma="δέ" discontinuous="true">δὲ</w>
          <wg nodeId="540030070010170" class="cl">
-            <wg nodeId="540030070010080" class="cl">
+            <wg nodeId="540030070010080" class="cl" head="true">
                <w morphId="54003007001" class="verb" role="v" head="true" lemma="δέω"
                   person="third"
                   number="singular"
@@ -2600,7 +2614,7 @@
                      mood="infinitive">ἔχειν</w>
                   <wg nodeId="540030070070030" class="pp" role="adv">
                      <w morphId="54003007007" class="prep" lemma="ἀπό">ἀπὸ</w>
-                     <wg nodeId="540030070080020" class="np">
+                     <wg nodeId="540030070080020" class="np" head="true">
                         <w morphId="54003007008" class="det" lemma="ὁ" case="genitive" gender="masculine"
                            number="plural">τῶν</w>
                         <w morphId="54003007009" class="adv" head="true" lemma="ἔξωθεν">ἔξωθεν</w>
@@ -2622,7 +2636,7 @@
                      mood="subjunctive">ἐμπέσῃ</w>
                   <wg nodeId="540030070120060" class="pp" role="adv">
                      <w morphId="54003007012" class="prep" lemma="εἰς">εἰς</w>
-                     <wg nodeId="540030070130050" class="np">
+                     <wg nodeId="540030070130050" class="np" head="true">
                         <w morphId="54003007013" class="noun" head="true" lemma="ὀνειδισμός"
                            case="accusative"
                            gender="masculine"
@@ -2653,11 +2667,11 @@
       <wg nodeId="540030080020190" class="cl" role="s">
          <w morphId="54003008002" class="adv" role="adv" lemma="ὡσαύτως"
             discontinuous="true">ὡσαύτως</w>
-         <wg nodeId="540030080010180" class="cl" role="s">
+         <wg nodeId="540030080010180" class="cl" role="s" head="true">
             <w morphId="54003008001" class="noun" role="s" lemma="διάκονος" case="accusative"
                gender="masculine"
                number="plural">Διακόνους</w>
-            <wg nodeId="540030080030170" class="adjp" role="p">
+            <wg nodeId="540030080030170" class="adjp" role="p" head="true">
                <w morphId="54003008003" class="adj" head="true" lemma="σεμνός" case="accusative"
                   gender="masculine"
                   number="plural">σεμνούς</w>
@@ -2707,7 +2721,7 @@
                   <wg nodeId="540030090020040" class="np" role="o">
                      <w morphId="54003009002" class="det" lemma="ὁ" case="accusative" gender="neuter"
                         number="singular">τὸ</w>
-                     <wg nodeId="540030090030030" class="np">
+                     <wg nodeId="540030090030030" class="np" head="true">
                         <w morphId="54003009003" class="noun" head="true" lemma="μυστήριον"
                            case="accusative"
                            gender="neuter"
@@ -2723,7 +2737,7 @@
                   </wg>
                   <wg nodeId="540030090060030" class="pp" role="adv">
                      <w morphId="54003009006" class="prep" lemma="ἐν">ἐν</w>
-                     <wg nodeId="540030090070020" class="np">
+                     <wg nodeId="540030090070020" class="np" head="true">
                         <w morphId="54003009007" class="adj" lemma="καθαρός" case="dative"
                            gender="feminine"
                            number="singular">καθαρᾷ</w>
@@ -2743,7 +2757,7 @@
       <wg nodeId="540030100030090" class="cl" role="s">
          <w morphId="54003010003" class="conj" lemma="δέ" discontinuous="true">δὲ</w>
          <wg nodeId="540030100010080" class="cl">
-            <wg nodeId="540030100010040" class="cl">
+            <wg nodeId="540030100010040" class="cl" head="true">
                <wg nodeId="540030100010020" class="np" role="s">
                   <w morphId="54003010001" class="adv" lemma="καί">καὶ</w>
                   <w morphId="54003010002" class="pron" head="true" lemma="οὗτος" case="nominative"
@@ -2791,11 +2805,11 @@
       <wg nodeId="540030110020090" class="cl" role="s">
          <w morphId="54003011002" class="adv" role="adv" lemma="ὡσαύτως"
             discontinuous="true">ὡσαύτως</w>
-         <wg nodeId="540030110010080" class="cl" role="s">
+         <wg nodeId="540030110010080" class="cl" role="s" head="true">
             <w morphId="54003011001" class="noun" role="s" lemma="γυνή" case="accusative"
                gender="feminine"
                number="plural">γυναῖκας</w>
-            <wg nodeId="540030110030070" class="adjp" role="p">
+            <wg nodeId="540030110030070" class="adjp" role="p" head="true">
                <w morphId="54003011003" class="adj" head="true" lemma="σεμνός" case="accusative"
                   gender="feminine"
                   number="plural">σεμνάς</w>
@@ -2839,7 +2853,7 @@
             tense="present"
             voice="active"
             mood="imperative">ἔστωσαν</w>
-         <wg nodeId="540030120030030" class="np" role="p">
+         <wg nodeId="540030120030030" class="np" role="p" head="true">
             <wg nodeId="540030120030020" class="np">
                <w morphId="54003012003" class="adj" lemma="εἷς" case="genitive" gender="feminine"
                   number="singular">μιᾶς</w>
@@ -2870,7 +2884,7 @@
                <wg nodeId="540030120100030" class="np">
                   <w morphId="54003012010" class="det" lemma="ὁ" case="genitive" gender="masculine"
                      number="plural">τῶν</w>
-                  <wg nodeId="540030120110020" class="np">
+                  <wg nodeId="540030120110020" class="np" head="true">
                      <w morphId="54003012011" class="adj" lemma="ἴδιος" case="genitive"
                         gender="masculine"
                         number="plural">ἰδίων</w>
@@ -2889,12 +2903,12 @@
       <wg nodeId="540030130020170" class="cl" role="s">
          <w morphId="54003013002" class="conj" lemma="γάρ" discontinuous="true">γὰρ</w>
          <wg nodeId="540030130010160" class="cl">
-            <wg nodeId="540030130010070" class="cl">
+            <wg nodeId="540030130010070" class="cl" head="true">
                <wg nodeId="540030130010030" class="np" role="s">
                   <w morphId="54003013001" class="det" lemma="ὁ" case="nominative"
                      gender="masculine"
                      number="plural">οἱ</w>
-                  <wg nodeId="540030130030020" class="cl">
+                  <wg nodeId="540030130030020" class="cl" head="true">
                      <w morphId="54003013003" class="adv" role="adv" lemma="καλῶς">καλῶς</w>
                      <w morphId="54003013004" class="verb" role="v" head="true" lemma="διακονέω"
                         tense="aorist"
@@ -2926,7 +2940,7 @@
             </wg>
             <w morphId="54003013009" class="conj" lemma="καί">καὶ</w>
             <wg nodeId="540030130100080" class="cl">
-               <wg nodeId="540030130100020" class="np" role="o">
+               <wg nodeId="540030130100020" class="np" role="o" head="true">
                   <w morphId="54003013010" class="adj" lemma="πολύς" case="accusative"
                      gender="feminine"
                      number="singular">πολλὴν</w>
@@ -2937,7 +2951,7 @@
                </wg>
                <wg nodeId="540030130120060" class="pp" role="adv">
                   <w morphId="54003013012" class="prep" lemma="ἐν">ἐν</w>
-                  <wg nodeId="540030130130050" class="np">
+                  <wg nodeId="540030130130050" class="np" head="true">
                      <w morphId="54003013013" class="noun" head="true" lemma="πίστις" case="dative"
                         gender="feminine"
                         number="singular">πίστει</w>
@@ -2947,7 +2961,7 @@
                            number="singular">τῇ</w>
                         <wg nodeId="540030130150030" class="pp">
                            <w morphId="54003013015" class="prep" lemma="ἐν">ἐν</w>
-                           <wg nodeId="540030130160020" class="np">
+                           <wg nodeId="540030130160020" class="np" head="true">
                               <w morphId="54003013016" class="noun" head="true" lemma="χριστός" case="dative"
                                  gender="masculine"
                                  number="singular">Χριστῷ</w>
@@ -3022,7 +3036,7 @@
                   mood="subjunctive">βραδύνω</w>
                <pu>,</pu>
             </wg>
-            <wg nodeId="540030150040180" class="cl">
+            <wg nodeId="540030150040180" class="cl" head="true">
                <w morphId="54003015004" class="conj" lemma="ἵνα">ἵνα</w>
                <wg nodeId="540030150050170" class="cl">
                   <w morphId="54003015005" class="verb" role="v" head="true" lemma="οἶδα"
@@ -3048,8 +3062,8 @@
                         <pu>,</pu>
                         <wg nodeId="540030150080130" class="pp" role="adv">
                            <w morphId="54003015008" class="prep" lemma="ἐν">ἐν</w>
-                           <wg nodeId="540030150090120" class="np">
-                              <wg nodeId="540030150090020" class="np">
+                           <wg nodeId="540030150090120" class="np" head="true">
+                              <wg nodeId="540030150090020" class="np" head="true">
                                  <w morphId="54003015009" class="noun" head="true" lemma="οἶκος" case="dative"
                                     gender="masculine"
                                     number="singular">οἴκῳ</w>
@@ -3066,8 +3080,8 @@
                                     tense="present"
                                     voice="active"
                                     mood="indicative">ἐστὶν</w>
-                                 <wg nodeId="540030150140080" class="np" role="p">
-                                    <wg nodeId="540030150140030" class="np">
+                                 <wg nodeId="540030150140080" class="np" role="p" head="true">
+                                    <wg nodeId="540030150140030" class="np" head="true">
                                        <w morphId="54003015014" class="noun" head="true" lemma="ἐκκλησία"
                                           case="nominative"
                                           gender="feminine"
@@ -3085,7 +3099,7 @@
                                        </wg>
                                     </wg>
                                     <wg nodeId="540030150170050" class="np">
-                                       <wg nodeId="540030150170030" class="np">
+                                       <wg nodeId="540030150170030" class="np" head="true">
                                           <w morphId="54003015017" class="noun" head="true" lemma="στῦλος" case="nominative"
                                              gender="masculine"
                                              number="singular">στῦλος</w>
@@ -3132,7 +3146,7 @@
             <wg nodeId="540030160050040" class="np" role="s">
                <w morphId="54003016005" class="det" lemma="ὁ" case="nominative" gender="neuter"
                   number="singular">τὸ</w>
-               <wg nodeId="540030160060030" class="np">
+               <wg nodeId="540030160060030" class="np" head="true">
                   <wg nodeId="540030160060020" class="np">
                      <w morphId="54003016006" class="det" lemma="ὁ" case="genitive" gender="feminine"
                         number="singular">τῆς</w>
@@ -3153,7 +3167,7 @@
    <sentence>
       <cite>1Tm3:16:9-3:16:26</cite>
       <wg nodeId="540030160090180" class="cl" role="s">
-         <wg nodeId="540030160090040" class="cl">
+         <wg nodeId="540030160090040" class="cl" head="true">
             <w morphId="54003016009" class="pron" role="s" lemma="ὅς" case="nominative"
                gender="masculine"
                number="singular">Ὃς</w>
@@ -3250,7 +3264,7 @@
       <wg nodeId="540040010020620" class="cl" role="s">
          <w morphId="54004001002" class="conj" lemma="δέ" discontinuous="true">δὲ</w>
          <wg nodeId="540040010010610" class="cl">
-            <wg nodeId="540040010010040" class="cl">
+            <wg nodeId="540040010010040" class="cl" head="true">
                <wg nodeId="540040010010020" class="np" role="s">
                   <w morphId="54004001001" class="det" lemma="ὁ" case="nominative" gender="neuter"
                      number="singular">Τὸ</w>
@@ -3271,7 +3285,7 @@
                <wg nodeId="540040010070560" class="cl">
                   <wg nodeId="540040010070030" class="pp" role="adv">
                      <w morphId="54004001007" class="prep" lemma="ἐν">ἐν</w>
-                     <wg nodeId="540040010080020" class="np">
+                     <wg nodeId="540040010080020" class="np" head="true">
                         <w morphId="54004001008" class="adj" lemma="ὕστερος" case="dative"
                            gender="masculine"
                            number="plural">ὑστέροις</w>
@@ -3306,7 +3320,7 @@
                         gender="masculine"
                         number="plural">προσέχοντες</w>
                      <wg nodeId="540040010150050" class="np" role="adv">
-                        <wg nodeId="540040010150020" class="np">
+                        <wg nodeId="540040010150020" class="np" head="true">
                            <w morphId="54004001015" class="noun" head="true" lemma="πνεῦμα" case="dative"
                               gender="neuter"
                               number="plural">πνεύμασι</w>
@@ -3326,7 +3340,7 @@
                   </wg>
                   <wg nodeId="540040020010430" class="pp" role="adv">
                      <w morphId="54004002001" class="prep" lemma="ἐν">ἐν</w>
-                     <wg nodeId="540040020020420" class="np">
+                     <wg nodeId="540040020020420" class="np" head="true">
                         <w morphId="54004002002" class="noun" head="true" lemma="ὑπόκρισις" case="dative"
                            gender="feminine"
                            number="singular">ὑποκρίσει</w>
@@ -3337,7 +3351,7 @@
                               number="plural">ψευδολόγων</w>
                            <pu>,</pu>
                            <wg nodeId="540040020040400" class="cl">
-                              <wg nodeId="540040020040040" class="cl">
+                              <wg nodeId="540040020040040" class="cl" head="true">
                                  <w morphId="54004002004" class="verb" role="v" head="true" lemma="καυστηριάζω"
                                     tense="perfect"
                                     voice="passive"
@@ -3348,7 +3362,7 @@
                                  <wg nodeId="540040020050030" class="np" role="adv">
                                     <w morphId="54004002005" class="det" lemma="ὁ" case="accusative" gender="feminine"
                                        number="singular">τὴν</w>
-                                    <wg nodeId="540040020060020" class="np">
+                                    <wg nodeId="540040020060020" class="np" head="true">
                                        <w morphId="54004002006" class="adj" lemma="ἴδιος" case="accusative"
                                           gender="feminine"
                                           number="singular">ἰδίαν</w>
@@ -3403,8 +3417,8 @@
                                              mood="indicative">ἔκτισεν</w>
                                           <wg nodeId="540040030090100" class="pp" role="adv">
                                              <w morphId="54004003009" class="prep" lemma="εἰς">εἰς</w>
-                                             <wg nodeId="540040030100090" class="np">
-                                                <wg nodeId="540040030100030" class="np">
+                                             <wg nodeId="540040030100090" class="np" head="true">
+                                                <wg nodeId="540040030100030" class="np" head="true">
                                                    <w morphId="54004003010" class="noun" head="true" lemma="μετάλημψις"
                                                       case="accusative"
                                                       gender="feminine"
@@ -3420,7 +3434,7 @@
                                                 <wg nodeId="540040030130060" class="np">
                                                    <w morphId="54004003013" class="det" lemma="ὁ" case="dative" gender="masculine"
                                                       number="plural">τοῖς</w>
-                                                   <wg nodeId="540040030140050" class="np">
+                                                   <wg nodeId="540040030140050" class="np" head="true">
                                                       <w morphId="54004003014" class="adj" head="true" lemma="πιστός" case="dative"
                                                          gender="masculine"
                                                          number="plural">πιστοῖς</w>
@@ -3448,15 +3462,15 @@
                                              </wg>
                                           </wg>
                                        </wg>
-                                       <wg nodeId="540040040010180" class="cl">
+                                       <wg nodeId="540040040010180" class="cl" head="true">
                                           <w morphId="54004004001" class="conj" lemma="ὅτι">ὅτι</w>
                                           <wg nodeId="540040040020170" class="cl">
-                                             <wg nodeId="540040040020100" class="cl">
-                                                <wg nodeId="540040040020040" class="cl">
+                                             <wg nodeId="540040040020100" class="cl" head="true">
+                                                <wg nodeId="540040040020040" class="cl" head="true">
                                                    <wg nodeId="540040040020030" class="np" role="s">
                                                       <w morphId="54004004002" class="adj" lemma="πᾶς" case="nominative" gender="neuter"
                                                          number="singular">πᾶν</w>
-                                                      <wg nodeId="540040040030020" class="np">
+                                                      <wg nodeId="540040040030020" class="np" head="true">
                                                          <w morphId="54004004003" class="noun" head="true" lemma="κτίσμα" case="nominative"
                                                             gender="neuter"
                                                             number="singular">κτίσμα</w>
@@ -3510,8 +3524,8 @@
                                                       mood="indicative">ἁγιάζεται</w>
                                                    <wg nodeId="540040050030050" class="pp" role="adv">
                                                       <w morphId="54004005003" class="prep" lemma="διά">διὰ</w>
-                                                      <wg nodeId="540040050040040" class="np">
-                                                         <wg nodeId="540040050040020" class="np">
+                                                      <wg nodeId="540040050040040" class="np" head="true">
+                                                         <wg nodeId="540040050040020" class="np" head="true">
                                                             <w morphId="54004005004" class="noun" head="true" lemma="λόγος" case="genitive"
                                                                gender="masculine"
                                                                number="singular">λόγου</w>
@@ -3570,11 +3584,11 @@
             tense="future"
             voice="middle"
             mood="indicative">ἔσῃ</w>
-         <wg nodeId="540040060050040" class="np" role="p">
+         <wg nodeId="540040060050040" class="np" role="p" head="true">
             <w morphId="54004006005" class="adj" lemma="καλός" case="nominative"
                gender="masculine"
                number="singular">καλὸς</w>
-            <wg nodeId="540040060070030" class="np">
+            <wg nodeId="540040060070030" class="np" head="true">
                <w morphId="54004006007" class="noun" head="true" lemma="διάκονος"
                   case="nominative"
                   gender="masculine"
@@ -3601,12 +3615,12 @@
             <wg nodeId="540040060110100" class="np" role="adv">
                <w morphId="54004006011" class="det" lemma="ὁ" case="dative" gender="masculine"
                   number="plural">τοῖς</w>
-               <wg nodeId="540040060120090" class="np">
+               <wg nodeId="540040060120090" class="np" head="true">
                   <w morphId="54004006012" class="noun" head="true" lemma="λόγος" case="dative"
                      gender="masculine"
                      number="plural">λόγοις</w>
                   <wg nodeId="540040060130080" class="np">
-                     <wg nodeId="540040060130020" class="np">
+                     <wg nodeId="540040060130020" class="np" head="true">
                         <w morphId="54004006013" class="det" lemma="ὁ" case="genitive" gender="feminine"
                            number="singular">τῆς</w>
                         <w morphId="54004006014" class="noun" head="true" lemma="πίστις" case="genitive"
@@ -3615,10 +3629,10 @@
                      </wg>
                      <w morphId="54004006015" class="conj" lemma="καί">καὶ</w>
                      <wg nodeId="540040060160050" class="np">
-                        <wg nodeId="540040060160030" class="np">
+                        <wg nodeId="540040060160030" class="np" head="true">
                            <w morphId="54004006016" class="det" lemma="ὁ" case="genitive" gender="feminine"
                               number="singular">τῆς</w>
-                           <wg nodeId="540040060170020" class="np">
+                           <wg nodeId="540040060170020" class="np" head="true">
                               <w morphId="54004006017" class="adj" lemma="καλός" case="genitive"
                                  gender="feminine"
                                  number="singular">καλῆς</w>
@@ -3656,7 +3670,7 @@
                <w morphId="54004007001" class="det" lemma="ὁ" case="accusative"
                   gender="masculine"
                   number="plural">τοὺς</w>
-               <wg nodeId="540040070030040" class="np">
+               <wg nodeId="540040070030040" class="np" head="true">
                   <wg nodeId="540040070030030" class="adjp">
                      <w morphId="54004007003" class="adj" head="true" lemma="βέβηλος" case="accusative"
                         gender="masculine"
@@ -3711,11 +3725,11 @@
       <wg nodeId="540040080020230" class="cl" role="s">
          <w morphId="54004008002" class="conj" lemma="γάρ" discontinuous="true">γὰρ</w>
          <wg nodeId="540040080010220" class="cl">
-            <wg nodeId="540040080010070" class="cl">
+            <wg nodeId="540040080010070" class="cl" head="true">
                <wg nodeId="540040080010030" class="np" role="s">
                   <w morphId="54004008001" class="det" lemma="ὁ" case="nominative" gender="feminine"
                      number="singular">ἡ</w>
-                  <wg nodeId="540040080030020" class="np">
+                  <wg nodeId="540040080030020" class="np" head="true">
                      <w morphId="54004008003" class="adj" lemma="σωματικός" case="nominative"
                         gender="feminine"
                         number="singular">σωματικὴ</w>
@@ -3787,7 +3801,7 @@
                            gender="feminine"
                            number="singular">ζωῆς</w>
                         <wg nodeId="540040080190050" class="np">
-                           <wg nodeId="540040080190020" class="np">
+                           <wg nodeId="540040080190020" class="np" head="true">
                               <w morphId="54004008019" class="det" lemma="ὁ" case="genitive" gender="feminine"
                                  number="singular">τῆς</w>
                               <w morphId="54004008020" class="adv" head="true" lemma="νῦν">νῦν</w>
@@ -3825,7 +3839,7 @@
                gender="masculine"
                number="singular">λόγος</w>
          </wg>
-         <wg nodeId="540040090010050" class="adjp" role="p">
+         <wg nodeId="540040090010050" class="adjp" role="p" head="true">
             <w morphId="54004009001" class="adj" head="true" lemma="πιστός" case="nominative"
                gender="masculine"
                number="singular">πιστὸς</w>
@@ -3851,26 +3865,30 @@
       <wg nodeId="540040100030180" class="cl" role="s">
          <w morphId="54004010003" class="conj" lemma="γάρ" discontinuous="true">γὰρ</w>
          <wg nodeId="540040100010170" class="cl">
-            <wg nodeId="540040100010050" class="cl">
+            <wg nodeId="540040100010050" class="cl" head="true">
                <wg nodeId="540040100010020" class="pp" role="adv">
                   <w morphId="54004010001" class="prep" lemma="εἰς">εἰς</w>
                   <w morphId="54004010002" class="pron" head="true" lemma="οὗτος" case="accusative"
                      gender="neuter"
                      number="singular">τοῦτο</w>
                </wg>
-               <wg nodeId="540040100040030" class="vp" role="v">
-                  <w morphId="54004010004" class="verb" head="true" lemma="κοπιάω" person="first"
-                     number="plural"
-                     tense="present"
-                     voice="active"
-                     mood="indicative">κοπιῶμεν</w>
-                  <w morphId="54004010005" class="conj" lemma="καί">καὶ</w>
-                  <w morphId="54004010006" class="verb" lemma="ὀνειδίζω" person="first"
-                     number="plural"
-                     tense="present"
-                     voice="passive"
-                     mood="indicative">ὀνειδιζόμεθα</w>
-                  <pu>,</pu>
+               <wg nodeId="540040100040030" class="vp" role="v" head="true">
+                  <wg nodeId="540040100040011" class="vp" head="true">
+                     <w morphId="54004010004" class="verb" head="true" lemma="κοπιάω" person="first"
+                        number="plural"
+                        tense="present"
+                        voice="active"
+                        mood="indicative">κοπιῶμεν</w>
+                  </wg>
+                  <w morphId="54004010005" class="conj" head="true" lemma="καί">καὶ</w>
+                  <wg nodeId="540040100060011" class="vp" head="true">
+                     <w morphId="54004010006" class="verb" head="true" lemma="ὀνειδίζω" person="first"
+                        number="plural"
+                        tense="present"
+                        voice="passive"
+                        mood="indicative">ὀνειδιζόμεθα</w>
+                     <pu>,</pu>
+                  </wg>
                </wg>
             </wg>
             <wg nodeId="540040100070120" class="cl">
@@ -3884,8 +3902,8 @@
                      mood="indicative">ἠλπίκαμεν</w>
                   <wg nodeId="540040100090100" class="pp" role="adv">
                      <w morphId="54004010009" class="prep" lemma="ἐπί">ἐπὶ</w>
-                     <wg nodeId="540040100100090" class="np">
-                        <wg nodeId="540040100100020" class="np">
+                     <wg nodeId="540040100100090" class="np" head="true">
+                        <wg nodeId="540040100100020" class="np" head="true">
                            <w morphId="54004010010" class="noun" head="true" lemma="θεός" case="dative"
                               gender="masculine"
                               number="singular">θεῷ</w>
@@ -3905,12 +3923,12 @@
                               tense="present"
                               voice="active"
                               mood="indicative">ἐστιν</w>
-                           <wg nodeId="540040100140050" class="np" role="p">
+                           <wg nodeId="540040100140050" class="np" role="p" head="true">
                               <w morphId="54004010014" class="noun" head="true" lemma="σωτήρ" case="nominative"
                                  gender="masculine"
                                  number="singular">σωτὴρ</w>
                               <wg nodeId="540040100150040" class="np">
-                                 <wg nodeId="540040100150020" class="np">
+                                 <wg nodeId="540040100150020" class="np" head="true">
                                     <w morphId="54004010015" class="adj" lemma="πᾶς" case="genitive"
                                        gender="masculine"
                                        number="plural">πάντων</w>
@@ -3943,33 +3961,37 @@
             case="accusative"
             gender="neuter"
             number="plural">ταῦτα</w>
-         <wg nodeId="540040110010030" class="vp" role="v">
-            <w morphId="54004011001" class="verb" head="true" lemma="παραγγέλλω"
-               person="second"
-               number="singular"
-               tense="present"
-               voice="active"
-               mood="imperative">Παράγγελλε</w>
-            <w morphId="54004011003" class="conj" lemma="καί">καὶ</w>
-            <w morphId="54004011004" class="verb" lemma="διδάσκω" person="second"
-               number="singular"
-               tense="present"
-               voice="active"
-               mood="imperative">δίδασκε</w>
-            <pu>.</pu>
+         <wg nodeId="540040110010030" class="vp" role="v" head="true">
+            <wg nodeId="540040110010011" class="vp" head="true">
+               <w morphId="54004011001" class="verb" head="true" lemma="παραγγέλλω"
+                  person="second"
+                  number="singular"
+                  tense="present"
+                  voice="active"
+                  mood="imperative">Παράγγελλε</w>
+            </wg>
+            <w morphId="54004011003" class="conj" head="true" lemma="καί">καὶ</w>
+            <wg nodeId="540040110040011" class="vp" head="true">
+               <w morphId="54004011004" class="verb" head="true" lemma="διδάσκω" person="second"
+                  number="singular"
+                  tense="present"
+                  voice="active"
+                  mood="imperative">δίδασκε</w>
+               <pu>.</pu>
+            </wg>
          </wg>
       </wg>
    </sentence>
    <sentence>
       <cite>1Tm4:12:1-4:12:20</cite>
       <wg nodeId="540040120010200" class="cl" role="s">
-         <wg nodeId="540040120010050" class="cl">
+         <wg nodeId="540040120010050" class="cl" head="true">
             <w morphId="54004012001" class="adj" role="s" lemma="μηδείς" case="nominative"
                gender="masculine"
                number="singular">μηδείς</w>
             <wg nodeId="540040120020030" class="np" role="o">
                <w morphId="54004012002" class="pron" lemma="σύ" case="genitive" number="singular">σου</w>
-               <wg nodeId="540040120030020" class="np">
+               <wg nodeId="540040120030020" class="np" head="true">
                   <w morphId="54004012003" class="det" lemma="ὁ" case="genitive" gender="feminine"
                      number="singular">τῆς</w>
                   <w morphId="54004012004" class="noun" head="true" lemma="νεότης" case="genitive"
@@ -3994,7 +4016,7 @@
                tense="present"
                voice="middle"
                mood="imperative">γίνου</w>
-            <wg nodeId="540040120070030" class="np" role="p">
+            <wg nodeId="540040120070030" class="np" role="p" head="true">
                <w morphId="54004012007" class="noun" head="true" lemma="τύπος" case="nominative"
                   gender="masculine"
                   number="singular">τύπος</w>
@@ -4007,7 +4029,7 @@
                </wg>
             </wg>
             <wg nodeId="540040120110100" class="pp" role="adv">
-               <wg nodeId="540040120110020" class="pp">
+               <wg nodeId="540040120110020" class="pp" head="true">
                   <w morphId="54004012011" class="prep" lemma="ἐν">ἐν</w>
                   <w morphId="54004012012" class="noun" head="true" lemma="λόγος" case="dative"
                      gender="masculine"
@@ -4057,7 +4079,7 @@
                voice="middle"
                mood="indicative">ἔρχομαι</w>
          </wg>
-         <wg nodeId="540040130030070" class="cl">
+         <wg nodeId="540040130030070" class="cl" head="true">
             <w morphId="54004013003" class="verb" role="v" head="true" lemma="προσέχω"
                person="second"
                number="singular"
@@ -4065,7 +4087,7 @@
                voice="active"
                mood="imperative">πρόσεχε</w>
             <wg nodeId="540040130040060" class="np" role="adv">
-               <wg nodeId="540040130040020" class="np">
+               <wg nodeId="540040130040020" class="np" head="true">
                   <w morphId="54004013004" class="det" lemma="ὁ" case="dative" gender="feminine"
                      number="singular">τῇ</w>
                   <w morphId="54004013005" class="noun" head="true" lemma="ἀνάγνωσις" case="dative"
@@ -4104,10 +4126,10 @@
             voice="active"
             mood="imperative">ἀμέλει</w>
          <wg nodeId="540040140030150" class="np" role="o">
-            <wg nodeId="540040140030040" class="np">
+            <wg nodeId="540040140030040" class="np" head="true">
                <w morphId="54004014003" class="det" lemma="ὁ" case="genitive" gender="neuter"
                   number="singular">τοῦ</w>
-               <wg nodeId="540040140040030" class="np">
+               <wg nodeId="540040140040030" class="np" head="true">
                   <wg nodeId="540040140040020" class="pp">
                      <w morphId="54004014004" class="prep" lemma="ἐν">ἐν</w>
                      <w morphId="54004014005" class="pron" head="true" lemma="σύ" case="dative"
@@ -4140,14 +4162,14 @@
                </wg>
                <wg nodeId="540040140120060" class="pp" role="adv">
                   <w morphId="54004014012" class="prep" lemma="μετά">μετὰ</w>
-                  <wg nodeId="540040140130050" class="np">
+                  <wg nodeId="540040140130050" class="np" head="true">
                      <w morphId="54004014013" class="noun" head="true" lemma="ἐπίθεσις" case="genitive"
                         gender="feminine"
                         number="singular">ἐπιθέσεως</w>
                      <wg nodeId="540040140140040" class="np">
                         <w morphId="54004014014" class="det" lemma="ὁ" case="genitive" gender="feminine"
                            number="plural">τῶν</w>
-                        <wg nodeId="540040140150030" class="np">
+                        <wg nodeId="540040140150030" class="np" head="true">
                            <w morphId="54004014015" class="noun" head="true" lemma="χείρ" case="genitive"
                               gender="feminine"
                               number="plural">χειρῶν</w>
@@ -4171,8 +4193,8 @@
    <sentence>
       <cite>1Tm4:15:1-4:15:12</cite>
       <wg nodeId="540040150010120" class="cl" role="s">
-         <wg nodeId="540040150010050" class="cl">
-            <wg nodeId="540040150010020" class="cl">
+         <wg nodeId="540040150010050" class="cl" head="true">
+            <wg nodeId="540040150010020" class="cl" head="true">
                <w morphId="54004015001" class="pron" role="o" lemma="οὗτος" case="accusative"
                   gender="neuter"
                   number="plural">ταῦτα</w>
@@ -4185,7 +4207,7 @@
                <pu>,</pu>
             </wg>
             <wg nodeId="540040150030030" class="cl">
-               <wg nodeId="540040150030020" class="pp" role="p">
+               <wg nodeId="540040150030020" class="pp" role="p" head="true">
                   <w morphId="54004015003" class="prep" lemma="ἐν">ἐν</w>
                   <w morphId="54004015004" class="pron" head="true" lemma="οὗτος" case="dative"
                      gender="neuter"
@@ -4204,7 +4226,7 @@
             <wg nodeId="540040150070060" class="cl">
                <wg nodeId="540040150070030" class="np" role="s">
                   <w morphId="54004015007" class="pron" lemma="σύ" case="genitive" number="singular">σου</w>
-                  <wg nodeId="540040150080020" class="np">
+                  <wg nodeId="540040150080020" class="np" head="true">
                      <w morphId="54004015008" class="det" lemma="ὁ" case="nominative" gender="feminine"
                         number="singular">ἡ</w>
                      <w morphId="54004015009" class="noun" head="true" lemma="προκοπή"
@@ -4233,8 +4255,8 @@
    <sentence>
       <cite>1Tm4:16:1-4:16:17</cite>
       <wg nodeId="540040160010170" class="cl" role="s">
-         <wg nodeId="540040160010070" class="cl">
-            <wg nodeId="540040160010050" class="cl">
+         <wg nodeId="540040160010070" class="cl" head="true">
+            <wg nodeId="540040160010050" class="cl" head="true">
                <w morphId="54004016001" class="verb" role="v" head="true" lemma="ἐπέχω"
                   person="second"
                   number="singular"
@@ -4302,7 +4324,7 @@
                      <w morphId="54004016015" class="det" lemma="ὁ" case="accusative"
                         gender="masculine"
                         number="plural">τοὺς</w>
-                     <wg nodeId="540040160160020" class="cl">
+                     <wg nodeId="540040160160020" class="cl" head="true">
                         <w morphId="54004016016" class="verb" role="v" head="true" lemma="ἀκούω"
                            tense="present"
                            voice="active"
@@ -4323,8 +4345,8 @@
    <sentence>
       <cite>1Tm5:1:1-5:2:9</cite>
       <wg nodeId="540050010010190" class="cl" role="s">
-         <wg nodeId="540050010010070" class="cl">
-            <wg nodeId="540050010010030" class="cl">
+         <wg nodeId="540050010010070" class="cl" head="true">
+            <wg nodeId="540050010010030" class="cl" head="true">
                <w morphId="54005001001" class="adj" role="o" lemma="πρεσβύτερος" case="dative"
                   gender="masculine"
                   number="singular">Πρεσβυτέρῳ</w>
@@ -4355,7 +4377,7 @@
             </wg>
          </wg>
          <wg nodeId="540050010080120" class="cl">
-            <wg nodeId="540050010080030" class="cl">
+            <wg nodeId="540050010080030" class="cl" head="true">
                <w morphId="54005001008" class="adj" role="o" head="true" lemma="νέος"
                   case="accusative"
                   gender="masculine"
@@ -4395,7 +4417,7 @@
                </wg>
                <wg nodeId="540050020070030" class="pp" role="adv">
                   <w morphId="54005002007" class="prep" lemma="ἐν">ἐν</w>
-                  <wg nodeId="540050020080020" class="np">
+                  <wg nodeId="540050020080020" class="np" head="true">
                      <w morphId="54005002008" class="adj" lemma="πᾶς" case="dative" gender="feminine"
                         number="singular">πάσῃ</w>
                      <w morphId="54005002009" class="noun" head="true" lemma="ἁγνεία" case="dative"
@@ -4425,7 +4447,7 @@
             <wg nodeId="540050030030030" class="np">
                <w morphId="54005003003" class="det" lemma="ὁ" case="accusative" gender="feminine"
                   number="plural">τὰς</w>
-               <wg nodeId="540050030040020" class="np">
+               <wg nodeId="540050030040020" class="np" head="true">
                   <w morphId="54005003004" class="adv" lemma="ὄντως">ὄντως</w>
                   <w morphId="54005003005" class="adj" head="true" lemma="χήρα" case="accusative"
                      gender="feminine"
@@ -4470,7 +4492,7 @@
                   <pu>,</pu>
                </wg>
             </wg>
-            <wg nodeId="540050040090110" class="cl">
+            <wg nodeId="540050040090110" class="cl" head="true">
                <w morphId="54005004009" class="verb" role="v" head="true" lemma="μανθάνω"
                   person="third"
                   number="plural"
@@ -4479,12 +4501,12 @@
                   mood="imperative">μανθανέτωσαν</w>
                <w morphId="54005004010" class="adv" role="adv" lemma="πρῶτον">πρῶτον</w>
                <wg nodeId="540050040110090" class="cl" role="o">
-                  <wg nodeId="540050040110040" class="cl">
+                  <wg nodeId="540050040110040" class="cl" head="true">
                      <wg nodeId="540050040110030" class="np" role="o">
                         <w morphId="54005004011" class="det" lemma="ὁ" case="accusative"
                            gender="masculine"
                            number="singular">τὸν</w>
-                        <wg nodeId="540050040120020" class="np">
+                        <wg nodeId="540050040120020" class="np" head="true">
                            <w morphId="54005004012" class="adj" lemma="ἴδιος" case="accusative"
                               gender="masculine"
                               number="singular">ἴδιον</w>
@@ -4540,7 +4562,7 @@
                number="singular">ἀπόδεκτον</w>
             <wg nodeId="540050040240030" class="pp" role="adv">
                <w morphId="54005004024" class="prep" lemma="ἐνώπιον">ἐνώπιον</w>
-               <wg nodeId="540050040250020" class="np">
+               <wg nodeId="540050040250020" class="np" head="true">
                   <w morphId="54005004025" class="det" lemma="ὁ" case="genitive" gender="masculine"
                      number="singular">τοῦ</w>
                   <w morphId="54005004026" class="noun" head="true" lemma="θεός" case="genitive"
@@ -4557,13 +4579,13 @@
       <wg nodeId="540050050020190" class="cl" role="s">
          <w morphId="54005005002" class="conj" lemma="δέ" discontinuous="true">δὲ</w>
          <wg nodeId="540050050010180" class="cl">
-            <wg nodeId="540050050010080" class="cl">
+            <wg nodeId="540050050010080" class="cl" head="true">
                <wg nodeId="540050050010050" class="np" role="s">
                   <w morphId="54005005001" class="det" lemma="ὁ" case="nominative" gender="feminine"
                      number="singular">ἡ</w>
-                  <wg nodeId="540050050030040" class="adjp">
+                  <wg nodeId="540050050030040" class="adjp" head="true">
                      <w morphId="54005005003" class="adv" lemma="ὄντως">ὄντως</w>
-                     <wg nodeId="540050050040030" class="adjp">
+                     <wg nodeId="540050050040030" class="adjp" head="true">
                         <w morphId="54005005004" class="adj" head="true" lemma="χήρα" case="nominative"
                            gender="feminine"
                            number="singular">χήρα</w>
@@ -4599,7 +4621,7 @@
                   voice="active"
                   mood="indicative">προσμένει</w>
                <wg nodeId="540050050120050" class="np" role="adv">
-                  <wg nodeId="540050050120020" class="np">
+                  <wg nodeId="540050050120020" class="np" head="true">
                      <w morphId="54005005012" class="det" lemma="ὁ" case="dative" gender="feminine"
                         number="plural">ταῖς</w>
                      <w morphId="54005005013" class="noun" head="true" lemma="δέησις" case="dative"
@@ -4663,7 +4685,7 @@
    <sentence>
       <cite>1Tm5:7:1-5:7:6</cite>
       <wg nodeId="540050070010060" class="cl" role="s">
-         <wg nodeId="540050070010030" class="cl">
+         <wg nodeId="540050070010030" class="cl" head="true">
             <wg nodeId="540050070010020" class="np" role="o">
                <w morphId="54005007001" class="adv" lemma="καί">καὶ</w>
                <w morphId="54005007002" class="pron" head="true" lemma="οὗτος" case="accusative"
@@ -4709,7 +4731,7 @@
                   <wg nodeId="540050080040050" class="np" role="o">
                      <w morphId="54005008004" class="det" lemma="ὁ" case="genitive" gender="masculine"
                         number="plural">τῶν</w>
-                     <wg nodeId="540050080050040" class="np">
+                     <wg nodeId="540050080050040" class="np" head="true">
                         <w morphId="54005008005" class="adj" head="true" lemma="ἴδιος" case="genitive"
                            gender="masculine"
                            number="plural">ἰδίων</w>
@@ -4732,8 +4754,8 @@
                   <pu>,</pu>
                </wg>
             </wg>
-            <wg nodeId="540050080110070" class="cl">
-               <wg nodeId="540050080110030" class="cl">
+            <wg nodeId="540050080110070" class="cl" head="true">
+               <wg nodeId="540050080110030" class="cl" head="true">
                   <wg nodeId="540050080110020" class="np" role="o">
                      <w morphId="54005008011" class="det" lemma="ὁ" case="accusative" gender="feminine"
                         number="singular">τὴν</w>
@@ -4771,7 +4793,7 @@
    <sentence>
       <cite>1Tm5:9:1-5:10:20</cite>
       <wg nodeId="540050090010300" class="cl" role="s">
-         <wg nodeId="540050090010140" class="cl">
+         <wg nodeId="540050090010140" class="cl" head="true">
             <w morphId="54005009001" class="adj" role="s" lemma="χήρα" case="nominative"
                gender="feminine"
                number="singular">Χήρα</w>
@@ -4783,7 +4805,7 @@
                mood="imperative">καταλεγέσθω</w>
             <wg nodeId="540050090030040" class="np" role="adv">
                <w morphId="54005009003" class="adv" lemma="μή">μὴ</w>
-               <wg nodeId="540050090040030" class="np">
+               <wg nodeId="540050090040030" class="np" head="true">
                   <w morphId="54005009004" class="adj" head="true" lemma="ἐλάσσων" case="accusative"
                      gender="neuter"
                      number="singular">ἔλαττον</w>
@@ -4803,7 +4825,7 @@
                   gender="feminine"
                   number="singular">γεγονυῖα</w>
                <pu>,</pu>
-               <wg nodeId="540050090080030" class="np" role="p">
+               <wg nodeId="540050090080030" class="np" role="p" head="true">
                   <wg nodeId="540050090080020" class="np">
                      <w morphId="54005009008" class="adj" lemma="εἷς" case="genitive"
                         gender="masculine"
@@ -4821,7 +4843,7 @@
             <wg nodeId="540050100010040" class="cl" role="adv">
                <wg nodeId="540050100010030" class="pp" role="adv">
                   <w morphId="54005010001" class="prep" lemma="ἐν">ἐν</w>
-                  <wg nodeId="540050100020020" class="np">
+                  <wg nodeId="540050100020020" class="np" head="true">
                      <w morphId="54005010002" class="noun" head="true" lemma="ἔργον" case="dative"
                         gender="neuter"
                         number="plural">ἔργοις</w>
@@ -4840,7 +4862,7 @@
             </wg>
          </wg>
          <wg nodeId="540050100050160" class="cl">
-            <wg nodeId="540050100050020" class="cl">
+            <wg nodeId="540050100050020" class="cl" head="true">
                <w morphId="54005010005" class="conj" lemma="εἰ">εἰ</w>
                <w morphId="54005010006" class="verb" lemma="τεκνοτροφέω" person="third"
                   number="singular"
@@ -4902,7 +4924,7 @@
                   <wg nodeId="540050100170030" class="np" role="adv">
                      <w morphId="54005010017" class="adj" lemma="πᾶς" case="dative" gender="neuter"
                         number="singular">παντὶ</w>
-                     <wg nodeId="540050100180020" class="np">
+                     <wg nodeId="540050100180020" class="np" head="true">
                         <w morphId="54005010018" class="noun" head="true" lemma="ἔργον" case="dative"
                            gender="neuter"
                            number="singular">ἔργῳ</w>
@@ -4969,7 +4991,7 @@
                   </wg>
                </wg>
             </wg>
-            <wg nodeId="540050110100090" class="cl">
+            <wg nodeId="540050110100090" class="cl" head="true">
                <w morphId="54005011010" class="verb" role="o" lemma="γαμέω" tense="present"
                   voice="active"
                   mood="infinitive">γαμεῖν</w>
@@ -4981,7 +5003,7 @@
                   mood="indicative">θέλουσιν</w>
                <pu>,</pu>
                <wg nodeId="540050120010070" class="cl" role="adv">
-                  <wg nodeId="540050120010020" class="cl">
+                  <wg nodeId="540050120010020" class="cl" head="true">
                      <w morphId="54005012001" class="verb" role="v" head="true" lemma="ἔχω"
                         tense="present"
                         voice="active"
@@ -4999,7 +5021,7 @@
                         <wg nodeId="540050120040030" class="np" role="o">
                            <w morphId="54005012004" class="det" lemma="ὁ" case="accusative" gender="feminine"
                               number="singular">τὴν</w>
-                           <wg nodeId="540050120050020" class="np">
+                           <wg nodeId="540050120050020" class="np" head="true">
                               <w morphId="54005012005" class="adj" lemma="πρῶτος" case="accusative"
                                  gender="feminine"
                                  number="singular">πρώτην</w>
@@ -5027,7 +5049,7 @@
       <wg nodeId="540050130020210" class="cl" role="s">
          <w morphId="54005013002" class="conj" lemma="δέ" discontinuous="true">δὲ</w>
          <wg nodeId="540050130010200" class="cl">
-            <wg nodeId="540050130010070" class="cl">
+            <wg nodeId="540050130010070" class="cl" head="true">
                <w morphId="54005013001" class="adv" role="adv" lemma="ἅμα">ἅμα</w>
                <wg nodeId="540050130030020" class="adjp" role="adv">
                   <w morphId="54005013003" class="adv" lemma="καί">καὶ</w>
@@ -5073,10 +5095,10 @@
                      number="plural">ἀργαὶ</w>
                </wg>
                <w morphId="54005013013" class="conj" lemma="ἀλλά">ἀλλὰ</w>
-               <wg nodeId="540050130140080" class="cl">
-                  <wg nodeId="540050130140040" class="np" role="p">
+               <wg nodeId="540050130140080" class="cl" head="true">
+                  <wg nodeId="540050130140040" class="np" role="p" head="true">
                      <w morphId="54005013014" class="adv" lemma="καί">καὶ</w>
-                     <wg nodeId="540050130150030" class="adjp">
+                     <wg nodeId="540050130150030" class="adjp" head="true">
                         <w morphId="54005013015" class="adj" head="true" lemma="φλύαρος" case="nominative"
                            gender="feminine"
                            number="plural">φλύαροι</w>
@@ -5098,7 +5120,7 @@
                      <wg nodeId="540050130190030" class="np" role="o">
                         <w morphId="54005013019" class="det" lemma="ὁ" case="accusative" gender="neuter"
                            number="plural">τὰ</w>
-                        <wg nodeId="540050130200020" class="cl">
+                        <wg nodeId="540050130200020" class="cl" head="true">
                            <w morphId="54005013020" class="adv" role="adv" lemma="μή">μὴ</w>
                            <w morphId="54005013021" class="verb" role="v" head="true" lemma="δέω"
                               tense="present"
@@ -5131,7 +5153,7 @@
                <w morphId="54005014003" class="adj" role="s" lemma="νέος" case="accusative"
                   gender="feminine"
                   number="plural">νεωτέρας</w>
-               <wg nodeId="540050140040100" class="cl" role="v">
+               <wg nodeId="540050140040100" class="cl" role="v" head="true">
                   <w morphId="54005014004" class="verb" head="true" lemma="γαμέω" tense="present"
                      voice="active"
                      mood="infinitive">γαμεῖν</w>
@@ -5198,7 +5220,7 @@
                mood="indicative">ἐξετράπησαν</w>
             <wg nodeId="540050150050030" class="pp" role="adv">
                <w morphId="54005015005" class="prep" lemma="ὀπίσω">ὀπίσω</w>
-               <wg nodeId="540050150060020" class="np">
+               <wg nodeId="540050150060020" class="np" head="true">
                   <w morphId="54005015006" class="det" lemma="ὁ" case="genitive" gender="masculine"
                      number="singular">τοῦ</w>
                   <w morphId="54005015007" class="noun" head="true" lemma="σατανᾶς" case="genitive"
@@ -5213,7 +5235,7 @@
    <sentence>
       <cite>1Tm5:16:1-5:16:17</cite>
       <wg nodeId="540050160010170" class="cl" role="s">
-         <wg nodeId="540050160010120" class="cl">
+         <wg nodeId="540050160010120" class="cl" head="true">
             <wg nodeId="540050160010050" class="cl">
                <w morphId="54005016001" class="conj" lemma="εἰ">εἴ</w>
                <wg nodeId="540050160020040" class="cl">
@@ -5237,8 +5259,8 @@
                   <pu>,</pu>
                </wg>
             </wg>
-            <wg nodeId="540050160060070" class="cl">
-               <wg nodeId="540050160060020" class="cl">
+            <wg nodeId="540050160060070" class="cl" head="true">
+               <wg nodeId="540050160060020" class="cl" head="true">
                   <w morphId="54005016006" class="verb" role="v" head="true" lemma="ἐπαρκέω"
                      person="third"
                      number="singular"
@@ -5277,7 +5299,7 @@
                <wg nodeId="540050160140030" class="np" role="o">
                   <w morphId="54005016014" class="det" lemma="ὁ" case="dative" gender="feminine"
                      number="plural">ταῖς</w>
-                  <wg nodeId="540050160150020" class="adjp">
+                  <wg nodeId="540050160150020" class="adjp" head="true">
                      <w morphId="54005016015" class="adv" lemma="ὄντως">ὄντως</w>
                      <w morphId="54005016016" class="adj" head="true" lemma="χήρα" case="dative"
                         gender="feminine"
@@ -5298,12 +5320,12 @@
    <sentence>
       <cite>1Tm5:17:1-5:17:14</cite>
       <wg nodeId="540050170010140" class="cl" role="s">
-         <wg nodeId="540050170010070" class="cl">
+         <wg nodeId="540050170010070" class="cl" head="true">
             <wg nodeId="540050170010040" class="np" role="s">
                <w morphId="54005017001" class="det" lemma="ὁ" case="nominative"
                   gender="masculine"
                   number="plural">Οἱ</w>
-               <wg nodeId="540050170020030" class="np">
+               <wg nodeId="540050170020030" class="np" head="true">
                   <wg nodeId="540050170020020" class="cl">
                      <w morphId="54005017002" class="adv" role="adv" lemma="καλῶς">καλῶς</w>
                      <w morphId="54005017003" class="verb" role="v" head="true" lemma="προΐστημι"
@@ -5320,7 +5342,7 @@
                      number="plural">πρεσβύτεροι</w>
                </wg>
             </wg>
-            <wg nodeId="540050170050020" class="np" role="o">
+            <wg nodeId="540050170050020" class="np" role="adv">
                <w morphId="54005017005" class="adj" lemma="διπλοῦς" case="genitive"
                   gender="feminine"
                   number="singular">διπλῆς</w>
@@ -5338,11 +5360,11 @@
          </wg>
          <wg nodeId="540050170080070" class="cl">
             <w morphId="54005017008" class="adv" role="adv" lemma="μάλιστα">μάλιστα</w>
-            <wg nodeId="540050170090060" class="np" role="s">
+            <wg nodeId="540050170090060" class="np" role="s" head="true">
                <w morphId="54005017009" class="det" lemma="ὁ" case="nominative"
                   gender="masculine"
                   number="plural">οἱ</w>
-               <wg nodeId="540050170100050" class="cl">
+               <wg nodeId="540050170100050" class="cl" head="true">
                   <w morphId="54005017010" class="verb" role="v" head="true" lemma="κοπιάω"
                      tense="present"
                      voice="active"
@@ -5352,7 +5374,7 @@
                      number="plural">κοπιῶντες</w>
                   <wg nodeId="540050170110040" class="pp" role="adv">
                      <w morphId="54005017011" class="prep" lemma="ἐν">ἐν</w>
-                     <wg nodeId="540050170120030" class="np">
+                     <wg nodeId="540050170120030" class="np" head="true">
                         <w morphId="54005017012" class="noun" head="true" lemma="λόγος" case="dative"
                            gender="masculine"
                            number="singular">λόγῳ</w>
@@ -5373,7 +5395,7 @@
       <wg nodeId="540050180020150" class="cl" role="s">
          <w morphId="54005018002" class="conj" lemma="γάρ" discontinuous="true">γὰρ</w>
          <wg nodeId="540050180010140" class="cl">
-            <wg nodeId="540050180010030" class="cl">
+            <wg nodeId="540050180010030" class="cl" head="true">
                <w morphId="54005018001" class="verb" role="v" head="true" lemma="λέγω"
                   person="third"
                   number="singular"
@@ -5390,7 +5412,7 @@
                </wg>
             </wg>
             <wg nodeId="540050180050110" class="cl">
-               <wg nodeId="540050180050040" class="cl">
+               <wg nodeId="540050180050040" class="cl" head="true">
                   <wg nodeId="540050180050020" class="np" role="o">
                      <w morphId="54005018005" class="noun" head="true" lemma="βοῦς" case="accusative"
                         gender="masculine"
@@ -5429,7 +5451,7 @@
                   <wg nodeId="540050180130030" class="np" role="adv">
                      <w morphId="54005018013" class="det" lemma="ὁ" case="genitive" gender="masculine"
                         number="singular">τοῦ</w>
-                     <wg nodeId="540050180140020" class="np">
+                     <wg nodeId="540050180140020" class="np" head="true">
                         <w morphId="54005018014" class="noun" head="true" lemma="μισθός" case="genitive"
                            gender="masculine"
                            number="singular">μισθοῦ</w>
@@ -5447,7 +5469,7 @@
    <sentence>
       <cite>1Tm5:19:1-5:19:13</cite>
       <wg nodeId="540050190010130" class="cl" role="s">
-         <wg nodeId="540050190010050" class="cl">
+         <wg nodeId="540050190010050" class="cl" head="true">
             <wg nodeId="540050190010020" class="pp" role="adv">
                <w morphId="54005019001" class="prep" lemma="κατά">κατὰ</w>
                <w morphId="54005019002" class="adj" head="true" lemma="πρεσβύτερος"
@@ -5469,19 +5491,23 @@
          </wg>
          <wg nodeId="540050190060080" class="cl">
             <w morphId="54005019006" class="adv" lemma="ἐκτός">ἐκτὸς</w>
-            <wg nodeId="540050190070070" class="cl">
+            <wg nodeId="540050190070070" class="cl" head="true">
                <w morphId="54005019007" class="conj" lemma="εἰ">εἰ</w>
                <wg nodeId="540050190080060" class="cl">
                   <w morphId="54005019008" class="adv" role="adv" lemma="μή">μὴ</w>
-                  <wg nodeId="540050190090050" class="pp" role="adv">
+                  <wg nodeId="540050190090050" class="pp" role="adv" head="true">
                      <w morphId="54005019009" class="prep" lemma="ἐπί">ἐπὶ</w>
-                     <wg nodeId="540050190100040" class="np">
+                     <wg nodeId="540050190100040" class="np" head="true">
                         <wg nodeId="540050190100030" class="nump">
-                           <w morphId="54005019010" class="num" head="true" lemma="δύο">δύο</w>
+                           <wg nodeId="540050190100011" class="nump" head="true">
+                              <w morphId="54005019010" class="num" head="true" lemma="δύο">δύο</w>
+                           </wg>
                            <w morphId="54005019011" class="conj" lemma="ἤ">ἢ</w>
-                           <w morphId="54005019012" class="adj" lemma="τρεῖς" case="genitive"
-                              gender="masculine"
-                              number="plural">τριῶν</w>
+                           <wg nodeId="540050190120011" class="adjp">
+                              <w morphId="54005019012" class="adj" lemma="τρεῖς" case="genitive"
+                                 gender="masculine"
+                                 number="plural">τριῶν</w>
+                           </wg>
                         </wg>
                         <w morphId="54005019013" class="noun" head="true" lemma="μάρτυς" case="genitive"
                            gender="masculine"
@@ -5497,7 +5523,7 @@
    <sentence>
       <cite>1Tm5:20:1-5:20:11</cite>
       <wg nodeId="540050200010110" class="cl" role="s">
-         <wg nodeId="540050200010050" class="cl">
+         <wg nodeId="540050200010050" class="cl" head="true">
             <wg nodeId="540050200010020" class="np" role="o">
                <w morphId="54005020001" class="det" lemma="ὁ" case="accusative"
                   gender="masculine"
@@ -5528,7 +5554,7 @@
             <wg nodeId="540050200070050" class="cl">
                <wg nodeId="540050200070030" class="np" role="s">
                   <w morphId="54005020007" class="adv" lemma="καί">καὶ</w>
-                  <wg nodeId="540050200080020" class="np">
+                  <wg nodeId="540050200080020" class="np" head="true">
                      <w morphId="54005020008" class="det" lemma="ὁ" case="nominative"
                         gender="masculine"
                         number="plural">οἱ</w>
@@ -5554,7 +5580,7 @@
    <sentence>
       <cite>1Tm5:21:1-5:21:20</cite>
       <wg nodeId="540050210010200" class="cl" role="s">
-         <wg nodeId="540050210010110" class="cl">
+         <wg nodeId="540050210010110" class="cl" head="true">
             <w morphId="54005021001" class="verb" role="v" head="true" lemma="διαμαρτύρομαι"
                person="first"
                number="singular"
@@ -5563,8 +5589,8 @@
                mood="indicative">διαμαρτύρομαι</w>
             <wg nodeId="540050210020100" class="pp" role="adv">
                <w morphId="54005021002" class="prep" lemma="ἐνώπιον">ἐνώπιον</w>
-               <wg nodeId="540050210030090" class="np">
-                  <wg nodeId="540050210030020" class="np">
+               <wg nodeId="540050210030090" class="np" head="true">
+                  <wg nodeId="540050210030020" class="np" head="true">
                      <w morphId="54005021003" class="det" lemma="ὁ" case="genitive" gender="masculine"
                         number="singular">τοῦ</w>
                      <w morphId="54005021004" class="noun" head="true" lemma="θεός" case="genitive"
@@ -5584,7 +5610,7 @@
                   <wg nodeId="540050210090030" class="np">
                      <w morphId="54005021009" class="det" lemma="ὁ" case="genitive" gender="masculine"
                         number="plural">τῶν</w>
-                     <wg nodeId="540050210100020" class="np">
+                     <wg nodeId="540050210100020" class="np" head="true">
                         <w morphId="54005021010" class="adj" lemma="ἐκλεκτός" case="genitive"
                            gender="masculine"
                            number="plural">ἐκλεκτῶν</w>
@@ -5643,7 +5669,7 @@
    <sentence>
       <cite>1Tm5:22:1-5:22:8</cite>
       <wg nodeId="540050220010080" class="cl" role="s">
-         <wg nodeId="540050220010040" class="cl">
+         <wg nodeId="540050220010040" class="cl" head="true">
             <w morphId="54005022001" class="noun" role="o" lemma="χείρ" case="accusative"
                gender="feminine"
                number="plural">χεῖρας</w>
@@ -5708,7 +5734,7 @@
             mood="imperative">ὑδροπότει</w>
          <pu>,</pu>
          <w morphId="54005023003" class="conj" lemma="ἀλλά">ἀλλὰ</w>
-         <wg nodeId="540050230040110" class="cl">
+         <wg nodeId="540050230040110" class="cl" head="true">
             <wg nodeId="540050230040020" class="np" role="o">
                <w morphId="54005023004" class="noun" head="true" lemma="οἶνος" case="dative"
                   gender="masculine"
@@ -5725,8 +5751,8 @@
                mood="imperative">χρῶ</w>
             <wg nodeId="540050230070080" class="pp" role="adv">
                <w morphId="54005023007" class="prep" lemma="διά">διὰ</w>
-               <wg nodeId="540050230080070" class="np">
-                  <wg nodeId="540050230080020" class="np">
+               <wg nodeId="540050230080070" class="np" head="true">
+                  <wg nodeId="540050230080020" class="np" head="true">
                      <w morphId="54005023008" class="det" lemma="ὁ" case="accusative"
                         gender="masculine"
                         number="singular">τὸν</w>
@@ -5739,11 +5765,11 @@
                   <wg nodeId="540050230110040" class="np">
                      <w morphId="54005023011" class="det" lemma="ὁ" case="accusative" gender="feminine"
                         number="plural">τὰς</w>
-                     <wg nodeId="540050230120030" class="np">
+                     <wg nodeId="540050230120030" class="np" head="true">
                         <w morphId="54005023012" class="adj" lemma="πυκνός" case="accusative"
                            gender="feminine"
                            number="plural">πυκνάς</w>
-                        <wg nodeId="540050230130020" class="np">
+                        <wg nodeId="540050230130020" class="np" head="true">
                            <w morphId="54005023013" class="pron" lemma="σύ" case="genitive" number="singular">σου</w>
                            <w morphId="54005023014" class="noun" head="true" lemma="ἀσθένεια"
                               case="accusative"
@@ -5761,7 +5787,7 @@
    <sentence>
       <cite>1Tm5:24:1-5:24:13</cite>
       <wg nodeId="540050240010130" class="cl" role="s">
-         <wg nodeId="540050240010090" class="cl">
+         <wg nodeId="540050240010090" class="cl" head="true">
             <wg nodeId="540050240010040" class="np" role="s">
                <wg nodeId="540050240010020" class="np">
                   <w morphId="54005024001" class="pron" lemma="τις" case="genitive"
@@ -5771,7 +5797,7 @@
                      gender="masculine"
                      number="plural">ἀνθρώπων</w>
                </wg>
-               <wg nodeId="540050240030020" class="np">
+               <wg nodeId="540050240030020" class="np" head="true">
                   <w morphId="54005024003" class="det" lemma="ὁ" case="nominative" gender="feminine"
                      number="plural">αἱ</w>
                   <w morphId="54005024004" class="noun" head="true" lemma="ἁμαρτία"
@@ -5827,14 +5853,14 @@
       <cite>1Tm5:25:1-5:25:14</cite>
       <wg nodeId="540050250010140" class="cl" role="s">
          <w morphId="54005025001" class="adv" lemma="ὡσαύτως">ὡσαύτως</w>
-         <wg nodeId="540050250020130" class="cl">
-            <wg nodeId="540050250020060" class="cl">
+         <wg nodeId="540050250020130" class="cl" head="true">
+            <wg nodeId="540050250020060" class="cl" head="true">
                <wg nodeId="540050250020050" class="np" role="s">
                   <w morphId="54005025002" class="adv" lemma="καί">καὶ</w>
-                  <wg nodeId="540050250030040" class="np">
+                  <wg nodeId="540050250030040" class="np" head="true">
                      <w morphId="54005025003" class="det" lemma="ὁ" case="nominative" gender="neuter"
                         number="plural">τὰ</w>
-                     <wg nodeId="540050250040030" class="np">
+                     <wg nodeId="540050250040030" class="np" head="true">
                         <w morphId="54005025004" class="noun" head="true" lemma="ἔργον" case="nominative"
                            gender="neuter"
                            number="plural">ἔργα</w>
@@ -5859,7 +5885,7 @@
                <wg nodeId="540050250090030" class="np" role="s">
                   <w morphId="54005025009" class="det" lemma="ὁ" case="nominative" gender="neuter"
                      number="plural">τὰ</w>
-                  <wg nodeId="540050250100020" class="cl">
+                  <wg nodeId="540050250100020" class="cl" head="true">
                      <w morphId="54005025010" class="adv" role="adv" lemma="ἄλλως">ἄλλως</w>
                      <w morphId="54005025011" class="verb" role="v" head="true" lemma="ἔχω"
                         tense="present"
@@ -5888,7 +5914,7 @@
    <sentence>
       <cite>1Tm6:1:1-6:1:22</cite>
       <wg nodeId="540060010010220" class="cl" role="s">
-         <wg nodeId="540060010010120" class="cl">
+         <wg nodeId="540060010010120" class="cl" head="true">
             <wg nodeId="540060010010050" class="cl" role="s">
                <w morphId="54006001001" class="pron" role="s" lemma="ὅσος" case="nominative"
                   gender="masculine"
@@ -5914,7 +5940,7 @@
                <w morphId="54006001006" class="det" lemma="ὁ" case="accusative"
                   gender="masculine"
                   number="plural">τοὺς</w>
-               <wg nodeId="540060010070020" class="np">
+               <wg nodeId="540060010070020" class="np" head="true">
                   <w morphId="54006001007" class="adj" lemma="ἴδιος" case="accusative"
                      gender="masculine"
                      number="plural">ἰδίους</w>
@@ -5949,10 +5975,10 @@
             <wg nodeId="540060010140090" class="cl">
                <w morphId="54006001014" class="adv" role="adv" lemma="μή">μὴ</w>
                <wg nodeId="540060010150070" class="np" role="s">
-                  <wg nodeId="540060010150040" class="np">
+                  <wg nodeId="540060010150040" class="np" head="true">
                      <w morphId="54006001015" class="det" lemma="ὁ" case="nominative" gender="neuter"
                         number="singular">τὸ</w>
-                     <wg nodeId="540060010160030" class="np">
+                     <wg nodeId="540060010160030" class="np" head="true">
                         <w morphId="54006001016" class="noun" head="true" lemma="ὄνομα" case="nominative"
                            gender="neuter"
                            number="singular">ὄνομα</w>
@@ -5991,12 +6017,12 @@
       <wg nodeId="540060020020100" class="cl" role="s">
          <w morphId="54006002002" class="conj" lemma="δέ" discontinuous="true">δὲ</w>
          <wg nodeId="540060020010090" class="cl">
-            <wg nodeId="540060020010060" class="cl">
+            <wg nodeId="540060020010060" class="cl" head="true">
                <wg nodeId="540060020010040" class="np" role="s">
                   <w morphId="54006002001" class="det" lemma="ὁ" case="nominative"
                      gender="masculine"
                      number="plural">οἱ</w>
-                  <wg nodeId="540060020040030" class="cl">
+                  <wg nodeId="540060020040030" class="cl" head="true">
                      <w morphId="54006002004" class="verb" role="v" head="true" lemma="ἔχω"
                         discontinuous="true"
                         tense="present"
@@ -6048,7 +6074,7 @@
       <wg nodeId="540060020110120" class="cl" role="s">
          <w morphId="54006002011" class="conj" lemma="ἀλλά">ἀλλὰ</w>
          <wg nodeId="540060020120110" class="cl">
-            <wg nodeId="540060020120020" class="cl">
+            <wg nodeId="540060020120020" class="cl" head="true">
                <w morphId="54006002012" class="adv" role="adv" lemma="μᾶλλον">μᾶλλον</w>
                <w morphId="54006002013" class="verb" role="v" head="true" lemma="δουλεύω"
                   person="third"
@@ -6067,7 +6093,7 @@
                      tense="present"
                      voice="active"
                      mood="indicative">εἰσιν</w>
-                  <wg nodeId="540060020150030" class="np" role="p">
+                  <wg nodeId="540060020150030" class="np" role="p" head="true">
                      <w morphId="54006002015" class="adj" head="true" lemma="πιστός" case="nominative"
                         gender="masculine"
                         number="plural">πιστοί</w>
@@ -6080,7 +6106,7 @@
                      <w morphId="54006002019" class="det" lemma="ὁ" case="nominative"
                         gender="masculine"
                         number="plural">οἱ</w>
-                     <wg nodeId="540060020200030" class="cl">
+                     <wg nodeId="540060020200030" class="cl" head="true">
                         <wg nodeId="540060020200020" class="np" role="o">
                            <w morphId="54006002020" class="det" lemma="ὁ" case="genitive" gender="feminine"
                               number="singular">τῆς</w>
@@ -6110,19 +6136,24 @@
          <w morphId="54006002023" class="pron" role="o" lemma="οὗτος" case="accusative"
             gender="neuter"
             number="plural">Ταῦτα</w>
-         <wg nodeId="540060020240030" class="vp" role="v">
-            <w morphId="54006002024" class="verb" head="true" lemma="διδάσκω" person="second"
-               number="singular"
-               tense="present"
-               voice="active"
-               mood="imperative">δίδασκε</w>
-            <w morphId="54006002025" class="conj" lemma="καί">καὶ</w>
-            <w morphId="54006002026" class="verb" lemma="παρακαλέω" person="second"
-               number="singular"
-               tense="present"
-               voice="active"
-               mood="imperative">παρακάλει</w>
-            <pu>.</pu>
+         <wg nodeId="540060020240030" class="vp" role="v" head="true">
+            <wg nodeId="540060020240011" class="vp" head="true">
+               <w morphId="54006002024" class="verb" head="true" lemma="διδάσκω" person="second"
+                  number="singular"
+                  tense="present"
+                  voice="active"
+                  mood="imperative">δίδασκε</w>
+            </wg>
+            <w morphId="54006002025" class="conj" head="true" lemma="καί">καὶ</w>
+            <wg nodeId="540060020260011" class="vp" head="true">
+               <w morphId="54006002026" class="verb" head="true" lemma="παρακαλέω"
+                  person="second"
+                  number="singular"
+                  tense="present"
+                  voice="active"
+                  mood="imperative">παρακάλει</w>
+               <pu>.</pu>
+            </wg>
          </wg>
       </wg>
    </sentence>
@@ -6132,7 +6163,7 @@
          <wg nodeId="540060030010190" class="cl">
             <w morphId="54006003001" class="conj" lemma="εἰ">εἴ</w>
             <wg nodeId="540060030020180" class="cl">
-               <wg nodeId="540060030020020" class="cl">
+               <wg nodeId="540060030020020" class="cl" head="true">
                   <w morphId="54006003002" class="pron" role="s" lemma="τις" case="nominative"
                      gender="masculine"
                      number="singular">τις</w>
@@ -6153,8 +6184,8 @@
                      voice="middle"
                      mood="indicative">προσέρχεται</w>
                   <wg nodeId="540060030070130" class="np" role="adv">
-                     <wg nodeId="540060030070080" class="np">
-                        <wg nodeId="540060030070020" class="np">
+                     <wg nodeId="540060030070080" class="np" head="true">
+                        <wg nodeId="540060030070020" class="np" head="true">
                            <w morphId="54006003007" class="verb" lemma="ὑγιαίνω" tense="present"
                               voice="active"
                               mood="participle"
@@ -6171,10 +6202,10 @@
                               gender="masculine"
                               number="plural">τοῖς</w>
                            <wg nodeId="540060030100050" class="np">
-                              <wg nodeId="540060030100030" class="np">
+                              <wg nodeId="540060030100030" class="np" head="true">
                                  <w morphId="54006003010" class="det" lemma="ὁ" case="genitive" gender="masculine"
                                     number="singular">τοῦ</w>
-                                 <wg nodeId="540060030110020" class="np">
+                                 <wg nodeId="540060030110020" class="np" head="true">
                                     <w morphId="54006003011" class="noun" head="true" lemma="κύριος" case="genitive"
                                        gender="masculine"
                                        number="singular">κυρίου</w>
@@ -6197,7 +6228,7 @@
                      <wg nodeId="540060030160040" class="np">
                         <w morphId="54006003016" class="det" lemma="ὁ" case="dative" gender="feminine"
                            number="singular">τῇ</w>
-                        <wg nodeId="540060030170030" class="np">
+                        <wg nodeId="540060030170030" class="np" head="true">
                            <wg nodeId="540060030170020" class="pp">
                               <w morphId="54006003017" class="prep" lemma="κατά">κατ’</w>
                               <w morphId="54006003018" class="noun" head="true" lemma="εὐσέβεια"
@@ -6215,7 +6246,7 @@
                </wg>
             </wg>
          </wg>
-         <wg nodeId="540060040010310" class="cl">
+         <wg nodeId="540060040010310" class="cl" head="true">
             <w morphId="54006004001" class="verb" role="v" head="true" lemma="τυφόομαι"
                person="third"
                number="singular"
@@ -6224,7 +6255,7 @@
                mood="indicative">τετύφωται</w>
             <pu>,</pu>
             <wg nodeId="540060040020300" class="cl" role="adv">
-               <wg nodeId="540060040020020" class="cl">
+               <wg nodeId="540060040020020" class="cl" head="true">
                   <w morphId="54006004002" class="adj" role="o" lemma="μηδείς" case="accusative"
                      gender="neuter"
                      number="singular">μηδὲν</w>
@@ -6248,8 +6279,8 @@
                      number="singular">νοσῶν</w>
                   <wg nodeId="540060040060260" class="pp" role="adv">
                      <w morphId="54006004006" class="prep" lemma="περί">περὶ</w>
-                     <wg nodeId="540060040070250" class="np">
-                        <wg nodeId="540060040070030" class="np">
+                     <wg nodeId="540060040070250" class="np" head="true">
+                        <wg nodeId="540060040070030" class="np" head="true">
                            <w morphId="54006004007" class="noun" head="true" lemma="ζήτησις"
                               case="accusative"
                               gender="feminine"
@@ -6308,7 +6339,7 @@
                                        gender="masculine"
                                        number="plural">ἀνθρώπων</w>
                                     <wg nodeId="540060050020120" class="cl">
-                                       <wg nodeId="540060050020030" class="cl">
+                                       <wg nodeId="540060050020030" class="cl" head="true">
                                           <w morphId="54006005002" class="verb" role="v" head="true" lemma="διαφθείρω"
                                              tense="perfect"
                                              voice="passive"
@@ -6392,7 +6423,7 @@
                tense="present"
                voice="active"
                mood="indicative">ἔστιν</w>
-            <wg nodeId="540060060030020" class="np" role="p">
+            <wg nodeId="540060060030020" class="np" role="p" head="true">
                <w morphId="54006006003" class="noun" head="true" lemma="πορισμός"
                   case="nominative"
                   gender="masculine"
@@ -6404,7 +6435,7 @@
             <wg nodeId="540060060050040" class="np" role="s">
                <w morphId="54006006005" class="det" lemma="ὁ" case="nominative" gender="feminine"
                   number="singular">ἡ</w>
-               <wg nodeId="540060060060030" class="np">
+               <wg nodeId="540060060060030" class="np" head="true">
                   <w morphId="54006006006" class="noun" head="true" lemma="εὐσέβεια"
                      case="nominative"
                      gender="feminine"
@@ -6427,7 +6458,7 @@
       <wg nodeId="540060070020110" class="cl" role="s">
          <w morphId="54006007002" class="conj" lemma="γάρ" discontinuous="true">γὰρ</w>
          <wg nodeId="540060070010100" class="cl">
-            <wg nodeId="540060070010050" class="cl">
+            <wg nodeId="540060070010050" class="cl" head="true">
                <w morphId="54006007001" class="adj" role="o" lemma="οὐδείς" case="accusative"
                   gender="neuter"
                   number="singular">οὐδὲν</w>
@@ -6439,7 +6470,7 @@
                   mood="indicative">εἰσηνέγκαμεν</w>
                <wg nodeId="540060070040030" class="pp" role="adv">
                   <w morphId="54006007004" class="prep" lemma="εἰς">εἰς</w>
-                  <wg nodeId="540060070050020" class="np">
+                  <wg nodeId="540060070050020" class="np" head="true">
                      <w morphId="54006007005" class="det" lemma="ὁ" case="accusative"
                         gender="masculine"
                         number="singular">τὸν</w>
@@ -6522,7 +6553,7 @@
                <w morphId="54006009001" class="det" lemma="ὁ" case="nominative"
                   gender="masculine"
                   number="plural">οἱ</w>
-               <wg nodeId="540060090030020" class="cl">
+               <wg nodeId="540060090030020" class="cl" head="true">
                   <w morphId="54006009003" class="verb" role="v" head="true" lemma="βούλομαι"
                      tense="present"
                      voice="middle"
@@ -6543,19 +6574,23 @@
                mood="indicative">ἐμπίπτουσιν</w>
             <wg nodeId="540060090060180" class="pp" role="adv">
                <w morphId="54006009006" class="prep" lemma="εἰς">εἰς</w>
-               <wg nodeId="540060090070170" class="np">
-                  <wg nodeId="540060090070090" class="np">
-                     <w morphId="54006009007" class="noun" head="true" lemma="πειρασμός"
-                        case="accusative"
-                        gender="masculine"
-                        number="singular">πειρασμὸν</w>
+               <wg nodeId="540060090070170" class="np" head="true">
+                  <wg nodeId="540060090070090" class="np" head="true">
+                     <wg nodeId="540060090070011" class="np" head="true">
+                        <w morphId="54006009007" class="noun" head="true" lemma="πειρασμός"
+                           case="accusative"
+                           gender="masculine"
+                           number="singular">πειρασμὸν</w>
+                     </wg>
                      <w morphId="54006009008" class="conj" lemma="καί">καὶ</w>
-                     <w morphId="54006009009" class="noun" lemma="παγίς" case="accusative"
-                        gender="feminine"
-                        number="singular">παγίδα</w>
+                     <wg nodeId="540060090090011" class="np">
+                        <w morphId="54006009009" class="noun" lemma="παγίς" case="accusative"
+                           gender="feminine"
+                           number="singular">παγίδα</w>
+                     </wg>
                      <w morphId="54006009010" class="conj" lemma="καί">καὶ</w>
                      <wg nodeId="540060090110050" class="np">
-                        <wg nodeId="540060090110020" class="np">
+                        <wg nodeId="540060090110020" class="np" head="true">
                            <w morphId="54006009011" class="noun" head="true" lemma="ἐπιθυμία"
                               case="accusative"
                               gender="feminine"
@@ -6597,7 +6632,7 @@
                      </wg>
                      <wg nodeId="540060090200040" class="pp" role="adv">
                         <w morphId="54006009020" class="prep" lemma="εἰς">εἰς</w>
-                        <wg nodeId="540060090210030" class="np">
+                        <wg nodeId="540060090210030" class="np" head="true">
                            <w morphId="54006009021" class="noun" head="true" lemma="ὄλεθρος"
                               case="accusative"
                               gender="masculine"
@@ -6620,14 +6655,14 @@
       <wg nodeId="540060100020200" class="cl" role="s">
          <w morphId="54006010002" class="conj" lemma="γάρ" discontinuous="true">γὰρ</w>
          <wg nodeId="540060100010190" class="cl">
-            <wg nodeId="540060100010040" class="np" role="p">
+            <wg nodeId="540060100010040" class="np" role="p" head="true">
                <w morphId="54006010001" class="noun" head="true" lemma="ῥίζα" case="nominative"
                   gender="feminine"
                   number="singular">ῥίζα</w>
                <wg nodeId="540060100030030" class="np">
                   <w morphId="54006010003" class="adj" lemma="πᾶς" case="genitive" gender="neuter"
                      number="plural">πάντων</w>
-                  <wg nodeId="540060100040020" class="np">
+                  <wg nodeId="540060100040020" class="np" head="true">
                      <w morphId="54006010004" class="det" lemma="ὁ" case="genitive" gender="neuter"
                         number="plural">τῶν</w>
                      <w morphId="54006010005" class="adj" head="true" lemma="κακός" case="genitive"
@@ -6642,7 +6677,7 @@
                voice="active"
                mood="indicative">ἐστιν</w>
             <wg nodeId="540060100070140" class="np" role="s">
-               <wg nodeId="540060100070020" class="np">
+               <wg nodeId="540060100070020" class="np" head="true">
                   <w morphId="54006010007" class="det" lemma="ὁ" case="nominative" gender="feminine"
                      number="singular">ἡ</w>
                   <w morphId="54006010008" class="noun" head="true" lemma="φιλαργυρία"
@@ -6652,7 +6687,7 @@
                   <pu>,</pu>
                </wg>
                <wg nodeId="540060100090120" class="cl">
-                  <wg nodeId="540060100090070" class="cl">
+                  <wg nodeId="540060100090070" class="cl" head="true">
                      <wg nodeId="540060100090020" class="cl" role="adv">
                         <w morphId="54006010009" class="pron" role="o" lemma="ὅς" case="genitive"
                            gender="feminine"
@@ -6677,7 +6712,7 @@
                         mood="indicative">ἀπεπλανήθησαν</w>
                      <wg nodeId="540060100130030" class="pp" role="adv">
                         <w morphId="54006010013" class="prep" lemma="ἀπό">ἀπὸ</w>
-                        <wg nodeId="540060100140020" class="np">
+                        <wg nodeId="540060100140020" class="np" head="true">
                            <w morphId="54006010014" class="det" lemma="ὁ" case="genitive" gender="feminine"
                               number="singular">τῆς</w>
                            <w morphId="54006010015" class="noun" head="true" lemma="πίστις" case="genitive"
@@ -6719,7 +6754,7 @@
          <wg nodeId="540060110030060" class="cl">
             <wg nodeId="540060110030030" class="np">
                <w morphId="54006011003" class="intj" lemma="ὦ">ὦ</w>
-               <wg nodeId="540060110040020" class="np">
+               <wg nodeId="540060110040020" class="np" head="true">
                   <w morphId="54006011004" class="noun" head="true" lemma="ἄνθρωπος" case="vocative"
                      gender="masculine"
                      number="singular">ἄνθρωπε</w>
@@ -6730,7 +6765,7 @@
                   <pu>,</pu>
                </wg>
             </wg>
-            <wg nodeId="540060110010030" class="cl">
+            <wg nodeId="540060110010030" class="cl" head="true">
                <w morphId="54006011001" class="pron" role="s" lemma="σύ" case="nominative"
                   number="singular">Σὺ</w>
                <w morphId="54006011006" class="pron" role="o" lemma="οὗτος" case="accusative"
@@ -6752,7 +6787,7 @@
       <wg nodeId="540060110090290" class="cl" role="s">
          <w morphId="54006011009" class="conj" lemma="δέ" discontinuous="true">δὲ</w>
          <wg nodeId="540060110080280" class="cl">
-            <wg nodeId="540060110080070" class="cl">
+            <wg nodeId="540060110080070" class="cl" head="true">
                <w morphId="54006011008" class="verb" role="v" head="true" lemma="διώκω"
                   person="second"
                   number="singular"
@@ -6798,11 +6833,11 @@
                   <w morphId="54006012002" class="det" lemma="ὁ" case="accusative"
                      gender="masculine"
                      number="singular">τὸν</w>
-                  <wg nodeId="540060120030040" class="np">
+                  <wg nodeId="540060120030040" class="np" head="true">
                      <w morphId="54006012003" class="adj" lemma="καλός" case="accusative"
                         gender="masculine"
                         number="singular">καλὸν</w>
-                     <wg nodeId="540060120040030" class="np">
+                     <wg nodeId="540060120040030" class="np" head="true">
                         <w morphId="54006012004" class="noun" head="true" lemma="ἀγών" case="accusative"
                            gender="masculine"
                            number="singular">ἀγῶνα</w>
@@ -6826,10 +6861,10 @@
                   voice="middle"
                   mood="imperative">ἐπιλαβοῦ</w>
                <wg nodeId="540060120080140" class="np" role="o">
-                  <wg nodeId="540060120080030" class="np">
+                  <wg nodeId="540060120080030" class="np" head="true">
                      <w morphId="54006012008" class="det" lemma="ὁ" case="genitive" gender="feminine"
                         number="singular">τῆς</w>
-                     <wg nodeId="540060120090020" class="np">
+                     <wg nodeId="540060120090020" class="np" head="true">
                         <w morphId="54006012009" class="adj" lemma="αἰώνιος" case="genitive"
                            gender="feminine"
                            number="singular">αἰωνίου</w>
@@ -6846,7 +6881,7 @@
                            gender="feminine"
                            number="singular">ἣν</w>
                      </wg>
-                     <wg nodeId="540060120130090" class="cl" role="v">
+                     <wg nodeId="540060120130090" class="cl" role="v" head="true">
                         <w morphId="54006012013" class="verb" head="true" lemma="καλέω" person="second"
                            number="singular"
                            tense="aorist"
@@ -6863,7 +6898,7 @@
                            <wg nodeId="540060120160030" class="np" role="o">
                               <w morphId="54006012016" class="det" lemma="ὁ" case="accusative" gender="feminine"
                                  number="singular">τὴν</w>
-                              <wg nodeId="540060120170020" class="np">
+                              <wg nodeId="540060120170020" class="np" head="true">
                                  <w morphId="54006012017" class="adj" lemma="καλός" case="accusative"
                                     gender="feminine"
                                     number="singular">καλὴν</w>
@@ -6875,7 +6910,7 @@
                            </wg>
                            <wg nodeId="540060120190030" class="pp" role="adv">
                               <w morphId="54006012019" class="prep" lemma="ἐνώπιον">ἐνώπιον</w>
-                              <wg nodeId="540060120200020" class="np">
+                              <wg nodeId="540060120200020" class="np" head="true">
                                  <w morphId="54006012020" class="adj" lemma="πολύς" case="genitive"
                                     gender="masculine"
                                     number="plural">πολλῶν</w>
@@ -6906,9 +6941,9 @@
             number="singular">σοι</w>
          <wg nodeId="540060130030180" class="pp" role="adv">
             <w morphId="54006013003" class="prep" lemma="ἐνώπιον">ἐνώπιον</w>
-            <wg nodeId="540060130040170" class="np">
-               <wg nodeId="540060130040060" class="np">
-                  <wg nodeId="540060130040020" class="np">
+            <wg nodeId="540060130040170" class="np" head="true">
+               <wg nodeId="540060130040060" class="np" head="true">
+                  <wg nodeId="540060130040020" class="np" head="true">
                      <w morphId="54006013004" class="det" lemma="ὁ" case="genitive" gender="masculine"
                         number="singular">τοῦ</w>
                      <w morphId="54006013005" class="noun" head="true" lemma="θεός" case="genitive"
@@ -6918,7 +6953,7 @@
                   <wg nodeId="540060130060040" class="np">
                      <w morphId="54006013006" class="det" lemma="ὁ" case="genitive" gender="masculine"
                         number="singular">τοῦ</w>
-                     <wg nodeId="540060130070030" class="cl">
+                     <wg nodeId="540060130070030" class="cl" head="true">
                         <w morphId="54006013007" class="verb" role="v" head="true" lemma="ζῳογονέω"
                            tense="present"
                            voice="active"
@@ -6938,7 +6973,7 @@
                </wg>
                <w morphId="54006013010" class="conj" lemma="καί">καὶ</w>
                <wg nodeId="540060130110100" class="np">
-                  <wg nodeId="540060130110020" class="np">
+                  <wg nodeId="540060130110020" class="np" head="true">
                      <w morphId="54006013011" class="noun" head="true" lemma="χριστός" case="genitive"
                         gender="masculine"
                         number="singular">Χριστοῦ</w>
@@ -6949,7 +6984,7 @@
                   <wg nodeId="540060130130080" class="np">
                      <w morphId="54006013013" class="det" lemma="ὁ" case="genitive" gender="masculine"
                         number="singular">τοῦ</w>
-                     <wg nodeId="540060130140070" class="cl">
+                     <wg nodeId="540060130140070" class="cl" head="true">
                         <w morphId="54006013014" class="verb" role="v" head="true" lemma="μαρτυρέω"
                            tense="aorist"
                            voice="active"
@@ -6959,7 +6994,7 @@
                            number="singular">μαρτυρήσαντος</w>
                         <wg nodeId="540060130150030" class="pp" role="adv">
                            <w morphId="54006013015" class="prep" lemma="ἐπί">ἐπὶ</w>
-                           <wg nodeId="540060130160020" class="np">
+                           <wg nodeId="540060130160020" class="np" head="true">
                               <w morphId="54006013016" class="noun" head="true" lemma="πόντιος" case="genitive"
                                  gender="masculine"
                                  number="singular">Ποντίου</w>
@@ -6971,7 +7006,7 @@
                         <wg nodeId="540060130180030" class="np" role="o">
                            <w morphId="54006013018" class="det" lemma="ὁ" case="accusative" gender="feminine"
                               number="singular">τὴν</w>
-                           <wg nodeId="540060130190020" class="np">
+                           <wg nodeId="540060130190020" class="np" head="true">
                               <w morphId="54006013019" class="adj" lemma="καλός" case="accusative"
                                  gender="feminine"
                                  number="singular">καλὴν</w>
@@ -7011,20 +7046,20 @@
             </wg>
             <wg nodeId="540060140070450" class="pp" role="adv">
                <w morphId="54006014007" class="prep" lemma="μέχρι(ς)">μέχρι</w>
-               <wg nodeId="540060140080440" class="np">
-                  <wg nodeId="540060140080070" class="np">
+               <wg nodeId="540060140080440" class="np" head="true">
+                  <wg nodeId="540060140080070" class="np" head="true">
                      <w morphId="54006014008" class="det" lemma="ὁ" case="genitive" gender="feminine"
                         number="singular">τῆς</w>
-                     <wg nodeId="540060140090060" class="np">
+                     <wg nodeId="540060140090060" class="np" head="true">
                         <w morphId="54006014009" class="noun" head="true" lemma="ἐπιφάνεια"
                            case="genitive"
                            gender="feminine"
                            number="singular">ἐπιφανείας</w>
                         <wg nodeId="540060140100050" class="np">
-                           <wg nodeId="540060140100030" class="np">
+                           <wg nodeId="540060140100030" class="np" head="true">
                               <w morphId="54006014010" class="det" lemma="ὁ" case="genitive" gender="masculine"
                                  number="singular">τοῦ</w>
-                              <wg nodeId="540060140110020" class="np">
+                              <wg nodeId="540060140110020" class="np" head="true">
                                  <w morphId="54006014011" class="noun" head="true" lemma="κύριος" case="genitive"
                                     gender="masculine"
                                     number="singular">κυρίου</w>
@@ -7062,14 +7097,14 @@
                         voice="active"
                         mood="indicative">δείξει</w>
                      <wg nodeId="540060150050330" class="np" role="s">
-                        <wg nodeId="540060150050270" class="np">
-                           <wg nodeId="540060150050200" class="np">
-                              <wg nodeId="540060150050130" class="np">
-                                 <wg nodeId="540060150050050" class="np">
+                        <wg nodeId="540060150050270" class="np" head="true">
+                           <wg nodeId="540060150050200" class="np" head="true">
+                              <wg nodeId="540060150050130" class="np" head="true">
+                                 <wg nodeId="540060150050050" class="np" head="true">
                                     <w morphId="54006015005" class="det" lemma="ὁ" case="nominative"
                                        gender="masculine"
                                        number="singular">ὁ</w>
-                                    <wg nodeId="540060150060040" class="np">
+                                    <wg nodeId="540060150060040" class="np" head="true">
                                        <wg nodeId="540060150060030" class="adjp">
                                           <w morphId="54006015006" class="adj" head="true" lemma="μακάριος"
                                              case="nominative"
@@ -7091,8 +7126,8 @@
                                     <w morphId="54006015010" class="det" lemma="ὁ" case="nominative"
                                        gender="masculine"
                                        number="singular">ὁ</w>
-                                    <wg nodeId="540060150110070" class="np">
-                                       <wg nodeId="540060150110030" class="np">
+                                    <wg nodeId="540060150110070" class="np" head="true">
+                                       <wg nodeId="540060150110030" class="np" head="true">
                                           <w morphId="54006015011" class="noun" head="true" lemma="βασιλεύς"
                                              case="nominative"
                                              gender="masculine"
@@ -7132,12 +7167,12 @@
                                  <w morphId="54006016001" class="det" lemma="ὁ" case="nominative"
                                     gender="masculine"
                                     number="singular">ὁ</w>
-                                 <wg nodeId="540060160020060" class="np">
+                                 <wg nodeId="540060160020060" class="np" head="true">
                                     <w morphId="54006016002" class="adj" head="true" lemma="μόνος" case="nominative"
                                        gender="masculine"
                                        number="singular">μόνος</w>
                                     <wg nodeId="540060160030050" class="cl">
-                                       <wg nodeId="540060160030020" class="cl">
+                                       <wg nodeId="540060160030020" class="cl" head="true">
                                           <w morphId="54006016003" class="verb" role="v" head="true" lemma="ἔχω"
                                              tense="present"
                                              voice="active"
@@ -7174,7 +7209,7 @@
                               </wg>
                            </wg>
                            <wg nodeId="540060160080070" class="cl">
-                              <wg nodeId="540060160080040" class="cl">
+                              <wg nodeId="540060160080040" class="cl" head="true">
                                  <w morphId="54006016008" class="pron" role="o" lemma="ὅς" case="accusative"
                                     gender="masculine"
                                     number="singular">ὃν</w>
@@ -7185,10 +7220,10 @@
                                     voice="active"
                                     mood="indicative">εἶδεν</w>
                                  <wg nodeId="540060160100020" class="np" role="s">
-                                    <w morphId="54006016010" class="adj" head="true" lemma="οὐδείς" case="nominative"
+                                    <w morphId="54006016010" class="adj" lemma="οὐδείς" case="nominative"
                                        gender="masculine"
                                        number="singular">οὐδεὶς</w>
-                                    <w morphId="54006016011" class="noun" lemma="ἄνθρωπος" case="genitive"
+                                    <w morphId="54006016011" class="noun" head="true" lemma="ἄνθρωπος" case="genitive"
                                        gender="masculine"
                                        number="plural">ἀνθρώπων</w>
                                  </wg>
@@ -7209,11 +7244,11 @@
                            </wg>
                         </wg>
                         <wg nodeId="540060160150060" class="cl">
-                           <wg nodeId="540060160150050" class="cl">
+                           <wg nodeId="540060160150050" class="cl" head="true">
                               <w morphId="54006016015" class="pron" role="io" lemma="ὅς" case="dative"
                                  gender="masculine"
                                  number="singular">ᾧ</w>
-                              <wg nodeId="540060160160040" class="np" role="s">
+                              <wg nodeId="540060160160040" class="np" role="s" head="true">
                                  <w morphId="54006016016" class="noun" head="true" lemma="τιμή" case="nominative"
                                     gender="feminine"
                                     number="singular">τιμὴ</w>
@@ -7242,20 +7277,20 @@
    <sentence>
       <cite>1Tm6:17:1-6:19:12</cite>
       <wg nodeId="540060170010440" class="cl" role="s">
-         <wg nodeId="540060170010390" class="cl">
+         <wg nodeId="540060170010390" class="cl" head="true">
             <wg nodeId="540060170010060" class="np" role="io">
                <w morphId="54006017001" class="det" lemma="ὁ" case="dative" gender="masculine"
                   number="plural">Τοῖς</w>
-               <wg nodeId="540060170020050" class="adjp">
+               <wg nodeId="540060170020050" class="adjp" head="true">
                   <w morphId="54006017002" class="adj" head="true" lemma="πλούσιος" case="dative"
                      gender="masculine"
                      number="plural">πλουσίοις</w>
                   <wg nodeId="540060170030040" class="pp">
                      <w morphId="54006017003" class="prep" lemma="ἐν">ἐν</w>
-                     <wg nodeId="540060170040030" class="np">
+                     <wg nodeId="540060170040030" class="np" head="true">
                         <w morphId="54006017004" class="det" lemma="ὁ" case="dative" gender="masculine"
                            number="singular">τῷ</w>
-                        <wg nodeId="540060170050020" class="np">
+                        <wg nodeId="540060170050020" class="np" head="true">
                            <w morphId="54006017005" class="adv" lemma="νῦν">νῦν</w>
                            <w morphId="54006017006" class="noun" head="true" lemma="αἰών" case="dative"
                               gender="masculine"
@@ -7272,7 +7307,7 @@
                voice="active"
                mood="imperative">παράγγελλε</w>
             <wg nodeId="540060170080320" class="cl" role="o">
-               <wg nodeId="540060170080170" class="cl">
+               <wg nodeId="540060170080170" class="cl" head="true">
                   <w morphId="54006017008" class="adv" lemma="μή">μὴ</w>
                   <wg nodeId="540060170090060" class="cl">
                      <w morphId="54006017009" class="verb" head="true" lemma="ὑψηλοφρονέω"
@@ -7287,7 +7322,7 @@
                            mood="infinitive">ἠλπικέναι</w>
                         <wg nodeId="540060170120030" class="pp" role="adv">
                            <w morphId="54006017012" class="prep" lemma="ἐπί">ἐπὶ</w>
-                           <wg nodeId="540060170130020" class="np">
+                           <wg nodeId="540060170130020" class="np" head="true">
                               <w morphId="54006017013" class="noun" lemma="πλοῦτος" case="genitive"
                                  gender="masculine"
                                  number="singular">πλούτου</w>
@@ -7300,16 +7335,16 @@
                      </wg>
                   </wg>
                   <w morphId="54006017015" class="conj" lemma="ἀλλά">ἀλλ’</w>
-                  <wg nodeId="540060170160090" class="pp">
+                  <wg nodeId="540060170160090" class="pp" head="true">
                      <w morphId="54006017016" class="prep" lemma="ἐπί">ἐπὶ</w>
-                     <wg nodeId="540060170170080" class="np">
+                     <wg nodeId="540060170170080" class="np" head="true">
                         <w morphId="54006017017" class="noun" head="true" lemma="θεός" case="dative"
                            gender="masculine"
                            number="singular">θεῷ</w>
                         <wg nodeId="540060170180070" class="np">
                            <w morphId="54006017018" class="det" lemma="ὁ" case="dative" gender="masculine"
                               number="singular">τῷ</w>
-                           <wg nodeId="540060170190060" class="cl">
+                           <wg nodeId="540060170190060" class="cl" head="true">
                               <w morphId="54006017019" class="verb" role="v" head="true" lemma="παρέχω"
                                  tense="present"
                                  voice="active"
@@ -7347,7 +7382,7 @@
                      mood="infinitive">πλουτεῖν</w>
                   <wg nodeId="540060180030030" class="pp" role="adv">
                      <w morphId="54006018003" class="prep" lemma="ἐν">ἐν</w>
-                     <wg nodeId="540060180040020" class="np">
+                     <wg nodeId="540060180040020" class="np" head="true">
                         <w morphId="54006018004" class="noun" head="true" lemma="ἔργον" case="dative"
                            gender="neuter"
                            number="plural">ἔργοις</w>
@@ -7393,7 +7428,7 @@
                   </wg>
                   <wg nodeId="540060190050030" class="pp" role="adv">
                      <w morphId="54006019005" class="prep" lemma="εἰς">εἰς</w>
-                     <wg nodeId="540060190060020" class="np">
+                     <wg nodeId="540060190060020" class="np" head="true">
                         <w morphId="54006019006" class="det" lemma="ὁ" case="accusative" gender="neuter"
                            number="singular">τὸ</w>
                         <w morphId="54006019007" class="verb" head="true" lemma="μέλλω" tense="present"
@@ -7420,7 +7455,7 @@
                <wg nodeId="540060190100030" class="np" role="o">
                   <w morphId="54006019010" class="det" lemma="ὁ" case="genitive" gender="feminine"
                      number="singular">τῆς</w>
-                  <wg nodeId="540060190110020" class="np">
+                  <wg nodeId="540060190110020" class="np" head="true">
                      <w morphId="54006019011" class="adv" lemma="ὄντως">ὄντως</w>
                      <w morphId="54006019012" class="noun" head="true" lemma="ζωή" case="genitive"
                         gender="feminine"
@@ -7442,7 +7477,7 @@
                number="singular">Τιμόθεε</w>
             <pu>,</pu>
          </wg>
-         <wg nodeId="540060200030190" class="cl">
+         <wg nodeId="540060200030190" class="cl" head="true">
             <wg nodeId="540060200030020" class="np" role="o">
                <w morphId="54006020003" class="det" lemma="ὁ" case="accusative" gender="feminine"
                   number="singular">τὴν</w>
@@ -7469,8 +7504,8 @@
                <wg nodeId="540060200070150" class="np" role="o">
                   <w morphId="54006020007" class="det" lemma="ὁ" case="accusative" gender="feminine"
                      number="plural">τὰς</w>
-                  <wg nodeId="540060200080140" class="np">
-                     <wg nodeId="540060200080020" class="np">
+                  <wg nodeId="540060200080140" class="np" head="true">
+                     <wg nodeId="540060200080020" class="np" head="true">
                         <w morphId="54006020008" class="adj" lemma="βέβηλος" case="accusative"
                            gender="feminine"
                            number="plural">βεβήλους</w>
@@ -7488,8 +7523,8 @@
                         <wg nodeId="540060200120100" class="np">
                            <w morphId="54006020012" class="det" lemma="ὁ" case="genitive" gender="feminine"
                               number="singular">τῆς</w>
-                           <wg nodeId="540060200130090" class="np">
-                              <wg nodeId="540060200130020" class="np">
+                           <wg nodeId="540060200130090" class="np" head="true">
+                              <wg nodeId="540060200130020" class="np" head="true">
                                  <w morphId="54006020013" class="adj" lemma="ψευδώνυμος" case="genitive"
                                     gender="feminine"
                                     number="singular">ψευδωνύμου</w>
@@ -7517,7 +7552,7 @@
                                     number="plural">τινες</w>
                                  <wg nodeId="540060210040030" class="pp" role="adv">
                                     <w morphId="54006021004" class="prep" lemma="περί">περὶ</w>
-                                    <wg nodeId="540060210050020" class="np">
+                                    <wg nodeId="540060210050020" class="np" head="true">
                                        <w morphId="54006021005" class="det" lemma="ὁ" case="accusative" gender="feminine"
                                           number="singular">τὴν</w>
                                        <w morphId="54006021006" class="noun" head="true" lemma="πίστις" case="accusative"
@@ -7552,7 +7587,7 @@
                gender="feminine"
                number="singular">χάρις</w>
          </wg>
-         <wg nodeId="540060210100020" class="pp" role="adv">
+         <wg nodeId="540060210100020" class="pp" role="p" head="true">
             <w morphId="54006021010" class="prep" lemma="μετά">μεθ’</w>
             <w morphId="54006021011" class="pron" head="true" lemma="σύ" case="genitive"
                number="plural">ὑμῶν</w>
