@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" ?>
+﻿<?xml version="1.0" encoding="utf-8" ?>
 <Sentences>
 <Sentence ID = "Tit1:1:1-1:4:6">
 <Trees>
@@ -919,7 +919,7 @@
       </Node>
       <Node Cat="S" Start="1" End="6" Rule="Np2S" Head="0" nodeId="560010120020061">
         <Node Cat="np" Start="1" End="6" Rule="Np-Appos" Head="0" nodeId="560010120020060">
-          <Node Cat="np" Start="1" End="3" Rule="NpPp" Head="0" nodeId="560010120020030">
+          <Node Cat="np" Start="1" End="3" Rule="QuanPp" Head="1" nodeId="560010120020030">
             <Node Cat="np" Start="1" End="1" Rule="Pron2NP" Head="0" nodeId="560010120020011">
               <Node Cat="pron" Start="1" End="1" UnicodeLemma="τις" Unicode="τις" Number="Singular" Type="Indefinite" morphId="56001012002" Case="Nominative" Gender="Masculine" nodeId="560010120020010">τις</Node>
             </Node>
@@ -3528,7 +3528,7 @@
 <Trees>
 <Tree>
 <Node Cat="S" Head="0" nodeId="560030150130051">
-  <Node Cat="CL" Start="0" End="4" Rule="S-ADV" Head="0" HasDet="True" ClType="VerbElided" nodeId="560030150130050">
+  <Node Cat="CL" Start="0" End="4" Rule="S-P" Head="1" ClType="Verbless" nodeId="560030150130050">
     <Node Cat="S" Start="0" End="1" Rule="Np2S" Head="0" HasDet="True" nodeId="560030150130021">
       <Node Cat="np" Start="0" End="1" Rule="DetNP" Head="1" HasDet="True" nodeId="560030150130020">
         <Node Cat="det" Start="0" End="0" Case="Nominative" UnicodeLemma="ὁ" Unicode="ἡ" Gender="Feminine" Number="Singular" morphId="56003015013" nodeId="560030150130010">ἡ</Node>
@@ -3537,7 +3537,7 @@
         </Node>
       </Node>
     </Node>
-    <Node Cat="ADV" Start="2" End="4" Rule="pp2ADV" Head="0" nodeId="560030150150031">
+    <Node Cat="P" Start="2" End="4" Rule="pp2P" Head="0" nodeId="560030150150031">
       <Node Cat="pp" Start="2" End="4" Rule="PrepNp" Head="1" nodeId="560030150150030">
         <Node Cat="prep" Start="2" End="2" UnicodeLemma="μετά" Unicode="μετὰ" morphId="56003015015" nodeId="560030150150010">μετὰ</Node>
         <Node Cat="np" Start="3" End="4" Rule="All-NP" Head="1" nodeId="560030150160020">

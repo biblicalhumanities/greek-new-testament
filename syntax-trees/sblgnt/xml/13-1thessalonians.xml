@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" ?>
+﻿<?xml version="1.0" encoding="utf-8" ?>
 <Sentences>
 <Sentence ID = "1Th1:1:1-1:1:15">
 <Trees>
@@ -1780,7 +1780,7 @@
                   </Node>
                 </Node>
                 <Node Cat="O" Start="8" End="9" Rule="Np2O" Head="0" nodeId="520020090180021">
-                  <Node Cat="np" Start="8" End="9" Rule="NPofNP" Head="0" nodeId="520020090180020">
+                  <Node Cat="np" Start="8" End="9" Rule="QuanNP" Head="1" nodeId="520020090180020">
                     <Node Cat="np" Start="8" End="8" Rule="Pron2NP" Head="0" nodeId="520020090180011">
                       <Node Cat="pron" Start="8" End="8" UnicodeLemma="τις" Unicode="τινα" Number="Singular" Type="Indefinite" morphId="52002009018" Case="Accusative" Gender="Masculine" nodeId="520020090180010">τινα</Node>
                     </Node>
@@ -1915,7 +1915,7 @@
           <Node Cat="conj" Start="17" End="17" UnicodeLemma="ὡς" Unicode="ὡς" morphId="52002011003" nodeId="520020110030010">ὡς</Node>
           <Node Cat="CL" Start="18" End="46" Rule="O-ADV-ADV" Head="0" ClType="VerbElided" nodeId="520020110040290">
             <Node Cat="O" Start="18" End="20" Rule="Np2O" Head="0" nodeId="520020110040031">
-              <Node Cat="np" Start="18" End="20" Rule="NPofNP" Head="0" nodeId="520020110040030">
+              <Node Cat="np" Start="18" End="20" Rule="QuanNP" Head="1" nodeId="520020110040030">
                 <Node Cat="np" Start="18" End="19" Rule="NpAdjp" Head="0" nodeId="520020110040020">
                   <Node Cat="np" Start="18" End="18" Rule="Adj2NP" Head="0" nodeId="520020110040012">
                     <Node Cat="adjp" Start="18" End="18" Rule="Adj2Adjp" Head="0" nodeId="520020110040011">
@@ -3384,8 +3384,8 @@
             </Node>
           </Node>
           <Node Cat="conj" Start="18" End="18" UnicodeLemma="καί" Unicode="καὶ" morphId="52003005019" nodeId="520030050190010">καὶ</Node>
-          <Node Cat="CL" Start="19" End="24" Rule="P-VC-S" Head="0" nodeId="520030050200060">
-            <Node Cat="P" Start="19" End="20" Rule="pp2P" Head="0" nodeId="520030050200021">
+          <Node Cat="CL" Start="19" End="24" Rule="ADV-V-S" Head="1" nodeId="520030050200060">
+            <Node Cat="ADV" Start="19" End="20" Rule="pp2ADV" Head="0" nodeId="520030050200021">
               <Node Cat="pp" Start="19" End="20" Rule="PrepNp" Head="1" nodeId="520030050200020">
                 <Node Cat="prep" Start="19" End="19" UnicodeLemma="εἰς" Unicode="εἰς" morphId="52003005020" nodeId="520030050200010">εἰς</Node>
                 <Node Cat="np" Start="20" End="20" Rule="Adj2NP" Head="0" nodeId="520030050210012">
@@ -3395,7 +3395,7 @@
                 </Node>
               </Node>
             </Node>
-            <Node Cat="VC" Start="21" End="21" Rule="vp2VC" Head="0" nodeId="520030050220012">
+            <Node Cat="V" Start="21" End="21" Rule="Vp2V" Head="0" nodeId="520030050220012">
               <Node Cat="vp" Start="21" End="21" Rule="V2VP" Head="0" nodeId="520030050220011">
                 <Node Cat="verb" Start="21" End="21" UnicodeLemma="γίνομαι" Person="Third" Voice="Middle" Unicode="γένηται" Tense="Aorist" Number="Singular" morphId="52003005022" Mood="Subjunctive" nodeId="520030050220010">γένηται</Node>
               </Node>

@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" ?>
+﻿<?xml version="1.0" encoding="utf-8" ?>
 <Sentences>
 <Sentence ID = "Col1:1:1-1:2:9">
 <Trees>
@@ -1166,7 +1166,7 @@
                                             <Node Cat="np" Start="120" End="141" Rule="Np-Appos" Head="0" HasDet="True" nodeId="510010160050220">
                                               <Node Cat="np" Start="120" End="128" Rule="DetNP" Head="1" HasDet="True" nodeId="510010160050090">
                                                 <Node Cat="det" Start="120" End="120" Case="Nominative" UnicodeLemma="ὁ" Unicode="τὰ" Gender="Neuter" Number="Plural" morphId="51001016005" nodeId="510010160050010">τὰ</Node>
-                                                <Node Cat="np" Start="121" End="128" Rule="NpPp" Head="0" nodeId="510010160060080">
+                                                <Node Cat="np" Start="121" End="128" Rule="QuanPp" Head="1" HasDet="True" nodeId="510010160060080">
                                                   <Node Cat="np" Start="121" End="121" Rule="Adj2NP" Head="0" nodeId="510010160060012">
                                                     <Node Cat="adjp" Start="121" End="121" Rule="Adj2Adjp" Head="0" nodeId="510010160060011">
                                                       <Node Cat="adj" Start="121" End="121" Case="Nominative" UnicodeLemma="πᾶς" Unicode="πάντα" Gender="Neuter" Number="Plural" morphId="51001016006" nodeId="510010160060010">πάντα</Node>
@@ -4284,7 +4284,7 @@
             </Node>
           </Node>
           <Node Cat="P" Start="23" End="27" Rule="Np2P" Head="0" nodeId="510020220030051">
-            <Node Cat="np" Start="23" End="27" Rule="NpPp" Head="0" nodeId="510020220030050">
+            <Node Cat="np" Start="23" End="27" Rule="QuanPp" Head="1" nodeId="510020220030050">
               <Node Cat="np" Start="23" End="23" Rule="Adj2NP" Head="0" nodeId="510020220030012">
                 <Node Cat="adjp" Start="23" End="23" Rule="Adj2Adjp" Head="0" nodeId="510020220030011">
                   <Node Cat="adj" Start="23" End="23" Case="Nominative" UnicodeLemma="πᾶς" Unicode="πάντα" Gender="Neuter" Number="Plural" morphId="51002022003" nodeId="510020220030010">πάντα</Node>
@@ -6803,13 +6803,13 @@
             </Node>
             <Node Cat="S" Start="11" End="14" Rule="Np2S" Head="0" nodeId="510040060120042">
               <Node Cat="np" Start="11" End="14" Rule="CL2NP" Head="0" nodeId="510040060120041">
-                <Node Cat="CL" Start="11" End="14" Rule="S-ADV-V" Head="2" nodeId="510040060120040">
+                <Node Cat="CL" Start="11" End="14" Rule="S-IO-V" Head="2" nodeId="510040060120040">
                   <Node Cat="S" Start="11" End="11" Rule="Np2S" Head="0" nodeId="510040060120012">
                     <Node Cat="np" Start="11" End="11" Rule="Pron2NP" Head="0" nodeId="510040060120011">
                       <Node Cat="pron" Start="11" End="11" Case="Accusative" UnicodeLemma="σύ" Unicode="ὑμᾶς" Number="Plural" morphId="51004006012" Type="Personal" nodeId="510040060120010">ὑμᾶς</Node>
                     </Node>
                   </Node>
-                  <Node Cat="ADV" Start="12" End="13" Rule="Np2ADV" Head="0" nodeId="510040060130021">
+                  <Node Cat="IO" Start="12" End="13" Rule="Np2IO" Head="0" nodeId="510040060130021">
                     <Node Cat="np" Start="12" End="13" Rule="NpAdjp" Head="0" nodeId="510040060130020">
                       <Node Cat="np" Start="12" End="12" Rule="Adj2NP" Head="0" nodeId="510040060130012">
                         <Node Cat="adjp" Start="12" End="12" Rule="Adj2Adjp" Head="0" nodeId="510040060130011">
@@ -6846,7 +6846,7 @@
     <Node Cat="O" Start="0" End="3" Rule="Np2O" Head="0" HasDet="True" nodeId="510040070010041">
       <Node Cat="np" Start="0" End="3" Rule="DetNP" Head="1" HasDet="True" nodeId="510040070010040">
         <Node Cat="det" Start="0" End="0" Case="Accusative" UnicodeLemma="ὁ" Unicode="Τὰ" Gender="Neuter" Number="Plural" morphId="51004007001" nodeId="510040070010010">Τὰ</Node>
-        <Node Cat="np" Start="1" End="3" Rule="PpNp2Np" Head="1" nodeId="510040070020030">
+        <Node Cat="np" Start="1" End="3" Rule="PpQuan2Np" Head="0" nodeId="510040070020030">
           <Node Cat="pp" Start="1" End="2" Rule="PrepNp" Head="1" nodeId="510040070020020">
             <Node Cat="prep" Start="1" End="1" UnicodeLemma="κατά" Unicode="κατ’" morphId="51004007002" nodeId="510040070020010">κατ’</Node>
             <Node Cat="np" Start="2" End="2" Rule="Pron2NP" Head="0" nodeId="510040070030011">

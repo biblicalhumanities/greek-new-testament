@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" ?>
+﻿<?xml version="1.0" encoding="utf-8" ?>
 <Sentences>
 <Sentence ID = "Phm1:1:1-1:2:15">
 <Trees>
@@ -1694,7 +1694,7 @@
 <Trees>
 <Tree>
 <Node Cat="S" Head="0" nodeId="570010250010101">
-  <Node Cat="CL" Start="0" End="9" Rule="S-ADV" Head="0" HasDet="True" ClType="VerbElided" nodeId="570010250010100">
+  <Node Cat="CL" Start="0" End="9" Rule="S-P" Head="1" HasDet="True" ClType="Verbless" nodeId="570010250010100">
     <Node Cat="S" Start="0" End="5" Rule="Np2S" Head="0" HasDet="True" nodeId="570010250010061">
       <Node Cat="np" Start="0" End="5" Rule="DetNP" Head="1" HasDet="True" nodeId="570010250010060">
         <Node Cat="det" Start="0" End="0" Case="Nominative" UnicodeLemma="ὁ" Unicode="Ἡ" Gender="Feminine" Number="Singular" morphId="57001025001" nodeId="570010250010010">Ἡ</Node>
@@ -1721,7 +1721,7 @@
         </Node>
       </Node>
     </Node>
-    <Node Cat="ADV" Start="6" End="9" Rule="pp2ADV" Head="0" HasDet="True" nodeId="570010250070041">
+    <Node Cat="P" Start="6" End="9" Rule="pp2P" Head="0" HasDet="True" nodeId="570010250070041">
       <Node Cat="pp" Start="6" End="9" Rule="PrepNp" Head="1" HasDet="True" nodeId="570010250070040">
         <Node Cat="prep" Start="6" End="6" UnicodeLemma="μετά" Unicode="μετὰ" morphId="57001025007" nodeId="570010250070010">μετὰ</Node>
         <Node Cat="np" Start="7" End="9" Rule="DetNP" Head="1" HasDet="True" nodeId="570010250080030">

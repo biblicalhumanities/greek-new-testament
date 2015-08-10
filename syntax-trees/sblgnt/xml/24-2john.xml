@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" ?>
+﻿<?xml version="1.0" encoding="utf-8" ?>
 <Sentences>
 <Sentence ID = "2Jn1:1:1-1:2:14">
 <Trees>
@@ -1183,13 +1183,13 @@
         </Node>
         <Node Cat="O" Start="12" End="19" Rule="CL2Ox" Head="0" nodeId="630010120130081">
           <Node Cat="CL" Start="12" End="19" Rule="CLaCL" Head="0" nodeId="630010120130080">
-            <Node Cat="CL" Start="12" End="14" Rule="VC-P" Head="1" nodeId="630010120130030">
-              <Node Cat="VC" Start="12" End="12" Rule="vp2VC" Head="0" nodeId="630010120130012">
+            <Node Cat="CL" Start="12" End="14" Rule="V-ADV" Head="0" nodeId="630010120130030">
+              <Node Cat="V" Start="12" End="12" Rule="Vp2V" Head="0" nodeId="630010120130012">
                 <Node Cat="vp" Start="12" End="12" Rule="V2VP" Head="0" nodeId="630010120130011">
                   <Node Cat="verb" Start="12" End="12" UnicodeLemma="γίνομαι" Voice="Middle" Unicode="γενέσθαι" Tense="Aorist" morphId="63001012013" Mood="Infinitive" nodeId="630010120130010">γενέσθαι</Node>
                 </Node>
               </Node>
-              <Node Cat="P" Start="13" End="14" Rule="pp2P" Head="0" nodeId="630010120140021">
+              <Node Cat="ADV" Start="13" End="14" Rule="pp2ADV" Head="0" nodeId="630010120140021">
                 <Node Cat="pp" Start="13" End="14" Rule="PrepNp" Head="1" nodeId="630010120140020">
                   <Node Cat="prep" Start="13" End="13" UnicodeLemma="πρός" Unicode="πρὸς" morphId="63001012014" nodeId="630010120140010">πρὸς</Node>
                   <Node Cat="np" Start="14" End="14" Rule="Pron2NP" Head="0" nodeId="630010120150011">

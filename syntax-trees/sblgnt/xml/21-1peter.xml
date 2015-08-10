@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" ?>
+﻿<?xml version="1.0" encoding="utf-8" ?>
 <Sentences>
 <Sentence ID = "1Pe1:1:1-1:2:14">
 <Trees>
@@ -1401,7 +1401,7 @@
           </Node>
         </Node>
       </Node>
-      <Node Cat="CL" Start="11" End="78" Rule="ADV-O-V-ADV" Head="2" nodeId="600010170120680">
+      <Node Cat="CL" Start="11" End="78" Rule="ADV-ADV-V-ADV" Head="2" nodeId="600010170120680">
         <Node Cat="ADV" Start="11" End="12" Rule="pp2ADV" Head="0" nodeId="600010170120021">
           <Node Cat="pp" Start="11" End="12" Rule="PrepNp" Head="1" nodeId="600010170120020">
             <Node Cat="prep" Start="11" End="11" UnicodeLemma="ἐν" Unicode="ἐν" morphId="60001017012" nodeId="600010170120010">ἐν</Node>
@@ -1410,7 +1410,7 @@
             </Node>
           </Node>
         </Node>
-        <Node Cat="O" Start="13" End="17" Rule="Np2O" Head="0" HasDet="True" nodeId="600010170140051">
+        <Node Cat="ADV" Start="13" End="17" Rule="Np2ADV" Head="0" HasDet="True" nodeId="600010170140051">
           <Node Cat="np" Start="13" End="17" Rule="DetNP" Head="1" HasDet="True" nodeId="600010170140050">
             <Node Cat="det" Start="13" End="13" Case="Accusative" UnicodeLemma="ὁ" Unicode="τὸν" Gender="Masculine" Number="Singular" morphId="60001017014" nodeId="600010170140010">τὸν</Node>
             <Node Cat="np" Start="14" End="17" Rule="ofNPNP" Head="1" nodeId="600010170150040">
@@ -2530,9 +2530,9 @@
 <Trees>
 <Tree>
 <Node Cat="S" Head="0" nodeId="600020070020061">
-  <Node Cat="CL" Start="0" End="5" Rule="Conj-CL" nodeId="600020070020060">
+  <Node Cat="CL" Start="0" End="5" Rule="Conj-CL" HasDet="True" nodeId="600020070020060">
     <Node Cat="conj" Start="0" End="0" UnicodeLemma="οὖν" Unicode="οὖν" morphId="60002007002" nodeId="600020070020010">οὖν</Node>
-    <Node Cat="CL" Start="1" End="5" Rule="S-P" Head="1" ClType="Verbless" nodeId="600020070030050">
+    <Node Cat="CL" Start="1" End="5" Rule="S-ADV" Head="0" HasDet="True" ClType="VerbElided" nodeId="600020070030050">
       <Node Cat="S" Start="1" End="2" Rule="Np2S" Head="0" HasDet="True" nodeId="600020070030021">
         <Node Cat="np" Start="1" End="2" Rule="DetNP" Head="1" HasDet="True" nodeId="600020070030020">
           <Node Cat="det" Start="1" End="1" Case="Nominative" UnicodeLemma="ὁ" Unicode="ἡ" Gender="Feminine" Number="Singular" morphId="60002007003" nodeId="600020070030010">ἡ</Node>
@@ -2541,7 +2541,7 @@
           </Node>
         </Node>
       </Node>
-      <Node Cat="P" Start="3" End="5" Rule="Np2P" Head="0" nodeId="600020070010031">
+      <Node Cat="ADV" Start="3" End="5" Rule="Np2ADV" Head="0" nodeId="600020070010031">
         <Node Cat="np" Start="3" End="5" Rule="Np-Appos" Head="0" nodeId="600020070010030">
           <Node Cat="np" Start="3" End="3" Rule="Pron2NP" Head="0" nodeId="600020070010011">
             <Node Cat="pron" Start="3" End="3" Case="Dative" UnicodeLemma="σύ" Unicode="ὑμῖν" Number="Plural" morphId="60002007001" Type="Personal" nodeId="600020070010010">ὑμῖν</Node>
@@ -2670,8 +2670,8 @@
           </Node>
         </Node>
       </Node>
-      <Node Cat="CL" Start="18" End="26" Rule="ClCl2" Head="1" nodeId="600020080070090">
-        <Node Cat="CL" Start="18" End="22" Rule="S-V-ADV-ADV" Head="1" nodeId="600020080070050">
+      <Node Cat="CL" Start="18" End="26" Rule="ClCl" Head="0" nodeId="600020080070090">
+        <Node Cat="CL" Start="18" End="22" Rule="S-V-ADV" Head="1" nodeId="600020080070050">
           <Node Cat="S" Start="18" End="18" Rule="Np2S" Head="0" nodeId="600020080070012">
             <Node Cat="np" Start="18" End="18" Rule="Pron2NP" Head="0" nodeId="600020080070011">
               <Node Cat="pron" Start="18" End="18" UnicodeLemma="ὅς" Unicode="οἳ" Number="Plural" Type="Relative" morphId="60002008007" Case="Nominative" Gender="Masculine" nodeId="600020080070010">οἳ</Node>
@@ -2682,16 +2682,16 @@
               <Node Cat="verb" Start="19" End="19" UnicodeLemma="προσκόπτω" Person="Third" Voice="Active" Unicode="προσκόπτουσιν" Tense="Present" Number="Plural" morphId="60002008008" Mood="Indicative" nodeId="600020080080010">προσκόπτουσιν</Node>
             </Node>
           </Node>
-          <Node Cat="ADV" Start="20" End="21" Rule="Np2ADV" Head="0" HasDet="True" nodeId="600020080090021">
-            <Node Cat="np" Start="20" End="21" Rule="DetNP" Head="1" HasDet="True" nodeId="600020080090020">
-              <Node Cat="det" Start="20" End="20" Case="Dative" UnicodeLemma="ὁ" Unicode="τῷ" Gender="Masculine" Number="Singular" morphId="60002008009" nodeId="600020080090010">τῷ</Node>
-              <Node Cat="np" Start="21" End="21" Rule="N2NP" Head="0" nodeId="600020080100011">
-                <Node Cat="noun" Start="21" End="21" UnicodeLemma="λόγος" Unicode="λόγῳ" Number="Singular" Type="Common" morphId="60002008010" Case="Dative" Gender="Masculine" nodeId="600020080100010">λόγῳ</Node>
+          <Node Cat="ADV" Start="20" End="22" Rule="CL2ADV" Head="0" nodeId="600020080090031">
+            <Node Cat="CL" Start="20" End="22" Rule="O-V" Head="1" nodeId="600020080090030">
+              <Node Cat="O" Start="20" End="21" Rule="Np2O" Head="0" HasDet="True" nodeId="600020080090021">
+                <Node Cat="np" Start="20" End="21" Rule="DetNP" Head="1" HasDet="True" nodeId="600020080090020">
+                  <Node Cat="det" Start="20" End="20" Case="Dative" UnicodeLemma="ὁ" Unicode="τῷ" Gender="Masculine" Number="Singular" morphId="60002008009" nodeId="600020080090010">τῷ</Node>
+                  <Node Cat="np" Start="21" End="21" Rule="N2NP" Head="0" nodeId="600020080100011">
+                    <Node Cat="noun" Start="21" End="21" UnicodeLemma="λόγος" Unicode="λόγῳ" Number="Singular" Type="Common" morphId="60002008010" Case="Dative" Gender="Masculine" nodeId="600020080100010">λόγῳ</Node>
+                  </Node>
+                </Node>
               </Node>
-            </Node>
-          </Node>
-          <Node Cat="ADV" Start="22" End="22" Rule="CL2ADV" Head="0" nodeId="600020080110014">
-            <Node Cat="CL" Start="22" End="22" Rule="V2CL" Head="0" nodeId="600020080110013">
               <Node Cat="V" Start="22" End="22" Rule="Vp2V" Head="0" nodeId="600020080110012">
                 <Node Cat="vp" Start="22" End="22" Rule="V2VP" Head="0" nodeId="600020080110011">
                   <Node Cat="verb" Start="22" End="22" UnicodeLemma="ἀπειθέω" Voice="Active" Unicode="ἀπειθοῦντες·" Tense="Present" Number="Plural" morphId="60002008011" Mood="Participle" Case="Nominative" Gender="Masculine" nodeId="600020080110010">ἀπειθοῦντες</Node>
@@ -5876,7 +5876,7 @@
             <Node Cat="CL" Start="11" End="31" Rule="sub-CL" nodeId="600030200030210">
               <Node Cat="conj" Start="11" End="11" UnicodeLemma="ὅτε" Unicode="ὅτε" morphId="60003020003" nodeId="600030200030010">ὅτε</Node>
               <Node Cat="CL" Start="12" End="31" Rule="ClCl" Head="0" nodeId="600030200040200">
-                <Node Cat="CL" Start="12" End="16" Rule="V-S" Head="0" nodeId="600030200040050">
+                <Node Cat="CL" Start="12" End="19" Rule="V-S-ADV" Head="0" nodeId="600030200040080">
                   <Node Cat="V" Start="12" End="12" Rule="Vp2V" Head="0" nodeId="600030200040012">
                     <Node Cat="vp" Start="12" End="12" Rule="V2VP" Head="0" nodeId="600030200040011">
                       <Node Cat="verb" Start="12" End="12" UnicodeLemma="ἀπεκδέχομαι" Person="Third" Voice="Middle" Unicode="ἀπεξεδέχετο" Tense="Imperfect" Number="Singular" morphId="60003020004" Mood="Indicative" nodeId="600030200040010">ἀπεξεδέχετο</Node>
@@ -5898,8 +5898,6 @@
                       </Node>
                     </Node>
                   </Node>
-                </Node>
-                <Node Cat="CL" Start="17" End="31" Rule="ADV-V-S" Head="1" nodeId="600030200090150">
                   <Node Cat="ADV" Start="17" End="19" Rule="pp2ADV" Head="0" nodeId="600030200090031">
                     <Node Cat="pp" Start="17" End="19" Rule="PrepNp" Head="1" nodeId="600030200090030">
                       <Node Cat="prep" Start="17" End="17" UnicodeLemma="ἐν" Unicode="ἐν" morphId="60003020009" nodeId="600030200090010">ἐν</Node>
@@ -5913,6 +5911,8 @@
                       </Node>
                     </Node>
                   </Node>
+                </Node>
+                <Node Cat="CL" Start="20" End="31" Rule="V-S" Head="0" nodeId="600030200120120">
                   <Node Cat="V" Start="20" End="20" Rule="Vp2V" Head="0" nodeId="600030200120012">
                     <Node Cat="vp" Start="20" End="20" Rule="V2VP" Head="0" nodeId="600030200120011">
                       <Node Cat="verb" Start="20" End="20" UnicodeLemma="κατασκευάζω" Voice="Passive" Unicode="κατασκευαζομένης" Tense="Present" Number="Singular" morphId="60003020012" Mood="Participle" Case="Genitive" Gender="Feminine" nodeId="600030200120010">κατασκευαζομένης</Node>
@@ -7028,13 +7028,13 @@
                 </Node>
               </Node>
               <Node Cat="CL" Start="39" End="51" Rule="ClCl" Head="0" nodeId="600040110260130">
-                <Node Cat="CL" Start="39" End="50" Rule="P-VC-S-ADV" Head="0" nodeId="600040110260120">
-                  <Node Cat="P" Start="39" End="39" Rule="Np2P" Head="0" nodeId="600040110260012">
+                <Node Cat="CL" Start="39" End="50" Rule="ADV-V-S-ADV" Head="1" nodeId="600040110260120">
+                  <Node Cat="ADV" Start="39" End="39" Rule="Np2ADV" Head="0" nodeId="600040110260012">
                     <Node Cat="np" Start="39" End="39" Rule="Pron2NP" Head="0" nodeId="600040110260011">
                       <Node Cat="pron" Start="39" End="39" UnicodeLemma="ὅς" Unicode="ᾧ" Number="Singular" Type="Relative" morphId="60004011026" Case="Dative" Gender="Masculine" nodeId="600040110260010">ᾧ</Node>
                     </Node>
                   </Node>
-                  <Node Cat="VC" Start="40" End="40" Rule="vp2VC" Head="0" nodeId="600040110270012">
+                  <Node Cat="V" Start="40" End="40" Rule="Vp2V" Head="0" nodeId="600040110270012">
                     <Node Cat="vp" Start="40" End="40" Rule="V2VP" Head="0" nodeId="600040110270011">
                       <Node Cat="verb" Start="40" End="40" UnicodeLemma="εἰμί" Person="Third" Voice="Active" Unicode="ἐστιν" Tense="Present" Number="Singular" morphId="60004011027" Mood="Indicative" nodeId="600040110270010">ἐστιν</Node>
                     </Node>
@@ -7374,7 +7374,7 @@
             </Node>
           </Node>
           <Node Cat="S" Start="2" End="3" Rule="Np2S" Head="0" nodeId="600040150030021">
-            <Node Cat="np" Start="2" End="3" Rule="NPofNP" Head="0" nodeId="600040150030020">
+            <Node Cat="np" Start="2" End="3" Rule="QuanNP" Head="1" nodeId="600040150030020">
               <Node Cat="np" Start="2" End="2" Rule="Pron2NP" Head="0" nodeId="600040150030011">
                 <Node Cat="pron" Start="2" End="2" UnicodeLemma="τις" Unicode="τις" Number="Singular" Type="Indefinite" morphId="60004015003" Case="Nominative" Gender="Masculine" nodeId="600040150030010">τις</Node>
               </Node>
@@ -7833,13 +7833,13 @@
                 <Node Cat="det" Start="15" End="15" Case="Genitive" UnicodeLemma="ὁ" Unicode="τῆς" Gender="Feminine" Number="Singular" morphId="60005001016" nodeId="600050010160010">τῆς</Node>
                 <Node Cat="np" Start="16" End="18" Rule="AdjpNp" Head="1" nodeId="600050010170030">
                   <Node Cat="adjp" Start="16" End="17" Rule="CL2Adjp" Head="0" nodeId="600050010170021">
-                    <Node Cat="CL" Start="16" End="17" Rule="V-ADV" Head="0" nodeId="600050010170020">
+                    <Node Cat="CL" Start="16" End="17" Rule="V-O" Head="0" nodeId="600050010170020">
                       <Node Cat="V" Start="16" End="16" Rule="Vp2V" Head="0" nodeId="600050010170012">
                         <Node Cat="vp" Start="16" End="16" Rule="V2VP" Head="0" nodeId="600050010170011">
                           <Node Cat="verb" Start="16" End="16" UnicodeLemma="μέλλω" Voice="Active" Unicode="μελλούσης" Tense="Present" Number="Singular" morphId="60005001017" Mood="Participle" Case="Genitive" Gender="Feminine" nodeId="600050010170010">μελλούσης</Node>
                         </Node>
                       </Node>
-                      <Node Cat="ADV" Start="17" End="17" Rule="CL2ADV" Head="0" nodeId="600050010180014">
+                      <Node Cat="O" Start="17" End="17" Rule="CL2Ox" Head="0" nodeId="600050010180014">
                         <Node Cat="CL" Start="17" End="17" Rule="V2CL" Head="0" nodeId="600050010180013">
                           <Node Cat="V" Start="17" End="17" Rule="Vp2V" Head="0" nodeId="600050010180012">
                             <Node Cat="vp" Start="17" End="17" Rule="V2VP" Head="0" nodeId="600050010180011">
@@ -8507,162 +8507,164 @@
 <Sentence ID = "1Pe5:10:1-5:11:9">
 <Trees>
 <Tree>
-<Node Cat="S" Head="0" nodeId="600050100020310">
-  <Node Cat="conj" Start="0" End="0" UnicodeLemma="δέ" Unicode="δὲ" morphId="60005010002" nodeId="600050100020010">δὲ</Node>
-  <Node Cat="CL" Start="1" End="30" Rule="ClCl" Head="0" nodeId="600050100010300">
-    <Node Cat="CL" Start="1" End="21" Rule="ClCl2" Head="1" nodeId="600050100010210">
-      <Node Cat="CL" Start="1" End="14" Rule="Np2CL" Head="0" HasDet="True" ClType="Minor" nodeId="600050100010141">
-        <Node Cat="np" Start="1" End="14" Rule="Np-Appos" Head="0" HasDet="True" nodeId="600050100010140">
-          <Node Cat="np" Start="1" End="4" Rule="DetNP" Head="1" HasDet="True" nodeId="600050100010040">
-            <Node Cat="det" Start="1" End="1" Case="Nominative" UnicodeLemma="ὁ" Unicode="ὁ" Gender="Masculine" Number="Singular" morphId="60005010001" nodeId="600050100010010">ὁ</Node>
-            <Node Cat="np" Start="2" End="4" Rule="NPofNP" Head="0" nodeId="600050100030030">
-              <Node Cat="np" Start="2" End="2" Rule="N2NP" Head="0" nodeId="600050100030011">
-                <Node Cat="noun" Start="2" End="2" UnicodeLemma="θεός" Unicode="θεὸς" Number="Singular" Type="Common" morphId="60005010003" Case="Nominative" Gender="Masculine" nodeId="600050100030010">θεὸς</Node>
-              </Node>
-              <Node Cat="np" Start="3" End="4" Rule="All-NP" Head="1" nodeId="600050100040020">
-                <Node Cat="adjp" Start="3" End="3" Rule="Adj2Adjp" Head="0" nodeId="600050100040011">
-                  <Node Cat="adj" Start="3" End="3" Case="Genitive" UnicodeLemma="πᾶς" Unicode="πάσης" Gender="Feminine" Number="Singular" morphId="60005010004" nodeId="600050100040010">πάσης</Node>
+<Node Cat="S" Head="0" nodeId="600050100020311">
+  <Node Cat="CL" Start="0" End="30" Rule="Conj-CL" nodeId="600050100020310">
+    <Node Cat="conj" Start="0" End="0" UnicodeLemma="δέ" Unicode="δὲ" morphId="60005010002" nodeId="600050100020010">δὲ</Node>
+    <Node Cat="CL" Start="1" End="30" Rule="ClCl" Head="0" nodeId="600050100010300">
+      <Node Cat="CL" Start="1" End="21" Rule="ClCl2" Head="1" nodeId="600050100010210">
+        <Node Cat="CL" Start="1" End="14" Rule="Np2CL" Head="0" HasDet="True" ClType="Minor" nodeId="600050100010141">
+          <Node Cat="np" Start="1" End="14" Rule="Np-Appos" Head="0" HasDet="True" nodeId="600050100010140">
+            <Node Cat="np" Start="1" End="4" Rule="DetNP" Head="1" HasDet="True" nodeId="600050100010040">
+              <Node Cat="det" Start="1" End="1" Case="Nominative" UnicodeLemma="ὁ" Unicode="ὁ" Gender="Masculine" Number="Singular" morphId="60005010001" nodeId="600050100010010">ὁ</Node>
+              <Node Cat="np" Start="2" End="4" Rule="NPofNP" Head="0" nodeId="600050100030030">
+                <Node Cat="np" Start="2" End="2" Rule="N2NP" Head="0" nodeId="600050100030011">
+                  <Node Cat="noun" Start="2" End="2" UnicodeLemma="θεός" Unicode="θεὸς" Number="Singular" Type="Common" morphId="60005010003" Case="Nominative" Gender="Masculine" nodeId="600050100030010">θεὸς</Node>
                 </Node>
-                <Node Cat="np" Start="4" End="4" Rule="N2NP" Head="0" nodeId="600050100050011">
-                  <Node Cat="noun" Start="4" End="4" UnicodeLemma="χάρις" Unicode="χάριτος," Number="Singular" Type="Common" morphId="60005010005" Case="Genitive" Gender="Feminine" nodeId="600050100050010">χάριτος</Node>
+                <Node Cat="np" Start="3" End="4" Rule="All-NP" Head="1" nodeId="600050100040020">
+                  <Node Cat="adjp" Start="3" End="3" Rule="Adj2Adjp" Head="0" nodeId="600050100040011">
+                    <Node Cat="adj" Start="3" End="3" Case="Genitive" UnicodeLemma="πᾶς" Unicode="πάσης" Gender="Feminine" Number="Singular" morphId="60005010004" nodeId="600050100040010">πάσης</Node>
+                  </Node>
+                  <Node Cat="np" Start="4" End="4" Rule="N2NP" Head="0" nodeId="600050100050011">
+                    <Node Cat="noun" Start="4" End="4" UnicodeLemma="χάρις" Unicode="χάριτος," Number="Singular" Type="Common" morphId="60005010005" Case="Genitive" Gender="Feminine" nodeId="600050100050010">χάριτος</Node>
+                  </Node>
                 </Node>
               </Node>
             </Node>
-          </Node>
-          <Node Cat="np" Start="5" End="14" Rule="DetCL" Head="1" nodeId="600050100060100">
-            <Node Cat="det" Start="5" End="5" Case="Nominative" UnicodeLemma="ὁ" Unicode="ὁ" Gender="Masculine" Number="Singular" morphId="60005010006" nodeId="600050100060010">ὁ</Node>
-            <Node Cat="CL" Start="6" End="14" Rule="V-O-ADV-ADV" Head="0" nodeId="600050100070090">
-              <Node Cat="V" Start="6" End="6" Rule="Vp2V" Head="0" nodeId="600050100070012">
-                <Node Cat="vp" Start="6" End="6" Rule="V2VP" Head="0" nodeId="600050100070011">
-                  <Node Cat="verb" Start="6" End="6" UnicodeLemma="καλέω" Voice="Active" Unicode="καλέσας" Tense="Aorist" Number="Singular" morphId="60005010007" Mood="Participle" Case="Nominative" Gender="Masculine" nodeId="600050100070010">καλέσας</Node>
+            <Node Cat="np" Start="5" End="14" Rule="DetCL" Head="1" nodeId="600050100060100">
+              <Node Cat="det" Start="5" End="5" Case="Nominative" UnicodeLemma="ὁ" Unicode="ὁ" Gender="Masculine" Number="Singular" morphId="60005010006" nodeId="600050100060010">ὁ</Node>
+              <Node Cat="CL" Start="6" End="14" Rule="V-O-ADV-ADV" Head="0" nodeId="600050100070090">
+                <Node Cat="V" Start="6" End="6" Rule="Vp2V" Head="0" nodeId="600050100070012">
+                  <Node Cat="vp" Start="6" End="6" Rule="V2VP" Head="0" nodeId="600050100070011">
+                    <Node Cat="verb" Start="6" End="6" UnicodeLemma="καλέω" Voice="Active" Unicode="καλέσας" Tense="Aorist" Number="Singular" morphId="60005010007" Mood="Participle" Case="Nominative" Gender="Masculine" nodeId="600050100070010">καλέσας</Node>
+                  </Node>
                 </Node>
-              </Node>
-              <Node Cat="O" Start="7" End="7" Rule="Np2O" Head="0" nodeId="600050100080012">
-                <Node Cat="np" Start="7" End="7" Rule="Pron2NP" Head="0" nodeId="600050100080011">
-                  <Node Cat="pron" Start="7" End="7" Case="Accusative" UnicodeLemma="σύ" Unicode="ὑμᾶς" Number="Plural" morphId="60005010008" Type="Personal" nodeId="600050100080010">ὑμᾶς</Node>
+                <Node Cat="O" Start="7" End="7" Rule="Np2O" Head="0" nodeId="600050100080012">
+                  <Node Cat="np" Start="7" End="7" Rule="Pron2NP" Head="0" nodeId="600050100080011">
+                    <Node Cat="pron" Start="7" End="7" Case="Accusative" UnicodeLemma="σύ" Unicode="ὑμᾶς" Number="Plural" morphId="60005010008" Type="Personal" nodeId="600050100080010">ὑμᾶς</Node>
+                  </Node>
                 </Node>
-              </Node>
-              <Node Cat="ADV" Start="8" End="12" Rule="pp2ADV" Head="0" HasDet="True" nodeId="600050100090051">
-                <Node Cat="pp" Start="8" End="12" Rule="PrepNp" Head="1" HasDet="True" nodeId="600050100090050">
-                  <Node Cat="prep" Start="8" End="8" UnicodeLemma="εἰς" Unicode="εἰς" morphId="60005010009" nodeId="600050100090010">εἰς</Node>
-                  <Node Cat="np" Start="9" End="12" Rule="DetNP" Head="1" HasDet="True" nodeId="600050100100040">
-                    <Node Cat="det" Start="9" End="9" Case="Accusative" UnicodeLemma="ὁ" Unicode="τὴν" Gender="Feminine" Number="Singular" morphId="60005010010" nodeId="600050100100010">τὴν</Node>
-                    <Node Cat="np" Start="10" End="12" Rule="AdjpNp" Head="1" nodeId="600050100110030">
-                      <Node Cat="adjp" Start="10" End="10" Rule="Adj2Adjp" Head="0" nodeId="600050100110011">
-                        <Node Cat="adj" Start="10" End="10" Case="Accusative" UnicodeLemma="αἰώνιος" Unicode="αἰώνιον" Gender="Feminine" Number="Singular" morphId="60005010011" nodeId="600050100110010">αἰώνιον</Node>
-                      </Node>
-                      <Node Cat="np" Start="11" End="12" Rule="ofNPNP" Head="1" nodeId="600050100120020">
-                        <Node Cat="np" Start="11" End="11" Rule="Pron2NP" Head="0" nodeId="600050100120011">
-                          <Node Cat="pron" Start="11" End="11" UnicodeLemma="αὐτός" Unicode="αὐτοῦ" Number="Singular" Type="Personal" morphId="60005010012" Case="Genitive" Gender="Masculine" nodeId="600050100120010">αὐτοῦ</Node>
+                <Node Cat="ADV" Start="8" End="12" Rule="pp2ADV" Head="0" HasDet="True" nodeId="600050100090051">
+                  <Node Cat="pp" Start="8" End="12" Rule="PrepNp" Head="1" HasDet="True" nodeId="600050100090050">
+                    <Node Cat="prep" Start="8" End="8" UnicodeLemma="εἰς" Unicode="εἰς" morphId="60005010009" nodeId="600050100090010">εἰς</Node>
+                    <Node Cat="np" Start="9" End="12" Rule="DetNP" Head="1" HasDet="True" nodeId="600050100100040">
+                      <Node Cat="det" Start="9" End="9" Case="Accusative" UnicodeLemma="ὁ" Unicode="τὴν" Gender="Feminine" Number="Singular" morphId="60005010010" nodeId="600050100100010">τὴν</Node>
+                      <Node Cat="np" Start="10" End="12" Rule="AdjpNp" Head="1" nodeId="600050100110030">
+                        <Node Cat="adjp" Start="10" End="10" Rule="Adj2Adjp" Head="0" nodeId="600050100110011">
+                          <Node Cat="adj" Start="10" End="10" Case="Accusative" UnicodeLemma="αἰώνιος" Unicode="αἰώνιον" Gender="Feminine" Number="Singular" morphId="60005010011" nodeId="600050100110010">αἰώνιον</Node>
                         </Node>
-                        <Node Cat="np" Start="12" End="12" Rule="N2NP" Head="0" nodeId="600050100130011">
-                          <Node Cat="noun" Start="12" End="12" UnicodeLemma="δόξα" Unicode="δόξαν" Number="Singular" Type="Common" morphId="60005010013" Case="Accusative" Gender="Feminine" nodeId="600050100130010">δόξαν</Node>
+                        <Node Cat="np" Start="11" End="12" Rule="ofNPNP" Head="1" nodeId="600050100120020">
+                          <Node Cat="np" Start="11" End="11" Rule="Pron2NP" Head="0" nodeId="600050100120011">
+                            <Node Cat="pron" Start="11" End="11" UnicodeLemma="αὐτός" Unicode="αὐτοῦ" Number="Singular" Type="Personal" morphId="60005010012" Case="Genitive" Gender="Masculine" nodeId="600050100120010">αὐτοῦ</Node>
+                          </Node>
+                          <Node Cat="np" Start="12" End="12" Rule="N2NP" Head="0" nodeId="600050100130011">
+                            <Node Cat="noun" Start="12" End="12" UnicodeLemma="δόξα" Unicode="δόξαν" Number="Singular" Type="Common" morphId="60005010013" Case="Accusative" Gender="Feminine" nodeId="600050100130010">δόξαν</Node>
+                          </Node>
                         </Node>
                       </Node>
                     </Node>
                   </Node>
                 </Node>
-              </Node>
-              <Node Cat="ADV" Start="13" End="14" Rule="pp2ADV" Head="0" nodeId="600050100140021">
-                <Node Cat="pp" Start="13" End="14" Rule="PrepNp" Head="1" nodeId="600050100140020">
-                  <Node Cat="prep" Start="13" End="13" UnicodeLemma="ἐν" Unicode="ἐν" morphId="60005010014" nodeId="600050100140010">ἐν</Node>
-                  <Node Cat="np" Start="14" End="14" Rule="N2NP" Head="0" nodeId="600050100150011">
-                    <Node Cat="noun" Start="14" End="14" UnicodeLemma="Χριστός" Unicode="Χριστῷ," Number="Singular" Type="Proper" morphId="60005010015" Case="Dative" Gender="Masculine" nodeId="600050100150010">Χριστῷ</Node>
+                <Node Cat="ADV" Start="13" End="14" Rule="pp2ADV" Head="0" nodeId="600050100140021">
+                  <Node Cat="pp" Start="13" End="14" Rule="PrepNp" Head="1" nodeId="600050100140020">
+                    <Node Cat="prep" Start="13" End="13" UnicodeLemma="ἐν" Unicode="ἐν" morphId="60005010014" nodeId="600050100140010">ἐν</Node>
+                    <Node Cat="np" Start="14" End="14" Rule="N2NP" Head="0" nodeId="600050100150011">
+                      <Node Cat="noun" Start="14" End="14" UnicodeLemma="Χριστός" Unicode="Χριστῷ," Number="Singular" Type="Proper" morphId="60005010015" Case="Dative" Gender="Masculine" nodeId="600050100150010">Χριστῷ</Node>
+                    </Node>
                   </Node>
                 </Node>
               </Node>
             </Node>
           </Node>
         </Node>
-      </Node>
-      <Node Cat="CL" Start="15" End="21" Rule="ClClClCl" Head="0" nodeId="600050100160070">
-        <Node Cat="CL" Start="15" End="18" Rule="ADV-S-V" Head="2" nodeId="600050100160040">
-          <Node Cat="ADV" Start="15" End="16" Rule="CL2ADV" Head="0" nodeId="600050100160021">
-            <Node Cat="CL" Start="15" End="16" Rule="ADV-V" Head="1" nodeId="600050100160020">
-              <Node Cat="ADV" Start="15" End="15" Rule="adjp2ADV" Head="0" nodeId="600050100160012">
-                <Node Cat="adjp" Start="15" End="15" Rule="Adj2Adjp" Head="0" nodeId="600050100160011">
-                  <Node Cat="adj" Start="15" End="15" Case="Accusative" UnicodeLemma="ὀλίγος" Unicode="ὀλίγον" Gender="Neuter" Number="Singular" morphId="60005010016" nodeId="600050100160010">ὀλίγον</Node>
+        <Node Cat="CL" Start="15" End="21" Rule="ClClClCl" Head="0" nodeId="600050100160070">
+          <Node Cat="CL" Start="15" End="18" Rule="ADV-S-V" Head="2" nodeId="600050100160040">
+            <Node Cat="ADV" Start="15" End="16" Rule="CL2ADV" Head="0" nodeId="600050100160021">
+              <Node Cat="CL" Start="15" End="16" Rule="ADV-V" Head="1" nodeId="600050100160020">
+                <Node Cat="ADV" Start="15" End="15" Rule="adjp2ADV" Head="0" nodeId="600050100160012">
+                  <Node Cat="adjp" Start="15" End="15" Rule="Adj2Adjp" Head="0" nodeId="600050100160011">
+                    <Node Cat="adj" Start="15" End="15" Case="Accusative" UnicodeLemma="ὀλίγος" Unicode="ὀλίγον" Gender="Neuter" Number="Singular" morphId="60005010016" nodeId="600050100160010">ὀλίγον</Node>
+                  </Node>
+                </Node>
+                <Node Cat="V" Start="16" End="16" Rule="Vp2V" Head="0" nodeId="600050100170012">
+                  <Node Cat="vp" Start="16" End="16" Rule="V2VP" Head="0" nodeId="600050100170011">
+                    <Node Cat="verb" Start="16" End="16" UnicodeLemma="πάσχω" Voice="Active" Unicode="παθόντας" Tense="Aorist" Number="Plural" morphId="60005010017" Mood="Participle" Case="Accusative" Gender="Masculine" nodeId="600050100170010">παθόντας</Node>
+                  </Node>
                 </Node>
               </Node>
-              <Node Cat="V" Start="16" End="16" Rule="Vp2V" Head="0" nodeId="600050100170012">
-                <Node Cat="vp" Start="16" End="16" Rule="V2VP" Head="0" nodeId="600050100170011">
-                  <Node Cat="verb" Start="16" End="16" UnicodeLemma="πάσχω" Voice="Active" Unicode="παθόντας" Tense="Aorist" Number="Plural" morphId="60005010017" Mood="Participle" Case="Accusative" Gender="Masculine" nodeId="600050100170010">παθόντας</Node>
-                </Node>
+            </Node>
+            <Node Cat="S" Start="17" End="17" Rule="Np2S" Head="0" nodeId="600050100180012">
+              <Node Cat="np" Start="17" End="17" Rule="Pron2NP" Head="0" nodeId="600050100180011">
+                <Node Cat="pron" Start="17" End="17" UnicodeLemma="αὐτός" Unicode="αὐτὸς" Number="Singular" Type="Personal" morphId="60005010018" Case="Nominative" Gender="Masculine" nodeId="600050100180010">αὐτὸς</Node>
+              </Node>
+            </Node>
+            <Node Cat="V" Start="18" End="18" Rule="Vp2V" Head="0" nodeId="600050100190012">
+              <Node Cat="vp" Start="18" End="18" Rule="V2VP" Head="0" nodeId="600050100190011">
+                <Node Cat="verb" Start="18" End="18" UnicodeLemma="καταρτίζω" Person="Third" Voice="Active" Unicode="καταρτίσει," Tense="Future" Number="Singular" morphId="60005010019" Mood="Indicative" nodeId="600050100190010">καταρτίσει</Node>
               </Node>
             </Node>
           </Node>
-          <Node Cat="S" Start="17" End="17" Rule="Np2S" Head="0" nodeId="600050100180012">
-            <Node Cat="np" Start="17" End="17" Rule="Pron2NP" Head="0" nodeId="600050100180011">
-              <Node Cat="pron" Start="17" End="17" UnicodeLemma="αὐτός" Unicode="αὐτὸς" Number="Singular" Type="Personal" morphId="60005010018" Case="Nominative" Gender="Masculine" nodeId="600050100180010">αὐτὸς</Node>
+          <Node Cat="CL" Start="19" End="19" Rule="V2CL" Head="0" nodeId="600050100200013">
+            <Node Cat="V" Start="19" End="19" Rule="Vp2V" Head="0" nodeId="600050100200012">
+              <Node Cat="vp" Start="19" End="19" Rule="V2VP" Head="0" nodeId="600050100200011">
+                <Node Cat="verb" Start="19" End="19" UnicodeLemma="στηρίζω" Person="Third" Voice="Active" Unicode="στηρίξει," Tense="Future" Number="Singular" morphId="60005010020" Mood="Indicative" nodeId="600050100200010">στηρίξει</Node>
+              </Node>
             </Node>
           </Node>
-          <Node Cat="V" Start="18" End="18" Rule="Vp2V" Head="0" nodeId="600050100190012">
-            <Node Cat="vp" Start="18" End="18" Rule="V2VP" Head="0" nodeId="600050100190011">
-              <Node Cat="verb" Start="18" End="18" UnicodeLemma="καταρτίζω" Person="Third" Voice="Active" Unicode="καταρτίσει," Tense="Future" Number="Singular" morphId="60005010019" Mood="Indicative" nodeId="600050100190010">καταρτίσει</Node>
+          <Node Cat="CL" Start="20" End="20" Rule="V2CL" Head="0" nodeId="600050100210013">
+            <Node Cat="V" Start="20" End="20" Rule="Vp2V" Head="0" nodeId="600050100210012">
+              <Node Cat="vp" Start="20" End="20" Rule="V2VP" Head="0" nodeId="600050100210011">
+                <Node Cat="verb" Start="20" End="20" UnicodeLemma="σθενόω" Person="Third" Voice="Active" Unicode="σθενώσει," Tense="Future" Number="Singular" morphId="60005010021" Mood="Indicative" nodeId="600050100210010">σθενώσει</Node>
+              </Node>
             </Node>
           </Node>
-        </Node>
-        <Node Cat="CL" Start="19" End="19" Rule="V2CL" Head="0" nodeId="600050100200013">
-          <Node Cat="V" Start="19" End="19" Rule="Vp2V" Head="0" nodeId="600050100200012">
-            <Node Cat="vp" Start="19" End="19" Rule="V2VP" Head="0" nodeId="600050100200011">
-              <Node Cat="verb" Start="19" End="19" UnicodeLemma="στηρίζω" Person="Third" Voice="Active" Unicode="στηρίξει," Tense="Future" Number="Singular" morphId="60005010020" Mood="Indicative" nodeId="600050100200010">στηρίξει</Node>
-            </Node>
-          </Node>
-        </Node>
-        <Node Cat="CL" Start="20" End="20" Rule="V2CL" Head="0" nodeId="600050100210013">
-          <Node Cat="V" Start="20" End="20" Rule="Vp2V" Head="0" nodeId="600050100210012">
-            <Node Cat="vp" Start="20" End="20" Rule="V2VP" Head="0" nodeId="600050100210011">
-              <Node Cat="verb" Start="20" End="20" UnicodeLemma="σθενόω" Person="Third" Voice="Active" Unicode="σθενώσει," Tense="Future" Number="Singular" morphId="60005010021" Mood="Indicative" nodeId="600050100210010">σθενώσει</Node>
-            </Node>
-          </Node>
-        </Node>
-        <Node Cat="CL" Start="21" End="21" Rule="V2CL" Head="0" nodeId="600050100220013">
-          <Node Cat="V" Start="21" End="21" Rule="Vp2V" Head="0" nodeId="600050100220012">
-            <Node Cat="vp" Start="21" End="21" Rule="V2VP" Head="0" nodeId="600050100220011">
-              <Node Cat="verb" Start="21" End="21" UnicodeLemma="θεμελιόω" Person="Third" Voice="Active" Unicode="θεμελιώσει." Tense="Future" Number="Singular" morphId="60005010022" Mood="Indicative" nodeId="600050100220010">θεμελιώσει</Node>
+          <Node Cat="CL" Start="21" End="21" Rule="V2CL" Head="0" nodeId="600050100220013">
+            <Node Cat="V" Start="21" End="21" Rule="Vp2V" Head="0" nodeId="600050100220012">
+              <Node Cat="vp" Start="21" End="21" Rule="V2VP" Head="0" nodeId="600050100220011">
+                <Node Cat="verb" Start="21" End="21" UnicodeLemma="θεμελιόω" Person="Third" Voice="Active" Unicode="θεμελιώσει." Tense="Future" Number="Singular" morphId="60005010022" Mood="Indicative" nodeId="600050100220010">θεμελιώσει</Node>
+              </Node>
             </Node>
           </Node>
         </Node>
       </Node>
-    </Node>
-    <Node Cat="CL" Start="22" End="30" Rule="ClCl" Head="0" HasDet="True" nodeId="600050110010090">
-      <Node Cat="CL" Start="22" End="29" Rule="IO-S-ADV" Head="1" HasDet="True" ClType="VerbElided" nodeId="600050110010080">
-        <Node Cat="IO" Start="22" End="22" Rule="Np2IO" Head="0" nodeId="600050110010012">
-          <Node Cat="np" Start="22" End="22" Rule="Pron2NP" Head="0" nodeId="600050110010011">
-            <Node Cat="pron" Start="22" End="22" UnicodeLemma="αὐτός" Unicode="αὐτῷ" Number="Singular" Type="Personal" morphId="60005011001" Case="Dative" Gender="Masculine" nodeId="600050110010010">αὐτῷ</Node>
-          </Node>
-        </Node>
-        <Node Cat="S" Start="23" End="24" Rule="Np2S" Head="0" HasDet="True" nodeId="600050110020021">
-          <Node Cat="np" Start="23" End="24" Rule="DetNP" Head="1" HasDet="True" nodeId="600050110020020">
-            <Node Cat="det" Start="23" End="23" Case="Nominative" UnicodeLemma="ὁ" Unicode="τὸ" Gender="Neuter" Number="Singular" morphId="60005011002" nodeId="600050110020010">τὸ</Node>
-            <Node Cat="np" Start="24" End="24" Rule="N2NP" Head="0" nodeId="600050110030011">
-              <Node Cat="noun" Start="24" End="24" UnicodeLemma="κράτος" Unicode="κράτος" Number="Singular" Type="Common" morphId="60005011003" Case="Nominative" Gender="Neuter" nodeId="600050110030010">κράτος</Node>
+      <Node Cat="CL" Start="22" End="30" Rule="ClCl" Head="0" HasDet="True" nodeId="600050110010090">
+        <Node Cat="CL" Start="22" End="29" Rule="IO-S-ADV" Head="1" HasDet="True" ClType="VerbElided" nodeId="600050110010080">
+          <Node Cat="IO" Start="22" End="22" Rule="Np2IO" Head="0" nodeId="600050110010012">
+            <Node Cat="np" Start="22" End="22" Rule="Pron2NP" Head="0" nodeId="600050110010011">
+              <Node Cat="pron" Start="22" End="22" UnicodeLemma="αὐτός" Unicode="αὐτῷ" Number="Singular" Type="Personal" morphId="60005011001" Case="Dative" Gender="Masculine" nodeId="600050110010010">αὐτῷ</Node>
             </Node>
           </Node>
-        </Node>
-        <Node Cat="ADV" Start="25" End="29" Rule="pp2ADV" Head="0" HasDet="True" nodeId="600050110040051">
-          <Node Cat="pp" Start="25" End="29" Rule="PrepNp" Head="1" HasDet="True" nodeId="600050110040050">
-            <Node Cat="prep" Start="25" End="25" UnicodeLemma="εἰς" Unicode="εἰς" morphId="60005011004" nodeId="600050110040010">εἰς</Node>
-            <Node Cat="np" Start="26" End="29" Rule="DetNP" Head="1" HasDet="True" nodeId="600050110050040">
-              <Node Cat="det" Start="26" End="26" Case="Accusative" UnicodeLemma="ὁ" Unicode="τοὺς" Gender="Masculine" Number="Plural" morphId="60005011005" nodeId="600050110050010">τοὺς</Node>
-              <Node Cat="np" Start="27" End="29" Rule="NPofNP" Head="0" nodeId="600050110060030">
-                <Node Cat="np" Start="27" End="27" Rule="N2NP" Head="0" nodeId="600050110060011">
-                  <Node Cat="noun" Start="27" End="27" UnicodeLemma="αἰών" Unicode="αἰῶνας" Number="Plural" Type="Common" morphId="60005011006" Case="Accusative" Gender="Masculine" nodeId="600050110060010">αἰῶνας</Node>
-                </Node>
-                <Node Cat="np" Start="28" End="29" Rule="DetNP" Head="1" HasDet="True" nodeId="600050110070020">
-                  <Node Cat="det" Start="28" End="28" Case="Genitive" UnicodeLemma="ὁ" Unicode="τῶν" Gender="Masculine" Number="Plural" morphId="60005011007" nodeId="600050110070010">τῶν</Node>
-                  <Node Cat="np" Start="29" End="29" Rule="N2NP" Head="0" nodeId="600050110080011">
-                    <Node Cat="noun" Start="29" End="29" UnicodeLemma="αἰών" Unicode="αἰώνων·" Number="Plural" Type="Common" morphId="60005011008" Case="Genitive" Gender="Masculine" nodeId="600050110080010">αἰώνων</Node>
+          <Node Cat="S" Start="23" End="24" Rule="Np2S" Head="0" HasDet="True" nodeId="600050110020021">
+            <Node Cat="np" Start="23" End="24" Rule="DetNP" Head="1" HasDet="True" nodeId="600050110020020">
+              <Node Cat="det" Start="23" End="23" Case="Nominative" UnicodeLemma="ὁ" Unicode="τὸ" Gender="Neuter" Number="Singular" morphId="60005011002" nodeId="600050110020010">τὸ</Node>
+              <Node Cat="np" Start="24" End="24" Rule="N2NP" Head="0" nodeId="600050110030011">
+                <Node Cat="noun" Start="24" End="24" UnicodeLemma="κράτος" Unicode="κράτος" Number="Singular" Type="Common" morphId="60005011003" Case="Nominative" Gender="Neuter" nodeId="600050110030010">κράτος</Node>
+              </Node>
+            </Node>
+          </Node>
+          <Node Cat="ADV" Start="25" End="29" Rule="pp2ADV" Head="0" HasDet="True" nodeId="600050110040051">
+            <Node Cat="pp" Start="25" End="29" Rule="PrepNp" Head="1" HasDet="True" nodeId="600050110040050">
+              <Node Cat="prep" Start="25" End="25" UnicodeLemma="εἰς" Unicode="εἰς" morphId="60005011004" nodeId="600050110040010">εἰς</Node>
+              <Node Cat="np" Start="26" End="29" Rule="DetNP" Head="1" HasDet="True" nodeId="600050110050040">
+                <Node Cat="det" Start="26" End="26" Case="Accusative" UnicodeLemma="ὁ" Unicode="τοὺς" Gender="Masculine" Number="Plural" morphId="60005011005" nodeId="600050110050010">τοὺς</Node>
+                <Node Cat="np" Start="27" End="29" Rule="NPofNP" Head="0" nodeId="600050110060030">
+                  <Node Cat="np" Start="27" End="27" Rule="N2NP" Head="0" nodeId="600050110060011">
+                    <Node Cat="noun" Start="27" End="27" UnicodeLemma="αἰών" Unicode="αἰῶνας" Number="Plural" Type="Common" morphId="60005011006" Case="Accusative" Gender="Masculine" nodeId="600050110060010">αἰῶνας</Node>
+                  </Node>
+                  <Node Cat="np" Start="28" End="29" Rule="DetNP" Head="1" HasDet="True" nodeId="600050110070020">
+                    <Node Cat="det" Start="28" End="28" Case="Genitive" UnicodeLemma="ὁ" Unicode="τῶν" Gender="Masculine" Number="Plural" morphId="60005011007" nodeId="600050110070010">τῶν</Node>
+                    <Node Cat="np" Start="29" End="29" Rule="N2NP" Head="0" nodeId="600050110080011">
+                      <Node Cat="noun" Start="29" End="29" UnicodeLemma="αἰών" Unicode="αἰώνων·" Number="Plural" Type="Common" morphId="60005011008" Case="Genitive" Gender="Masculine" nodeId="600050110080010">αἰώνων</Node>
+                    </Node>
                   </Node>
                 </Node>
               </Node>
             </Node>
           </Node>
         </Node>
-      </Node>
-      <Node Cat="CL" Start="30" End="30" Rule="Intj2CL" Head="0" ClType="Minor" nodeId="600050110090012">
-        <Node Cat="intj" Start="30" End="30" Rule="Ptcl2Intj" Head="0" nodeId="600050110090011">
-          <Node Cat="ptcl" Start="30" End="30" UnicodeLemma="ἀμήν" Unicode="ἀμήν." morphId="60005011009" nodeId="600050110090010">ἀμήν</Node>
+        <Node Cat="CL" Start="30" End="30" Rule="Intj2CL" Head="0" ClType="Minor" nodeId="600050110090012">
+          <Node Cat="intj" Start="30" End="30" Rule="Ptcl2Intj" Head="0" nodeId="600050110090011">
+            <Node Cat="ptcl" Start="30" End="30" UnicodeLemma="ἀμήν" Unicode="ἀμήν." morphId="60005011009" nodeId="600050110090010">ἀμήν</Node>
+          </Node>
         </Node>
       </Node>
     </Node>
