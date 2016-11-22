@@ -33,6 +33,7 @@ declare function local:osisBook($nodeId)
 
 declare function local:attributes($node)
 {
+  $node/@Cat ! attribute class { . },
   $node/@morphId ! attribute osisId {local:osisId(.) },
   $node/@UnicodeLemma ! attribute lemma { . },
   $node/@NormalizedForm ! attribute normalized { . },
@@ -45,7 +46,7 @@ declare function local:attributes($node)
   $node/@Voice ! attribute voice { . },
   $node/@Mood ! attribute mood { . },
   $node/@Degree ! attribute degree { . },
-  $node/parent::*/@Head ! attribute head { "true" }[$node/parent::*/@Head = count($node/preceding-sibling::*) ]
+  $node/parent::*/@Head ! attribute head { "true" }[$node/parent::*/@Head = count($node/preceding-sibling::*)]
 };
 
 declare function local:osisId($nodeId)
@@ -62,7 +63,7 @@ declare function local:osisId($nodeId)
 
 declare function local:clause($node)
 {
-  <wg class="clause">
+  <wg>
     {
       local:attributes($node),
       $node/Node ! local:node(.)
@@ -75,8 +76,8 @@ declare function local:phrase($node)
   if (count($node/Node)>1) 
   then
     <wg>
-      {  
-       attribute class {$node/@Cat},
+      {       
+       local:attributes($node),
        $node/Node ! local:node(.)
       }
     </wg>
@@ -88,9 +89,8 @@ declare function local:role($node)
 {
   <wg>
     {
-      attribute class {$node/Node/@Cat},
       attribute role {$node/@Cat },
-      $node/@*,
+      local:attributes($node/Node[1]),
       $node/Node/Node ! local:node(.)
     }
   </wg>
@@ -147,7 +147,6 @@ declare function local:sentence($node)
 {
    <wg class="sentence">
      {
-        local:attributes($node),
         $node/Node ! local:node(.)
      }
    </wg>
