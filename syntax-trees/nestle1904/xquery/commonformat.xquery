@@ -1,46 +1,70 @@
 declare function local:osisBook($nodeId)
 {
   switch (xs:integer(substring($nodeId, 1, 2)))
-    case  1  return "Matt"
-    case  2  return "Mark"
-    case  3  return "Luke"
-    case  4  return "John"
-    case  5  return "Acts"
-    case  6  return "Rom"
-    case  7  return "1Cor"
-    case  8  return "2Cor"
-    case  9  return "Gal"
-    case  10 return "Eph"
-    case  11 return "Phil"
-    case  12 return "Col"
-    case  13 return "1Thess"
-    case  14 return "2Thess"
-    case  15 return "1Tim"
-    case  16 return "2Tim"
-    case  17 return "Titus"
-    case  18 return "Phlm"
-    case  19 return "Heb"
-    case  20 return "Jas"
-    case  21 return "1Pet"
-    case  22 return "2Pet"
-    case  23 return "1John"
-    case  24 return "2John"
-    case  25 return "3John"
-    case  26 return "Jude"
-    case  27 return "Rev"
+    case  40  return "Matt"
+    case  41  return "Mark"
+    case  42 return "Luke"
+    case  43 return "John"
+    case  44  return "Acts"
+    case  45  return "Rom"
+    case  46  return "1Cor"
+    case  47  return "2Cor"
+    case  48 return "Gal"
+    case  49 return "Eph"
+    case  50 return "Phil"
+    case  51 return "Col"
+    case  52 return "1Thess"
+    case  53 return "2Thess"
+    case  54 return "1Tim"
+    case  55 return "2Tim"
+    case  56 return "Titus"
+    case  57 return "Phlm"
+    case  58 return "Heb"
+    case  59 return "Jas"
+    case  60 return "1Pet"
+    case  61 return "2Pet"
+    case  62 return "1John"
+    case  63 return "2John"
+    case  64 return "3John"
+    case  65 return "Jude"
+    case  66 return "Rev"
     default return "###"
+};
+
+declare function local:attributes($node)
+{
+  $node/@morphId ! attribute osisId {local:osisId(.) },
+  $node/@UnicodeLemma ! attribute lemma { . },
+  $node/@NormalizedForm ! attribute normalized { . },
+  $node/@StrongNumber ! attribute strong { . },
+  $node/@Number ! attribute number { . },
+  $node/@Person ! attribute person { . },
+  $node/@Gender ! attribute gender { . },
+  $node/@Case ! attribute case { . },
+  $node/@Tense ! attribute tense { . },
+  $node/@Voice ! attribute voice { . },
+  $node/@Mood ! attribute mood { . },
+  $node/@Degree ! attribute degree { . },
+  $node/parent::*/@Head ! attribute head { "true" }[$node/parent::*/@Head = count($node/preceding-sibling::*) ]
 };
 
 declare function local:osisId($nodeId)
 {
-  local:osisBook($nodeId)
+  concat(local:osisBook($nodeId),
+    ".",
+    xs:integer(substring($nodeId,3,3)),
+    ".",
+    xs:integer(substring($nodeId,6,3)),
+    "!",
+    xs:integer(substring($nodeId,9,3)) 
+    )
 };
 
 declare function local:clause($node)
 {
   <wg class="clause">
     {
-      $node/@nodeId,
+      local:attributes($node),
       $node/Node ! local:node(.)
     }
   </wg>
@@ -66,6 +90,7 @@ declare function local:role($node)
     {
       attribute class {$node/Node/@Cat},
       attribute role {$node/@Cat },
+      $node/@*,
       $node/Node/Node ! local:node(.)
     }
   </wg>
@@ -73,7 +98,12 @@ declare function local:role($node)
 
 declare function local:word($node)
 {
-    <w>{ $node/@*, string($node) }</w>
+    <w>
+     {      
+        local:attributes($node),
+        string($node) 
+      }
+    </w>
 };
 
 declare function local:node($node as element(Node))
@@ -117,7 +147,7 @@ declare function local:sentence($node)
 {
    <wg class="sentence">
      {
-        $node/@nodeId,
+        local:attributes($node),
         $node/Node ! local:node(.)
      }
    </wg>
