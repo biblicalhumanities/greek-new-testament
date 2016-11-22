@@ -98,10 +98,23 @@ declare function local:role($node)
 
 declare function local:word($node)
 {
+  if (string-length($node) = string-length($node/@NormalizedForm)+1)
+  then
+    (: place punctuation in a separate node :)
+    (
+    <w>
+      {      
+        local:attributes($node),
+        substring($node,1, string-length($node)-1)
+      }
+    </w>,
+    <pu>{substring($node,string-length($node),1)}</pu>
+    )
+  else
     <w>
      {      
         local:attributes($node),
-        string($node) 
+        string($node)
       }
     </w>
 };
