@@ -46,7 +46,8 @@ declare function local:attributes($node)
   $node/@Voice ! attribute voice { . },
   $node/@Mood ! attribute mood { . },
   $node/@Degree ! attribute degree { . },
-  $node/parent::*/@Head ! attribute head { "true" }[$node/parent::*/@Head = count($node/preceding-sibling::*)]
+  $node/parent::*/@Head ! attribute head { "true" }[$node/parent::*/@Head = count($node/preceding-sibling::*)],
+  $node[empty(*)] ! attribute discontinuous {"true"}[$node/following::Node[empty(*)])[1]/@morphId lt $node/@morphId]
 };
 
 declare function local:osisId($nodeId)
