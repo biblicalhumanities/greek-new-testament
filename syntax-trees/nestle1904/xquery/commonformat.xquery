@@ -144,17 +144,44 @@ declare function local:phrase($node)
 };
 
 declare function local:role($node)
+(:
+  A role node can have more than one child in some
+  corner cases in the GBI trees, e.g. Gal 4:18, where
+  an ADV node contains ADV conj ADV.  I imagine this
+  occurs only for conjunctions, but I am not sure.
+:)
 {
-    <wg>
-        {
-            attribute role {$node/@Cat},
-            local:attributes($node/Node[1]),
-            $node/Node/Node ! local:node(.)
-        }
-    </wg>
+    let $role := attribute role {lower-case($node/@Cat)}
+    return
+      if (count($node/Node) > 1)
+      then 
+        <wg>
+          { 
+              $role, $node/Node ! local:node(.) 
+          }
+        </wg>
+      else
+        let $target := ($node/descendant::Node[count(./Node) != 1])[1]
+        return
+          if (local:node-type($target) = "word")
+          then local:word($target, $role)
+          else 
+            <wg>
+              {
+                local:attributes($target),
+                $target/Node ! local:node(.)
+              }
+            </wg>
 };
 
+
 declare function local:word($node)
+{
+  local:word($node, ())
+};
+
+declare function local:word($node, $role)
+(: $role can contain a role attribute or a null sequence :)
 {
     if (string-length($node) = string-length($node/@NormalizedForm) + 1)
     then
@@ -162,6 +189,7 @@ declare function local:word($node)
         (
         <w>
             {
+                $role,
                 local:attributes($node),
                 substring($node, 1, string-length($node) - 1)
             }
@@ -171,13 +199,14 @@ declare function local:word($node)
     else
         <w>
             {
+                $role,
                 local:attributes($node),
                 string($node)
             }
         </w>
 };
 
-declare function local:node($node as element(Node))
+declare function local:node-type($node as element(Node))
 {
     switch ($node/@Cat)
         case "adj"
@@ -192,7 +221,7 @@ declare function local:node($node as element(Node))
         case "pron"
         case "verb"
             return
-                local:word($node)
+                "word"
         case "adjp"
         case "advp"
         case "np"
@@ -200,7 +229,7 @@ declare function local:node($node as element(Node))
         case "pp"
         case "vp"
             return
-                local:phrase($node)
+                "phrase"
         case "S"
         case "IO"
         case "ADV"
@@ -210,13 +239,33 @@ declare function local:node($node as element(Node))
         case "V"
         case "VC"
             return
-                local:role($node)
+                "role"
         case "CL"
             return
-                local:clause($node)
+                "clause"
         default
         return
             <cat>{$node/@Cat}</cat>
+};
+
+declare function local:node($node as element(Node))
+{
+    switch (local:node-type($node))
+        case "word"
+            return
+                local:word($node)
+        case "phrase"
+            return
+                local:phrase($node)
+        case "role"
+            return
+                local:role($node)
+        case "clause"
+            return
+                local:clause($node)
+        default
+            return
+                <cat>{$node/@Cat}</cat>
 };
 
 declare function local:sentence($node)
