@@ -103,7 +103,8 @@ declare function local:attributes($node)
     $node/@Mood ! attribute mood {lower-case(.)},
     $node/@Degree ! attribute degree {lower-case(.)},
     $node/parent::*/@Head ! attribute head {"true"}[$node/parent::*/@Head = count($node/preceding-sibling::*)],
-    $node[empty(*)] ! attribute discontinuous {"true"}[$node/following::Node[empty(*)][1]/@morphId lt $node/@morphId]
+    $node[empty(*)] ! attribute discontinuous {"true"}[$node/following::Node[empty(*)][1]/@morphId lt $node/@morphId],
+    $node/@HasDet ! attribute det { "true" }
 };
 
 declare function local:osisId($nodeId)
