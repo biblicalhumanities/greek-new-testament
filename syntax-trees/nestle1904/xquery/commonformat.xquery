@@ -89,7 +89,7 @@ declare function local:osisBook($nodeId)
 declare function local:attributes($node)
 {
     $node/@Cat ! attribute class {lower-case(.)},
-    $node/@Type ! attribute type {lower-case(.)} [string-length(.) >= 1],
+    $node/@Type ! attribute type {lower-case(.)} [string-length(.) >= 1 and not(.=("Logical", "Negative"))],
     $node/@morphId ! attribute osisId {local:osisId(.)},
     $node/@UnicodeLemma ! attribute lemma {.},
     $node/@NormalizedForm ! attribute normalized {.},
