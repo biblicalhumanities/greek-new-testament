@@ -1,3 +1,5 @@
+declare variable $retain-singletons := false();
+
 declare function local:osisBook($nodeId)
 {
     switch (xs:integer(substring($nodeId, 1, 2)))
@@ -131,16 +133,12 @@ declare function local:clause($node)
 
 declare function local:phrase($node)
 {
-    if (count($node/Node) > 1)
-    then
         <wg>
             {
                 local:attributes($node),
                 $node/Node ! local:node(.)
             }
         </wg>
-    else
-        $node/Node ! local:node(.)
 };
 
 declare function local:role($node)
@@ -161,19 +159,24 @@ declare function local:role($node)
           }
         </wg>
       else
-        let $target := ($node/descendant::Node[count(./Node) != 1])[1]
+        let $target := ($node/Node)
         return
           if (local:node-type($target) = "word")
           then local:word($target, $role)
           else 
             <wg>
               {
+                $role,
                 local:attributes($target),
                 $target/Node ! local:node(.)
               }
             </wg>
 };
 
+declare function local:milestones($node)
+{
+()
+};
 
 declare function local:word($node)
 {
