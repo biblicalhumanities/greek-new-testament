@@ -91,8 +91,9 @@ declare function local:osisBook($nodeId)
 declare function local:attributes($node)
 {
     $node/@Cat ! attribute class {lower-case(.)},
-    $node/@Type ! attribute type {lower-case(.)} [string-length(.) >= 1 and not(.=("Logical", "Negative"))],
+    $node/@Type ! attribute type {lower-case(.)}[string-length(.) >= 1 and not(. = ("Logical", "Negative"))],
     $node/@morphId ! attribute osisId {local:osisId(.)},
+    $node/@HasDet ! attribute articular {true()},
     $node/@UnicodeLemma ! attribute lemma {.},
     $node/@NormalizedForm ! attribute normalized {.},
     $node/@StrongNumber ! attribute strong {.},
@@ -106,7 +107,7 @@ declare function local:attributes($node)
     $node/@Degree ! attribute degree {lower-case(.)},
     $node/parent::*/@Head ! attribute head {"true"}[$node/parent::*/@Head = count($node/preceding-sibling::*)],
     $node[empty(*)] ! attribute discontinuous {"true"}[$node/following::Node[empty(*)][1]/@morphId lt $node/@morphId],
-    $node/@HasDet ! attribute det { "true" }
+    $node/@HasDet ! attribute det {"true"}
 };
 
 declare function local:osisId($nodeId)
@@ -133,12 +134,12 @@ declare function local:clause($node)
 
 declare function local:phrase($node)
 {
-        <wg>
-            {
-                local:attributes($node),
-                $node/Node ! local:node(.)
-            }
-        </wg>
+    <wg>
+        {
+            local:attributes($node),
+            $node/Node ! local:node(.)
+        }
+    </wg>
 };
 
 declare function local:role($node)
@@ -151,52 +152,62 @@ declare function local:role($node)
 {
     let $role := attribute role {lower-case($node/@Cat)}
     return
-      if (count($node/Node) > 1)
-      then 
-        <wg>
-          { 
-              $role, $node/Node ! local:node(.) 
-          }
-        </wg>
-      else
-        let $target := ($node/Node)
-        return
-          if (local:node-type($target) = "word")
-          then local:word($target, $role)
-          else 
+        if (count($node/Node) > 1)
+        then
             <wg>
-              {
-                $role,
-                local:attributes($target),
-                $target/Node ! local:node(.)
-              }
+                {
+                    $role, $node/Node ! local:node(.)
+                }
             </wg>
+        else
+            let $target := ($node/Node)
+            return
+                if (local:node-type($target) = "word")
+                then
+                    local:word($target, $role)
+                else
+                    <wg>
+                        {
+                            $role,
+                            local:attributes($target),
+                            $target/Node ! local:node(.)
+                        }
+                    </wg>
 };
 
 declare function local:milestones($node)
-{ 
+{
     let $nodeId := $node/@nodeId
     let $parentId := $node/parent::Node/@nodeId
     let $chapter := substring($nodeId, 3, 3)
     let $verse := substring($nodeId, 6, 3)
     let $word := substring($nodeId, 9, 3)
     let $osisId := local:osisId($nodeId)
-    where substring($nodeId,1,11) != substring($parentId,1,11)
-    return 
-        if ($verse="001" and $word="001")
-        then (
-            <milestone unit="chapter" n="{substring-before($osisId, ".1!")}"/>,
-            <milestone unit="verse" n="{substring-before($osisId, "!")}"/>
-        )
-        else if ($word="001")
-        then 
-            <milestone unit="verse" n="{substring-before($osisId, "!")}"/>
-        else ()
+    where substring($nodeId, 1, 11) != substring($parentId, 1, 11)
+    return
+        if ($verse = "001" and $word = "001")
+        then
+            (
+            <milestone
+                unit="chapter"
+                n="{substring-before($osisId, ".1!")}"/>,
+            <milestone
+                unit="verse"
+                n="{substring-before($osisId, "!")}"/>
+            )
+        else
+            if ($word = "001")
+            then
+                <milestone
+                    unit="verse"
+                    n="{substring-before($osisId, "!")}"/>
+            else
+                ()
 };
 
 declare function local:word($node)
 {
-  local:word($node, ())
+    local:word($node, ())
 };
 
 declare function local:word($node, $role)
@@ -284,8 +295,8 @@ declare function local:node($node as element(Node))
             return
                 local:clause($node)
         default
-            return
-                <cat>{$node/@Cat}</cat>
+        return
+            <cat>{$node/@Cat}</cat>
 };
 
 declare function local:sentence($node)
