@@ -174,8 +174,24 @@ declare function local:role($node)
 };
 
 declare function local:milestones($node)
-{
-()
+{ 
+    let $nodeId := $node/@nodeId
+    let $parentId := $node/parent::Node/@nodeId
+    let $chapter := substring($nodeId, 3, 3)
+    let $verse := substring($nodeId, 6, 3)
+    let $word := substring($nodeId, 9, 3)
+    let $osisId := local:osisId($nodeId)
+    where substring($nodeId,1,11) != substring($parentId,1,11)
+    return 
+        if ($verse="001" and $word="001")
+        then (
+            <milestone unit="chapter" n="{substring-before($osisId, ".1!")}"/>,
+            <milestone unit="verse" n="{substring-before($osisId, "!")}"/>
+        )
+        else if ($word="001")
+        then 
+            <milestone unit="verse" n="{substring-before($osisId, "!")}"/>
+        else ()
 };
 
 declare function local:word($node)
@@ -253,6 +269,7 @@ declare function local:node-type($node as element(Node))
 
 declare function local:node($node as element(Node))
 {
+    local:milestones($node),
     switch (local:node-type($node))
         case "word"
             return
@@ -273,6 +290,7 @@ declare function local:node($node as element(Node))
 
 declare function local:sentence($node)
 {
+    local:milestones($node),
     <wg
         class="sentence">
         {
