@@ -288,7 +288,7 @@
                       <Node Cat="noun" Start="31" End="31" UnicodeLemma="ἐλπίς" Unicode="ἐλπίδα" Number="Singular" Type="Common" morphId="51001005003" Case="Accusative" Gender="Feminine" nodeId="510010050030010">ἐλπίδα</Node>
                     </Node>
                   </Node>
-                  <Node Cat="np" Start="32" End="37" Rule="DetCL" Head="1" nodeId="510010050040060">
+                  <Node Cat="np" Start="32" End="37" Rule="DetCL" Head="1" HasDet="True" nodeId="510010050040060">
                     <Node Cat="det" Start="32" End="32" Case="Accusative" UnicodeLemma="ὁ" Unicode="τὴν" Gender="Feminine" Number="Singular" morphId="51001005004" nodeId="510010050040010">τὴν</Node>
                     <Node Cat="CL" Start="33" End="37" Rule="V-ADV-ADV" Head="0" nodeId="510010050050050">
                       <Node Cat="V" Start="33" End="33" Rule="Vp2V" Head="0" nodeId="510010050050012">
@@ -349,7 +349,7 @@
                                   <Node Cat="noun" Start="46" End="46" UnicodeLemma="εὐαγγέλιον" Unicode="εὐαγγελίου" Number="Singular" Type="Common" morphId="51001005018" Case="Genitive" Gender="Neuter" nodeId="510010050180010">εὐαγγελίου</Node>
                                 </Node>
                               </Node>
-                              <Node Cat="np" Start="47" End="50" Rule="DetCL" Head="1" nodeId="510010060010040">
+                              <Node Cat="np" Start="47" End="50" Rule="DetCL" Head="1" HasDet="True" nodeId="510010060010040">
                                 <Node Cat="det" Start="47" End="47" Case="Genitive" UnicodeLemma="ὁ" Unicode="τοῦ" Gender="Neuter" Number="Singular" morphId="51001006001" nodeId="510010060010010">τοῦ</Node>
                                 <Node Cat="CL" Start="48" End="50" Rule="V-ADV" Head="0" nodeId="510010060020030">
                                   <Node Cat="V" Start="48" End="48" Rule="Vp2V" Head="0" nodeId="510010060020012">
@@ -380,7 +380,7 @@
         </Node>
       </Node>
     </Node>
-    <Node Cat="CL" Start="51" End="101" Rule="sub-CL" nodeId="510010060050510">
+    <Node Cat="CL" Start="51" End="101" Rule="sub-CL" Head="1" nodeId="510010060050510">
       <Node Cat="conj" Start="51" End="51" UnicodeLemma="καθώς" Unicode="καθὼς" morphId="51001006005" nodeId="510010060050010">καθὼς</Node>
       <Node Cat="CL" Start="52" End="101" Rule="ClCl" Head="0" nodeId="510010060060500">
         <Node Cat="CL" Start="52" End="60" Rule="ADV-V" Head="1" nodeId="510010060060090">
@@ -420,7 +420,7 @@
             </Node>
           </Node>
         </Node>
-        <Node Cat="CL" Start="61" End="101" Rule="sub-CL" nodeId="510010060150410">
+        <Node Cat="CL" Start="61" End="101" Rule="sub-CL" Head="1" nodeId="510010060150410">
           <Node Cat="conj" Start="61" End="61" UnicodeLemma="καθώς" Unicode="καθὼς" morphId="51001006015" nodeId="510010060150010">καθὼς</Node>
           <Node Cat="CL" Start="62" End="101" Rule="ClCl" Head="0" nodeId="510010060160400">
             <Node Cat="CL" Start="62" End="76" Rule="ADV-ADV" Head="1" ClType="VerbElided" nodeId="510010060160150">
@@ -494,7 +494,7 @@
                 </Node>
               </Node>
             </Node>
-            <Node Cat="CL" Start="77" End="101" Rule="sub-CL" nodeId="510010070010250">
+            <Node Cat="CL" Start="77" End="101" Rule="sub-CL" Head="1" nodeId="510010070010250">
               <Node Cat="conj" Start="77" End="77" UnicodeLemma="καθώς" Unicode="καθὼς" morphId="51001007001" nodeId="510010070010010">καθὼς</Node>
               <Node Cat="CL" Start="78" End="101" Rule="V-ADV" Head="0" nodeId="510010070020240">
                 <Node Cat="V" Start="78" End="78" Rule="Vp2V" Head="0" nodeId="510010070020012">
@@ -564,7 +564,7 @@
                                 </Node>
                               </Node>
                             </Node>
-                            <Node Cat="np" Start="93" End="101" Rule="DetCL" Head="1" nodeId="510010080010090">
+                            <Node Cat="np" Start="93" End="101" Rule="DetCL" Head="1" HasDet="True" nodeId="510010080010090">
                               <Node Cat="det" Start="93" End="93" Case="Nominative" UnicodeLemma="ὁ" Unicode="ὁ" Gender="Masculine" Number="Singular" morphId="51001008001" nodeId="510010080010010">ὁ</Node>
                               <Node Cat="CL" Start="94" End="101" Rule="ADV-V-IO-O" Head="1" nodeId="510010080020080">
                                 <Node Cat="ADV" Start="94" End="94" Rule="Advp2ADV" Head="0" nodeId="510010080020012">
@@ -700,7 +700,7 @@
             </Node>
           </Node>
         </Node>
-        <Node Cat="CL" Start="15" End="141" Rule="that-VP" nodeId="510010090161270">
+        <Node Cat="CL" Start="15" End="141" Rule="that-VP" Head="1" nodeId="510010090161270">
           <Node Cat="conj" Start="15" End="15" UnicodeLemma="ἵνα" Unicode="ἵνα" morphId="51001009016" nodeId="510010090160010">ἵνα</Node>
           <Node Cat="CL" Start="16" End="141" Rule="V-ADV-ADV-ADV-ADV" Head="0" nodeId="510010090171260">
             <Node Cat="V" Start="16" End="16" Rule="Vp2V" Head="0" nodeId="510010090170012">
@@ -927,7 +927,7 @@
                             <Node Cat="noun" Start="65" End="65" UnicodeLemma="πατήρ" Unicode="πατρὶ" Number="Singular" Type="Common" morphId="51001012003" Case="Dative" Gender="Masculine" nodeId="510010120030010">πατρὶ</Node>
                           </Node>
                         </Node>
-                        <Node Cat="np" Start="66" End="78" Rule="DetCL" Head="1" nodeId="510010120040130">
+                        <Node Cat="np" Start="66" End="78" Rule="DetCL" Head="1" HasDet="True" nodeId="510010120040130">
                           <Node Cat="det" Start="66" End="66" Case="Dative" UnicodeLemma="ὁ" Unicode="τῷ" Gender="Masculine" Number="Singular" morphId="51001012004" nodeId="510010120040010">τῷ</Node>
                           <Node Cat="CL" Start="67" End="78" Rule="V-O-ADV-ADV" Head="0" nodeId="510010120050120">
                             <Node Cat="V" Start="67" End="67" Rule="Vp2V" Head="0" nodeId="510010120050012">
@@ -1146,7 +1146,7 @@
                                           </Node>
                                         </Node>
                                       </Node>
-                                      <Node Cat="CL" Start="116" End="141" Rule="sub-CL" nodeId="510010160010260">
+                                      <Node Cat="CL" Start="116" End="141" Rule="sub-CL" Head="1" nodeId="510010160010260">
                                         <Node Cat="conj" Start="116" End="116" UnicodeLemma="ὅτι" Unicode="ὅτι" morphId="51001016001" nodeId="510010160010010">ὅτι</Node>
                                         <Node Cat="CL" Start="117" End="141" Rule="ADV-V-S" Head="1" nodeId="510010160020250">
                                           <Node Cat="ADV" Start="117" End="118" Rule="pp2ADV" Head="0" nodeId="510010160020021">
@@ -1353,7 +1353,7 @@
 <Trees>
 <Tree>
 <Node Cat="S" Head="0" nodeId="510010180010571">
-  <Node Cat="CL" Start="0" End="56" Rule="Conj-CL" HasDet="True" nodeId="510010180010570">
+  <Node Cat="CL" Start="0" End="56" Rule="Conj-CL" Head="1" HasDet="True" nodeId="510010180010570">
     <Node Cat="conj" Start="0" End="0" UnicodeLemma="καί" Unicode="καὶ" morphId="51001018001" nodeId="510010180010010">καὶ</Node>
     <Node Cat="CL" Start="1" End="56" Rule="ClCl" Head="0" HasDet="True" nodeId="510010180020560">
       <Node Cat="CL" Start="1" End="8" Rule="S-VC-P" Head="2" HasDet="True" nodeId="510010180020080">
@@ -1429,7 +1429,7 @@
               </Node>
             </Node>
           </Node>
-          <Node Cat="CL" Start="16" End="21" Rule="sub-CL" nodeId="510010180170060">
+          <Node Cat="CL" Start="16" End="21" Rule="sub-CL" Head="1" nodeId="510010180170060">
             <Node Cat="conj" Start="16" End="16" UnicodeLemma="ἵνα" Unicode="ἵνα" morphId="51001018017" nodeId="510010180170010">ἵνα</Node>
             <Node Cat="CL" Start="17" End="21" Rule="VC-S-P" Head="2" nodeId="510010180180050">
               <Node Cat="VC" Start="17" End="17" Rule="vp2VC" Head="0" nodeId="510010180180012">
@@ -1464,7 +1464,7 @@
             </Node>
           </Node>
         </Node>
-        <Node Cat="CL" Start="22" End="56" Rule="sub-CL" nodeId="510010190010350">
+        <Node Cat="CL" Start="22" End="56" Rule="sub-CL" Head="1" nodeId="510010190010350">
           <Node Cat="conj" Start="22" End="22" UnicodeLemma="ὅτι" Unicode="ὅτι" morphId="51001019001" nodeId="510010190010010">ὅτι</Node>
           <Node Cat="CL" Start="23" End="56" Rule="V-O" Head="0" nodeId="510010190040340">
             <Node Cat="V" Start="23" End="23" Rule="Vp2V" Head="0" nodeId="510010190040012">
@@ -1628,7 +1628,7 @@
 <Trees>
 <Tree>
 <Node Cat="S" Head="0" nodeId="510010210010671">
-  <Node Cat="CL" Start="0" End="66" Rule="Conj-CL" nodeId="510010210010670">
+  <Node Cat="CL" Start="0" End="66" Rule="Conj-CL" Head="1" nodeId="510010210010670">
     <Node Cat="conj" Start="0" End="0" UnicodeLemma="καί" Unicode="καὶ" morphId="51001021001" nodeId="510010210010010">καὶ</Node>
     <Node Cat="CL" Start="1" End="66" Rule="CLaCL" Head="0" nodeId="510010210020660">
       <Node Cat="CL" Start="1" End="13" Rule="S-ADV-VC-P-ADV-ADV" Head="3" nodeId="510010210020130">
@@ -1780,7 +1780,7 @@
             </Node>
           </Node>
         </Node>
-        <Node Cat="CL" Start="35" End="66" Rule="sub-CL" nodeId="510010230010320">
+        <Node Cat="CL" Start="35" End="66" Rule="sub-CL" Head="1" nodeId="510010230010320">
           <Node Cat="conj" Start="35" End="35" UnicodeLemma="εἰ" Unicode="εἴ" morphId="51001023001" nodeId="510010230010010">εἴ</Node>
           <Node Cat="CL" Start="36" End="66" Rule="PtclCL" Head="1" nodeId="510010230020310">
             <Node Cat="ptcl" Start="36" End="36" UnicodeLemma="γέ" Unicode="γε" morphId="51001023002" nodeId="510010230020010">γε</Node>
@@ -1858,7 +1858,7 @@
                                     </Node>
                                   </Node>
                                 </Node>
-                                <Node Cat="np" Start="53" End="61" Rule="DetCL" Head="1" nodeId="510010230190090">
+                                <Node Cat="np" Start="53" End="61" Rule="DetCL" Head="1" HasDet="True" nodeId="510010230190090">
                                   <Node Cat="det" Start="53" End="53" Case="Genitive" UnicodeLemma="ὁ" Unicode="τοῦ" Gender="Neuter" Number="Singular" morphId="51001023019" nodeId="510010230190010">τοῦ</Node>
                                   <Node Cat="CL" Start="54" End="61" Rule="V-ADV" Head="0" nodeId="510010230200080">
                                     <Node Cat="V" Start="54" End="54" Rule="Vp2V" Head="0" nodeId="510010230200012">
@@ -2099,7 +2099,7 @@
                               </Node>
                             </Node>
                           </Node>
-                          <Node Cat="np" Start="36" End="40" Rule="DetCL" Head="1" nodeId="510010250100050">
+                          <Node Cat="np" Start="36" End="40" Rule="DetCL" Head="1" HasDet="True" nodeId="510010250100050">
                             <Node Cat="det" Start="36" End="36" Case="Accusative" UnicodeLemma="ὁ" Unicode="τὴν" Gender="Feminine" Number="Singular" morphId="51001025010" nodeId="510010250100010">τὴν</Node>
                             <Node Cat="CL" Start="37" End="40" Rule="V-IO-ADV" Head="0" nodeId="510010250110040">
                               <Node Cat="V" Start="37" End="37" Rule="Vp2V" Head="0" nodeId="510010250110012">
@@ -2155,7 +2155,7 @@
                                   <Node Cat="noun" Start="47" End="47" UnicodeLemma="μυστήριον" Unicode="μυστήριον" Number="Singular" Type="Common" morphId="51001026002" Case="Accusative" Gender="Neuter" nodeId="510010260020010">μυστήριον</Node>
                                 </Node>
                               </Node>
-                              <Node Cat="np" Start="48" End="56" Rule="DetCL" Head="1" nodeId="510010260030090">
+                              <Node Cat="np" Start="48" End="56" Rule="DetCL" Head="1" HasDet="True" nodeId="510010260030090">
                                 <Node Cat="det" Start="48" End="48" Case="Accusative" UnicodeLemma="ὁ" Unicode="τὸ" Gender="Neuter" Number="Singular" morphId="51001026003" nodeId="510010260030010">τὸ</Node>
                                 <Node Cat="CL" Start="49" End="56" Rule="V-ADV" Head="0" nodeId="510010260040080">
                                   <Node Cat="V" Start="49" End="49" Rule="Vp2V" Head="0" nodeId="510010260040012">
@@ -2210,7 +2210,7 @@
 <Trees>
 <Tree>
 <Node Cat="S" Head="0" nodeId="510010260130661">
-  <Node Cat="CL" Start="0" End="65" Rule="Conj-CL" nodeId="510010260130660">
+  <Node Cat="CL" Start="0" End="65" Rule="Conj-CL" Head="1" nodeId="510010260130660">
     <Node Cat="conj" Start="0" End="0" UnicodeLemma="δέ" Unicode="δὲ" morphId="51001026013" nodeId="510010260130010">δὲ</Node>
     <Node Cat="CL" Start="1" End="65" Rule="ClCl" Head="0" nodeId="510010260120650">
       <Node Cat="CL" Start="1" End="30" Rule="ADV-V-IO" Head="1" nodeId="510010260120300">
@@ -2445,7 +2445,7 @@
             </Node>
           </Node>
         </Node>
-        <Node Cat="CL" Start="44" End="65" Rule="sub-CL" nodeId="510010280140220">
+        <Node Cat="CL" Start="44" End="65" Rule="sub-CL" Head="1" nodeId="510010280140220">
           <Node Cat="conj" Start="44" End="44" UnicodeLemma="ἵνα" Unicode="ἵνα" morphId="51001028014" nodeId="510010280140010">ἵνα</Node>
           <Node Cat="CL" Start="45" End="65" Rule="ClCl" Head="0" nodeId="510010280150210">
             <Node Cat="CL" Start="45" End="50" Rule="V-O-O2-ADV" Head="0" nodeId="510010280150060">
@@ -2519,7 +2519,7 @@
                             </Node>
                           </Node>
                         </Node>
-                        <Node Cat="np" Start="60" End="65" Rule="DetCL" Head="1" nodeId="510010290100060">
+                        <Node Cat="np" Start="60" End="65" Rule="DetCL" Head="1" HasDet="True" nodeId="510010290100060">
                           <Node Cat="det" Start="60" End="60" Case="Accusative" UnicodeLemma="ὁ" Unicode="τὴν" Gender="Feminine" Number="Singular" morphId="51001029010" nodeId="510010290100010">τὴν</Node>
                           <Node Cat="CL" Start="61" End="65" Rule="V-ADV-ADV" Head="0" nodeId="510010290110050">
                             <Node Cat="V" Start="61" End="61" Rule="Vp2V" Head="0" nodeId="510010290110012">
@@ -2564,7 +2564,7 @@
 <Trees>
 <Tree>
 <Node Cat="S" Head="0" nodeId="510020010020561">
-  <Node Cat="CL" Start="0" End="55" Rule="Conj-CL" nodeId="510020010020560">
+  <Node Cat="CL" Start="0" End="55" Rule="Conj-CL" Head="1" nodeId="510020010020560">
     <Node Cat="conj" Start="0" End="0" UnicodeLemma="γάρ" Unicode="γὰρ" morphId="51002001002" nodeId="510020010020010">γὰρ</Node>
     <Node Cat="CL" Start="1" End="55" Rule="ClCl" Head="0" nodeId="510020010010550">
       <Node Cat="CL" Start="1" End="21" Rule="V-O" Head="0" nodeId="510020010010210">
@@ -2672,7 +2672,7 @@
           </Node>
         </Node>
       </Node>
-      <Node Cat="CL" Start="22" End="55" Rule="sub-CL" nodeId="510020020010340">
+      <Node Cat="CL" Start="22" End="55" Rule="sub-CL" Head="1" nodeId="510020020010340">
         <Node Cat="conj" Start="22" End="22" UnicodeLemma="ἵνα" Unicode="ἵνα" morphId="51002002001" nodeId="510020020010010">ἵνα</Node>
         <Node Cat="CL" Start="23" End="55" Rule="V-S-ADV-ADV" Head="0" nodeId="510020020020330">
           <Node Cat="V" Start="23" End="23" Rule="Vp2V" Head="0" nodeId="510020020020012">
@@ -2843,7 +2843,7 @@
         </Node>
       </Node>
     </Node>
-    <Node Cat="CL" Start="2" End="7" Rule="sub-CL" nodeId="510020040030060">
+    <Node Cat="CL" Start="2" End="7" Rule="sub-CL" Head="1" nodeId="510020040030060">
       <Node Cat="conj" Start="2" End="2" UnicodeLemma="ἵνα" Unicode="ἵνα" morphId="51002004003" nodeId="510020040030010">ἵνα</Node>
       <Node Cat="CL" Start="3" End="7" Rule="S-O-V-ADV" Head="2" nodeId="510020040040050">
         <Node Cat="S" Start="3" End="3" Rule="Np2S" Head="0" nodeId="510020040040013">
@@ -2882,10 +2882,10 @@
 <Trees>
 <Tree>
 <Node Cat="S" Head="0" nodeId="510020050020261">
-  <Node Cat="CL" Start="0" End="25" Rule="Conj-CL" nodeId="510020050020260">
+  <Node Cat="CL" Start="0" End="25" Rule="Conj-CL" Head="1" nodeId="510020050020260">
     <Node Cat="conj" Start="0" End="0" UnicodeLemma="γάρ" Unicode="γὰρ" morphId="51002005002" nodeId="510020050020010">γὰρ</Node>
     <Node Cat="CL" Start="1" End="25" Rule="ClCl2" Head="1" nodeId="510020050010250">
-      <Node Cat="CL" Start="1" End="5" Rule="sub-CL" nodeId="510020050010050">
+      <Node Cat="CL" Start="1" End="5" Rule="sub-CL" Head="1" nodeId="510020050010050">
         <Node Cat="conj" Start="1" End="1" UnicodeLemma="εἰ" Unicode="εἰ" morphId="51002005001" nodeId="510020050010010">εἰ</Node>
         <Node Cat="CL" Start="2" End="5" Rule="ADV-V" Head="1" nodeId="510020050030040">
           <Node Cat="ADV" Start="2" End="4" Rule="Np2ADV" Head="0" HasDet="True" nodeId="510020050030031">
@@ -2908,7 +2908,7 @@
           </Node>
         </Node>
       </Node>
-      <Node Cat="CL" Start="6" End="25" Rule="Conj-CL" nodeId="510020050070200">
+      <Node Cat="CL" Start="6" End="25" Rule="Conj-CL" Head="1" nodeId="510020050070200">
         <Node Cat="conj" Start="6" End="6" UnicodeLemma="ἀλλά" Unicode="ἀλλὰ" morphId="51002005007" nodeId="510020050070010">ἀλλὰ</Node>
         <Node Cat="CL" Start="7" End="25" Rule="ADV-P-VC-ADV" Head="1" nodeId="510020050080190">
           <Node Cat="ADV" Start="7" End="8" Rule="Np2ADV" Head="0" HasDet="True" nodeId="510020050080021">
@@ -3006,10 +3006,10 @@
 <Trees>
 <Tree>
 <Node Cat="S" Head="0" nodeId="510020060020251">
-  <Node Cat="CL" Start="0" End="24" Rule="Conj-CL" nodeId="510020060020250">
+  <Node Cat="CL" Start="0" End="24" Rule="Conj-CL" Head="1" nodeId="510020060020250">
     <Node Cat="conj" Start="0" End="0" UnicodeLemma="οὖν" Unicode="οὖν" morphId="51002006002" nodeId="510020060020010">οὖν</Node>
     <Node Cat="CL" Start="1" End="24" Rule="ClCl2" Head="1" nodeId="510020060010240">
-      <Node Cat="CL" Start="1" End="7" Rule="sub-CL" nodeId="510020060010070">
+      <Node Cat="CL" Start="1" End="7" Rule="sub-CL" Head="1" nodeId="510020060010070">
         <Node Cat="conj" Start="1" End="1" UnicodeLemma="ὡς" Unicode="Ὡς" morphId="51002006001" nodeId="510020060010010">Ὡς</Node>
         <Node Cat="CL" Start="2" End="7" Rule="V-O-O2" Head="0" nodeId="510020060030060">
           <Node Cat="V" Start="2" End="2" Rule="Vp2V" Head="0" nodeId="510020060030012">
@@ -3094,7 +3094,7 @@
                   </Node>
                 </Node>
               </Node>
-              <Node Cat="CL" Start="20" End="21" Rule="sub-CL" nodeId="510020070100020">
+              <Node Cat="CL" Start="20" End="21" Rule="sub-CL" Head="1" nodeId="510020070100020">
                 <Node Cat="conj" Start="20" End="20" UnicodeLemma="καθώς" Unicode="καθὼς" morphId="51002007010" nodeId="510020070100010">καθὼς</Node>
                 <Node Cat="CL" Start="21" End="21" Rule="V2CL" Head="0" nodeId="510020070110013">
                   <Node Cat="V" Start="21" End="21" Rule="Vp2V" Head="0" nodeId="510020070110012">
@@ -3144,11 +3144,11 @@
           </Node>
         </Node>
       </Node>
-      <Node Cat="CL" Start="1" End="26" Rule="PtclCL" Head="1" nodeId="510020080020260">
+      <Node Cat="CL" Start="1" End="26" Rule="PtclCL" Head="1" HasDet="True" nodeId="510020080020260">
         <Node Cat="ptcl" Start="1" End="1" Rule="Conj2Ptcl" Head="0" nodeId="510020080020011">
           <Node Cat="conj" Start="1" End="1" UnicodeLemma="μή" Unicode="μή" morphId="51002008002" nodeId="510020080020010">μή</Node>
         </Node>
-        <Node Cat="CL" Start="2" End="26" Rule="S-VC-P" Head="2" nodeId="510020080030250">
+        <Node Cat="CL" Start="2" End="26" Rule="S-VC-P" Head="2" HasDet="True" nodeId="510020080030250">
           <Node Cat="S" Start="2" End="2" Rule="Np2S" Head="0" nodeId="510020080030012">
             <Node Cat="np" Start="2" End="2" Rule="Pron2NP" Head="0" nodeId="510020080030011">
               <Node Cat="pron" Start="2" End="2" UnicodeLemma="τις" Unicode="τις" Number="Singular" Type="Indefinite" morphId="51002008003" Case="Nominative" Gender="Masculine" nodeId="510020080030010">τις</Node>
@@ -3159,8 +3159,8 @@
               <Node Cat="verb" Start="3" End="3" UnicodeLemma="εἰμί" Person="Third" Voice="Middle" Unicode="ἔσται" Tense="Future" Number="Singular" morphId="51002008005" Mood="Indicative" nodeId="510020080050010">ἔσται</Node>
             </Node>
           </Node>
-          <Node Cat="P" Start="4" End="26" Rule="Np2P" Head="0" nodeId="510020080060231">
-            <Node Cat="np" Start="4" End="26" Rule="DetCL" Head="1" nodeId="510020080060230">
+          <Node Cat="P" Start="4" End="26" Rule="Np2P" Head="0" HasDet="True" nodeId="510020080060231">
+            <Node Cat="np" Start="4" End="26" Rule="DetCL" Head="1" HasDet="True" nodeId="510020080060230">
               <Node Cat="det" Start="4" End="4" Case="Nominative" UnicodeLemma="ὁ" Unicode="ὁ" Gender="Masculine" Number="Singular" morphId="51002008006" nodeId="510020080060010">ὁ</Node>
               <Node Cat="CL" Start="5" End="26" Rule="V-O-ADV-ADV" Head="0" nodeId="510020080070220">
                 <Node Cat="V" Start="5" End="5" Rule="Vp2V" Head="0" nodeId="510020080070012">
@@ -3251,7 +3251,7 @@
         </Node>
       </Node>
     </Node>
-    <Node Cat="CL" Start="27" End="88" Rule="sub-CL" nodeId="510020090010620">
+    <Node Cat="CL" Start="27" End="88" Rule="sub-CL" Head="1" nodeId="510020090010620">
       <Node Cat="conj" Start="27" End="27" UnicodeLemma="ὅτι" Unicode="ὅτι" morphId="51002009001" nodeId="510020090010010">ὅτι</Node>
       <Node Cat="CL" Start="28" End="88" Rule="CLaCL" Head="0" nodeId="510020090020610">
         <Node Cat="CL" Start="28" End="36" Rule="ADV-V-S-ADV" Head="1" nodeId="510020090020090">
@@ -3488,7 +3488,7 @@
                                                 <Node Cat="noun" Start="83" End="83" UnicodeLemma="θεός" Unicode="θεοῦ" Number="Singular" Type="Common" morphId="51002012016" Case="Genitive" Gender="Masculine" nodeId="510020120160010">θεοῦ</Node>
                                               </Node>
                                             </Node>
-                                            <Node Cat="np" Start="84" End="88" Rule="DetCL" Head="1" nodeId="510020120170050">
+                                            <Node Cat="np" Start="84" End="88" Rule="DetCL" Head="1" HasDet="True" nodeId="510020120170050">
                                               <Node Cat="det" Start="84" End="84" Case="Genitive" UnicodeLemma="ὁ" Unicode="τοῦ" Gender="Masculine" Number="Singular" morphId="51002012017" nodeId="510020120170010">τοῦ</Node>
                                               <Node Cat="CL" Start="85" End="88" Rule="V-O-ADV" Head="0" nodeId="510020120180040">
                                                 <Node Cat="V" Start="85" End="85" Rule="Vp2V" Head="0" nodeId="510020120180012">
@@ -3542,7 +3542,7 @@
 <Trees>
 <Tree>
 <Node Cat="S" Head="0" nodeId="510020130010431">
-  <Node Cat="CL" Start="0" End="42" Rule="Conj-CL" nodeId="510020130010430">
+  <Node Cat="CL" Start="0" End="42" Rule="Conj-CL" Head="1" nodeId="510020130010430">
     <Node Cat="conj" Start="0" End="0" UnicodeLemma="καί" Unicode="καὶ" morphId="51002013001" nodeId="510020130010010">καὶ</Node>
     <Node Cat="CL" Start="1" End="42" Rule="CLaCL" Head="0" nodeId="510020130020420">
       <Node Cat="CL" Start="1" End="32" Rule="ADV-V-O-ADV-ADV-ADV" Head="1" nodeId="510020130020320">
@@ -3832,7 +3832,7 @@
 <Trees>
 <Tree>
 <Node Cat="S" Head="0" nodeId="510020160020281">
-  <Node Cat="CL" Start="0" End="27" Rule="Conj-CL" nodeId="510020160020280">
+  <Node Cat="CL" Start="0" End="27" Rule="Conj-CL" Head="1" nodeId="510020160020280">
     <Node Cat="conj" Start="0" End="0" UnicodeLemma="οὖν" Unicode="οὖν" morphId="51002016002" nodeId="510020160020010">οὖν</Node>
     <Node Cat="CL" Start="1" End="27" Rule="ADV-S-O-V-ADV" Head="3" nodeId="510020160010270">
       <Node Cat="ADV" Start="1" End="1" Rule="Advp2ADV" Head="0" nodeId="510020160010012">
@@ -3908,7 +3908,7 @@
                         <Node Cat="np" Start="20" End="20" Rule="N2NP" Head="0" nodeId="510020170030011">
                           <Node Cat="noun" Start="20" End="20" UnicodeLemma="σκιά" Unicode="σκιὰ" Number="Singular" Type="Common" morphId="51002017003" Case="Nominative" Gender="Feminine" nodeId="510020170030010">σκιὰ</Node>
                         </Node>
-                        <Node Cat="np" Start="21" End="22" Rule="DetCL" Head="1" nodeId="510020170040020">
+                        <Node Cat="np" Start="21" End="22" Rule="DetCL" Head="1" HasDet="True" nodeId="510020170040020">
                           <Node Cat="det" Start="21" End="21" Case="Genitive" UnicodeLemma="ὁ" Unicode="τῶν" Gender="Neuter" Number="Plural" morphId="51002017004" nodeId="510020170040010">τῶν</Node>
                           <Node Cat="CL" Start="22" End="22" Rule="V2CL" Head="0" nodeId="510020170050013">
                             <Node Cat="V" Start="22" End="22" Rule="Vp2V" Head="0" nodeId="510020170050012">
@@ -4178,7 +4178,7 @@
 <Node Cat="S" Head="0" nodeId="510020200010561">
   <Node Cat="CL" Start="0" End="55" Rule="ClCl" Head="0" nodeId="510020200010560">
     <Node Cat="CL" Start="0" End="14" Rule="ClCl2" Head="1" nodeId="510020200010150">
-      <Node Cat="CL" Start="0" End="8" Rule="sub-CL" nodeId="510020200010090">
+      <Node Cat="CL" Start="0" End="8" Rule="sub-CL" Head="1" nodeId="510020200010090">
         <Node Cat="conj" Start="0" End="0" UnicodeLemma="εἰ" Unicode="Εἰ" morphId="51002020001" nodeId="510020200010010">Εἰ</Node>
         <Node Cat="CL" Start="1" End="8" Rule="V-ADV-ADV" Head="0" nodeId="510020200020080">
           <Node Cat="V" Start="1" End="1" Rule="Vp2V" Head="0" nodeId="510020200020012">
@@ -4222,7 +4222,7 @@
           </Node>
         </Node>
         <Node Cat="ADV" Start="10" End="13" Rule="CL2ADV" Head="0" nodeId="510020200110041">
-          <Node Cat="CL" Start="10" End="13" Rule="sub-CL" nodeId="510020200110040">
+          <Node Cat="CL" Start="10" End="13" Rule="sub-CL" Head="1" nodeId="510020200110040">
             <Node Cat="conj" Start="10" End="10" UnicodeLemma="ὡς" Unicode="ὡς" morphId="51002020011" nodeId="510020200110010">ὡς</Node>
             <Node Cat="CL" Start="11" End="13" Rule="V-ADV" Head="0" nodeId="510020200120030">
               <Node Cat="V" Start="11" End="11" Rule="Vp2V" Head="0" nodeId="510020200120012">
@@ -4438,10 +4438,10 @@
 <Trees>
 <Tree>
 <Node Cat="S" Head="0" nodeId="510030010020171">
-  <Node Cat="CL" Start="0" End="16" Rule="Conj-CL" nodeId="510030010020170">
+  <Node Cat="CL" Start="0" End="16" Rule="Conj-CL" Head="1" nodeId="510030010020170">
     <Node Cat="conj" Start="0" End="0" UnicodeLemma="οὖν" Unicode="οὖν" morphId="51003001002" nodeId="510030010020010">οὖν</Node>
     <Node Cat="CL" Start="1" End="16" Rule="ClCl2" Head="1" nodeId="510030010010160">
-      <Node Cat="CL" Start="1" End="4" Rule="sub-CL" nodeId="510030010010040">
+      <Node Cat="CL" Start="1" End="4" Rule="sub-CL" Head="1" nodeId="510030010010040">
         <Node Cat="conj" Start="1" End="1" UnicodeLemma="εἰ" Unicode="Εἰ" morphId="51003001001" nodeId="510030010010010">Εἰ</Node>
         <Node Cat="CL" Start="2" End="4" Rule="V-ADV" Head="0" nodeId="510030010030030">
           <Node Cat="V" Start="2" End="2" Rule="Vp2V" Head="0" nodeId="510030010030012">
@@ -4579,7 +4579,7 @@
 <Trees>
 <Tree>
 <Node Cat="S" Head="0" nodeId="510030030020131">
-  <Node Cat="CL" Start="0" End="12" Rule="Conj-CL" nodeId="510030030020130">
+  <Node Cat="CL" Start="0" End="12" Rule="Conj-CL" Head="1" nodeId="510030030020130">
     <Node Cat="conj" Start="0" End="0" UnicodeLemma="γάρ" Unicode="γάρ," morphId="51003003002" nodeId="510030030020010">γάρ</Node>
     <Node Cat="CL" Start="1" End="12" Rule="CLaCL" Head="0" nodeId="510030030010120">
       <Node Cat="CL" Start="1" End="1" Rule="V2CL" Head="0" nodeId="510030030010013">
@@ -4643,7 +4643,7 @@
 <Tree>
 <Node Cat="S" Head="0" nodeId="510030040010151">
   <Node Cat="CL" Start="0" End="14" Rule="ClCl2" Head="1" nodeId="510030040010150">
-    <Node Cat="CL" Start="0" End="6" Rule="sub-CL" nodeId="510030040010070">
+    <Node Cat="CL" Start="0" End="6" Rule="sub-CL" Head="1" nodeId="510030040010070">
       <Node Cat="conj" Start="0" End="0" UnicodeLemma="ὅταν" Unicode="ὅταν" morphId="51003004001" nodeId="510030040010010">ὅταν</Node>
       <Node Cat="CL" Start="1" End="6" Rule="V-S" Head="0" nodeId="510030040040060">
         <Node Cat="V" Start="1" End="1" Rule="Vp2V" Head="0" nodeId="510030040040012">
@@ -4721,7 +4721,7 @@
 <Trees>
 <Tree>
 <Node Cat="S" Head="0" nodeId="510030050020411">
-  <Node Cat="CL" Start="0" End="40" Rule="Conj-CL" nodeId="510030050020410">
+  <Node Cat="CL" Start="0" End="40" Rule="Conj-CL" Head="1" nodeId="510030050020410">
     <Node Cat="conj" Start="0" End="0" UnicodeLemma="οὖν" Unicode="οὖν" morphId="51003005002" nodeId="510030050020010">οὖν</Node>
     <Node Cat="CL" Start="1" End="40" Rule="V-O" Head="0" nodeId="510030050010400">
       <Node Cat="V" Start="1" End="1" Rule="Vp2V" Head="0" nodeId="510030050010012">
@@ -4878,7 +4878,7 @@
                           </Node>
                         </Node>
                       </Node>
-                      <Node Cat="CL" Start="37" End="40" Rule="sub-CL" nodeId="510030070070040">
+                      <Node Cat="CL" Start="37" End="40" Rule="sub-CL" Head="1" nodeId="510030070070040">
                         <Node Cat="conj" Start="37" End="37" Rule="Adv2Conj" Head="0" nodeId="510030070070011">
                           <Node Cat="adv" Start="37" End="37" UnicodeLemma="ὅτε" Unicode="ὅτε" morphId="51003007007" nodeId="510030070070010">ὅτε</Node>
                         </Node>
@@ -4916,7 +4916,7 @@
 <Trees>
 <Tree>
 <Node Cat="S" Head="0" nodeId="510030080020161">
-  <Node Cat="CL" Start="0" End="15" Rule="Conj-CL" nodeId="510030080020160">
+  <Node Cat="CL" Start="0" End="15" Rule="Conj-CL" Head="1" nodeId="510030080020160">
     <Node Cat="conj" Start="0" End="0" UnicodeLemma="δέ" Unicode="δὲ" morphId="51003008002" nodeId="510030080020010">δὲ</Node>
     <Node Cat="CL" Start="1" End="15" Rule="ADV-V-S-O-ADV" Head="1" nodeId="510030080010150">
       <Node Cat="ADV" Start="1" End="1" Rule="Advp2ADV" Head="0" nodeId="510030080010012">
@@ -5065,7 +5065,7 @@
                     <Node Cat="adj" Start="15" End="15" Case="Accusative" UnicodeLemma="νέος" Unicode="νέον" Gender="Masculine" Number="Singular" morphId="51003010004" nodeId="510030100040010">νέον</Node>
                   </Node>
                 </Node>
-                <Node Cat="np" Start="16" End="24" Rule="DetCL" Head="1" nodeId="510030100050090">
+                <Node Cat="np" Start="16" End="24" Rule="DetCL" Head="1" HasDet="True" nodeId="510030100050090">
                   <Node Cat="det" Start="16" End="16" Case="Accusative" UnicodeLemma="ὁ" Unicode="τὸν" Gender="Masculine" Number="Singular" morphId="51003010005" nodeId="510030100050010">τὸν</Node>
                   <Node Cat="CL" Start="17" End="24" Rule="V-ADV-ADV" Head="0" nodeId="510030100060080">
                     <Node Cat="V" Start="17" End="17" Rule="Vp2V" Head="0" nodeId="510030100060012">
@@ -5088,7 +5088,7 @@
                           <Node Cat="np" Start="21" End="21" Rule="N2NP" Head="0" nodeId="510030100100011">
                             <Node Cat="noun" Start="21" End="21" UnicodeLemma="εἰκών" Unicode="εἰκόνα" Number="Singular" Type="Common" morphId="51003010010" Case="Accusative" Gender="Feminine" nodeId="510030100100010">εἰκόνα</Node>
                           </Node>
-                          <Node Cat="np" Start="22" End="24" Rule="DetCL" Head="1" nodeId="510030100110030">
+                          <Node Cat="np" Start="22" End="24" Rule="DetCL" Head="1" HasDet="True" nodeId="510030100110030">
                             <Node Cat="det" Start="22" End="22" Case="Genitive" UnicodeLemma="ὁ" Unicode="τοῦ" Gender="Masculine" Number="Singular" morphId="51003010011" nodeId="510030100110010">τοῦ</Node>
                             <Node Cat="CL" Start="23" End="24" Rule="V-O" Head="0" nodeId="510030100120020">
                               <Node Cat="V" Start="23" End="23" Rule="Vp2V" Head="0" nodeId="510030100120012">
@@ -5114,7 +5114,7 @@
         </Node>
       </Node>
     </Node>
-    <Node Cat="CL" Start="25" End="44" Rule="sub-CL" nodeId="510030110010200">
+    <Node Cat="CL" Start="25" End="44" Rule="sub-CL" Head="1" nodeId="510030110010200">
       <Node Cat="conj" Start="25" End="25" UnicodeLemma="ὅπου" Unicode="ὅπου" morphId="51003011001" nodeId="510030110010010">ὅπου</Node>
       <Node Cat="CL" Start="26" End="44" Rule="CLaCL" Head="0" nodeId="510030110020190">
         <Node Cat="CL" Start="26" End="37" Rule="P-VC-S" Head="0" nodeId="510030110020120">
@@ -5215,7 +5215,7 @@
 <Trees>
 <Tree>
 <Node Cat="S" Head="0" nodeId="510030120020261">
-  <Node Cat="CL" Start="0" End="25" Rule="Conj-CL" nodeId="510030120020260">
+  <Node Cat="CL" Start="0" End="25" Rule="Conj-CL" Head="1" nodeId="510030120020260">
     <Node Cat="conj" Start="0" End="0" UnicodeLemma="οὖν" Unicode="οὖν" morphId="51003012002" nodeId="510030120020010">οὖν</Node>
     <Node Cat="CL" Start="1" End="25" Rule="ClCl" Head="0" nodeId="510030120010250">
       <Node Cat="CL" Start="1" End="19" Rule="V-ADV-O-ADV" Head="0" nodeId="510030120010190">
@@ -5315,7 +5315,7 @@
           </Node>
         </Node>
       </Node>
-      <Node Cat="CL" Start="20" End="25" Rule="sub-CL" nodeId="510030130060060">
+      <Node Cat="CL" Start="20" End="25" Rule="sub-CL" Head="1" nodeId="510030130060060">
         <Node Cat="conj" Start="20" End="20" UnicodeLemma="ἐάν" Unicode="ἐάν" morphId="51003013006" nodeId="510030130060010">ἐάν</Node>
         <Node Cat="CL" Start="21" End="25" Rule="S-ADV-V-O" Head="2" nodeId="510030130070050">
           <Node Cat="S" Start="21" End="21" Rule="Np2S" Head="0" nodeId="510030130070012">
@@ -5354,7 +5354,7 @@
 <Tree>
 <Node Cat="S" Head="0" nodeId="510030130120091">
   <Node Cat="CL" Start="0" End="8" Rule="ClCl2" Head="1" nodeId="510030130120090">
-    <Node Cat="CL" Start="0" End="5" Rule="sub-CL" nodeId="510030130120060">
+    <Node Cat="CL" Start="0" End="5" Rule="sub-CL" Head="1" nodeId="510030130120060">
       <Node Cat="conj" Start="0" End="0" UnicodeLemma="καθώς" Unicode="καθὼς" morphId="51003013012" nodeId="510030130120010">καθὼς</Node>
       <Node Cat="CL" Start="1" End="5" Rule="S-V-O" Head="1" nodeId="510030130130050">
         <Node Cat="S" Start="1" End="3" Rule="Np2S" Head="0" HasDet="True" nodeId="510030130130031">
@@ -5408,7 +5408,7 @@
 <Trees>
 <Tree>
 <Node Cat="S" Head="0" nodeId="510030140030111">
-  <Node Cat="CL" Start="0" End="10" Rule="Conj-CL" HasDet="True" nodeId="510030140030110">
+  <Node Cat="CL" Start="0" End="10" Rule="Conj-CL" Head="1" HasDet="True" nodeId="510030140030110">
     <Node Cat="conj" Start="0" End="0" UnicodeLemma="δέ" Unicode="δὲ" morphId="51003014003" nodeId="510030140030010">δὲ</Node>
     <Node Cat="CL" Start="1" End="10" Rule="ADV-O" Head="1" HasDet="True" ClType="VerbElided" nodeId="510030140010100">
       <Node Cat="ADV" Start="1" End="3" Rule="pp2ADV" Head="0" nodeId="510030140010031">
@@ -5469,7 +5469,7 @@
 <Trees>
 <Tree>
 <Node Cat="S" Head="0" nodeId="510030150010171">
-  <Node Cat="CL" Start="0" End="16" Rule="Conj-CL" nodeId="510030150010170">
+  <Node Cat="CL" Start="0" End="16" Rule="Conj-CL" Head="1" nodeId="510030150010170">
     <Node Cat="conj" Start="0" End="0" UnicodeLemma="καί" Unicode="καὶ" morphId="51003015001" nodeId="510030150010010">καὶ</Node>
     <Node Cat="CL" Start="1" End="16" Rule="ClCl" Head="0" nodeId="510030150020160">
       <Node Cat="CL" Start="1" End="9" Rule="S-V-ADV" Head="1" nodeId="510030150020090">
@@ -5554,7 +5554,7 @@
 <Trees>
 <Tree>
 <Node Cat="S" Head="0" nodeId="510030150180031">
-  <Node Cat="CL" Start="0" End="2" Rule="Conj-CL" nodeId="510030150180030">
+  <Node Cat="CL" Start="0" End="2" Rule="Conj-CL" Head="1" nodeId="510030150180030">
     <Node Cat="conj" Start="0" End="0" UnicodeLemma="καί" Unicode="καὶ" morphId="51003015018" nodeId="510030150180010">καὶ</Node>
     <Node Cat="CL" Start="1" End="2" Rule="P-VC" Head="0" nodeId="510030150190020">
       <Node Cat="P" Start="1" End="1" Rule="Adjp2P" Head="0" nodeId="510030150190012">
@@ -5713,7 +5713,7 @@
 <Trees>
 <Tree>
 <Node Cat="S" Head="0" nodeId="510030170010221">
-  <Node Cat="CL" Start="0" End="21" Rule="Conj-CL" nodeId="510030170010220">
+  <Node Cat="CL" Start="0" End="21" Rule="Conj-CL" Head="1" nodeId="510030170010220">
     <Node Cat="conj" Start="0" End="0" UnicodeLemma="καί" Unicode="καὶ" morphId="51003017001" nodeId="510030170010010">καὶ</Node>
     <Node Cat="CL" Start="1" End="21" Rule="ClCl2" Head="1" nodeId="510030170020210">
       <Node Cat="CL" Start="1" End="10" Rule="Np2CL" Head="0" ClType="Minor" nodeId="510030170020101">
@@ -5852,7 +5852,7 @@
           </Node>
         </Node>
       </Node>
-      <Node Cat="CL" Start="5" End="8" Rule="sub-CL" nodeId="510030180060040">
+      <Node Cat="CL" Start="5" End="8" Rule="sub-CL" Head="1" nodeId="510030180060040">
         <Node Cat="conj" Start="5" End="5" UnicodeLemma="ὡς" Unicode="ὡς" morphId="51003018006" nodeId="510030180060010">ὡς</Node>
         <Node Cat="CL" Start="6" End="8" Rule="V-ADV" Head="0" nodeId="510030180070030">
           <Node Cat="V" Start="6" End="6" Rule="Vp2V" Head="0" nodeId="510030180070012">
@@ -5972,7 +5972,7 @@
         </Node>
       </Node>
     </Node>
-    <Node Cat="CL" Start="7" End="12" Rule="sub-CL" nodeId="510030200090060">
+    <Node Cat="CL" Start="7" End="12" Rule="sub-CL" Head="1" nodeId="510030200090060">
       <Node Cat="conj" Start="7" End="7" UnicodeLemma="γάρ" Unicode="γὰρ" morphId="51003020009" nodeId="510030200090010">γὰρ</Node>
       <Node Cat="CL" Start="8" End="12" Rule="S-P-VC-ADV" Head="1" nodeId="510030200080050">
         <Node Cat="S" Start="8" End="8" Rule="Np2S" Head="0" nodeId="510030200080012">
@@ -6044,7 +6044,7 @@
           </Node>
         </Node>
       </Node>
-      <Node Cat="CL" Start="7" End="9" Rule="sub-CL" nodeId="510030210080030">
+      <Node Cat="CL" Start="7" End="9" Rule="sub-CL" Head="1" nodeId="510030210080030">
         <Node Cat="conj" Start="7" End="7" UnicodeLemma="ἵνα" Unicode="ἵνα" morphId="51003021008" nodeId="510030210080010">ἵνα</Node>
         <Node Cat="CL" Start="8" End="9" Rule="ADV-V" Head="1" nodeId="510030210090020">
           <Node Cat="ADV" Start="8" End="8" Rule="Advp2ADV" Head="0" nodeId="510030210090012">
@@ -6127,7 +6127,7 @@
               </Node>
             </Node>
           </Node>
-          <Node Cat="CL" Start="12" End="13" Rule="sub-CL" nodeId="510030220130020">
+          <Node Cat="CL" Start="12" End="13" Rule="sub-CL" Head="1" nodeId="510030220130020">
             <Node Cat="conj" Start="12" End="12" UnicodeLemma="ὡς" Unicode="ὡς" morphId="51003022013" nodeId="510030220130010">ὡς</Node>
             <Node Cat="CL" Start="13" End="13" Rule="S2CL" Head="0" ClType="VerbElided" nodeId="510030220140014">
               <Node Cat="S" Start="13" End="13" Rule="Np2S" Head="0" nodeId="510030220140013">
@@ -6250,7 +6250,7 @@
             </Node>
           </Node>
         </Node>
-        <Node Cat="CL" Start="13" End="20" Rule="that-VP" nodeId="510030240020080">
+        <Node Cat="CL" Start="13" End="20" Rule="that-VP" Head="1" nodeId="510030240020080">
           <Node Cat="conj" Start="13" End="13" UnicodeLemma="ὅτι" Unicode="ὅτι" morphId="51003024002" nodeId="510030240020010">ὅτι</Node>
           <Node Cat="CL" Start="14" End="20" Rule="ADV-V-O" Head="1" nodeId="510030240030070">
             <Node Cat="ADV" Start="14" End="15" Rule="pp2ADV" Head="0" nodeId="510030240030021">
@@ -6323,12 +6323,12 @@
 <Trees>
 <Tree>
 <Node Cat="S" Head="0" nodeId="510030250020101">
-  <Node Cat="CL" Start="0" End="9" Rule="Conj-CL" nodeId="510030250020100">
+  <Node Cat="CL" Start="0" End="9" Rule="Conj-CL" Head="1" nodeId="510030250020100">
     <Node Cat="conj" Start="0" End="0" UnicodeLemma="γάρ" Unicode="γὰρ" morphId="51003025002" nodeId="510030250020010">γὰρ</Node>
     <Node Cat="CL" Start="1" End="9" Rule="CLaCL" Head="0" nodeId="510030250010090">
       <Node Cat="CL" Start="1" End="5" Rule="S-V-O" Head="1" nodeId="510030250010050">
-        <Node Cat="S" Start="1" End="2" Rule="Np2S" Head="0" nodeId="510030250010021">
-          <Node Cat="np" Start="1" End="2" Rule="DetCL" Head="1" nodeId="510030250010020">
+        <Node Cat="S" Start="1" End="2" Rule="Np2S" Head="0" HasDet="True" nodeId="510030250010021">
+          <Node Cat="np" Start="1" End="2" Rule="DetCL" Head="1" HasDet="True" nodeId="510030250010020">
             <Node Cat="det" Start="1" End="1" Case="Nominative" UnicodeLemma="ὁ" Unicode="ὁ" Gender="Masculine" Number="Singular" morphId="51003025001" nodeId="510030250010010">ὁ</Node>
             <Node Cat="CL" Start="2" End="2" Rule="V2CL" Head="0" nodeId="510030250030013">
               <Node Cat="V" Start="2" End="2" Rule="Vp2V" Head="0" nodeId="510030250030012">
@@ -6438,7 +6438,7 @@
               </Node>
             </Node>
           </Node>
-          <Node Cat="CL" Start="11" End="17" Rule="that-VP" nodeId="510040010120070">
+          <Node Cat="CL" Start="11" End="17" Rule="that-VP" Head="1" nodeId="510040010120070">
             <Node Cat="conj" Start="11" End="11" UnicodeLemma="ὅτι" Unicode="ὅτι" morphId="51004001012" nodeId="510040010120010">ὅτι</Node>
             <Node Cat="CL" Start="12" End="17" Rule="S-V-O-ADV" Head="1" nodeId="510040010130060">
               <Node Cat="S" Start="12" End="13" Rule="Np2S" Head="0" nodeId="510040010130021">
@@ -6550,7 +6550,7 @@
               </Node>
             </Node>
           </Node>
-          <Node Cat="CL" Start="13" End="29" Rule="that-VP" nodeId="510040030060170">
+          <Node Cat="CL" Start="13" End="29" Rule="that-VP" Head="1" nodeId="510040030060170">
             <Node Cat="conj" Start="13" End="13" UnicodeLemma="ἵνα" Unicode="ἵνα" morphId="51004003006" nodeId="510040030060010">ἵνα</Node>
             <Node Cat="CL" Start="14" End="29" Rule="S-V-ADV-O-ADV" Head="1" nodeId="510040030070160">
               <Node Cat="S" Start="14" End="15" Rule="Np2S" Head="0" HasDet="True" nodeId="510040030070021">
@@ -6634,7 +6634,7 @@
             </Node>
           </Node>
         </Node>
-        <Node Cat="CL" Start="30" End="36" Rule="sub-CL" nodeId="510040040010070">
+        <Node Cat="CL" Start="30" End="36" Rule="sub-CL" Head="1" nodeId="510040040010070">
           <Node Cat="conj" Start="30" End="30" UnicodeLemma="ἵνα" Unicode="ἵνα" morphId="51004004001" nodeId="510040040010010">ἵνα</Node>
           <Node Cat="CL" Start="31" End="36" Rule="ClCl" Head="0" nodeId="510040040020060">
             <Node Cat="CL" Start="31" End="32" Rule="V-O" Head="0" nodeId="510040040020020">
@@ -6649,7 +6649,7 @@
                 </Node>
               </Node>
             </Node>
-            <Node Cat="CL" Start="33" End="36" Rule="sub-CL" nodeId="510040040040040">
+            <Node Cat="CL" Start="33" End="36" Rule="sub-CL" Head="1" nodeId="510040040040040">
               <Node Cat="conj" Start="33" End="33" UnicodeLemma="ὡς" Unicode="ὡς" morphId="51004004004" nodeId="510040040040010">ὡς</Node>
               <Node Cat="CL" Start="34" End="36" Rule="V-S" Head="0" nodeId="510040040050030">
                 <Node Cat="V" Start="34" End="34" Rule="Vp2V" Head="0" nodeId="510040040050012">
@@ -6945,7 +6945,7 @@
             </Node>
           </Node>
           <Node Cat="ADV" Start="24" End="33" Rule="CL2ADV" Head="0" nodeId="510040080080101">
-            <Node Cat="CL" Start="24" End="33" Rule="sub-CL" nodeId="510040080080100">
+            <Node Cat="CL" Start="24" End="33" Rule="sub-CL" Head="1" nodeId="510040080080100">
               <Node Cat="conj" Start="24" End="24" UnicodeLemma="ἵνα" Unicode="ἵνα" morphId="51004008008" nodeId="510040080080010">ἵνα</Node>
               <Node Cat="CL" Start="25" End="33" Rule="CLaCL" Head="0" nodeId="510040080090090">
                 <Node Cat="CL" Start="25" End="28" Rule="V-O" Head="0" nodeId="510040080090040">
@@ -7158,7 +7158,7 @@
                 </Node>
               </Node>
               <Node Cat="CL" Start="15" End="20" Rule="ClCl2" Head="1" nodeId="510040100160060">
-                <Node Cat="CL" Start="15" End="18" Rule="sub-CL" nodeId="510040100160040">
+                <Node Cat="CL" Start="15" End="18" Rule="sub-CL" Head="1" nodeId="510040100160040">
                   <Node Cat="conj" Start="15" End="15" UnicodeLemma="ἐάν" Unicode="ἐὰν" morphId="51004010016" nodeId="510040100160010">ἐὰν</Node>
                   <Node Cat="CL" Start="16" End="18" Rule="V-ADV" Head="0" nodeId="510040100170030">
                     <Node Cat="V" Start="16" End="16" Rule="Vp2V" Head="0" nodeId="510040100170012">
@@ -7196,7 +7196,7 @@
             <Node Cat="np" Start="22" End="22" Rule="N2NP" Head="0" nodeId="510040110020011">
               <Node Cat="noun" Start="22" End="22" UnicodeLemma="Ἰησοῦς" Unicode="Ἰησοῦς" Number="Singular" Type="Proper" morphId="51004011002" Case="Nominative" Gender="Masculine" nodeId="510040110020010">Ἰησοῦς</Node>
             </Node>
-            <Node Cat="np" Start="23" End="25" Rule="DetCL" Head="1" nodeId="510040110030030">
+            <Node Cat="np" Start="23" End="25" Rule="DetCL" Head="1" HasDet="True" nodeId="510040110030030">
               <Node Cat="det" Start="23" End="23" Case="Nominative" UnicodeLemma="ὁ" Unicode="ὁ" Gender="Masculine" Number="Singular" morphId="51004011003" nodeId="510040110030010">ὁ</Node>
               <Node Cat="CL" Start="24" End="25" Rule="VC-P" Head="1" nodeId="510040110040020">
                 <Node Cat="VC" Start="24" End="24" Rule="vp2VC" Head="0" nodeId="510040110040012">
@@ -7213,7 +7213,7 @@
             </Node>
           </Node>
         </Node>
-        <Node Cat="np" Start="26" End="29" Rule="DetCL" Head="1" nodeId="510040110060040">
+        <Node Cat="np" Start="26" End="29" Rule="DetCL" Head="1" HasDet="True" nodeId="510040110060040">
           <Node Cat="det" Start="26" End="26" Case="Nominative" UnicodeLemma="ὁ" Unicode="οἱ" Gender="Masculine" Number="Plural" morphId="51004011006" nodeId="510040110060010">οἱ</Node>
           <Node Cat="CL" Start="27" End="29" Rule="VC-P" Head="1" nodeId="510040110070030">
             <Node Cat="VC" Start="27" End="27" Rule="vp2VC" Head="0" nodeId="510040110070012">
@@ -7384,7 +7384,7 @@
             </Node>
           </Node>
         </Node>
-        <Node Cat="CL" Start="15" End="24" Rule="sub-CL" nodeId="510040120160100">
+        <Node Cat="CL" Start="15" End="24" Rule="sub-CL" Head="1" nodeId="510040120160100">
           <Node Cat="conj" Start="15" End="15" Rule="Adv2Conj" Head="0" nodeId="510040120160011">
             <Node Cat="adv" Start="15" End="15" UnicodeLemma="ἵνα" Unicode="ἵνα" morphId="51004012016" nodeId="510040120160010">ἵνα</Node>
           </Node>
@@ -7443,7 +7443,7 @@
 <Trees>
 <Tree>
 <Node Cat="S" Head="0" nodeId="510040130020171">
-  <Node Cat="CL" Start="0" End="16" Rule="Conj-CL" nodeId="510040130020170">
+  <Node Cat="CL" Start="0" End="16" Rule="Conj-CL" Head="1" nodeId="510040130020170">
     <Node Cat="conj" Start="0" End="0" UnicodeLemma="γάρ" Unicode="γὰρ" morphId="51004013002" nodeId="510040130020010">γὰρ</Node>
     <Node Cat="CL" Start="1" End="16" Rule="ClCl" Head="0" nodeId="510040130010160">
       <Node Cat="CL" Start="1" End="2" Rule="V-IO" Head="0" nodeId="510040130010020">
@@ -7458,7 +7458,7 @@
           </Node>
         </Node>
       </Node>
-      <Node Cat="CL" Start="3" End="16" Rule="that-VP" nodeId="510040130040140">
+      <Node Cat="CL" Start="3" End="16" Rule="that-VP" Head="1" nodeId="510040130040140">
         <Node Cat="conj" Start="3" End="3" UnicodeLemma="ὅτι" Unicode="ὅτι" morphId="51004013004" nodeId="510040130040010">ὅτι</Node>
         <Node Cat="CL" Start="4" End="16" Rule="V-O-ADV" Head="0" nodeId="510040130050130">
           <Node Cat="V" Start="4" End="4" Rule="Vp2V" Head="0" nodeId="510040130050012">
@@ -7626,10 +7626,10 @@
 <Trees>
 <Tree>
 <Node Cat="S" Head="0" nodeId="510040160010231">
-  <Node Cat="CL" Start="0" End="22" Rule="Conj-CL" nodeId="510040160010230">
+  <Node Cat="CL" Start="0" End="22" Rule="Conj-CL" Head="1" nodeId="510040160010230">
     <Node Cat="conj" Start="0" End="0" UnicodeLemma="καί" Unicode="καὶ" morphId="51004016001" nodeId="510040160010010">καὶ</Node>
     <Node Cat="CL" Start="1" End="22" Rule="ClCl2" Head="1" nodeId="510040160020220">
-      <Node Cat="CL" Start="1" End="6" Rule="sub-CL" nodeId="510040160020060">
+      <Node Cat="CL" Start="1" End="6" Rule="sub-CL" Head="1" nodeId="510040160020060">
         <Node Cat="conj" Start="1" End="1" UnicodeLemma="ὅταν" Unicode="ὅταν" morphId="51004016002" nodeId="510040160020010">ὅταν</Node>
         <Node Cat="CL" Start="2" End="6" Rule="V-ADV-S" Head="0" nodeId="510040160030050">
           <Node Cat="V" Start="2" End="2" Rule="Vp2V" Head="0" nodeId="510040160030012">
@@ -7664,7 +7664,7 @@
           </Node>
         </Node>
         <Node Cat="CL" Start="8" End="22" Rule="CLaCL" Head="0" nodeId="510040160090150">
-          <Node Cat="CL" Start="8" End="14" Rule="that-VP" nodeId="510040160090070">
+          <Node Cat="CL" Start="8" End="14" Rule="that-VP" Head="1" nodeId="510040160090070">
             <Node Cat="conj" Start="8" End="8" UnicodeLemma="ἵνα" Unicode="ἵνα" morphId="51004016009" nodeId="510040160090010">ἵνα</Node>
             <Node Cat="CL" Start="9" End="14" Rule="ADV-V" Head="1" nodeId="510040160100060">
               <Node Cat="ADV" Start="9" End="13" Rule="pp2ADV" Head="0" HasDet="True" nodeId="510040160100051">
@@ -7696,7 +7696,7 @@
             </Node>
           </Node>
           <Node Cat="conj" Start="15" End="15" UnicodeLemma="καί" Unicode="καὶ" morphId="51004016016" nodeId="510040160160010">καὶ</Node>
-          <Node Cat="CL" Start="16" End="22" Rule="that-VP" nodeId="510040160200070">
+          <Node Cat="CL" Start="16" End="22" Rule="that-VP" Head="1" nodeId="510040160200070">
             <Node Cat="conj" Start="16" End="16" UnicodeLemma="ἵνα" Unicode="ἵνα" morphId="51004016020" nodeId="510040160200010">ἵνα</Node>
             <Node Cat="CL" Start="17" End="22" Rule="O-S-V" Head="2" nodeId="510040160170060">
               <Node Cat="O" Start="17" End="19" Rule="Np2O" Head="0" nodeId="510040160170031">
@@ -7741,7 +7741,7 @@
 <Trees>
 <Tree>
 <Node Cat="S" Head="0" nodeId="510040170010131">
-  <Node Cat="CL" Start="0" End="12" Rule="Conj-CL" nodeId="510040170010130">
+  <Node Cat="CL" Start="0" End="12" Rule="Conj-CL" Head="1" nodeId="510040170010130">
     <Node Cat="conj" Start="0" End="0" UnicodeLemma="καί" Unicode="καὶ" morphId="51004017001" nodeId="510040170010010">καὶ</Node>
     <Node Cat="CL" Start="1" End="12" Rule="ClCl" Head="0" nodeId="510040170020120">
       <Node Cat="CL" Start="1" End="2" Rule="V-IO" Head="0" nodeId="510040170020020">
@@ -7794,7 +7794,7 @@
             </Node>
           </Node>
         </Node>
-        <Node Cat="CL" Start="10" End="12" Rule="sub-CL" nodeId="510040170110030">
+        <Node Cat="CL" Start="10" End="12" Rule="sub-CL" Head="1" nodeId="510040170110030">
           <Node Cat="conj" Start="10" End="10" UnicodeLemma="ἵνα" Unicode="ἵνα" morphId="51004017011" nodeId="510040170110010">ἵνα</Node>
           <Node Cat="CL" Start="11" End="12" Rule="O-V" Head="1" nodeId="510040170120020">
             <Node Cat="O" Start="11" End="11" Rule="Np2O" Head="0" nodeId="510040170120012">
