@@ -334,4 +334,4 @@ declare function local:sentence($node)
         return
             local:sentence($sentence)
     }
-</wg>
+</div>
