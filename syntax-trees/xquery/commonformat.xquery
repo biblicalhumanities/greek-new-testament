@@ -89,6 +89,7 @@ declare function local:osisBook($nodeId)
 };
 
 declare function local:verbal-noun-type($node)
+(:  This realy doesn't work yet. Not even close. :)
 {
     switch ($node/parent::Node/@Cat)
         case 'adjp'
@@ -101,7 +102,24 @@ declare function local:verbal-noun-type($node)
             return
                 attribute type {'nominal'}
         default return
-           attribute type {'###'}
+           attribute type {'?'}
+};
+
+declare function local:head($node)
+{
+    if ($node)
+    then
+        let $preceding := count($node/preceding-sibling::Node)
+        let $following := count($node/following-sibling::Node)
+        return
+            if ($preceding + $following > 0)
+            then 
+                if ($preceding = $node/parent::*/@Head and $node/parent::*/@Cat != 'conj')
+                then attribute head { true() }
+                else ()
+            else local:head($node/parent::*)
+    else ()
+
 };
 
 declare function local:attributes($node)
@@ -122,7 +140,7 @@ declare function local:attributes($node)
     $node/@Mood ! attribute mood {lower-case(.)},
     $node/@Mood[. = ('Participle', 'Infinitive')] ! local:verbal-noun-type($node),
     $node/@Degree ! attribute degree {lower-case(.)},
-    $node/parent::*/@Head ! attribute head {"true"}[$node/parent::*/@Head = count($node/preceding-sibling::*)],
+    local:head($node),
     $node[empty(*)] ! attribute discontinuous {"true"}[$node/following::Node[empty(*)][1]/@morphId lt $node/@morphId],
     $node/@HasDet ! attribute det {"true"}
 };
@@ -200,6 +218,8 @@ declare function local:milestones($node)
     let $verse := substring($nodeId, 6, 3)
     let $word := substring($nodeId, 9, 3)
     let $osisId := local:osisId($nodeId)
+    let $chapterId := substring-before($osisId, ".1!")
+    let $verseId := substring-before($osisId, "!")
     where substring($nodeId, 1, 11) != substring($parentId, 1, 11)
     return
         if ($verse = "001" and $word = "001")
@@ -207,17 +227,23 @@ declare function local:milestones($node)
             (
             <milestone
                 unit="chapter"
-                n="{substring-before($osisId, ".1!")}"/>,
+                n="{$chapterId}">
+                {$chapterId}
+                </milestone>,
             <milestone
                 unit="verse"
-                n="{substring-before($osisId, "!")}"/>
+                n="{$verseId}">
+                {$verseId}
+                </milestone>
             )
         else
             if ($word = "001")
             then
                 <milestone
                     unit="verse"
-                    n="{substring-before($osisId, "!")}"/>
+                    n="{$verseId}">
+                    { $verseId }
+                    </milestone>
             else
                 ()
 };
@@ -327,6 +353,7 @@ declare function local:sentence($node)
     </wg>
 };
 
+processing-instruction xml-stylesheet {'href="pruned-tree.css"'},
 <div
     class="book">
     {
