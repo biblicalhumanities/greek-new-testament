@@ -8,7 +8,7 @@ This is based on the 1904 edition of Eberhard Nestle's Greek New
 Testament, often referred to as the Nestle 1904 or British Foreign
 Bible Society 1904.
 
-Syntax diagram markup copyright 2014-2015 by the Global Bible Initiative, made available under under a 
+Syntax diagram markup copyright 2014-2017 by the Global Bible Initiative, made available under under a 
 [CC-BY-SA License] (http://creativecommons.org/licenses/by-sa/3.0/).  
 
 Morphological parsing and lemmatization by Dr. Ulrik Sandborg-Petersen
