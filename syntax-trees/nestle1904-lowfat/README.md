@@ -2,7 +2,7 @@
 
 https://github.com/biblicalhumanities/greek-new-testament/syntax-trees/nestle1904
 
-Last modified: 2 Feb, 2015
+Last modified: 5 Jan, 2017
 
 These syntax trees were created to be easier to query and to display using standard Web technologies. They are called "lowfat" because they are simpler and have fewer nodes than the equivalent GBI trees: about 1/2 as many elements, and about 1/3 as many attributes.
 
@@ -18,7 +18,7 @@ Please report bugs by creating issues on this github directory. You can also con
 
 ## Copyright
 
-Syntax diagram markup copyright 2014-2015 by Jonathan Robie and Micheal Palmer,  made available under under a
+Syntax diagram markup copyright 2014-2017 by Jonathan Robie and Micheal Palmer,  made available under under a
 [CC-BY-SA License] (http://creativecommons.org/licenses/by-sa/3.0/).  
 Created by a transformation from Syntax diagram markup copyright 2014-2015 by the Global Bible Initiative, made available under under a
 [CC-BY-SA License] (http://creativecommons.org/licenses/by-sa/3.0/).  
