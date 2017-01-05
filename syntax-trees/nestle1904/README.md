@@ -2,7 +2,7 @@
 
 https://github.com/biblicalhumanities/greek-new-testament/syntax-trees/nestle1904
 
-Last modified: 2 Feb, 2015
+Last modified: 21 Dec, 2016
 
 This is based on the 1904 edition of Eberhard Nestle's Greek New
 Testament, often referred to as the Nestle 1904 or British Foreign
