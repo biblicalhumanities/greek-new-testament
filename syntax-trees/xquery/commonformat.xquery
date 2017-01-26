@@ -263,7 +263,7 @@ declare function local:word($node, $role)
 {
     if ($node/*)
     then ( element error {$role, $node }) else
-    if (string-length($node) = string-length($node/@NormalizedForm) + 1)
+    if (string-length($node) = string-length($node/@Unicode) + 1)
     then
         (: place punctuation in a separate node :)
         (
@@ -349,12 +349,20 @@ declare function local:node($node as element(Node))
             $node
 };
 
+declare function local:straight-text($node)
+{
+    for $n in $node//Node[local:node-type(.) = 'word'] 
+    order by $n/@morphId
+    return string($n)
+};
+
 declare function local:sentence($node)
 {
     local:milestones($node),
     <wg
         class="sentence">
         {
+            <p>{ local:straight-text($node) }</p>,
             $node/Node ! local:node(.)
         }
     </wg>
