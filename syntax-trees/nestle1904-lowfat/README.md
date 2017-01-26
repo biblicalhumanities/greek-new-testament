@@ -2,7 +2,7 @@
 
 https://github.com/biblicalhumanities/greek-new-testament/syntax-trees/nestle1904
 
-Last modified: 2 Feb, 2015
+Last modified: 5 Jan, 2017
 
 These syntax trees were created to be easier to query and to display using standard Web technologies. They are called "lowfat" because they are simpler and have fewer nodes than the equivalent GBI trees: about 1/2 as many elements, and about 1/3 as many attributes.
 
@@ -18,7 +18,7 @@ Please report bugs by creating issues on this github directory. You can also con
 
 ## Copyright
 
-Syntax diagram markup copyright 2014-2015 by Jonathan Robie and Micheal Palmer,  made available under under a
+Syntax diagram markup copyright 2014-2017 by Jonathan Robie and Micheal Palmer,  made available under under a
 [CC-BY-SA License] (http://creativecommons.org/licenses/by-sa/3.0/).  
 Created by a transformation from Syntax diagram markup copyright 2014-2015 by the Global Bible Initiative, made available under under a
 [CC-BY-SA License] (http://creativecommons.org/licenses/by-sa/3.0/).  
@@ -38,25 +38,47 @@ These syntax trees were automatically generated, then carefully corrected by han
 This is an example of the current markup scheme:
 
 ```xml
-<sentence>
-   <cite>Jhn11:35:1-11:35:3</cite>
-   <wg nodeId="430110350010030" class="cl">
-      <w morphId="43011035001" class="verb" role="v" head="true" lemma="δακρύω"
-         person="third"
-         number="singular"
-         tense="aorist"
-         voice="active"
-         mood="indicative">ἐδάκρυσεν</w>
-      <wg nodeId="430110350020020" class="np" role="s">
-         <w morphId="43011035002" class="det" lemma="ὁ" case="nominative"
-            gender="masculine"
-            number="singular">ὁ</w>
-         <w morphId="43011035003" class="noun" head="true" lemma="ἰησοῦς" case="nominative"
-            gender="masculine"
-            number="singular">Ἰησοῦς.</w>
+  <milestone unit="verse" n="John.11.35">John.11.35</milestone>
+   <wg class="sentence">
+      <wg class="cl">
+         <wg role="v" class="vp" head="true">
+            <w class="verb"
+               osisId="John.11.35!1"
+               lemma="δακρύω"
+               normalized="ἐδάκρυσεν"
+               strong="1145"
+               number="singular"
+               person="third"
+               tense="aorist"
+               voice="active"
+               mood="indicative"
+               head="true">ἐδάκρυσεν</w>
+         </wg>
+         <wg role="s" class="np" articular="true" det="true">
+            <w class="det"
+               osisId="John.11.35!2"
+               lemma="ὁ"
+               normalized="ὁ"
+               strong="3588"
+               number="singular"
+               gender="masculine"
+               case="nominative">ὁ</w>
+            <wg class="np" head="true">
+               <w class="noun"
+                  type="proper"
+                  osisId="John.11.35!3"
+                  lemma="Ἰησοῦς"
+                  normalized="Ἰησοῦς"
+                  strong="2424"
+                  number="singular"
+                  gender="masculine"
+                  case="nominative"
+                  head="true">Ἰησοῦς</w>
+               <pu>.</pu>
+            </wg>
+         </wg>
       </wg>
    </wg>
-</sentence>
 ```
 
 Here is an overview of this format:
