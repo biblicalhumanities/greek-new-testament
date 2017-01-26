@@ -127,6 +127,7 @@ declare function local:attributes($node)
     $node/@Cat ! attribute class {lower-case(.)},
     $node/@Type ! attribute type {lower-case(.)}[string-length(.) >= 1 and not(. = ("Logical", "Negative"))],
     $node/@morphId ! attribute osisId {local:osisId(.)},
+    $node/@nodeId ! attribute n {.},
     $node/@HasDet ! attribute articular {true()},
     $node/@UnicodeLemma ! attribute lemma {.},
     $node/@NormalizedForm ! attribute normalized {.},
@@ -138,7 +139,7 @@ declare function local:attributes($node)
     $node/@Tense ! attribute tense {lower-case(.)},
     $node/@Voice ! attribute voice {lower-case(.)},
     $node/@Mood ! attribute mood {lower-case(.)},
-    $node/@Mood[. = ('Participle', 'Infinitive')] ! local:verbal-noun-type($node),
+    $node/@Mood[. = ('Participle', 'Infinitive')] ! attribute type { local:verbal-noun-type($node) },
     $node/@Degree ! attribute degree {lower-case(.)},
     local:head($node),
     $node[empty(*)] ! attribute discontinuous {"true"}[$node/following::Node[empty(*)][1]/@morphId lt $node/@morphId],
@@ -169,12 +170,15 @@ declare function local:clause($node)
 
 declare function local:phrase($node)
 {
-    <wg>
-        {
+    if (count($node/Node) = 1 and local:node-type($node/Node) = "word")
+    then local:word($node/Node, $node/@role)
+    else
+        <wg>
+          {
             local:attributes($node),
             $node/Node ! local:node(.)
-        }
-    </wg>
+          }
+        </wg>
 };
 
 declare function local:role($node)
@@ -218,6 +222,7 @@ declare function local:milestones($node)
     let $verse := substring($nodeId, 6, 3)
     let $word := substring($nodeId, 9, 3)
     let $osisId := local:osisId($nodeId)
+    let $bookName := substring-before($osisId, ".")
     let $chapterId := substring-before($osisId, ".1!")
     let $verseId := substring-before($osisId, "!")
     where substring($nodeId, 1, 11) != substring($parentId, 1, 11)
@@ -228,12 +233,12 @@ declare function local:milestones($node)
             <milestone
                 unit="chapter"
                 n="{$chapterId}">
-                {$chapterId}
+                {$bookName, xs:integer($chapter)}
                 </milestone>,
             <milestone
                 unit="verse"
                 n="{$verseId}">
-                {$verseId}
+                {xs:integer($verse)}
                 </milestone>
             )
         else
@@ -242,7 +247,7 @@ declare function local:milestones($node)
                 <milestone
                     unit="verse"
                     n="{$verseId}">
-                    { $verseId }
+                    { xs:integer($verse) }
                     </milestone>
             else
                 ()
@@ -256,6 +261,8 @@ declare function local:word($node)
 declare function local:word($node, $role)
 (: $role can contain a role attribute or a null sequence :)
 {
+    if ($node/*)
+    then ( element error {$role, $node }) else
     if (string-length($node) = string-length($node/@NormalizedForm) + 1)
     then
         (: place punctuation in a separate node :)
@@ -281,21 +288,22 @@ declare function local:word($node, $role)
 
 declare function local:node-type($node as element(Node))
 {
+    if ($node/@UnicodeLemma)
+      then "word"
+    else 
     switch ($node/@Cat)
         case "adj"
         case "adv"
         case "conj"
         case "det"
-        case "intj"
         case "noun"
         case "num"
         case "prep"
         case "ptcl"
         case "pron"
         case "verb"
-            return
-                "word"
-        case "adjp"
+        case "intj"
+	case "adjp"
         case "advp"
         case "np"
         case "nump"
@@ -317,8 +325,7 @@ declare function local:node-type($node as element(Node))
             return
                 "clause"
         default
-        return
-            <cat>{$node/@Cat}</cat>
+        return "####"
 };
 
 declare function local:node($node as element(Node))
@@ -339,7 +346,7 @@ declare function local:node($node as element(Node))
                 local:clause($node)
         default
         return
-            <cat>{$node/@Cat}</cat>
+            $node
 };
 
 declare function local:sentence($node)
@@ -354,11 +361,10 @@ declare function local:sentence($node)
 };
 
 processing-instruction xml-stylesheet {'href="pruned-tree.css"'},
-<div
-    class="book">
+<book>
     {
         for $sentence in //Tree/Node
         return
             local:sentence($sentence)
     }
-</div>
+</book>
