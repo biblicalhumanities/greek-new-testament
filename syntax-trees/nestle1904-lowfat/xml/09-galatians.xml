@@ -1,10 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-stylesheet href="pruned-tree.css"?>
+<?xml-stylesheet href="indent-lined.css"?>
 <book>
-   <milestone unit="chapter" n="Gal.1">Gal 1</milestone>
-   <milestone unit="verse" n="Gal.1.1">1</milestone>
-   <wg class="sentence">
-      <p>Παῦλος ἀπόστολος, οὐκ ἀπ’ ἀνθρώπων οὐδὲ δι’ ἀνθρώπου ἀλλὰ διὰ Ἰησοῦ Χριστοῦ καὶ Θεοῦ Πατρὸς τοῦ ἐγείραντος αὐτὸν ἐκ νεκρῶν, καὶ οἱ σὺν ἐμοὶ πάντες ἀδελφοί, ταῖς ἐκκλησίαις τῆς Γαλατίας·</p>
+   <sentence>
+      <p>
+         <milestone>Gal.1.1</milestone>Παῦλος ἀπόστολος, οὐκ ἀπ’ ἀνθρώπων οὐδὲ δι’ ἀνθρώπου ἀλλὰ διὰ Ἰησοῦ Χριστοῦ καὶ Θεοῦ Πατρὸς τοῦ ἐγείραντος αὐτὸν ἐκ νεκρῶν, καὶ οἱ σὺν ἐμοὶ πάντες ἀδελφοί, ταῖς ἐκκλησίαις τῆς Γαλατίας·</p>
       <wg class="cl" n="480010010010300">
          <wg role="s" class="np" n="480010010010260" head="true">
             <wg class="np" n="480010010010200" head="true">
@@ -218,7 +217,6 @@
                   </wg>
                </wg>
             </wg>
-            <milestone unit="verse" n="Gal.1.2">2</milestone>
             <w class="conj"
                osisId="Gal.1.2!1"
                n="480010020010010"
@@ -330,9 +328,10 @@
             </wg>
          </wg>
       </wg>
-   </wg>
-   <wg class="sentence">
-      <p>χάρις ὑμῖν καὶ εἰρήνη ἀπὸ Θεοῦ Πατρὸς ἡμῶν καὶ Κυρίου Ἰησοῦ Χριστοῦ, τοῦ δόντος ἑαυτὸν ὑπὲρ τῶν ἁμαρτιῶν ἡμῶν, ὅπως ἐξέληται ἡμᾶς ἐκ τοῦ αἰῶνος τοῦ ἐνεστῶτος πονηροῦ κατὰ τὸ θέλημα τοῦ Θεοῦ καὶ Πατρὸς ἡμῶν, ᾧ ἡ δόξα εἰς τοὺς αἰῶνας τῶν αἰώνων· ἀμήν.</p>
+   </sentence>
+   <sentence>
+      <p>
+         <milestone>Gal.1.3</milestone>χάρις ὑμῖν καὶ εἰρήνη ἀπὸ Θεοῦ Πατρὸς ἡμῶν καὶ Κυρίου Ἰησοῦ Χριστοῦ, τοῦ δόντος ἑαυτὸν ὑπὲρ τῶν ἁμαρτιῶν ἡμῶν, ὅπως ἐξέληται ἡμᾶς ἐκ τοῦ αἰῶνος τοῦ ἐνεστῶτος πονηροῦ κατὰ τὸ θέλημα τοῦ Θεοῦ καὶ Πατρὸς ἡμῶν, ᾧ ἡ δόξα εἰς τοὺς αἰῶνας τῶν αἰώνων· ἀμήν.</p>
       <wg class="cl" n="480010030020450">
          <wg role="io" class="np" n="480010030020011">
             <w class="pron"
@@ -346,7 +345,6 @@
                case="dative"
                discontinuous="true">ὑμῖν</w>
          </wg>
-         <milestone unit="verse" n="Gal.1.3">3</milestone>
          <wg role="s" class="np" n="480010030010030" head="true">
             <w class="noun"
                type="common"
@@ -462,7 +460,6 @@
                            case="genitive">Χριστοῦ,</w>
                      </wg>
                   </wg>
-                  <milestone unit="verse" n="Gal.1.4">4</milestone>
                   <wg class="np" n="480010040010330" articular="true" det="true">
                      <w class="det"
                         osisId="Gal.1.4!1"
@@ -767,7 +764,6 @@
                                                    case="genitive">ἡμῶν,</w>
                                              </wg>
                                           </wg>
-                                          <milestone unit="verse" n="Gal.1.5">5</milestone>
                                           <wg class="cl" n="480010050010090" articular="true" det="true">
                                              <wg class="cl"
                                                  n="480010050010080"
@@ -897,10 +893,10 @@
             </wg>
          </wg>
       </wg>
-   </wg>
-   <milestone unit="verse" n="Gal.1.6">6</milestone>
-   <wg class="sentence">
-      <p>Θαυμάζω ὅτι οὕτως ταχέως μετατίθεσθε ἀπὸ τοῦ καλέσαντος ὑμᾶς ἐν χάριτι Χριστοῦ εἰς ἕτερον εὐαγγέλιον, ὃ οὐκ ἔστιν ἄλλο· εἰ μή τινές εἰσιν οἱ ταράσσοντες ὑμᾶς καὶ θέλοντες μεταστρέψαι τὸ εὐαγγέλιον τοῦ Χριστοῦ.</p>
+   </sentence>
+   <sentence>
+      <p>
+         <milestone>Gal.1.6</milestone>Θαυμάζω ὅτι οὕτως ταχέως μετατίθεσθε ἀπὸ τοῦ καλέσαντος ὑμᾶς ἐν χάριτι Χριστοῦ εἰς ἕτερον εὐαγγέλιον, ὃ οὐκ ἔστιν ἄλλο· εἰ μή τινές εἰσιν οἱ ταράσσοντες ὑμᾶς καὶ θέλοντες μεταστρέψαι τὸ εὐαγγέλιον τοῦ Χριστοῦ.</p>
       <wg class="cl" n="480010060010330">
          <wg class="cl" n="480010060010013" head="true">
             <wg role="v" class="vp" n="480010060010011" head="true">
@@ -1073,7 +1069,6 @@
                            case="accusative"
                            head="true">εὐαγγέλιον,</w>
                      </wg>
-                     <milestone unit="verse" n="Gal.1.7">7</milestone>
                      <wg class="cl" n="480010070010180">
                         <wg class="cl" n="480010070010040" head="true">
                            <wg role="s" class="np" n="480010070010011">
@@ -1307,10 +1302,10 @@
             </wg>
          </wg>
       </wg>
-   </wg>
-   <milestone unit="verse" n="Gal.1.8">8</milestone>
-   <wg class="sentence">
-      <p>ἀλλὰ καὶ ἐὰν ἡμεῖς ἢ ἄγγελος ἐξ οὐρανοῦ εὐαγγελίσηται ὑμῖν παρ’ ὃ εὐηγγελισάμεθα ὑμῖν, ἀνάθεμα ἔστω. ὡς προειρήκαμεν, καὶ ἄρτι πάλιν λέγω, εἴ τις ὑμᾶς εὐαγγελίζεται παρ’ ὃ παρελάβετε, ἀνάθεμα ἔστω.</p>
+   </sentence>
+   <sentence>
+      <p>
+         <milestone>Gal.1.8</milestone>ἀλλὰ καὶ ἐὰν ἡμεῖς ἢ ἄγγελος ἐξ οὐρανοῦ εὐαγγελίσηται ὑμῖν παρ’ ὃ εὐηγγελισάμεθα ὑμῖν, ἀνάθεμα ἔστω. ὡς προειρήκαμεν, καὶ ἄρτι πάλιν λέγω, εἴ τις ὑμᾶς εὐαγγελίζεται παρ’ ὃ παρελάβετε, ἀνάθεμα ἔστω.</p>
       <wg class="cl" n="480010080010310">
          <w class="conj"
             osisId="Gal.1.8!1"
@@ -1491,7 +1486,6 @@
                   </wg>
                </wg>
             </wg>
-            <milestone unit="verse" n="Gal.1.9">9</milestone>
             <wg class="cl" n="480010090010150">
                <w class="conj"
                   osisId="Gal.1.9!1"
@@ -1675,9 +1669,10 @@
             </wg>
          </wg>
       </wg>
-   </wg>
-   <wg class="sentence">
-      <p>Ἄρτι γὰρ ἀνθρώπους πείθω ἢ τὸν Θεόν; ἢ ζητῶ ἀνθρώποις ἀρέσκειν;</p>
+   </sentence>
+   <sentence>
+      <p>
+         <milestone>Gal.1.10</milestone>Ἄρτι γὰρ ἀνθρώπους πείθω ἢ τὸν Θεόν; ἢ ζητῶ ἀνθρώποις ἀρέσκειν;</p>
       <wg class="cl" n="480010100020110">
          <w class="conj"
             osisId="Gal.1.10!2"
@@ -1686,7 +1681,6 @@
             normalized="γάρ"
             strong="1063"
             discontinuous="true">γὰρ</w>
-         <milestone unit="verse" n="Gal.1.10">10</milestone>
          <wg class="cl" n="480010100010100">
             <wg class="cl" n="480010100010060" head="true">
                <wg role="adv" class="advp" n="480010100010011">
@@ -1805,9 +1799,10 @@
             </wg>
          </wg>
       </wg>
-   </wg>
-   <wg class="sentence">
-      <p>εἰ ἔτι ἀνθρώποις ἤρεσκον, Χριστοῦ δοῦλος οὐκ ἂν ἤμην.</p>
+   </sentence>
+   <sentence>
+      <p>
+         <milestone>Gal.1.10</milestone>εἰ ἔτι ἀνθρώποις ἤρεσκον, Χριστοῦ δοῦλος οὐκ ἂν ἤμην.</p>
       <wg class="cl" n="480010100120090">
          <wg class="cl" n="480010100120040">
             <w class="conj"
@@ -1909,9 +1904,10 @@
             </wg>
          </wg>
       </wg>
-   </wg>
-   <wg class="sentence">
-      <p>γνωρίζω γὰρ ὑμῖν, ἀδελφοί, τὸ εὐαγγέλιον τὸ εὐαγγελισθὲν ὑπ’ ἐμοῦ ὅτι οὐκ ἔστιν κατὰ ἄνθρωπον·</p>
+   </sentence>
+   <sentence>
+      <p>
+         <milestone>Gal.1.11</milestone>γνωρίζω γὰρ ὑμῖν, ἀδελφοί, τὸ εὐαγγέλιον τὸ εὐαγγελισθὲν ὑπ’ ἐμοῦ ὅτι οὐκ ἔστιν κατὰ ἄνθρωπον·</p>
       <wg class="cl" n="480010110020150">
          <w class="conj"
             osisId="Gal.1.11!2"
@@ -1933,7 +1929,6 @@
                   case="vocative"
                   discontinuous="true">ἀδελφοί,</w>
             </wg>
-            <milestone unit="verse" n="Gal.1.11">11</milestone>
             <wg class="cl" n="480010110010130" head="true">
                <wg class="cl" n="480010110010080" head="true">
                   <wg role="v" class="vp" n="480010110010011" head="true">
@@ -2094,9 +2089,10 @@
             </wg>
          </wg>
       </wg>
-   </wg>
-   <wg class="sentence">
-      <p>οὐδὲ γὰρ ἐγὼ παρὰ ἀνθρώπου παρέλαβον αὐτό οὔτε ἐδιδάχθην, ἀλλὰ δι’ ἀποκαλύψεως Ἰησοῦ Χριστοῦ.</p>
+   </sentence>
+   <sentence>
+      <p>
+         <milestone>Gal.1.12</milestone>οὐδὲ γὰρ ἐγὼ παρὰ ἀνθρώπου παρέλαβον αὐτό οὔτε ἐδιδάχθην, ἀλλὰ δι’ ἀποκαλύψεως Ἰησοῦ Χριστοῦ.</p>
       <wg class="cl" n="480010120020140">
          <w class="conj"
             osisId="Gal.1.12!2"
@@ -2105,7 +2101,6 @@
             normalized="γάρ"
             strong="1063"
             discontinuous="true">γὰρ</w>
-         <milestone unit="verse" n="Gal.1.12">12</milestone>
          <wg class="cl" n="480010120010130">
             <w class="adv"
                osisId="Gal.1.12!1"
@@ -2248,9 +2243,10 @@
             </wg>
          </wg>
       </wg>
-   </wg>
-   <wg class="sentence">
-      <p>Ἠκούσατε γὰρ τὴν ἐμὴν ἀναστροφήν ποτε ἐν τῷ Ἰουδαϊσμῷ, ὅτι καθ’ ὑπερβολὴν ἐδίωκον τὴν ἐκκλησίαν τοῦ Θεοῦ καὶ ἐπόρθουν αὐτήν, καὶ προέκοπτον ἐν τῷ Ἰουδαϊσμῷ ὑπὲρ πολλοὺς συνηλικιώτας ἐν τῷ γένει μου, περισσοτέρως ζηλωτὴς ὑπάρχων τῶν πατρικῶν μου παραδόσεων.</p>
+   </sentence>
+   <sentence>
+      <p>
+         <milestone>Gal.1.13</milestone>Ἠκούσατε γὰρ τὴν ἐμὴν ἀναστροφήν ποτε ἐν τῷ Ἰουδαϊσμῷ, ὅτι καθ’ ὑπερβολὴν ἐδίωκον τὴν ἐκκλησίαν τοῦ Θεοῦ καὶ ἐπόρθουν αὐτήν, καὶ προέκοπτον ἐν τῷ Ἰουδαϊσμῷ ὑπὲρ πολλοὺς συνηλικιώτας ἐν τῷ γένει μου, περισσοτέρως ζηλωτὴς ὑπάρχων τῶν πατρικῶν μου παραδόσεων.</p>
       <wg class="cl" n="480010130020390">
          <w class="conj"
             osisId="Gal.1.13!2"
@@ -2259,7 +2255,6 @@
             normalized="γάρ"
             strong="1063"
             discontinuous="true">γὰρ</w>
-         <milestone unit="verse" n="Gal.1.13">13</milestone>
          <wg class="cl" n="480010130010380">
             <wg class="cl" n="480010130010080" head="true">
                <wg role="v" class="vp" n="480010130010011" head="true">
@@ -2486,7 +2481,6 @@
                            case="accusative">αὐτήν,</w>
                      </wg>
                   </wg>
-                  <milestone unit="verse" n="Gal.1.14">14</milestone>
                   <w class="conj"
                      osisId="Gal.1.14!1"
                      n="480010140010010"
@@ -2711,9 +2705,10 @@
             </wg>
          </wg>
       </wg>
-   </wg>
-   <wg class="sentence">
-      <p>Ὅτε δὲ εὐδόκησεν ὁ ἀφορίσας με ἐκ κοιλίας μητρός μου καὶ καλέσας διὰ τῆς χάριτος αὐτοῦ ἀποκαλύψαι τὸν Υἱὸν αὐτοῦ ἐν ἐμοὶ, ἵνα εὐαγγελίζωμαι αὐτὸν ἐν τοῖς ἔθνεσιν, εὐθέως οὐ προσανεθέμην σαρκὶ καὶ αἵματι, οὐδὲ ἀνῆλθον εἰς Ἱεροσόλυμα πρὸς τοὺς πρὸ ἐμοῦ ἀποστόλους, ἀλλὰ ἀπῆλθον εἰς Ἀραβίαν, καὶ πάλιν ὑπέστρεψα εἰς Δαμασκόν.</p>
+   </sentence>
+   <sentence>
+      <p>
+         <milestone>Gal.1.15</milestone>Ὅτε δὲ εὐδόκησεν ὁ ἀφορίσας με ἐκ κοιλίας μητρός μου καὶ καλέσας διὰ τῆς χάριτος αὐτοῦ ἀποκαλύψαι τὸν Υἱὸν αὐτοῦ ἐν ἐμοὶ, ἵνα εὐαγγελίζωμαι αὐτὸν ἐν τοῖς ἔθνεσιν, εὐθέως οὐ προσανεθέμην σαρκὶ καὶ αἵματι, οὐδὲ ἀνῆλθον εἰς Ἱεροσόλυμα πρὸς τοὺς πρὸ ἐμοῦ ἀποστόλους, ἀλλὰ ἀπῆλθον εἰς Ἀραβίαν, καὶ πάλιν ὑπέστρεψα εἰς Δαμασκόν.</p>
       <wg class="cl" n="480010150020520">
          <w class="conj"
             osisId="Gal.1.15!2"
@@ -2722,7 +2717,6 @@
             normalized="δέ"
             strong="1161"
             discontinuous="true">δὲ</w>
-         <milestone unit="verse" n="Gal.1.15">15</milestone>
          <wg class="cl" n="480010150010510">
             <wg class="cl" n="480010150010270">
                <w class="conj"
@@ -2910,7 +2904,6 @@
                            </wg>
                         </wg>
                      </wg>
-                     <milestone unit="verse" n="Gal.1.16">16</milestone>
                      <wg role="o" class="cl" n="480010160010060">
                         <wg role="v" class="vp" n="480010160010011" head="true">
                            <w class="verb"
@@ -3121,7 +3114,6 @@
                               case="dative">αἵματι,</w>
                         </wg>
                      </wg>
-                     <milestone unit="verse" n="Gal.1.17">17</milestone>
                      <wg class="cl" n="480010170010090">
                         <wg role="adv" class="advp" n="480010170010012">
                            <w class="conj"
@@ -3320,10 +3312,10 @@
             </wg>
          </wg>
       </wg>
-   </wg>
-   <milestone unit="verse" n="Gal.1.18">18</milestone>
-   <wg class="sentence">
-      <p>Ἔπειτα μετὰ τρία ἔτη ἀνῆλθον εἰς Ἱεροσόλυμα ἱστορῆσαι Κηφᾶν, καὶ ἐπέμεινα πρὸς αὐτὸν ἡμέρας δεκαπέντε·</p>
+   </sentence>
+   <sentence>
+      <p>
+         <milestone>Gal.1.18</milestone>Ἔπειτα μετὰ τρία ἔτη ἀνῆλθον εἰς Ἱεροσόλυμα ἱστορῆσαι Κηφᾶν, καὶ ἐπέμεινα πρὸς αὐτὸν ἡμέρας δεκαπέντε·</p>
       <wg class="cl" n="480010180010150">
          <wg class="cl" n="480010180010090" head="true">
             <wg role="adv" class="advp" n="480010180010011">
@@ -3486,9 +3478,10 @@
             </wg>
          </wg>
       </wg>
-   </wg>
-   <wg class="sentence">
-      <p>ἕτερον δὲ τῶν ἀποστόλων οὐκ εἶδον, εἰ μὴ Ἰάκωβον τὸν ἀδελφὸν τοῦ Κυρίου.</p>
+   </sentence>
+   <sentence>
+      <p>
+         <milestone>Gal.1.19</milestone>ἕτερον δὲ τῶν ἀποστόλων οὐκ εἶδον, εἰ μὴ Ἰάκωβον τὸν ἀδελφὸν τοῦ Κυρίου.</p>
       <wg class="cl" n="480010190020130">
          <w class="conj"
             osisId="Gal.1.19!2"
@@ -3497,7 +3490,6 @@
             normalized="δέ"
             strong="1161"
             discontinuous="true">δὲ</w>
-         <milestone unit="verse" n="Gal.1.19">19</milestone>
          <wg class="cl" n="480010190010120">
             <wg class="cl" n="480010190010050" head="true">
                <wg role="o" class="np" n="480010190010030">
@@ -3638,9 +3630,10 @@
             </wg>
          </wg>
       </wg>
-   </wg>
-   <wg class="sentence">
-      <p>ἃ δὲ γράφω ὑμῖν, ἰδοὺ ἐνώπιον τοῦ Θεοῦ ὅτι οὐ ψεύδομαι.</p>
+   </sentence>
+   <sentence>
+      <p>
+         <milestone>Gal.1.20</milestone>ἃ δὲ γράφω ὑμῖν, ἰδοὺ ἐνώπιον τοῦ Θεοῦ ὅτι οὐ ψεύδομαι.</p>
       <wg class="cl" n="480010200020110" articular="true" det="true">
          <w class="conj"
             osisId="Gal.1.20!2"
@@ -3649,7 +3642,6 @@
             normalized="δέ"
             strong="1161"
             discontinuous="true">δὲ</w>
-         <milestone unit="verse" n="Gal.1.20">20</milestone>
          <wg class="cl" n="480010200010100" articular="true" det="true">
             <wg class="cl" n="480010200010030">
                <wg role="o" class="np" n="480010200010011">
@@ -3796,10 +3788,10 @@
             </wg>
          </wg>
       </wg>
-   </wg>
-   <milestone unit="verse" n="Gal.1.21">21</milestone>
-   <wg class="sentence">
-      <p>ἔπειτα ἦλθον εἰς τὰ κλίματα τῆς Συρίας καὶ τῆς Κιλικίας.</p>
+   </sentence>
+   <sentence>
+      <p>
+         <milestone>Gal.1.21</milestone>ἔπειτα ἦλθον εἰς τὰ κλίματα τῆς Συρίας καὶ τῆς Κιλικίας.</p>
       <wg class="cl" n="480010210010100">
          <wg role="adv" class="advp" n="480010210010011">
             <w class="adv"
@@ -3920,9 +3912,10 @@
             </wg>
          </wg>
       </wg>
-   </wg>
-   <wg class="sentence">
-      <p>ἤμην δὲ ἀγνοούμενος τῷ προσώπῳ ταῖς ἐκκλησίαις τῆς Ἰουδαίας ταῖς ἐν Χριστῷ.</p>
+   </sentence>
+   <sentence>
+      <p>
+         <milestone>Gal.1.22</milestone>ἤμην δὲ ἀγνοούμενος τῷ προσώπῳ ταῖς ἐκκλησίαις τῆς Ἰουδαίας ταῖς ἐν Χριστῷ.</p>
       <wg class="cl" n="480010220020120">
          <w class="conj"
             osisId="Gal.1.22!2"
@@ -3931,7 +3924,6 @@
             normalized="δέ"
             strong="1161"
             discontinuous="true">δὲ</w>
-         <milestone unit="verse" n="Gal.1.22">22</milestone>
          <wg class="cl" n="480010220010110">
             <wg role="v" class="vp" n="480010220010020" head="true">
                <w class="verb"
@@ -4075,9 +4067,10 @@
             </wg>
          </wg>
       </wg>
-   </wg>
-   <wg class="sentence">
-      <p>μόνον δὲ ἀκούοντες ἦσαν ὅτι Ὁ διώκων ἡμᾶς ποτε νῦν εὐαγγελίζεται τὴν πίστιν ἥν ποτε ἐπόρθει, καὶ ἐδόξαζον ἐν ἐμοὶ τὸν Θεόν.</p>
+   </sentence>
+   <sentence>
+      <p>
+         <milestone>Gal.1.23</milestone>μόνον δὲ ἀκούοντες ἦσαν ὅτι Ὁ διώκων ἡμᾶς ποτε νῦν εὐαγγελίζεται τὴν πίστιν ἥν ποτε ἐπόρθει, καὶ ἐδόξαζον ἐν ἐμοὶ τὸν Θεόν.</p>
       <wg class="cl" n="480010230020220">
          <w class="conj"
             osisId="Gal.1.23!2"
@@ -4086,7 +4079,6 @@
             normalized="δέ"
             strong="1161"
             discontinuous="true">δὲ</w>
-         <milestone unit="verse" n="Gal.1.23">23</milestone>
          <wg class="cl" n="480010230010210">
             <wg class="cl" n="480010230010150" head="true">
                <wg class="cl" n="480010230010030" head="true">
@@ -4284,7 +4276,6 @@
                   </wg>
                </wg>
             </wg>
-            <milestone unit="verse" n="Gal.1.24">24</milestone>
             <w class="conj"
                osisId="Gal.1.24!1"
                n="480010240010010"
@@ -4353,11 +4344,10 @@
             </wg>
          </wg>
       </wg>
-   </wg>
-   <milestone unit="chapter" n="Gal.2">Gal 2</milestone>
-   <milestone unit="verse" n="Gal.2.1">1</milestone>
-   <wg class="sentence">
-      <p>Ἔπειτα διὰ δεκατεσσάρων ἐτῶν πάλιν ἀνέβην εἰς Ἱεροσόλυμα μετὰ Βαρνάβα συνπαραλαβὼν καὶ Τίτον·</p>
+   </sentence>
+   <sentence>
+      <p>
+         <milestone>Gal.2.1</milestone>Ἔπειτα διὰ δεκατεσσάρων ἐτῶν πάλιν ἀνέβην εἰς Ἱεροσόλυμα μετὰ Βαρνάβα συνπαραλαβὼν καὶ Τίτον·</p>
       <wg class="cl" n="480020010010130">
          <wg role="adv" class="advp" n="480020010010011">
             <w class="adv"
@@ -4495,9 +4485,10 @@
             </wg>
          </wg>
       </wg>
-   </wg>
-   <wg class="sentence">
-      <p>ἀνέβην δὲ κατὰ ἀποκάλυψιν·</p>
+   </sentence>
+   <sentence>
+      <p>
+         <milestone>Gal.2.2</milestone>ἀνέβην δὲ κατὰ ἀποκάλυψιν·</p>
       <wg class="cl" n="480020020020040">
          <w class="conj"
             osisId="Gal.2.2!2"
@@ -4506,7 +4497,6 @@
             normalized="δέ"
             strong="1161"
             discontinuous="true">δὲ</w>
-         <milestone unit="verse" n="Gal.2.2">2</milestone>
          <wg class="cl" n="480020020010030">
             <wg role="v" class="vp" n="480020020010011" head="true">
                <w class="verb"
@@ -4543,9 +4533,10 @@
             </wg>
          </wg>
       </wg>
-   </wg>
-   <wg class="sentence">
-      <p>καὶ ἀνεθέμην αὐτοῖς τὸ εὐαγγέλιον ὃ κηρύσσω ἐν τοῖς ἔθνεσιν, κατ’ ἰδίαν δὲ τοῖς δοκοῦσιν, μή πως εἰς κενὸν τρέχω ἢ ἔδραμον.</p>
+   </sentence>
+   <sentence>
+      <p>
+         <milestone>Gal.2.2</milestone>καὶ ἀνεθέμην αὐτοῖς τὸ εὐαγγέλιον ὃ κηρύσσω ἐν τοῖς ἔθνεσιν, κατ’ ἰδίαν δὲ τοῖς δοκοῦσιν, μή πως εἰς κενὸν τρέχω ἢ ἔδραμον.</p>
       <wg class="cl" n="480020020050220">
          <w class="conj"
             osisId="Gal.2.2!5"
@@ -4816,10 +4807,10 @@
             </wg>
          </wg>
       </wg>
-   </wg>
-   <milestone unit="verse" n="Gal.2.3">3</milestone>
-   <wg class="sentence">
-      <p>ἀλλ’ οὐδὲ Τίτος ὁ σὺν ἐμοί, Ἕλλην ὤν, ἠναγκάσθη περιτμηθῆναι·</p>
+   </sentence>
+   <sentence>
+      <p>
+         <milestone>Gal.2.3</milestone>ἀλλ’ οὐδὲ Τίτος ὁ σὺν ἐμοί, Ἕλλην ὤν, ἠναγκάσθη περιτμηθῆναι·</p>
       <wg class="cl" n="480020030010100">
          <w class="conj"
             osisId="Gal.2.3!1"
@@ -4939,9 +4930,10 @@
             </wg>
          </wg>
       </wg>
-   </wg>
-   <wg class="sentence">
-      <p>διὰ δὲ τοὺς παρεισάκτους ψευδαδέλφους, οἵτινες παρεισῆλθον κατασκοπῆσαι τὴν ἐλευθερίαν ἡμῶν ἣν ἔχομεν ἐν Χριστῷ Ἰησοῦ, ἵνα ἡμᾶς καταδουλώσουσιν· οἷς οὐδὲ πρὸς ὥραν εἴξαμεν τῇ ὑποταγῇ, ἵνα ἡ ἀλήθεια τοῦ εὐαγγελίου διαμείνῃ πρὸς ὑμᾶς.</p>
+   </sentence>
+   <sentence>
+      <p>
+         <milestone>Gal.2.4</milestone>διὰ δὲ τοὺς παρεισάκτους ψευδαδέλφους, οἵτινες παρεισῆλθον κατασκοπῆσαι τὴν ἐλευθερίαν ἡμῶν ἣν ἔχομεν ἐν Χριστῷ Ἰησοῦ, ἵνα ἡμᾶς καταδουλώσουσιν· οἷς οὐδὲ πρὸς ὥραν εἴξαμεν τῇ ὑποταγῇ, ἵνα ἡ ἀλήθεια τοῦ εὐαγγελίου διαμείνῃ πρὸς ὑμᾶς.</p>
       <wg class="cl" n="480020040020340" articular="true" det="true">
          <w class="conj"
             osisId="Gal.2.4!2"
@@ -4950,7 +4942,6 @@
             normalized="δέ"
             strong="1161"
             discontinuous="true">δὲ</w>
-         <milestone unit="verse" n="Gal.2.4">4</milestone>
          <wg class="cl" n="480020040010332" articular="true" det="true">
             <wg role="adv"
                 class="pp"
@@ -5180,7 +5171,6 @@
                            </wg>
                         </wg>
                      </wg>
-                     <milestone unit="verse" n="Gal.2.5">5</milestone>
                      <wg class="cl" n="480020050010150">
                         <wg class="cl" n="480020050010070" head="true">
                            <wg role="adv" class="np" n="480020050010011">
@@ -5361,9 +5351,10 @@
             </wg>
          </wg>
       </wg>
-   </wg>
-   <wg class="sentence">
-      <p>ἀπὸ δὲ τῶν δοκούντων εἶναί τι, —ὁποῖοί ποτε ἦσαν οὐδέν μοι διαφέρει· πρόσωπον ὁ Θεὸς ἀνθρώπου οὐ λαμβάνει— ἐμοὶ γὰρ οἱ δοκοῦντες οὐδὲν προσανέθεντο,</p>
+   </sentence>
+   <sentence>
+      <p>
+         <milestone>Gal.2.6</milestone>ἀπὸ δὲ τῶν δοκούντων εἶναί τι, —ὁποῖοί ποτε ἦσαν οὐδέν μοι διαφέρει· πρόσωπον ὁ Θεὸς ἀνθρώπου οὐ λαμβάνει— ἐμοὶ γὰρ οἱ δοκοῦντες οὐδὲν προσανέθεντο,</p>
       <wg class="cl" n="480020060020240" articular="true" det="true">
          <w class="conj"
             osisId="Gal.2.6!2"
@@ -5372,7 +5363,6 @@
             normalized="δέ"
             strong="1161"
             discontinuous="true">δὲ</w>
-         <milestone unit="verse" n="Gal.2.6">6</milestone>
          <wg class="cl" n="480020060010230" articular="true" det="true">
             <wg class="cl"
                 n="480020060010052"
@@ -5688,10 +5678,10 @@
             </wg>
          </wg>
       </wg>
-   </wg>
-   <milestone unit="verse" n="Gal.2.7">7</milestone>
-   <wg class="sentence">
-      <p>ἀλλὰ τοὐναντίον ἰδόντες ὅτι πεπίστευμαι τὸ εὐαγγέλιον τῆς ἀκροβυστίας καθὼς Πέτρος τῆς περιτομῆς, ὁ γὰρ ἐνεργήσας Πέτρῳ εἰς ἀποστολὴν τῆς περιτομῆς ἐνήργησεν καὶ ἐμοὶ εἰς τὰ ἔθνη, καὶ γνόντες τὴν χάριν τὴν δοθεῖσάν μοι, Ἰάκωβος καὶ Κηφᾶς καὶ Ἰωάνης, οἱ δοκοῦντες στῦλοι εἶναι, δεξιὰς ἔδωκαν ἐμοὶ καὶ Βαρνάβα κοινωνίας, ἵνα ἡμεῖς εἰς τὰ ἔθνη, αὐτοὶ δὲ εἰς τὴν περιτομήν·</p>
+   </sentence>
+   <sentence>
+      <p>
+         <milestone>Gal.2.7</milestone>ἀλλὰ τοὐναντίον ἰδόντες ὅτι πεπίστευμαι τὸ εὐαγγέλιον τῆς ἀκροβυστίας καθὼς Πέτρος τῆς περιτομῆς, ὁ γὰρ ἐνεργήσας Πέτρῳ εἰς ἀποστολὴν τῆς περιτομῆς ἐνήργησεν καὶ ἐμοὶ εἰς τὰ ἔθνη, καὶ γνόντες τὴν χάριν τὴν δοθεῖσάν μοι, Ἰάκωβος καὶ Κηφᾶς καὶ Ἰωάνης, οἱ δοκοῦντες στῦλοι εἶναι, δεξιὰς ἔδωκαν ἐμοὶ καὶ Βαρνάβα κοινωνίας, ἵνα ἡμεῖς εἰς τὰ ἔθνη, αὐτοὶ δὲ εἰς τὴν περιτομήν·</p>
       <wg class="cl" n="480020070010590">
          <w class="conj"
             osisId="Gal.2.7!1"
@@ -5867,7 +5857,6 @@
                            normalized="γάρ"
                            strong="1063"
                            discontinuous="true">γὰρ</w>
-                        <milestone unit="verse" n="Gal.2.8">8</milestone>
                         <wg class="cl" n="480020080010130">
                            <wg role="s"
                                class="np"
@@ -6030,7 +6019,6 @@
                         </wg>
                      </wg>
                   </wg>
-                  <milestone unit="verse" n="Gal.2.9">9</milestone>
                   <w class="conj"
                      osisId="Gal.2.9!1"
                      n="480020090010010"
@@ -6423,10 +6411,10 @@
             </wg>
          </wg>
       </wg>
-   </wg>
-   <milestone unit="verse" n="Gal.2.10">10</milestone>
-   <wg class="sentence">
-      <p>μόνον τῶν πτωχῶν ἵνα μνημονεύωμεν, ὃ καὶ ἐσπούδασα αὐτὸ τοῦτο ποιῆσαι.</p>
+   </sentence>
+   <sentence>
+      <p>
+         <milestone>Gal.2.10</milestone>μόνον τῶν πτωχῶν ἵνα μνημονεύωμεν, ὃ καὶ ἐσπούδασα αὐτὸ τοῦτο ποιῆσαι.</p>
       <wg class="cl" n="480020100010110">
          <wg class="cl" n="480020100010014" head="true">
             <wg role="adv" class="advp" n="480020100010012" head="true">
@@ -6568,9 +6556,10 @@
             </wg>
          </wg>
       </wg>
-   </wg>
-   <wg class="sentence">
-      <p>Ὅτε δὲ ἦλθεν Κηφᾶς εἰς Ἀντιόχειαν, κατὰ πρόσωπον αὐτῷ ἀντέστην, ὅτι κατεγνωσμένος ἦν.</p>
+   </sentence>
+   <sentence>
+      <p>
+         <milestone>Gal.2.11</milestone>Ὅτε δὲ ἦλθεν Κηφᾶς εἰς Ἀντιόχειαν, κατὰ πρόσωπον αὐτῷ ἀντέστην, ὅτι κατεγνωσμένος ἦν.</p>
       <wg class="cl" n="480020110020130">
          <w class="conj"
             osisId="Gal.2.11!2"
@@ -6579,7 +6568,6 @@
             normalized="δέ"
             strong="1161"
             discontinuous="true">δὲ</w>
-         <milestone unit="verse" n="Gal.2.11">11</milestone>
          <wg class="cl" n="480020110010120">
             <wg class="cl" n="480020110010090" head="true">
                <wg class="cl" n="480020110010050">
@@ -6724,9 +6712,10 @@
             </wg>
          </wg>
       </wg>
-   </wg>
-   <wg class="sentence">
-      <p>πρὸ τοῦ γὰρ ἐλθεῖν τινας ἀπὸ Ἰακώβου μετὰ τῶν ἐθνῶν συνήσθιεν· ὅτε δὲ ἦλθον, ὑπέστελλεν καὶ ἀφώριζεν ἑαυτόν, φοβούμενος τοὺς ἐκ περιτομῆς.</p>
+   </sentence>
+   <sentence>
+      <p>
+         <milestone>Gal.2.12</milestone>πρὸ τοῦ γὰρ ἐλθεῖν τινας ἀπὸ Ἰακώβου μετὰ τῶν ἐθνῶν συνήσθιεν· ὅτε δὲ ἦλθον, ὑπέστελλεν καὶ ἀφώριζεν ἑαυτόν, φοβούμενος τοὺς ἐκ περιτομῆς.</p>
       <wg class="cl" n="480020120030220">
          <w class="conj"
             osisId="Gal.2.12!3"
@@ -6735,7 +6724,6 @@
             normalized="γάρ"
             strong="1063"
             discontinuous="true">γὰρ</w>
-         <milestone unit="verse" n="Gal.2.12">12</milestone>
          <wg class="cl" n="480020120010210">
             <wg class="cl" n="480020120010100" head="true">
                <wg role="adv"
@@ -6999,10 +6987,10 @@
             </wg>
          </wg>
       </wg>
-   </wg>
-   <milestone unit="verse" n="Gal.2.13">13</milestone>
-   <wg class="sentence">
-      <p>καὶ συνυπεκρίθησαν αὐτῷ καὶ οἱ λοιποὶ Ἰουδαῖοι, ὥστε καὶ Βαρνάβας συναπήχθη αὐτῶν τῇ ὑποκρίσει.</p>
+   </sentence>
+   <sentence>
+      <p>
+         <milestone>Gal.2.13</milestone>καὶ συνυπεκρίθησαν αὐτῷ καὶ οἱ λοιποὶ Ἰουδαῖοι, ὥστε καὶ Βαρνάβας συναπήχθη αὐτῶν τῇ ὑποκρίσει.</p>
       <wg class="cl" n="480020130010140">
          <w class="conj"
             osisId="Gal.2.13!1"
@@ -7176,10 +7164,10 @@
             </wg>
          </wg>
       </wg>
-   </wg>
-   <milestone unit="verse" n="Gal.2.14">14</milestone>
-   <wg class="sentence">
-      <p>ἀλλ’ ὅτε εἶδον ὅτι οὐκ ὀρθοποδοῦσιν πρὸς τὴν ἀλήθειαν τοῦ εὐαγγελίου, εἶπον τῷ Κηφᾷ ἔμπροσθεν πάντων Εἰ σὺ Ἰουδαῖος ὑπάρχων ἐθνικῶς καὶ οὐκ Ἰουδαϊκῶς ζῇς, πῶς τὰ ἔθνη ἀναγκάζεις ἰουδαΐζειν;</p>
+   </sentence>
+   <sentence>
+      <p>
+         <milestone>Gal.2.14</milestone>ἀλλ’ ὅτε εἶδον ὅτι οὐκ ὀρθοποδοῦσιν πρὸς τὴν ἀλήθειαν τοῦ εὐαγγελίου, εἶπον τῷ Κηφᾷ ἔμπροσθεν πάντων Εἰ σὺ Ἰουδαῖος ὑπάρχων ἐθνικῶς καὶ οὐκ Ἰουδαϊκῶς ζῇς, πῶς τὰ ἔθνη ἀναγκάζεις ἰουδαΐζειν;</p>
       <wg class="cl" n="480020140010300">
          <w class="conj"
             osisId="Gal.2.14!1"
@@ -7538,10 +7526,10 @@
             </wg>
          </wg>
       </wg>
-   </wg>
-   <milestone unit="verse" n="Gal.2.15">15</milestone>
-   <wg class="sentence">
-      <p>Ἠμεῖς φύσει Ἰουδαῖοι καὶ οὐκ ἐξ ἐθνῶν ἁμαρτωλοί, εἰδότες δὲ ὅτι οὐ δικαιοῦται ἄνθρωπος ἐξ ἔργων νόμου ἐὰν μὴ διὰ πίστεως Χριστοῦ Ἰησοῦ, καὶ ἡμεῖς εἰς Χριστὸν Ἰησοῦν ἐπιστεύσαμεν, ἵνα δικαιωθῶμεν ἐκ πίστεως Χριστοῦ καὶ οὐκ ἐξ ἔργων νόμου, ὅτι ἐξ ἔργων νόμου οὐ δικαιωθήσεται πᾶσα σάρξ.</p>
+   </sentence>
+   <sentence>
+      <p>
+         <milestone>Gal.2.15</milestone>Ἠμεῖς φύσει Ἰουδαῖοι καὶ οὐκ ἐξ ἐθνῶν ἁμαρτωλοί, εἰδότες δὲ ὅτι οὐ δικαιοῦται ἄνθρωπος ἐξ ἔργων νόμου ἐὰν μὴ διὰ πίστεως Χριστοῦ Ἰησοῦ, καὶ ἡμεῖς εἰς Χριστὸν Ἰησοῦν ἐπιστεύσαμεν, ἵνα δικαιωθῶμεν ἐκ πίστεως Χριστοῦ καὶ οὐκ ἐξ ἔργων νόμου, ὅτι ἐξ ἔργων νόμου οὐ δικαιωθήσεται πᾶσα σάρξ.</p>
       <wg class="cl" n="480020150010470">
          <wg class="cl" n="480020150010080" head="true">
             <wg class="cl" n="480020150010030" head="true">
@@ -7636,7 +7624,6 @@
             normalized="δέ"
             strong="1161"
             discontinuous="true">δὲ</w>
-         <milestone unit="verse" n="Gal.2.16">16</milestone>
          <wg class="cl" n="480020160010380">
             <wg class="cl" n="480020160010300" head="true">
                <wg class="cl" n="480020160010200" head="true">
@@ -8055,9 +8042,10 @@
             </wg>
          </wg>
       </wg>
-   </wg>
-   <wg class="sentence">
-      <p>εἰ δὲ ζητοῦντες δικαιωθῆναι ἐν Χριστῷ εὑρέθημεν καὶ αὐτοὶ ἁμαρτωλοί, ἆρα Χριστὸς ἁμαρτίας διάκονος;</p>
+   </sentence>
+   <sentence>
+      <p>
+         <milestone>Gal.2.17</milestone>εἰ δὲ ζητοῦντες δικαιωθῆναι ἐν Χριστῷ εὑρέθημεν καὶ αὐτοὶ ἁμαρτωλοί, ἆρα Χριστὸς ἁμαρτίας διάκονος;</p>
       <wg class="cl" n="480020170020140">
          <w class="conj"
             osisId="Gal.2.17!2"
@@ -8066,7 +8054,6 @@
             normalized="δέ"
             strong="1161"
             discontinuous="true">δὲ</w>
-         <milestone unit="verse" n="Gal.2.17">17</milestone>
          <wg class="cl" n="480020170010130">
             <wg class="cl" n="480020170010090">
                <w class="conj"
@@ -8221,9 +8208,10 @@
             </wg>
          </wg>
       </wg>
-   </wg>
-   <wg class="sentence">
-      <p>μὴ γένοιτο.</p>
+   </sentence>
+   <sentence>
+      <p>
+         <milestone>Gal.2.17</milestone>μὴ γένοιτο.</p>
       <wg class="cl" n="480020170150020">
          <wg role="adv" class="advp" n="480020170150011">
             <w class="adv"
@@ -8248,9 +8236,10 @@
                head="true">γένοιτο.</w>
          </wg>
       </wg>
-   </wg>
-   <wg class="sentence">
-      <p>εἰ γὰρ ἃ κατέλυσα ταῦτα πάλιν οἰκοδομῶ, παραβάτην ἐμαυτὸν συνιστάνω.</p>
+   </sentence>
+   <sentence>
+      <p>
+         <milestone>Gal.2.18</milestone>εἰ γὰρ ἃ κατέλυσα ταῦτα πάλιν οἰκοδομῶ, παραβάτην ἐμαυτὸν συνιστάνω.</p>
       <wg class="cl" n="480020180020100">
          <w class="conj"
             osisId="Gal.2.18!2"
@@ -8259,7 +8248,6 @@
             normalized="γάρ"
             strong="1063"
             discontinuous="true">γὰρ</w>
-         <milestone unit="verse" n="Gal.2.18">18</milestone>
          <wg class="cl" n="480020180010090">
             <wg class="cl" n="480020180010060">
                <w class="conj"
@@ -8377,9 +8365,10 @@
             </wg>
          </wg>
       </wg>
-   </wg>
-   <wg class="sentence">
-      <p>ἐγὼ γὰρ διὰ νόμου νόμῳ ἀπέθανον ἵνα Θεῷ ζήσω·</p>
+   </sentence>
+   <sentence>
+      <p>
+         <milestone>Gal.2.19</milestone>ἐγὼ γὰρ διὰ νόμου νόμῳ ἀπέθανον ἵνα Θεῷ ζήσω·</p>
       <wg class="cl" n="480020190020090">
          <w class="conj"
             osisId="Gal.2.19!2"
@@ -8388,7 +8377,6 @@
             normalized="γάρ"
             strong="1063"
             discontinuous="true">γὰρ</w>
-         <milestone unit="verse" n="Gal.2.19">19</milestone>
          <wg class="cl" n="480020190010080">
             <wg class="cl" n="480020190010050" head="true">
                <wg role="s" class="np" n="480020190010011">
@@ -8486,9 +8474,10 @@
             </wg>
          </wg>
       </wg>
-   </wg>
-   <wg class="sentence">
-      <p>Χριστῷ συνεσταύρωμαι·</p>
+   </sentence>
+   <sentence>
+      <p>
+         <milestone>Gal.2.19</milestone>Χριστῷ συνεσταύρωμαι·</p>
       <wg class="cl" n="480020190100020">
          <wg role="adv" class="np" n="480020190100011">
             <w class="noun"
@@ -8517,9 +8506,10 @@
                head="true">συνεσταύρωμαι·</w>
          </wg>
       </wg>
-   </wg>
-   <wg class="sentence">
-      <p>ζῶ δὲ οὐκέτι ἐγώ, ζῇ δὲ ἐν ἐμοὶ Χριστός·</p>
+   </sentence>
+   <sentence>
+      <p>
+         <milestone>Gal.2.20</milestone>ζῶ δὲ οὐκέτι ἐγώ, ζῇ δὲ ἐν ἐμοὶ Χριστός·</p>
       <wg class="cl" n="480020200020090">
          <w class="conj"
             osisId="Gal.2.20!2"
@@ -8528,7 +8518,6 @@
             normalized="δέ"
             strong="1161"
             discontinuous="true">δὲ</w>
-         <milestone unit="verse" n="Gal.2.20">20</milestone>
          <wg class="cl" n="480020200010080">
             <wg class="cl" n="480020200010030" head="true">
                <wg role="v" class="vp" n="480020200010011" head="true">
@@ -8620,9 +8609,10 @@
             </wg>
          </wg>
       </wg>
-   </wg>
-   <wg class="sentence">
-      <p>ὃ δὲ νῦν ζῶ ἐν σαρκί, ἐν πίστει ζῶ τῇ τοῦ Υἱοῦ τοῦ Θεοῦ τοῦ ἀγαπήσαντός με καὶ παραδόντος ἑαυτὸν ὑπὲρ ἐμοῦ.</p>
+   </sentence>
+   <sentence>
+      <p>
+         <milestone>Gal.2.20</milestone>ὃ δὲ νῦν ζῶ ἐν σαρκί, ἐν πίστει ζῶ τῇ τοῦ Υἱοῦ τοῦ Θεοῦ τοῦ ἀγαπήσαντός με καὶ παραδόντος ἑαυτὸν ὑπὲρ ἐμοῦ.</p>
       <wg class="cl" n="480020200110220">
          <w class="conj"
             osisId="Gal.2.20!11"
@@ -8887,10 +8877,10 @@
             </wg>
          </wg>
       </wg>
-   </wg>
-   <milestone unit="verse" n="Gal.2.21">21</milestone>
-   <wg class="sentence">
-      <p>Οὐκ ἀθετῶ τὴν χάριν τοῦ Θεοῦ·</p>
+   </sentence>
+   <sentence>
+      <p>
+         <milestone>Gal.2.21</milestone>Οὐκ ἀθετῶ τὴν χάριν τοῦ Θεοῦ·</p>
       <wg class="cl" n="480020210010060">
          <wg role="adv" class="advp" n="480020210010011">
             <w class="adv"
@@ -8965,9 +8955,10 @@
             </wg>
          </wg>
       </wg>
-   </wg>
-   <wg class="sentence">
-      <p>εἰ γὰρ διὰ νόμου δικαιοσύνη, ἄρα Χριστὸς δωρεὰν ἀπέθανεν.</p>
+   </sentence>
+   <sentence>
+      <p>
+         <milestone>Gal.2.21</milestone>εἰ γὰρ διὰ νόμου δικαιοσύνη, ἄρα Χριστὸς δωρεὰν ἀπέθανεν.</p>
       <wg class="cl" n="480020210080090">
          <w class="conj"
             osisId="Gal.2.21!8"
@@ -9064,11 +9055,10 @@
             </wg>
          </wg>
       </wg>
-   </wg>
-   <milestone unit="chapter" n="Gal.3">Gal 3</milestone>
-   <milestone unit="verse" n="Gal.3.1">1</milestone>
-   <wg class="sentence">
-      <p>Ὦ ἀνόητοι Γαλάται, τίς ὑμᾶς ἐβάσκανεν, οἷς κατ’ ὀφθαλμοὺς Ἰησοῦς Χριστὸς προεγράφη ἐσταυρωμένος;</p>
+   </sentence>
+   <sentence>
+      <p>
+         <milestone>Gal.3.1</milestone>Ὦ ἀνόητοι Γαλάται, τίς ὑμᾶς ἐβάσκανεν, οἷς κατ’ ὀφθαλμοὺς Ἰησοῦς Χριστὸς προεγράφη ἐσταυρωμένος;</p>
       <wg class="cl" n="480030010010130">
          <wg class="cl" n="480030010010031">
             <wg class="np" n="480030010010030">
@@ -9231,9 +9221,10 @@
             </wg>
          </wg>
       </wg>
-   </wg>
-   <wg class="sentence">
-      <p>τοῦτο μόνον θέλω μαθεῖν ἀφ’ ὑμῶν, ἐξ ἔργων νόμου τὸ Πνεῦμα ἐλάβετε ἢ ἐξ ἀκοῆς πίστεως;</p>
+   </sentence>
+   <sentence>
+      <p>
+         <milestone>Gal.3.2</milestone>τοῦτο μόνον θέλω μαθεῖν ἀφ’ ὑμῶν, ἐξ ἔργων νόμου τὸ Πνεῦμα ἐλάβετε ἢ ἐξ ἀκοῆς πίστεως;</p>
       <wg class="cl" n="480030020030160">
          <wg class="cl" n="480030020030060" head="true">
             <wg role="v" class="vp" n="480030020030011" head="true">
@@ -9251,7 +9242,6 @@
                   head="true"
                   discontinuous="true">θέλω</w>
             </wg>
-            <milestone unit="verse" n="Gal.3.2">2</milestone>
             <wg role="o" class="cl" n="480030020010050">
                <wg role="o" class="np" n="480030020010020">
                   <w class="pron"
@@ -9422,10 +9412,10 @@
             </wg>
          </wg>
       </wg>
-   </wg>
-   <milestone unit="verse" n="Gal.3.3">3</milestone>
-   <wg class="sentence">
-      <p>οὕτως ἀνόητοί ἐστε;</p>
+   </sentence>
+   <sentence>
+      <p>
+         <milestone>Gal.3.3</milestone>οὕτως ἀνόητοί ἐστε;</p>
       <wg class="cl" n="480030030010030">
          <wg role="adv" class="advp" n="480030030010011">
             <w class="adv"
@@ -9461,9 +9451,10 @@
                mood="indicative">ἐστε;</w>
          </wg>
       </wg>
-   </wg>
-   <wg class="sentence">
-      <p>ἐναρξάμενοι Πνεύματι νῦν σαρκὶ ἐπιτελεῖσθε;</p>
+   </sentence>
+   <sentence>
+      <p>
+         <milestone>Gal.3.3</milestone>ἐναρξάμενοι Πνεύματι νῦν σαρκὶ ἐπιτελεῖσθε;</p>
       <wg class="cl" n="480030030040050">
          <wg role="adv" class="cl" n="480030030040020">
             <wg role="v" class="vp" n="480030030040011" head="true">
@@ -9530,10 +9521,10 @@
                head="true">ἐπιτελεῖσθε;</w>
          </wg>
       </wg>
-   </wg>
-   <milestone unit="verse" n="Gal.3.4">4</milestone>
-   <wg class="sentence">
-      <p>τοσαῦτα ἐπάθετε εἰκῇ; εἴ γε καὶ εἰκῇ.</p>
+   </sentence>
+   <sentence>
+      <p>
+         <milestone>Gal.3.4</milestone>τοσαῦτα ἐπάθετε εἰκῇ; εἴ γε καὶ εἰκῇ.</p>
       <wg class="cl" n="480030040010070">
          <wg class="cl" n="480030040010030" head="true">
             <wg role="o" class="np" n="480030040010011">
@@ -9607,9 +9598,10 @@
             </wg>
          </wg>
       </wg>
-   </wg>
-   <wg class="sentence">
-      <p>ὁ οὖν ἐπιχορηγῶν ὑμῖν τὸ Πνεῦμα καὶ ἐνεργῶν δυνάμεις ἐν ὑμῖν, ἐξ ἔργων νόμου ἢ ἐξ ἀκοῆς πίστεως; καθὼς Ἀβραὰμ ἐπίστευσεν τῷ Θεῷ, καὶ ἐλογίσθη αὐτῷ εἰς δικαιοσύνην.</p>
+   </sentence>
+   <sentence>
+      <p>
+         <milestone>Gal.3.5</milestone>ὁ οὖν ἐπιχορηγῶν ὑμῖν τὸ Πνεῦμα καὶ ἐνεργῶν δυνάμεις ἐν ὑμῖν, ἐξ ἔργων νόμου ἢ ἐξ ἀκοῆς πίστεως; καθὼς Ἀβραὰμ ἐπίστευσεν τῷ Θεῷ, καὶ ἐλογίσθη αὐτῷ εἰς δικαιοσύνην.</p>
       <wg class="cl" n="480030050020280" articular="true" det="true">
          <w class="conj"
             osisId="Gal.3.5!2"
@@ -9618,7 +9610,6 @@
             normalized="οὖν"
             strong="3767"
             discontinuous="true">οὖν</w>
-         <milestone unit="verse" n="Gal.3.5">5</milestone>
          <wg class="cl" n="480030050010270" articular="true" det="true">
             <wg class="cl"
                 n="480030050010170"
@@ -9823,7 +9814,6 @@
                   </wg>
                </wg>
             </wg>
-            <milestone unit="verse" n="Gal.3.6">6</milestone>
             <wg class="cl" n="480030060010100">
                <w class="conj"
                   osisId="Gal.3.6!1"
@@ -9943,9 +9933,10 @@
             </wg>
          </wg>
       </wg>
-   </wg>
-   <wg class="sentence">
-      <p>Γινώσκετε ἄρα ὅτι οἱ ἐκ πίστεως, οὗτοι υἱοί εἰσιν Ἀβραάμ.</p>
+   </sentence>
+   <sentence>
+      <p>
+         <milestone>Gal.3.7</milestone>Γινώσκετε ἄρα ὅτι οἱ ἐκ πίστεως, οὗτοι υἱοί εἰσιν Ἀβραάμ.</p>
       <wg class="cl" n="480030070020100">
          <w class="conj"
             osisId="Gal.3.7!2"
@@ -9954,7 +9945,6 @@
             normalized="ἄρα"
             strong="686"
             discontinuous="true">ἄρα</w>
-         <milestone unit="verse" n="Gal.3.7">7</milestone>
          <wg class="cl" n="480030070010090">
             <wg class="cl" n="480030070010013" head="true">
                <wg role="v" class="vp" n="480030070010011" head="true">
@@ -10068,9 +10058,10 @@
             </wg>
          </wg>
       </wg>
-   </wg>
-   <wg class="sentence">
-      <p>προϊδοῦσα δὲ ἡ γραφὴ ὅτι ἐκ πίστεως δικαιοῖ τὰ ἔθνη ὁ Θεὸς, προευηγγελίσατο τῷ Ἀβραὰμ ὅτι Ἐνευλογηθήσονται ἐν σοὶ πάντα τὰ ἔθνη.</p>
+   </sentence>
+   <sentence>
+      <p>
+         <milestone>Gal.3.8</milestone>προϊδοῦσα δὲ ἡ γραφὴ ὅτι ἐκ πίστεως δικαιοῖ τὰ ἔθνη ὁ Θεὸς, προευηγγελίσατο τῷ Ἀβραὰμ ὅτι Ἐνευλογηθήσονται ἐν σοὶ πάντα τὰ ἔθνη.</p>
       <wg class="cl" n="480030080020220">
          <w class="conj"
             osisId="Gal.3.8!2"
@@ -10107,7 +10098,6 @@
                      head="true"
                      discontinuous="true">γραφὴ</w>
                </wg>
-               <milestone unit="verse" n="Gal.3.8">8</milestone>
                <wg role="adv" class="cl" n="480030080010090">
                   <wg class="cl" n="480030080010013" head="true">
                      <wg role="v" class="vp" n="480030080010011" head="true">
@@ -10349,10 +10339,10 @@
             </wg>
          </wg>
       </wg>
-   </wg>
-   <milestone unit="verse" n="Gal.3.9">9</milestone>
-   <wg class="sentence">
-      <p>ὥστε οἱ ἐκ πίστεως εὐλογοῦνται σὺν τῷ πιστῷ Ἀβραάμ.</p>
+   </sentence>
+   <sentence>
+      <p>
+         <milestone>Gal.3.9</milestone>ὥστε οἱ ἐκ πίστεως εὐλογοῦνται σὺν τῷ πιστῷ Ἀβραάμ.</p>
       <wg class="cl" n="480030090010090">
          <w class="conj"
             osisId="Gal.3.9!1"
@@ -10457,9 +10447,10 @@
             </wg>
          </wg>
       </wg>
-   </wg>
-   <wg class="sentence">
-      <p>Ὅσοι γὰρ ἐξ ἔργων νόμου εἰσὶν, ὑπὸ κατάραν εἰσίν,</p>
+   </sentence>
+   <sentence>
+      <p>
+         <milestone>Gal.3.10</milestone>Ὅσοι γὰρ ἐξ ἔργων νόμου εἰσὶν, ὑπὸ κατάραν εἰσίν,</p>
       <wg class="cl" n="480030100020090">
          <w class="conj"
             osisId="Gal.3.10!2"
@@ -10468,7 +10459,6 @@
             normalized="γάρ"
             strong="1063"
             discontinuous="true">γὰρ</w>
-         <milestone unit="verse" n="Gal.3.10">10</milestone>
          <wg class="cl" n="480030100010080">
             <wg role="s" class="np" n="480030100010051">
                <wg class="cl" n="480030100010050">
@@ -10564,9 +10554,10 @@
             </wg>
          </wg>
       </wg>
-   </wg>
-   <wg class="sentence">
-      <p>γέγραπται γὰρ ὅτι Ἐπικατάρατος πᾶς ὃς οὐκ ἐμμένει πᾶσιν τοῖς γεγραμμένοις ἐν τῷ βιβλίῳ τοῦ νόμου τοῦ ποιῆσαι αὐτά.</p>
+   </sentence>
+   <sentence>
+      <p>
+         <milestone>Gal.3.10</milestone>γέγραπται γὰρ ὅτι Ἐπικατάρατος πᾶς ὃς οὐκ ἐμμένει πᾶσιν τοῖς γεγραμμένοις ἐν τῷ βιβλίῳ τοῦ νόμου τοῦ ποιῆσαι αὐτά.</p>
       <wg class="cl" n="480030100110190">
          <w class="conj"
             osisId="Gal.3.10!11"
@@ -10817,9 +10808,10 @@
             </wg>
          </wg>
       </wg>
-   </wg>
-   <wg class="sentence">
-      <p>ὅτι δὲ ἐν νόμῳ οὐδεὶς δικαιοῦται παρὰ τῷ Θεῷ δῆλον, ὅτι Ὁ δίκαιος ἐκ πίστεως ζήσεται·</p>
+   </sentence>
+   <sentence>
+      <p>
+         <milestone>Gal.3.11</milestone>ὅτι δὲ ἐν νόμῳ οὐδεὶς δικαιοῦται παρὰ τῷ Θεῷ δῆλον, ὅτι Ὁ δίκαιος ἐκ πίστεως ζήσεται·</p>
       <wg class="cl" n="480030110020160">
          <w class="conj"
             osisId="Gal.3.11!2"
@@ -10828,7 +10820,6 @@
             normalized="δέ"
             strong="1161"
             discontinuous="true">δὲ</w>
-         <milestone unit="verse" n="Gal.3.11">11</milestone>
          <wg class="cl" n="480030110010150">
             <wg class="cl" n="480030110010090" head="true">
                <wg role="s" class="cl" n="480030110010080">
@@ -11006,9 +10997,10 @@
             </wg>
          </wg>
       </wg>
-   </wg>
-   <wg class="sentence">
-      <p>ὁ δὲ νόμος οὐκ ἔστιν ἐκ πίστεως, ἀλλ’ Ὁ ποιήσας αὐτὰ ζήσεται ἐν αὐτοῖς.</p>
+   </sentence>
+   <sentence>
+      <p>
+         <milestone>Gal.3.12</milestone>ὁ δὲ νόμος οὐκ ἔστιν ἐκ πίστεως, ἀλλ’ Ὁ ποιήσας αὐτὰ ζήσεται ἐν αὐτοῖς.</p>
       <wg class="cl" n="480030120020140">
          <w class="conj"
             osisId="Gal.3.12!2"
@@ -11017,7 +11009,6 @@
             normalized="δέ"
             strong="1161"
             discontinuous="true">δὲ</w>
-         <milestone unit="verse" n="Gal.3.12">12</milestone>
          <wg class="cl" n="480030120010130">
             <wg class="cl" n="480030120010060" head="true">
                <wg role="s"
@@ -11175,10 +11166,10 @@
             </wg>
          </wg>
       </wg>
-   </wg>
-   <milestone unit="verse" n="Gal.3.13">13</milestone>
-   <wg class="sentence">
-      <p>Χριστὸς ἡμᾶς ἐξηγόρασεν ἐκ τῆς κατάρας τοῦ νόμου γενόμενος ὑπὲρ ἡμῶν κατάρα, ὅτι γέγραπται Ἐπικατάρατος πᾶς ὁ κρεμάμενος ἐπὶ ξύλου, ἵνα εἰς τὰ ἔθνη ἡ εὐλογία τοῦ Ἀβραὰμ γένηται ἐν Ἰησοῦ Χριστῷ, ἵνα τὴν ἐπαγγελίαν τοῦ Πνεύματος λάβωμεν διὰ τῆς πίστεως.</p>
+   </sentence>
+   <sentence>
+      <p>
+         <milestone>Gal.3.13</milestone>Χριστὸς ἡμᾶς ἐξηγόρασεν ἐκ τῆς κατάρας τοῦ νόμου γενόμενος ὑπὲρ ἡμῶν κατάρα, ὅτι γέγραπται Ἐπικατάρατος πᾶς ὁ κρεμάμενος ἐπὶ ξύλου, ἵνα εἰς τὰ ἔθνη ἡ εὐλογία τοῦ Ἀβραὰμ γένηται ἐν Ἰησοῦ Χριστῷ, ἵνα τὴν ἐπαγγελίαν τοῦ Πνεύματος λάβωμεν διὰ τῆς πίστεως.</p>
       <wg class="cl" n="480030130010410">
          <wg class="cl" n="480030130010320" head="true">
             <wg class="cl" n="480030130010200" head="true">
@@ -11439,7 +11430,6 @@
                   </wg>
                </wg>
             </wg>
-            <milestone unit="verse" n="Gal.3.14">14</milestone>
             <wg class="cl" n="480030140010120">
                <w class="conj"
                   osisId="Gal.3.14!1"
@@ -11697,10 +11687,10 @@
             </wg>
          </wg>
       </wg>
-   </wg>
-   <milestone unit="verse" n="Gal.3.15">15</milestone>
-   <wg class="sentence">
-      <p>Ἀδελφοί, κατὰ ἄνθρωπον λέγω.</p>
+   </sentence>
+   <sentence>
+      <p>
+         <milestone>Gal.3.15</milestone>Ἀδελφοί, κατὰ ἄνθρωπον λέγω.</p>
       <wg class="cl" n="480030150010040">
          <wg class="cl" n="480030150010012">
             <w class="noun"
@@ -11750,9 +11740,10 @@
             </wg>
          </wg>
       </wg>
-   </wg>
-   <wg class="sentence">
-      <p>ὅμως ἀνθρώπου κεκυρωμένην διαθήκην οὐδεὶς ἀθετεῖ ἢ ἐπιδιατάσσεται.</p>
+   </sentence>
+   <sentence>
+      <p>
+         <milestone>Gal.3.15</milestone>ὅμως ἀνθρώπου κεκυρωμένην διαθήκην οὐδεὶς ἀθετεῖ ἢ ἐπιδιατάσσεται.</p>
       <wg class="cl" n="480030150050080">
          <wg role="adv" class="advp" n="480030150050011">
             <w class="adv"
@@ -11849,9 +11840,10 @@
                mood="indicative">ἐπιδιατάσσεται.</w>
          </wg>
       </wg>
-   </wg>
-   <wg class="sentence">
-      <p>τῷ δὲ Ἀβραὰμ ἐρρέθησαν αἱ ἐπαγγελίαι καὶ τῷ σπέρματι αὐτοῦ.</p>
+   </sentence>
+   <sentence>
+      <p>
+         <milestone>Gal.3.16</milestone>τῷ δὲ Ἀβραὰμ ἐρρέθησαν αἱ ἐπαγγελίαι καὶ τῷ σπέρματι αὐτοῦ.</p>
       <wg class="cl" n="480030160020100">
          <w class="conj"
             osisId="Gal.3.16!2"
@@ -11901,7 +11893,6 @@
                   head="true"
                   discontinuous="true">ἐπαγγελίαι</w>
             </wg>
-            <milestone unit="verse" n="Gal.3.16">16</milestone>
             <wg role="io"
                 class="np"
                 n="480030160010060"
@@ -11976,9 +11967,10 @@
             </wg>
          </wg>
       </wg>
-   </wg>
-   <wg class="sentence">
-      <p>οὐ λέγει Καὶ τοῖς σπέρμασιν, ὡς ἐπὶ πολλῶν, ἀλλ’ ὡς ἐφ’ ἑνός Καὶ τῷ σπέρματί σου, ὅς ἐστιν Χριστός.</p>
+   </sentence>
+   <sentence>
+      <p>
+         <milestone>Gal.3.16</milestone>οὐ λέγει Καὶ τοῖς σπέρμασιν, ὡς ἐπὶ πολλῶν, ἀλλ’ ὡς ἐφ’ ἑνός Καὶ τῷ σπέρματί σου, ὅς ἐστιν Χριστός.</p>
       <wg class="cl" n="480030160110190" articular="true" det="true">
          <w class="adv"
             osisId="Gal.3.16!11"
@@ -12216,9 +12208,10 @@
             </wg>
          </wg>
       </wg>
-   </wg>
-   <wg class="sentence">
-      <p>τοῦτο δὲ λέγω· διαθήκην προκεκυρωμένην ὑπὸ τοῦ Θεοῦ ὁ μετὰ τετρακόσια καὶ τριάκοντα ἔτη γεγονὼς νόμος οὐκ ἀκυροῖ, εἰς τὸ καταργῆσαι τὴν ἐπαγγελίαν.</p>
+   </sentence>
+   <sentence>
+      <p>
+         <milestone>Gal.3.17</milestone>τοῦτο δὲ λέγω· διαθήκην προκεκυρωμένην ὑπὸ τοῦ Θεοῦ ὁ μετὰ τετρακόσια καὶ τριάκοντα ἔτη γεγονὼς νόμος οὐκ ἀκυροῖ, εἰς τὸ καταργῆσαι τὴν ἐπαγγελίαν.</p>
       <wg class="cl" n="480030170020230">
          <w class="conj"
             osisId="Gal.3.17!2"
@@ -12227,7 +12220,6 @@
             normalized="δέ"
             strong="1161"
             discontinuous="true">δὲ</w>
-         <milestone unit="verse" n="Gal.3.17">17</milestone>
          <wg class="cl" n="480030170010220">
             <wg class="cl" n="480030170010020" head="true">
                <wg role="o" class="np" n="480030170010011">
@@ -12515,9 +12507,10 @@
             </wg>
          </wg>
       </wg>
-   </wg>
-   <wg class="sentence">
-      <p>εἰ γὰρ ἐκ νόμου ἡ κληρονομία, οὐκέτι ἐξ ἐπαγγελίας·</p>
+   </sentence>
+   <sentence>
+      <p>
+         <milestone>Gal.3.18</milestone>εἰ γὰρ ἐκ νόμου ἡ κληρονομία, οὐκέτι ἐξ ἐπαγγελίας·</p>
       <wg class="cl" n="480030180020090">
          <w class="conj"
             osisId="Gal.3.18!2"
@@ -12526,7 +12519,6 @@
             normalized="γάρ"
             strong="1063"
             discontinuous="true">γὰρ</w>
-         <milestone unit="verse" n="Gal.3.18">18</milestone>
          <wg class="cl" n="480030180010080">
             <wg class="cl" n="480030180010050">
                <w class="conj"
@@ -12614,9 +12606,10 @@
             </wg>
          </wg>
       </wg>
-   </wg>
-   <wg class="sentence">
-      <p>τῷ δὲ Ἀβραὰμ δι’ ἐπαγγελίας κεχάρισται ὁ Θεός.</p>
+   </sentence>
+   <sentence>
+      <p>
+         <milestone>Gal.3.18</milestone>τῷ δὲ Ἀβραὰμ δι’ ἐπαγγελίας κεχάρισται ὁ Θεός.</p>
       <wg class="cl" n="480030180110080">
          <w class="conj"
             osisId="Gal.3.18!11"
@@ -12713,9 +12706,10 @@
             </wg>
          </wg>
       </wg>
-   </wg>
-   <wg class="sentence">
-      <p>Τί οὖν ὁ νόμος;</p>
+   </sentence>
+   <sentence>
+      <p>
+         <milestone>Gal.3.19</milestone>Τί οὖν ὁ νόμος;</p>
       <wg class="cl" n="480030190020040" articular="true" det="true">
          <w class="conj"
             osisId="Gal.3.19!2"
@@ -12724,7 +12718,6 @@
             normalized="οὖν"
             strong="3767"
             discontinuous="true">οὖν</w>
-         <milestone unit="verse" n="Gal.3.19">19</milestone>
          <wg class="cl" n="480030190010030" articular="true" det="true">
             <wg role="adv" class="np" n="480030190010011">
                <w class="pron"
@@ -12767,9 +12760,10 @@
             </wg>
          </wg>
       </wg>
-   </wg>
-   <wg class="sentence">
-      <p>τῶν παραβάσεων χάριν προσετέθη, ἄχρις ἂν ἔλθῃ τὸ σπέρμα ᾧ ἐπήγγελται, διαταγεὶς δι’ ἀγγέλων ἐν χειρὶ μεσίτου.</p>
+   </sentence>
+   <sentence>
+      <p>
+         <milestone>Gal.3.19</milestone>τῶν παραβάσεων χάριν προσετέθη, ἄχρις ἂν ἔλθῃ τὸ σπέρμα ᾧ ἐπήγγελται, διαταγεὶς δι’ ἀγγέλων ἐν χειρὶ μεσίτου.</p>
       <wg class="cl" n="480030190050170">
          <wg role="adv"
              class="pp"
@@ -12987,9 +12981,10 @@
             </wg>
          </wg>
       </wg>
-   </wg>
-   <wg class="sentence">
-      <p>ὁ δὲ μεσίτης ἑνὸς οὐκ ἔστιν, ὁ δὲ Θεὸς εἷς ἐστιν.</p>
+   </sentence>
+   <sentence>
+      <p>
+         <milestone>Gal.3.20</milestone>ὁ δὲ μεσίτης ἑνὸς οὐκ ἔστιν, ὁ δὲ Θεὸς εἷς ἐστιν.</p>
       <wg class="cl" n="480030200020110">
          <w class="conj"
             osisId="Gal.3.20!2"
@@ -12998,7 +12993,6 @@
             normalized="δέ"
             strong="1161"
             discontinuous="true">δὲ</w>
-         <milestone unit="verse" n="Gal.3.20">20</milestone>
          <wg class="cl" n="480030200010100">
             <wg class="cl" n="480030200010050" head="true">
                <wg role="s"
@@ -13123,9 +13117,10 @@
             </wg>
          </wg>
       </wg>
-   </wg>
-   <wg class="sentence">
-      <p>ὁ οὖν νόμος κατὰ τῶν ἐπαγγελιῶν τοῦ Θεοῦ;</p>
+   </sentence>
+   <sentence>
+      <p>
+         <milestone>Gal.3.21</milestone>ὁ οὖν νόμος κατὰ τῶν ἐπαγγελιῶν τοῦ Θεοῦ;</p>
       <wg class="cl" n="480030210020080" articular="true" det="true">
          <w class="conj"
             osisId="Gal.3.21!2"
@@ -13134,7 +13129,6 @@
             normalized="οὖν"
             strong="3767"
             discontinuous="true">οὖν</w>
-         <milestone unit="verse" n="Gal.3.21">21</milestone>
          <wg class="cl" n="480030210010070" articular="true" det="true">
             <wg role="s"
                 class="np"
@@ -13227,9 +13221,10 @@
             </wg>
          </wg>
       </wg>
-   </wg>
-   <wg class="sentence">
-      <p>μὴ γένοιτο.</p>
+   </sentence>
+   <sentence>
+      <p>
+         <milestone>Gal.3.21</milestone>μὴ γένοιτο.</p>
       <wg class="cl" n="480030210090020">
          <wg role="adv" class="advp" n="480030210090011">
             <w class="adv"
@@ -13254,9 +13249,10 @@
                head="true">γένοιτο.</w>
          </wg>
       </wg>
-   </wg>
-   <wg class="sentence">
-      <p>εἰ γὰρ ἐδόθη νόμος ὁ δυνάμενος ζωοποιῆσαι, ὄντως ἐκ νόμου ἂν ἦν ἡ δικαιοσύνη·</p>
+   </sentence>
+   <sentence>
+      <p>
+         <milestone>Gal.3.21</milestone>εἰ γὰρ ἐδόθη νόμος ὁ δυνάμενος ζωοποιῆσαι, ὄντως ἐκ νόμου ἂν ἦν ἡ δικαιοσύνη·</p>
       <wg class="cl" n="480030210120140">
          <w class="conj"
             osisId="Gal.3.21!12"
@@ -13425,10 +13421,10 @@
             </wg>
          </wg>
       </wg>
-   </wg>
-   <milestone unit="verse" n="Gal.3.22">22</milestone>
-   <wg class="sentence">
-      <p>ἀλλὰ συνέκλεισεν ἡ γραφὴ τὰ πάντα ὑπὸ ἁμαρτίαν ἵνα ἡ ἐπαγγελία ἐκ πίστεως Ἰησοῦ Χριστοῦ δοθῇ τοῖς πιστεύουσιν.</p>
+   </sentence>
+   <sentence>
+      <p>
+         <milestone>Gal.3.22</milestone>ἀλλὰ συνέκλεισεν ἡ γραφὴ τὰ πάντα ὑπὸ ἁμαρτίαν ἵνα ἡ ἐπαγγελία ἐκ πίστεως Ἰησοῦ Χριστοῦ δοθῇ τοῖς πιστεύουσιν.</p>
       <wg class="cl" n="480030220010180">
          <w class="conj"
             osisId="Gal.3.22!1"
@@ -13652,9 +13648,10 @@
             </wg>
          </wg>
       </wg>
-   </wg>
-   <wg class="sentence">
-      <p>Πρὸ τοῦ δὲ ἐλθεῖν τὴν πίστιν ὑπὸ νόμον ἐφρουρούμεθα συνκλειόμενοι εἰς τὴν μέλλουσαν πίστιν ἀποκαλυφθῆναι.</p>
+   </sentence>
+   <sentence>
+      <p>
+         <milestone>Gal.3.23</milestone>Πρὸ τοῦ δὲ ἐλθεῖν τὴν πίστιν ὑπὸ νόμον ἐφρουρούμεθα συνκλειόμενοι εἰς τὴν μέλλουσαν πίστιν ἀποκαλυφθῆναι.</p>
       <wg class="cl" n="480030230030150">
          <w class="conj"
             osisId="Gal.3.23!3"
@@ -13663,7 +13660,6 @@
             normalized="δέ"
             strong="1161"
             discontinuous="true">δὲ</w>
-         <milestone unit="verse" n="Gal.3.23">23</milestone>
          <wg class="cl" n="480030230010140">
             <wg role="adv"
                 class="pp"
@@ -13861,10 +13857,10 @@
             </wg>
          </wg>
       </wg>
-   </wg>
-   <milestone unit="verse" n="Gal.3.24">24</milestone>
-   <wg class="sentence">
-      <p>ὥστε ὁ νόμος παιδαγωγὸς ἡμῶν γέγονεν εἰς Χριστόν, ἵνα ἐκ πίστεως δικαιωθῶμεν·</p>
+   </sentence>
+   <sentence>
+      <p>
+         <milestone>Gal.3.24</milestone>ὥστε ὁ νόμος παιδαγωγὸς ἡμῶν γέγονεν εἰς Χριστόν, ἵνα ἐκ πίστεως δικαιωθῶμεν·</p>
       <wg class="cl" n="480030240010120">
          <w class="conj"
             osisId="Gal.3.24!1"
@@ -14000,9 +13996,10 @@
             </wg>
          </wg>
       </wg>
-   </wg>
-   <wg class="sentence">
-      <p>ἐλθούσης δὲ τῆς πίστεως οὐκέτι ὑπὸ παιδαγωγόν ἐσμεν.</p>
+   </sentence>
+   <sentence>
+      <p>
+         <milestone>Gal.3.25</milestone>ἐλθούσης δὲ τῆς πίστεως οὐκέτι ὑπὸ παιδαγωγόν ἐσμεν.</p>
       <wg class="cl" n="480030250020080">
          <w class="conj"
             osisId="Gal.3.25!2"
@@ -14011,7 +14008,6 @@
             normalized="δέ"
             strong="1161"
             discontinuous="true">δὲ</w>
-         <milestone unit="verse" n="Gal.3.25">25</milestone>
          <wg class="cl" n="480030250010070">
             <wg class="cl" n="480030250010030">
                <wg role="v" class="vp" n="480030250010011" head="true">
@@ -14101,9 +14097,10 @@
             </wg>
          </wg>
       </wg>
-   </wg>
-   <wg class="sentence">
-      <p>Πάντες γὰρ υἱοὶ Θεοῦ ἐστε διὰ τῆς πίστεως ἐν Χριστῷ Ἰησοῦ·</p>
+   </sentence>
+   <sentence>
+      <p>
+         <milestone>Gal.3.26</milestone>Πάντες γὰρ υἱοὶ Θεοῦ ἐστε διὰ τῆς πίστεως ἐν Χριστῷ Ἰησοῦ·</p>
       <wg class="cl" n="480030260020110">
          <w class="conj"
             osisId="Gal.3.26!2"
@@ -14112,7 +14109,6 @@
             normalized="γάρ"
             strong="1063"
             discontinuous="true">γὰρ</w>
-         <milestone unit="verse" n="Gal.3.26">26</milestone>
          <wg class="cl" n="480030260010100">
             <wg role="s" class="adjp" n="480030260010011">
                <w class="adj"
@@ -14234,9 +14230,10 @@
             </wg>
          </wg>
       </wg>
-   </wg>
-   <wg class="sentence">
-      <p>ὅσοι γὰρ εἰς Χριστὸν ἐβαπτίσθητε, Χριστὸν ἐνεδύσασθε.</p>
+   </sentence>
+   <sentence>
+      <p>
+         <milestone>Gal.3.27</milestone>ὅσοι γὰρ εἰς Χριστὸν ἐβαπτίσθητε, Χριστὸν ἐνεδύσασθε.</p>
       <wg class="cl" n="480030270020070">
          <w class="conj"
             osisId="Gal.3.27!2"
@@ -14245,7 +14242,6 @@
             normalized="γάρ"
             strong="1063"
             discontinuous="true">γὰρ</w>
-         <milestone unit="verse" n="Gal.3.27">27</milestone>
          <wg class="cl" n="480030270010060">
             <wg role="s" class="adjp" n="480030270010041">
                <wg class="cl" n="480030270010040">
@@ -14324,10 +14320,10 @@
             </wg>
          </wg>
       </wg>
-   </wg>
-   <milestone unit="verse" n="Gal.3.28">28</milestone>
-   <wg class="sentence">
-      <p>οὐκ ἔνι Ἰουδαῖος οὐδὲ Ἕλλην, οὐκ ἔνι δοῦλος οὐδὲ ἐλεύθερος, οὐκ ἔνι ἄρσεν καὶ θῆλυ·</p>
+   </sentence>
+   <sentence>
+      <p>
+         <milestone>Gal.3.28</milestone>οὐκ ἔνι Ἰουδαῖος οὐδὲ Ἕλλην, οὐκ ἔνι δοῦλος οὐδὲ ἐλεύθερος, οὐκ ἔνι ἄρσεν καὶ θῆλυ·</p>
       <wg class="cl" n="480030280010150">
          <wg class="cl" n="480030280010050" head="true">
             <wg role="p" class="advp" n="480030280010011" head="true">
@@ -14493,9 +14489,10 @@
             </wg>
          </wg>
       </wg>
-   </wg>
-   <wg class="sentence">
-      <p>πάντες γὰρ ὑμεῖς εἷς ἐστε ἐν Χριστῷ Ἰησοῦ.</p>
+   </sentence>
+   <sentence>
+      <p>
+         <milestone>Gal.3.28</milestone>πάντες γὰρ ὑμεῖς εἷς ἐστε ἐν Χριστῷ Ἰησοῦ.</p>
       <wg class="cl" n="480030280170080">
          <w class="conj"
             osisId="Gal.3.28!17"
@@ -14584,9 +14581,10 @@
             </wg>
          </wg>
       </wg>
-   </wg>
-   <wg class="sentence">
-      <p>εἰ δὲ ὑμεῖς Χριστοῦ, ἄρα τοῦ Ἀβραὰμ σπέρμα ἐστέ, κατ’ ἐπαγγελίαν κληρονόμοι.</p>
+   </sentence>
+   <sentence>
+      <p>
+         <milestone>Gal.3.29</milestone>εἰ δὲ ὑμεῖς Χριστοῦ, ἄρα τοῦ Ἀβραὰμ σπέρμα ἐστέ, κατ’ ἐπαγγελίαν κληρονόμοι.</p>
       <wg class="cl" n="480030290020120">
          <w class="conj"
             osisId="Gal.3.29!2"
@@ -14595,7 +14593,6 @@
             normalized="δέ"
             strong="1161"
             discontinuous="true">δὲ</w>
-         <milestone unit="verse" n="Gal.3.29">29</milestone>
          <wg class="cl" n="480030290010110">
             <wg class="cl" n="480030290010030">
                <w class="conj"
@@ -14727,9 +14724,10 @@
             </wg>
          </wg>
       </wg>
-   </wg>
-   <wg class="sentence">
-      <p>Λέγω δέ, ἐφ’ ὅσον χρόνον ὁ κληρονόμος νήπιός ἐστιν, οὐδὲν διαφέρει δούλου κύριος πάντων ὤν, ἀλλὰ ὑπὸ ἐπιτρόπους ἐστὶν καὶ οἰκονόμους ἄχρι τῆς προθεσμίας τοῦ πατρός.</p>
+   </sentence>
+   <sentence>
+      <p>
+         <milestone>Gal.4.1</milestone>Λέγω δέ, ἐφ’ ὅσον χρόνον ὁ κληρονόμος νήπιός ἐστιν, οὐδὲν διαφέρει δούλου κύριος πάντων ὤν, ἀλλὰ ὑπὸ ἐπιτρόπους ἐστὶν καὶ οἰκονόμους ἄχρι τῆς προθεσμίας τοῦ πατρός.</p>
       <wg class="cl" n="480040010020260">
          <w class="conj"
             osisId="Gal.4.1!2"
@@ -14738,8 +14736,6 @@
             normalized="δέ"
             strong="1161"
             discontinuous="true">δέ,</w>
-         <milestone unit="chapter" n="Gal.4">Gal 4</milestone>
-         <milestone unit="verse" n="Gal.4.1">1</milestone>
          <wg class="cl" n="480040010010250">
             <wg class="cl" n="480040010010013" head="true">
                <wg role="v" class="vp" n="480040010010011" head="true">
@@ -14924,7 +14920,6 @@
                      </wg>
                   </wg>
                </wg>
-               <milestone unit="verse" n="Gal.4.2">2</milestone>
                <w class="conj"
                   osisId="Gal.4.2!1"
                   n="480040020010010"
@@ -15049,10 +15044,10 @@
             </wg>
          </wg>
       </wg>
-   </wg>
-   <milestone unit="verse" n="Gal.4.3">3</milestone>
-   <wg class="sentence">
-      <p>οὕτως καὶ ἡμεῖς, ὅτε ἦμεν νήπιοι, ὑπὸ τὰ στοιχεῖα τοῦ κόσμου ἤμεθα δεδουλωμένοι·</p>
+   </sentence>
+   <sentence>
+      <p>
+         <milestone>Gal.4.3</milestone>οὕτως καὶ ἡμεῖς, ὅτε ἦμεν νήπιοι, ὑπὸ τὰ στοιχεῖα τοῦ κόσμου ἤμεθα δεδουλωμένοι·</p>
       <wg class="cl" n="480040030010130">
          <wg role="adv" class="advp" n="480040030010011">
             <w class="adv"
@@ -15205,9 +15200,10 @@
                head="true">δεδουλωμένοι·</w>
          </wg>
       </wg>
-   </wg>
-   <wg class="sentence">
-      <p>ὅτε δὲ ἦλθεν τὸ πλήρωμα τοῦ χρόνου, ἐξαπέστειλεν ὁ Θεὸς τὸν Υἱὸν αὐτοῦ, γενόμενον ἐκ γυναικός, γενόμενον ὑπὸ νόμον, ἵνα τοὺς ὑπὸ νόμον ἐξαγοράσῃ, ἵνα τὴν υἱοθεσίαν ἀπολάβωμεν.</p>
+   </sentence>
+   <sentence>
+      <p>
+         <milestone>Gal.4.4</milestone>ὅτε δὲ ἦλθεν τὸ πλήρωμα τοῦ χρόνου, ἐξαπέστειλεν ὁ Θεὸς τὸν Υἱὸν αὐτοῦ, γενόμενον ἐκ γυναικός, γενόμενον ὑπὸ νόμον, ἵνα τοὺς ὑπὸ νόμον ἐξαγοράσῃ, ἵνα τὴν υἱοθεσίαν ἀπολάβωμεν.</p>
       <wg class="cl" n="480040040020280">
          <w class="conj"
             osisId="Gal.4.4!2"
@@ -15216,7 +15212,6 @@
             normalized="δέ"
             strong="1161"
             discontinuous="true">δὲ</w>
-         <milestone unit="verse" n="Gal.4.4">4</milestone>
          <wg class="cl" n="480040040010270">
             <wg class="cl" n="480040040010060">
                <w class="conj"
@@ -15448,7 +15443,6 @@
                         </wg>
                      </wg>
                   </wg>
-                  <milestone unit="verse" n="Gal.4.5">5</milestone>
                   <wg class="cl" n="480040050010050">
                      <w class="conj"
                         osisId="Gal.4.5!1"
@@ -15558,9 +15552,10 @@
             </wg>
          </wg>
       </wg>
-   </wg>
-   <wg class="sentence">
-      <p>Ὅτι δέ ἐστε υἱοί, ἐξαπέστειλεν ὁ Θεὸς τὸ Πνεῦμα τοῦ Υἱοῦ αὐτοῦ εἰς τὰς καρδίας ἡμῶν, κρᾶζον Ἀββᾶ ὁ Πατήρ.</p>
+   </sentence>
+   <sentence>
+      <p>
+         <milestone>Gal.4.6</milestone>Ὅτι δέ ἐστε υἱοί, ἐξαπέστειλεν ὁ Θεὸς τὸ Πνεῦμα τοῦ Υἱοῦ αὐτοῦ εἰς τὰς καρδίας ἡμῶν, κρᾶζον Ἀββᾶ ὁ Πατήρ.</p>
       <wg class="cl" n="480040060020200">
          <w class="conj"
             osisId="Gal.4.6!2"
@@ -15569,7 +15564,6 @@
             normalized="δέ"
             strong="1161"
             discontinuous="true">δέ</w>
-         <milestone unit="verse" n="Gal.4.6">6</milestone>
          <wg class="cl" n="480040060010190">
             <wg class="cl" n="480040060010030">
                <w class="conj"
@@ -15819,10 +15813,10 @@
             </wg>
          </wg>
       </wg>
-   </wg>
-   <milestone unit="verse" n="Gal.4.7">7</milestone>
-   <wg class="sentence">
-      <p>ὥστε οὐκέτι εἶ δοῦλος ἀλλὰ υἱός·</p>
+   </sentence>
+   <sentence>
+      <p>
+         <milestone>Gal.4.7</milestone>ὥστε οὐκέτι εἶ δοῦλος ἀλλὰ υἱός·</p>
       <wg class="cl" n="480040070010060">
          <w class="conj"
             osisId="Gal.4.7!1"
@@ -15882,9 +15876,10 @@
             </wg>
          </wg>
       </wg>
-   </wg>
-   <wg class="sentence">
-      <p>εἰ δὲ υἱός, καὶ κληρονόμος διὰ Θεοῦ.</p>
+   </sentence>
+   <sentence>
+      <p>
+         <milestone>Gal.4.7</milestone>εἰ δὲ υἱός, καὶ κληρονόμος διὰ Θεοῦ.</p>
       <wg class="cl" n="480040070080070">
          <w class="conj"
             osisId="Gal.4.7!8"
@@ -15958,10 +15953,10 @@
             </wg>
          </wg>
       </wg>
-   </wg>
-   <milestone unit="verse" n="Gal.4.8">8</milestone>
-   <wg class="sentence">
-      <p>Ἀλλὰ τότε μὲν οὐκ εἰδότες Θεὸν ἐδουλεύσατε τοῖς φύσει μὴ οὖσιν θεοῖς· νῦν δὲ γνόντες Θεόν, μᾶλλον δὲ γνωσθέντες ὑπὸ Θεοῦ, πῶς ἐπιστρέφετε πάλιν ἐπὶ τὰ ἀσθενῆ καὶ πτωχὰ στοιχεῖα, οἷς πάλιν ἄνωθεν δουλεῦσαι θέλετε;</p>
+   </sentence>
+   <sentence>
+      <p>
+         <milestone>Gal.4.8</milestone>Ἀλλὰ τότε μὲν οὐκ εἰδότες Θεὸν ἐδουλεύσατε τοῖς φύσει μὴ οὖσιν θεοῖς· νῦν δὲ γνόντες Θεόν, μᾶλλον δὲ γνωσθέντες ὑπὸ Θεοῦ, πῶς ἐπιστρέφετε πάλιν ἐπὶ τὰ ἀσθενῆ καὶ πτωχὰ στοιχεῖα, οἷς πάλιν ἄνωθεν δουλεῦσαι θέλετε;</p>
       <wg class="cl" n="480040080010350">
          <w class="conj"
             osisId="Gal.4.8!1"
@@ -16111,7 +16106,6 @@
                normalized="δέ"
                strong="1161"
                discontinuous="true">δὲ</w>
-            <milestone unit="verse" n="Gal.4.9">9</milestone>
             <wg class="cl" n="480040090010220">
                <wg role="adv" class="advp" n="480040090010011">
                   <w class="adv"
@@ -16369,9 +16363,10 @@
             </wg>
          </wg>
       </wg>
-   </wg>
-   <wg class="sentence">
-      <p>ἡμέρας παρατηρεῖσθε καὶ μῆνας καὶ καιροὺς καὶ ἐνιαυτούς.</p>
+   </sentence>
+   <sentence>
+      <p>
+         <milestone>Gal.4.10</milestone>ἡμέρας παρατηρεῖσθε καὶ μῆνας καὶ καιροὺς καὶ ἐνιαυτούς.</p>
       <wg class="cl" n="480040100020080">
          <wg role="v" class="vp" n="480040100020011" head="true">
             <w class="verb"
@@ -16388,7 +16383,6 @@
                head="true"
                discontinuous="true">παρατηρεῖσθε</w>
          </wg>
-         <milestone unit="verse" n="Gal.4.10">10</milestone>
          <wg role="o" class="np" n="480040100010070">
             <w class="noun"
                type="common"
@@ -16451,10 +16445,10 @@
                case="accusative">ἐνιαυτούς.</w>
          </wg>
       </wg>
-   </wg>
-   <milestone unit="verse" n="Gal.4.11">11</milestone>
-   <wg class="sentence">
-      <p>φοβοῦμαι ὑμᾶς μή πως εἰκῇ κεκοπίακα εἰς ὑμᾶς.</p>
+   </sentence>
+   <sentence>
+      <p>
+         <milestone>Gal.4.11</milestone>φοβοῦμαι ὑμᾶς μή πως εἰκῇ κεκοπίακα εἰς ὑμᾶς.</p>
       <wg class="cl" n="480040110010080">
          <wg class="cl" n="480040110010020" head="true">
             <wg role="v" class="vp" n="480040110010011" head="true">
@@ -16542,10 +16536,10 @@
             </wg>
          </wg>
       </wg>
-   </wg>
-   <milestone unit="verse" n="Gal.4.12">12</milestone>
-   <wg class="sentence">
-      <p>Γίνεσθε ὡς ἐγώ, ὅτι κἀγὼ ὡς ὑμεῖς, ἀδελφοί, δέομαι ὑμῶν.</p>
+   </sentence>
+   <sentence>
+      <p>
+         <milestone>Gal.4.12</milestone>Γίνεσθε ὡς ἐγώ, ὅτι κἀγὼ ὡς ὑμεῖς, ἀδελφοί, δέομαι ὑμῶν.</p>
       <wg class="cl" n="480040120010100">
          <wg class="cl" n="480040120010070" head="true">
             <wg class="cl" n="480040120010030" head="true">
@@ -16675,9 +16669,10 @@
             </wg>
          </wg>
       </wg>
-   </wg>
-   <wg class="sentence">
-      <p>οὐδέν με ἠδικήσατε·</p>
+   </sentence>
+   <sentence>
+      <p>
+         <milestone>Gal.4.12</milestone>οὐδέν με ἠδικήσατε·</p>
       <wg class="cl" n="480040120110030">
          <wg role="adv" class="advp" n="480040120110011">
             <w class="adj"
@@ -16716,9 +16711,10 @@
                head="true">ἠδικήσατε·</w>
          </wg>
       </wg>
-   </wg>
-   <wg class="sentence">
-      <p>οἴδατε δὲ ὅτι δι’ ἀσθένειαν τῆς σαρκὸς εὐηγγελισάμην ὑμῖν τὸ πρότερον, καὶ τὸν πειρασμὸν ὑμῶν ἐν τῇ σαρκί μου οὐκ ἐξουθενήσατε οὐδὲ ἐξεπτύσατε, ἀλλὰ ὡς ἄγγελον Θεοῦ ἐδέξασθέ με, ὡς Χριστὸν Ἰησοῦν.</p>
+   </sentence>
+   <sentence>
+      <p>
+         <milestone>Gal.4.13</milestone>οἴδατε δὲ ὅτι δι’ ἀσθένειαν τῆς σαρκὸς εὐηγγελισάμην ὑμῖν τὸ πρότερον, καὶ τὸν πειρασμὸν ὑμῶν ἐν τῇ σαρκί μου οὐκ ἐξουθενήσατε οὐδὲ ἐξεπτύσατε, ἀλλὰ ὡς ἄγγελον Θεοῦ ἐδέξασθέ με, ὡς Χριστὸν Ἰησοῦν.</p>
       <wg class="cl" n="480040130020320">
          <w class="conj"
             osisId="Gal.4.13!2"
@@ -16727,7 +16723,6 @@
             normalized="δέ"
             strong="1161"
             discontinuous="true">δὲ</w>
-         <milestone unit="verse" n="Gal.4.13">13</milestone>
          <wg class="cl" n="480040130010310">
             <wg class="cl" n="480040130010013" head="true">
                <wg role="v" class="vp" n="480040130010011" head="true">
@@ -16849,7 +16844,6 @@
                            head="true">πρότερον,</w>
                      </wg>
                   </wg>
-                  <milestone unit="verse" n="Gal.4.14">14</milestone>
                   <w class="conj"
                      osisId="Gal.4.14!1"
                      n="480040140010010"
@@ -17089,9 +17083,10 @@
             </wg>
          </wg>
       </wg>
-   </wg>
-   <wg class="sentence">
-      <p>ποῦ οὖν ὁ μακαρισμὸς ὑμῶν;</p>
+   </sentence>
+   <sentence>
+      <p>
+         <milestone>Gal.4.15</milestone>ποῦ οὖν ὁ μακαρισμὸς ὑμῶν;</p>
       <wg class="cl" n="480040150020050">
          <w class="conj"
             osisId="Gal.4.15!2"
@@ -17100,7 +17095,6 @@
             normalized="οὖν"
             strong="3767"
             discontinuous="true">οὖν</w>
-         <milestone unit="verse" n="Gal.4.15">15</milestone>
          <wg class="cl" n="480040150010040">
             <wg role="p" class="advp" n="480040150010011" head="true">
                <w class="adv"
@@ -17150,9 +17144,10 @@
             </wg>
          </wg>
       </wg>
-   </wg>
-   <wg class="sentence">
-      <p>μαρτυρῶ γὰρ ὑμῖν ὅτι εἰ δυνατὸν τοὺς ὀφθαλμοὺς ὑμῶν ἐξορύξαντες ἐδώκατέ μοι.</p>
+   </sentence>
+   <sentence>
+      <p>
+         <milestone>Gal.4.15</milestone>μαρτυρῶ γὰρ ὑμῖν ὅτι εἰ δυνατὸν τοὺς ὀφθαλμοὺς ὑμῶν ἐξορύξαντες ἐδώκατέ μοι.</p>
       <wg class="cl" n="480040150070120">
          <w class="conj"
             osisId="Gal.4.15!7"
@@ -17304,10 +17299,10 @@
             </wg>
          </wg>
       </wg>
-   </wg>
-   <milestone unit="verse" n="Gal.4.16">16</milestone>
-   <wg class="sentence">
-      <p>ὥστε ἐχθρὸς ὑμῶν γέγονα ἀληθεύων ὑμῖν;</p>
+   </sentence>
+   <sentence>
+      <p>
+         <milestone>Gal.4.16</milestone>ὥστε ἐχθρὸς ὑμῶν γέγονα ἀληθεύων ὑμῖν;</p>
       <wg class="cl" n="480040160010060">
          <w class="conj"
             osisId="Gal.4.16!1"
@@ -17383,10 +17378,10 @@
             </wg>
          </wg>
       </wg>
-   </wg>
-   <milestone unit="verse" n="Gal.4.17">17</milestone>
-   <wg class="sentence">
-      <p>ζηλοῦσιν ὑμᾶς οὐ καλῶς, ἀλλὰ ἐκκλεῖσαι ὑμᾶς θέλουσιν, ἵνα αὐτοὺς ζηλοῦτε.</p>
+   </sentence>
+   <sentence>
+      <p>
+         <milestone>Gal.4.17</milestone>ζηλοῦσιν ὑμᾶς οὐ καλῶς, ἀλλὰ ἐκκλεῖσαι ὑμᾶς θέλουσιν, ἵνα αὐτοὺς ζηλοῦτε.</p>
       <wg class="cl" n="480040170010110">
          <wg class="cl" n="480040170010040" head="true">
             <wg role="v" class="vp" n="480040170010011" head="true">
@@ -17518,9 +17513,10 @@
             </wg>
          </wg>
       </wg>
-   </wg>
-   <wg class="sentence">
-      <p>καλὸν δὲ ζηλοῦσθαι ἐν καλῷ πάντοτε, καὶ μὴ μόνον ἐν τῷ παρεῖναί με πρὸς ὑμᾶς, τέκνα μου, οὓς πάλιν ὠδίνω μέχρις οὗ μορφωθῇ Χριστὸς ἐν ὑμῖν·</p>
+   </sentence>
+   <sentence>
+      <p>
+         <milestone>Gal.4.18</milestone>καλὸν δὲ ζηλοῦσθαι ἐν καλῷ πάντοτε, καὶ μὴ μόνον ἐν τῷ παρεῖναί με πρὸς ὑμᾶς, τέκνα μου, οὓς πάλιν ὠδίνω μέχρις οὗ μορφωθῇ Χριστὸς ἐν ὑμῖν·</p>
       <wg class="cl" n="480040180020260">
          <w class="conj"
             osisId="Gal.4.18!2"
@@ -17529,7 +17525,6 @@
             normalized="δέ"
             strong="1161"
             discontinuous="true">δὲ</w>
-         <milestone unit="verse" n="Gal.4.18">18</milestone>
          <wg class="cl" n="480040180010250">
             <wg class="cl" n="480040180010140" head="true">
                <wg role="p" class="adjp" n="480040180010011" head="true">
@@ -17692,7 +17687,6 @@
                   </wg>
                </wg>
             </wg>
-            <milestone unit="verse" n="Gal.4.19">19</milestone>
             <wg class="cl" n="480040190010111">
                <wg class="np" n="480040190010110">
                   <wg class="np" n="480040190010020" head="true">
@@ -17825,9 +17819,10 @@
             </wg>
          </wg>
       </wg>
-   </wg>
-   <wg class="sentence">
-      <p>ἤθελον δὲ παρεῖναι πρὸς ὑμᾶς ἄρτι καὶ ἀλλάξαι τὴν φωνήν μου, ὅτι ἀποροῦμαι ἐν ὑμῖν.</p>
+   </sentence>
+   <sentence>
+      <p>
+         <milestone>Gal.4.20</milestone>ἤθελον δὲ παρεῖναι πρὸς ὑμᾶς ἄρτι καὶ ἀλλάξαι τὴν φωνήν μου, ὅτι ἀποροῦμαι ἐν ὑμῖν.</p>
       <wg class="cl" n="480040200020150">
          <w class="conj"
             osisId="Gal.4.20!2"
@@ -17836,7 +17831,6 @@
             normalized="δέ"
             strong="1161"
             discontinuous="true">δὲ</w>
-         <milestone unit="verse" n="Gal.4.20">20</milestone>
          <wg class="cl" n="480040200010140">
             <wg class="cl" n="480040200010100" head="true">
                <wg role="v" class="vp" n="480040200010011" head="true">
@@ -17999,10 +17993,10 @@
             </wg>
          </wg>
       </wg>
-   </wg>
-   <milestone unit="verse" n="Gal.4.21">21</milestone>
-   <wg class="sentence">
-      <p>Λέγετέ μοι, οἱ ὑπὸ νόμον θέλοντες εἶναι, τὸν νόμον οὐκ ἀκούετε;</p>
+   </sentence>
+   <sentence>
+      <p>
+         <milestone>Gal.4.21</milestone>Λέγετέ μοι, οἱ ὑπὸ νόμον θέλοντες εἶναι, τὸν νόμον οὐκ ἀκούετε;</p>
       <wg class="cl" n="480040210010110">
          <wg class="cl" n="480040210010070" head="true">
             <wg class="cl" n="480040210010020" head="true">
@@ -18149,9 +18143,10 @@
             </wg>
          </wg>
       </wg>
-   </wg>
-   <wg class="sentence">
-      <p>γέγραπται γὰρ ὅτι Ἀβραὰμ δύο υἱοὺς ἔσχεν, ἕνα ἐκ τῆς παιδίσκης καὶ ἕνα ἐκ τῆς ἐλευθέρας.</p>
+   </sentence>
+   <sentence>
+      <p>
+         <milestone>Gal.4.22</milestone>γέγραπται γὰρ ὅτι Ἀβραὰμ δύο υἱοὺς ἔσχεν, ἕνα ἐκ τῆς παιδίσκης καὶ ἕνα ἐκ τῆς ἐλευθέρας.</p>
       <wg class="cl" n="480040220020160">
          <w class="conj"
             osisId="Gal.4.22!2"
@@ -18160,7 +18155,6 @@
             normalized="γάρ"
             strong="1063"
             discontinuous="true">γὰρ</w>
-         <milestone unit="verse" n="Gal.4.22">22</milestone>
          <wg class="cl" n="480040220010150">
             <wg class="cl" n="480040220010013" head="true">
                <wg role="v" class="vp" n="480040220010011" head="true">
@@ -18341,10 +18335,10 @@
             </wg>
          </wg>
       </wg>
-   </wg>
-   <milestone unit="verse" n="Gal.4.23">23</milestone>
-   <wg class="sentence">
-      <p>ἀλλ’ ὁ μὲν ἐκ τῆς παιδίσκης κατὰ σάρκα γεγέννηται, ὁ δὲ ἐκ τῆς ἐλευθέρας διὰ τῆς ἐπαγγελίας. ἅτινά ἐστιν ἀλληγορούμενα·</p>
+   </sentence>
+   <sentence>
+      <p>
+         <milestone>Gal.4.23</milestone>ἀλλ’ ὁ μὲν ἐκ τῆς παιδίσκης κατὰ σάρκα γεγέννηται, ὁ δὲ ἐκ τῆς ἐλευθέρας διὰ τῆς ἐπαγγελίας. ἅτινά ἐστιν ἀλληγορούμενα·</p>
       <wg class="cl" n="480040230010200">
          <w class="conj"
             osisId="Gal.4.23!1"
@@ -18535,7 +18529,6 @@
                   </wg>
                </wg>
             </wg>
-            <milestone unit="verse" n="Gal.4.24">24</milestone>
             <wg class="cl" n="480040240010030">
                <wg role="s" class="np" n="480040240010011">
                   <w class="pron"
@@ -18585,9 +18578,10 @@
             </wg>
          </wg>
       </wg>
-   </wg>
-   <wg class="sentence">
-      <p>αὗται γάρ εἰσιν δύο διαθῆκαι,</p>
+   </sentence>
+   <sentence>
+      <p>
+         <milestone>Gal.4.24</milestone>αὗται γάρ εἰσιν δύο διαθῆκαι,</p>
       <wg class="cl" n="480040240050050">
          <w class="conj"
             osisId="Gal.4.24!5"
@@ -18643,9 +18637,10 @@
             </wg>
          </wg>
       </wg>
-   </wg>
-   <wg class="sentence">
-      <p>μία μὲν ἀπὸ ὄρους Σινᾶ, εἰς δουλείαν γεννῶσα, ἥτις ἐστὶν Ἄγαρ, τὸ δὲ Ἄγαρ Σινᾶ ὄρος ἐστὶν ἐν τῇ Ἀραβίᾳ· συνστοιχεῖ δὲ τῇ νῦν Ἱερουσαλήμ, δουλεύει γὰρ μετὰ τῶν τέκνων αὐτῆς. ἡ δὲ ἄνω Ἱερουσαλὴμ ἐλευθέρα ἐστίν, ἥτις ἐστὶν μήτηρ ἡμῶν·</p>
+   </sentence>
+   <sentence>
+      <p>
+         <milestone>Gal.4.24</milestone>μία μὲν ἀπὸ ὄρους Σινᾶ, εἰς δουλείαν γεννῶσα, ἥτις ἐστὶν Ἄγαρ, τὸ δὲ Ἄγαρ Σινᾶ ὄρος ἐστὶν ἐν τῇ Ἀραβίᾳ· συνστοιχεῖ δὲ τῇ νῦν Ἱερουσαλήμ, δουλεύει γὰρ μετὰ τῶν τέκνων αὐτῆς. ἡ δὲ ἄνω Ἱερουσαλὴμ ἐλευθέρα ἐστίν, ἥτις ἐστὶν μήτηρ ἡμῶν·</p>
       <wg class="cl" n="480040240100410">
          <w class="conj"
             osisId="Gal.4.24!10"
@@ -18785,7 +18780,6 @@
                normalized="δέ"
                strong="1161"
                discontinuous="true">δὲ</w>
-            <milestone unit="verse" n="Gal.4.25">25</milestone>
             <wg class="cl" n="480040250010190">
                <wg class="cl" n="480040250010130" head="true">
                   <wg class="cl" n="480040250010080" head="true">
@@ -19034,7 +19028,6 @@
             normalized="δέ"
             strong="1161"
             discontinuous="true">δὲ</w>
-         <milestone unit="verse" n="Gal.4.26">26</milestone>
          <wg class="cl" n="480040260010090">
             <wg class="cl" n="480040260010050" head="true">
                <wg role="s"
@@ -19148,9 +19141,10 @@
             </wg>
          </wg>
       </wg>
-   </wg>
-   <wg class="sentence">
-      <p>γέγραπται γάρ Εὐφράνθητι, στεῖρα ἡ οὐ τίκτουσα, ῥῆξον καὶ βόησον, ἡ οὐκ ὠδίνουσα· ὅτι πολλὰ τὰ τέκνα τῆς ἐρήμου μᾶλλον ἢ τῆς ἐχούσης τὸν ἄνδρα.</p>
+   </sentence>
+   <sentence>
+      <p>
+         <milestone>Gal.4.27</milestone>γέγραπται γάρ Εὐφράνθητι, στεῖρα ἡ οὐ τίκτουσα, ῥῆξον καὶ βόησον, ἡ οὐκ ὠδίνουσα· ὅτι πολλὰ τὰ τέκνα τῆς ἐρήμου μᾶλλον ἢ τῆς ἐχούσης τὸν ἄνδρα.</p>
       <wg class="cl" n="480040270020250">
          <w class="conj"
             osisId="Gal.4.27!2"
@@ -19159,7 +19153,6 @@
             normalized="γάρ"
             strong="1063"
             discontinuous="true">γάρ</w>
-         <milestone unit="verse" n="Gal.4.27">27</milestone>
          <wg class="cl" n="480040270010240">
             <wg class="cl" n="480040270010013" head="true">
                <wg role="v" class="vp" n="480040270010011" head="true">
@@ -19480,9 +19473,10 @@
             </wg>
          </wg>
       </wg>
-   </wg>
-   <wg class="sentence">
-      <p>ὑμεῖς δέ, ἀδελφοί, κατὰ Ἰσαὰκ ἐπαγγελίας τέκνα ἐστέ.</p>
+   </sentence>
+   <sentence>
+      <p>
+         <milestone>Gal.4.28</milestone>ὑμεῖς δέ, ἀδελφοί, κατὰ Ἰσαὰκ ἐπαγγελίας τέκνα ἐστέ.</p>
       <wg class="cl" n="480040280020080">
          <w class="conj"
             osisId="Gal.4.28!2"
@@ -19504,7 +19498,6 @@
                   case="vocative"
                   discontinuous="true">ἀδελφοί,</w>
             </wg>
-            <milestone unit="verse" n="Gal.4.28">28</milestone>
             <wg class="cl" n="480040280010060" head="true">
                <wg role="s" class="np" n="480040280010011">
                   <w class="pron"
@@ -19575,10 +19568,10 @@
             </wg>
          </wg>
       </wg>
-   </wg>
-   <milestone unit="verse" n="Gal.4.29">29</milestone>
-   <wg class="sentence">
-      <p>ἀλλ’ ὥσπερ τότε ὁ κατὰ σάρκα γεννηθεὶς ἐδίωκεν τὸν κατὰ Πνεῦμα, οὕτως καὶ νῦν.</p>
+   </sentence>
+   <sentence>
+      <p>
+         <milestone>Gal.4.29</milestone>ἀλλ’ ὥσπερ τότε ὁ κατὰ σάρκα γεννηθεὶς ἐδίωκεν τὸν κατὰ Πνεῦμα, οὕτως καὶ νῦν.</p>
       <wg class="cl" n="480040290010140">
          <w class="conj"
             osisId="Gal.4.29!1"
@@ -19731,10 +19724,10 @@
             </wg>
          </wg>
       </wg>
-   </wg>
-   <milestone unit="verse" n="Gal.4.30">30</milestone>
-   <wg class="sentence">
-      <p>ἀλλὰ τί λέγει ἡ γραφή; Ἔκβαλε τὴν παιδίσκην καὶ τὸν υἱὸν αὐτῆς· οὐ γὰρ μὴ κληρονομήσει ὁ υἱὸς τῆς παιδίσκης μετὰ τοῦ υἱοῦ τῆς ἐλευθέρας.</p>
+   </sentence>
+   <sentence>
+      <p>
+         <milestone>Gal.4.30</milestone>ἀλλὰ τί λέγει ἡ γραφή; Ἔκβαλε τὴν παιδίσκην καὶ τὸν υἱὸν αὐτῆς· οὐ γὰρ μὴ κληρονομήσει ὁ υἱὸς τῆς παιδίσκης μετὰ τοῦ υἱοῦ τῆς ἐλευθέρας.</p>
       <wg class="cl" n="480040300010250">
          <w class="conj"
             osisId="Gal.4.30!1"
@@ -20040,10 +20033,10 @@
             </wg>
          </wg>
       </wg>
-   </wg>
-   <milestone unit="verse" n="Gal.4.31">31</milestone>
-   <wg class="sentence">
-      <p>διό, ἀδελφοί, οὐκ ἐσμὲν παιδίσκης τέκνα ἀλλὰ τῆς ἐλευθέρας.</p>
+   </sentence>
+   <sentence>
+      <p>
+         <milestone>Gal.4.31</milestone>διό, ἀδελφοί, οὐκ ἐσμὲν παιδίσκης τέκνα ἀλλὰ τῆς ἐλευθέρας.</p>
       <wg class="cl" n="480040310010090" articular="true" det="true">
          <w class="conj"
             osisId="Gal.4.31!1"
@@ -20153,11 +20146,10 @@
             </wg>
          </wg>
       </wg>
-   </wg>
-   <milestone unit="chapter" n="Gal.5">Gal 5</milestone>
-   <milestone unit="verse" n="Gal.5.1">1</milestone>
-   <wg class="sentence">
-      <p>Τῇ ἐλευθερίᾳ ἡμᾶς Χριστὸς ἠλευθέρωσεν·</p>
+   </sentence>
+   <sentence>
+      <p>
+         <milestone>Gal.5.1</milestone>Τῇ ἐλευθερίᾳ ἡμᾶς Χριστὸς ἠλευθέρωσεν·</p>
       <wg class="cl" n="480050010010050">
          <wg role="adv"
              class="np"
@@ -20223,9 +20215,10 @@
                head="true">ἠλευθέρωσεν·</w>
          </wg>
       </wg>
-   </wg>
-   <wg class="sentence">
-      <p>στήκετε οὖν καὶ μὴ πάλιν ζυγῷ δουλείας ἐνέχεσθε.</p>
+   </sentence>
+   <sentence>
+      <p>
+         <milestone>Gal.5.1</milestone>στήκετε οὖν καὶ μὴ πάλιν ζυγῷ δουλείας ἐνέχεσθε.</p>
       <wg class="cl" n="480050010070080">
          <w class="conj"
             osisId="Gal.5.1!7"
@@ -20314,10 +20307,10 @@
             </wg>
          </wg>
       </wg>
-   </wg>
-   <milestone unit="verse" n="Gal.5.2">2</milestone>
-   <wg class="sentence">
-      <p>Ἴδε ἐγὼ Παῦλος λέγω ὑμῖν ὅτι ἐὰν περιτέμνησθε Χριστὸς ὑμᾶς οὐδὲν ὠφελήσει.</p>
+   </sentence>
+   <sentence>
+      <p>
+         <milestone>Gal.5.2</milestone>Ἴδε ἐγὼ Παῦλος λέγω ὑμῖν ὅτι ἐὰν περιτέμνησθε Χριστὸς ὑμᾶς οὐδὲν ὠφελήσει.</p>
       <wg class="cl" n="480050020010120">
          <wg class="cl" n="480050020010013">
             <wg role="v" class="vp" n="480050020010011">
@@ -20469,9 +20462,10 @@
             </wg>
          </wg>
       </wg>
-   </wg>
-   <wg class="sentence">
-      <p>μαρτύρομαι δὲ πάλιν παντὶ ἀνθρώπῳ περιτεμνομένῳ ὅτι ὀφειλέτης ἐστὶν ὅλον τὸν νόμον ποιῆσαι.</p>
+   </sentence>
+   <sentence>
+      <p>
+         <milestone>Gal.5.3</milestone>μαρτύρομαι δὲ πάλιν παντὶ ἀνθρώπῳ περιτεμνομένῳ ὅτι ὀφειλέτης ἐστὶν ὅλον τὸν νόμον ποιῆσαι.</p>
       <wg class="cl" n="480050030020130">
          <w class="conj"
             osisId="Gal.5.3!2"
@@ -20480,7 +20474,6 @@
             normalized="δέ"
             strong="1161"
             discontinuous="true">δὲ</w>
-         <milestone unit="verse" n="Gal.5.3">3</milestone>
          <wg class="cl" n="480050030010120">
             <wg class="cl" n="480050030010050" head="true">
                <wg role="v" class="vp" n="480050030010011" head="true">
@@ -20643,10 +20636,10 @@
             </wg>
          </wg>
       </wg>
-   </wg>
-   <milestone unit="verse" n="Gal.5.4">4</milestone>
-   <wg class="sentence">
-      <p>κατηργήθητε ἀπὸ Χριστοῦ οἵτινες ἐν νόμῳ δικαιοῦσθε, τῆς χάριτος ἐξεπέσατε.</p>
+   </sentence>
+   <sentence>
+      <p>
+         <milestone>Gal.5.4</milestone>κατηργήθητε ἀπὸ Χριστοῦ οἵτινες ἐν νόμῳ δικαιοῦσθε, τῆς χάριτος ἐξεπέσατε.</p>
       <wg class="cl" n="480050040010100">
          <wg class="cl" n="480050040010070" head="true">
             <wg role="v" class="vp" n="480050040010011" head="true">
@@ -20775,9 +20768,10 @@
             </wg>
          </wg>
       </wg>
-   </wg>
-   <wg class="sentence">
-      <p>ἡμεῖς γὰρ Πνεύματι ἐκ πίστεως ἐλπίδα δικαιοσύνης ἀπεκδεχόμεθα.</p>
+   </sentence>
+   <sentence>
+      <p>
+         <milestone>Gal.5.5</milestone>ἡμεῖς γὰρ Πνεύματι ἐκ πίστεως ἐλπίδα δικαιοσύνης ἀπεκδεχόμεθα.</p>
       <wg class="cl" n="480050050020080">
          <w class="conj"
             osisId="Gal.5.5!2"
@@ -20786,7 +20780,6 @@
             normalized="γάρ"
             strong="1063"
             discontinuous="true">γὰρ</w>
-         <milestone unit="verse" n="Gal.5.5">5</milestone>
          <wg class="cl" n="480050050010070">
             <wg role="s" class="np" n="480050050010011">
                <w class="pron"
@@ -20869,9 +20862,10 @@
             </wg>
          </wg>
       </wg>
-   </wg>
-   <wg class="sentence">
-      <p>ἐν γὰρ Χριστῷ Ἰησοῦ οὔτε περιτομή τι ἰσχύει οὔτε ἀκροβυστία, ἀλλὰ πίστις δι’ ἀγάπης ἐνεργουμένη.</p>
+   </sentence>
+   <sentence>
+      <p>
+         <milestone>Gal.5.6</milestone>ἐν γὰρ Χριστῷ Ἰησοῦ οὔτε περιτομή τι ἰσχύει οὔτε ἀκροβυστία, ἀλλὰ πίστις δι’ ἀγάπης ἐνεργουμένη.</p>
       <wg class="cl" n="480050060020150">
          <w class="conj"
             osisId="Gal.5.6!2"
@@ -20880,7 +20874,6 @@
             normalized="γάρ"
             strong="1063"
             discontinuous="true">γὰρ</w>
-         <milestone unit="verse" n="Gal.5.6">6</milestone>
          <wg class="cl" n="480050060010140">
             <wg role="adv" class="pp" n="480050060010030">
                <w class="prep"
@@ -21043,10 +21036,10 @@
             </wg>
          </wg>
       </wg>
-   </wg>
-   <milestone unit="verse" n="Gal.5.7">7</milestone>
-   <wg class="sentence">
-      <p>Ἐτρέχετε καλῶς·</p>
+   </sentence>
+   <sentence>
+      <p>
+         <milestone>Gal.5.7</milestone>Ἐτρέχετε καλῶς·</p>
       <wg class="cl" n="480050070010020">
          <wg role="v" class="vp" n="480050070010011" head="true">
             <w class="verb"
@@ -21071,9 +21064,10 @@
                strong="2573">καλῶς·</w>
          </wg>
       </wg>
-   </wg>
-   <wg class="sentence">
-      <p>τίς ὑμᾶς ἐνέκοψεν ἀληθείᾳ μὴ πείθεσθαι;</p>
+   </sentence>
+   <sentence>
+      <p>
+         <milestone>Gal.5.7</milestone>τίς ὑμᾶς ἐνέκοψεν ἀληθείᾳ μὴ πείθεσθαι;</p>
       <wg class="cl" n="480050070030060">
          <wg role="s" class="np" n="480050070030011">
             <w class="pron"
@@ -21149,10 +21143,10 @@
             </wg>
          </wg>
       </wg>
-   </wg>
-   <milestone unit="verse" n="Gal.5.8">8</milestone>
-   <wg class="sentence">
-      <p>ἡ πεισμονὴ οὐκ ἐκ τοῦ καλοῦντος ὑμᾶς.</p>
+   </sentence>
+   <sentence>
+      <p>
+         <milestone>Gal.5.8</milestone>ἡ πεισμονὴ οὐκ ἐκ τοῦ καλοῦντος ὑμᾶς.</p>
       <wg class="cl" n="480050080010070" articular="true" det="true">
          <wg role="s"
              class="np"
@@ -21246,10 +21240,10 @@
             </wg>
          </wg>
       </wg>
-   </wg>
-   <milestone unit="verse" n="Gal.5.9">9</milestone>
-   <wg class="sentence">
-      <p>μικρὰ ζύμη ὅλον τὸ φύραμα ζυμοῖ.</p>
+   </sentence>
+   <sentence>
+      <p>
+         <milestone>Gal.5.9</milestone>μικρὰ ζύμη ὅλον τὸ φύραμα ζυμοῖ.</p>
       <wg class="cl" n="480050090010060">
          <wg role="s" class="np" n="480050090010020">
             <w class="adj"
@@ -21329,10 +21323,10 @@
                head="true">ζυμοῖ.</w>
          </wg>
       </wg>
-   </wg>
-   <milestone unit="verse" n="Gal.5.10">10</milestone>
-   <wg class="sentence">
-      <p>ἐγὼ πέποιθα εἰς ὑμᾶς ἐν Κυρίῳ ὅτι οὐδὲν ἄλλο φρονήσετε·</p>
+   </sentence>
+   <sentence>
+      <p>
+         <milestone>Gal.5.10</milestone>ἐγὼ πέποιθα εἰς ὑμᾶς ἐν Κυρίῳ ὅτι οὐδὲν ἄλλο φρονήσετε·</p>
       <wg class="cl" n="480050100010100">
          <wg class="cl" n="480050100010060" head="true">
             <wg role="s" class="np" n="480050100010011">
@@ -21446,9 +21440,10 @@
             </wg>
          </wg>
       </wg>
-   </wg>
-   <wg class="sentence">
-      <p>ὁ δὲ ταράσσων ὑμᾶς βαστάσει τὸ κρίμα, ὅστις ἐὰν ᾖ.</p>
+   </sentence>
+   <sentence>
+      <p>
+         <milestone>Gal.5.10</milestone>ὁ δὲ ταράσσων ὑμᾶς βαστάσει τὸ κρίμα, ὅστις ἐὰν ᾖ.</p>
       <wg class="cl" n="480050100120100">
          <w class="conj"
             osisId="Gal.5.10!12"
@@ -21583,9 +21578,10 @@
             </wg>
          </wg>
       </wg>
-   </wg>
-   <wg class="sentence">
-      <p>Ἐγὼ δέ, ἀδελφοί, εἰ περιτομὴν ἔτι κηρύσσω, τί ἔτι διώκομαι;</p>
+   </sentence>
+   <sentence>
+      <p>
+         <milestone>Gal.5.11</milestone>Ἐγὼ δέ, ἀδελφοί, εἰ περιτομὴν ἔτι κηρύσσω, τί ἔτι διώκομαι;</p>
       <wg class="cl" n="480050110020100">
          <w class="conj"
             osisId="Gal.5.11!2"
@@ -21615,7 +21611,6 @@
                      normalized="εἰ"
                      strong="1487"
                      discontinuous="true">εἰ</w>
-                  <milestone unit="verse" n="Gal.5.11">11</milestone>
                   <wg class="cl" n="480050110010040">
                      <wg role="s" class="np" n="480050110010011">
                         <w class="pron"
@@ -21703,9 +21698,10 @@
             </wg>
          </wg>
       </wg>
-   </wg>
-   <wg class="sentence">
-      <p>ἄρα κατήργηται τὸ σκάνδαλον τοῦ σταυροῦ.</p>
+   </sentence>
+   <sentence>
+      <p>
+         <milestone>Gal.5.11</milestone>ἄρα κατήργηται τὸ σκάνδαλον τοῦ σταυροῦ.</p>
       <wg class="cl" n="480050110110060">
          <w class="conj"
             osisId="Gal.5.11!11"
@@ -21780,10 +21776,10 @@
             </wg>
          </wg>
       </wg>
-   </wg>
-   <milestone unit="verse" n="Gal.5.12">12</milestone>
-   <wg class="sentence">
-      <p>Ὄφελον καὶ ἀποκόψονται οἱ ἀναστατοῦντες ὑμᾶς.</p>
+   </sentence>
+   <sentence>
+      <p>
+         <milestone>Gal.5.12</milestone>Ὄφελον καὶ ἀποκόψονται οἱ ἀναστατοῦντες ὑμᾶς.</p>
       <wg class="cl" n="480050120010060">
          <wg class="cl" n="480050120010013" head="true">
             <wg role="v" class="vp" n="480050120010011" head="true">
@@ -21870,9 +21866,10 @@
             </wg>
          </wg>
       </wg>
-   </wg>
-   <wg class="sentence">
-      <p>Ὑμεῖς γὰρ ἐπ’ ἐλευθερίᾳ ἐκλήθητε, ἀδελφοί·</p>
+   </sentence>
+   <sentence>
+      <p>
+         <milestone>Gal.5.13</milestone>Ὑμεῖς γὰρ ἐπ’ ἐλευθερίᾳ ἐκλήθητε, ἀδελφοί·</p>
       <wg class="cl" n="480050130020060">
          <w class="conj"
             osisId="Gal.5.13!2"
@@ -21881,7 +21878,6 @@
             normalized="γάρ"
             strong="1063"
             discontinuous="true">γὰρ</w>
-         <milestone unit="verse" n="Gal.5.13">13</milestone>
          <wg class="cl" n="480050130010050">
             <wg class="cl" n="480050130010040" head="true">
                <wg role="s" class="np" n="480050130010011">
@@ -21943,9 +21939,10 @@
             </wg>
          </wg>
       </wg>
-   </wg>
-   <wg class="sentence">
-      <p>μόνον μὴ τὴν ἐλευθερίαν εἰς ἀφορμὴν τῇ σαρκί, ἀλλὰ διὰ τῆς ἀγάπης δουλεύετε ἀλλήλοις.</p>
+   </sentence>
+   <sentence>
+      <p>
+         <milestone>Gal.5.13</milestone>μόνον μὴ τὴν ἐλευθερίαν εἰς ἀφορμὴν τῇ σαρκί, ἀλλὰ διὰ τῆς ἀγάπης δουλεύετε ἀλλήλοις.</p>
       <wg class="cl" n="480050130070140">
          <wg class="advp" n="480050130070020">
             <w class="adj"
@@ -22112,9 +22109,10 @@
             </wg>
          </wg>
       </wg>
-   </wg>
-   <wg class="sentence">
-      <p>ὁ γὰρ πᾶς νόμος ἐν ἑνὶ λόγῳ πεπλήρωται, ἐν τῷ Ἀγαπήσεις τὸν πλησίον σου ὡς σεαυτόν.</p>
+   </sentence>
+   <sentence>
+      <p>
+         <milestone>Gal.5.14</milestone>ὁ γὰρ πᾶς νόμος ἐν ἑνὶ λόγῳ πεπλήρωται, ἐν τῷ Ἀγαπήσεις τὸν πλησίον σου ὡς σεαυτόν.</p>
       <wg class="cl" n="480050140020160">
          <w class="conj"
             osisId="Gal.5.14!2"
@@ -22123,7 +22121,6 @@
             normalized="γάρ"
             strong="1063"
             discontinuous="true">γὰρ</w>
-         <milestone unit="verse" n="Gal.5.14">14</milestone>
          <wg class="cl" n="480050140010150">
             <wg role="s"
                 class="np"
@@ -22306,9 +22303,10 @@
             </wg>
          </wg>
       </wg>
-   </wg>
-   <wg class="sentence">
-      <p>εἰ δὲ ἀλλήλους δάκνετε καὶ κατεσθίετε, βλέπετε μὴ ὑπ’ ἀλλήλων ἀναλωθῆτε.</p>
+   </sentence>
+   <sentence>
+      <p>
+         <milestone>Gal.5.15</milestone>εἰ δὲ ἀλλήλους δάκνετε καὶ κατεσθίετε, βλέπετε μὴ ὑπ’ ἀλλήλων ἀναλωθῆτε.</p>
       <wg class="cl" n="480050150020110">
          <w class="conj"
             osisId="Gal.5.15!2"
@@ -22317,7 +22315,6 @@
             normalized="δέ"
             strong="1161"
             discontinuous="true">δὲ</w>
-         <milestone unit="verse" n="Gal.5.15">15</milestone>
          <wg class="cl" n="480050150010100">
             <wg class="cl" n="480050150010050">
                <w class="conj"
@@ -22435,9 +22432,10 @@
             </wg>
          </wg>
       </wg>
-   </wg>
-   <wg class="sentence">
-      <p>Λέγω δέ, Πνεύματι περιπατεῖτε καὶ ἐπιθυμίαν σαρκὸς οὐ μὴ τελέσητε.</p>
+   </sentence>
+   <sentence>
+      <p>
+         <milestone>Gal.5.16</milestone>Λέγω δέ, Πνεύματι περιπατεῖτε καὶ ἐπιθυμίαν σαρκὸς οὐ μὴ τελέσητε.</p>
       <wg class="cl" n="480050160020100">
          <w class="conj"
             osisId="Gal.5.16!2"
@@ -22446,7 +22444,6 @@
             normalized="δέ"
             strong="1161"
             discontinuous="true">δέ,</w>
-         <milestone unit="verse" n="Gal.5.16">16</milestone>
          <wg class="cl" n="480050160010090">
             <wg class="cl" n="480050160010013" head="true">
                <wg role="v" class="vp" n="480050160010011" head="true">
@@ -22556,9 +22553,10 @@
             </wg>
          </wg>
       </wg>
-   </wg>
-   <wg class="sentence">
-      <p>ἡ γὰρ σὰρξ ἐπιθυμεῖ κατὰ τοῦ Πνεύματος, τὸ δὲ Πνεῦμα κατὰ τῆς σαρκός,</p>
+   </sentence>
+   <sentence>
+      <p>
+         <milestone>Gal.5.17</milestone>ἡ γὰρ σὰρξ ἐπιθυμεῖ κατὰ τοῦ Πνεύματος, τὸ δὲ Πνεῦμα κατὰ τῆς σαρκός,</p>
       <wg class="cl" n="480050170020130">
          <w class="conj"
             osisId="Gal.5.17!2"
@@ -22567,7 +22565,6 @@
             normalized="γάρ"
             strong="1063"
             discontinuous="true">γὰρ</w>
-         <milestone unit="verse" n="Gal.5.17">17</milestone>
          <wg class="cl" n="480050170010120">
             <wg class="cl" n="480050170010060" head="true">
                <wg role="s"
@@ -22725,9 +22722,10 @@
             </wg>
          </wg>
       </wg>
-   </wg>
-   <wg class="sentence">
-      <p>ταῦτα γὰρ ἀλλήλοις ἀντίκειται, ἵνα μὴ ἃ ἐὰν θέλητε ταῦτα ποιῆτε.</p>
+   </sentence>
+   <sentence>
+      <p>
+         <milestone>Gal.5.17</milestone>ταῦτα γὰρ ἀλλήλοις ἀντίκειται, ἵνα μὴ ἃ ἐὰν θέλητε ταῦτα ποιῆτε.</p>
       <wg class="cl" n="480050170150110">
          <w class="conj"
             osisId="Gal.5.17!15"
@@ -22862,9 +22860,10 @@
             </wg>
          </wg>
       </wg>
-   </wg>
-   <wg class="sentence">
-      <p>εἰ δὲ Πνεύματι ἄγεσθε, οὐκ ἐστὲ ὑπὸ νόμον.</p>
+   </sentence>
+   <sentence>
+      <p>
+         <milestone>Gal.5.18</milestone>εἰ δὲ Πνεύματι ἄγεσθε, οὐκ ἐστὲ ὑπὸ νόμον.</p>
       <wg class="cl" n="480050180020080">
          <w class="conj"
             osisId="Gal.5.18!2"
@@ -22873,7 +22872,6 @@
             normalized="δέ"
             strong="1161"
             discontinuous="true">δὲ</w>
-         <milestone unit="verse" n="Gal.5.18">18</milestone>
          <wg class="cl" n="480050180010070">
             <wg class="cl" n="480050180010030">
                <w class="conj"
@@ -22955,9 +22953,10 @@
             </wg>
          </wg>
       </wg>
-   </wg>
-   <wg class="sentence">
-      <p>φανερὰ δέ ἐστιν τὰ ἔργα τῆς σαρκός, ἅτινά ἐστιν πορνεία, ἀκαθαρσία, ἀσέλγεια, εἰδωλολατρεία, φαρμακεία, ἔχθραι, ἔρις, ζῆλος, θυμοί, ἐριθεῖαι, διχοστασίαι, αἱρέσεις, φθόνοι, μέθαι, κῶμοι, καὶ τὰ ὅμοια τούτοις, ἃ προλέγω ὑμῖν καθὼς προεῖπον ὅτι οἱ τὰ τοιαῦτα πράσσοντες βασιλείαν Θεοῦ οὐ κληρονομήσουσιν.</p>
+   </sentence>
+   <sentence>
+      <p>
+         <milestone>Gal.5.19</milestone>φανερὰ δέ ἐστιν τὰ ἔργα τῆς σαρκός, ἅτινά ἐστιν πορνεία, ἀκαθαρσία, ἀσέλγεια, εἰδωλολατρεία, φαρμακεία, ἔχθραι, ἔρις, ζῆλος, θυμοί, ἐριθεῖαι, διχοστασίαι, αἱρέσεις, φθόνοι, μέθαι, κῶμοι, καὶ τὰ ὅμοια τούτοις, ἃ προλέγω ὑμῖν καθὼς προεῖπον ὅτι οἱ τὰ τοιαῦτα πράσσοντες βασιλείαν Θεοῦ οὐ κληρονομήσουσιν.</p>
       <wg class="cl" n="480050190020420">
          <w class="conj"
             osisId="Gal.5.19!2"
@@ -22966,7 +22965,6 @@
             normalized="δέ"
             strong="1161"
             discontinuous="true">δέ</w>
-         <milestone unit="verse" n="Gal.5.19">19</milestone>
          <wg class="cl" n="480050190010410">
             <wg role="p" class="adjp" n="480050190010011" head="true">
                <w class="adj"
@@ -23107,7 +23105,6 @@
                            number="singular"
                            gender="feminine"
                            case="nominative">ἀσέλγεια,</w>
-                        <milestone unit="verse" n="Gal.5.20">20</milestone>
                         <w class="noun"
                            type="common"
                            osisId="Gal.5.20!1"
@@ -23198,7 +23195,6 @@
                            number="plural"
                            gender="feminine"
                            case="nominative">αἱρέσεις,</w>
-                        <milestone unit="verse" n="Gal.5.21">21</milestone>
                         <w class="noun"
                            type="common"
                            osisId="Gal.5.21!1"
@@ -23455,9 +23451,10 @@
             </wg>
          </wg>
       </wg>
-   </wg>
-   <wg class="sentence">
-      <p>ὁ δὲ καρπὸς τοῦ Πνεύματός ἐστιν ἀγάπη, χαρά, εἰρήνη, μακροθυμία, χρηστότης, ἀγαθωσύνη, πίστις, πραΰτης, ἐγκράτεια· κατὰ τῶν τοιούτων οὐκ ἔστιν νόμος.</p>
+   </sentence>
+   <sentence>
+      <p>
+         <milestone>Gal.5.22</milestone>ὁ δὲ καρπὸς τοῦ Πνεύματός ἐστιν ἀγάπη, χαρά, εἰρήνη, μακροθυμία, χρηστότης, ἀγαθωσύνη, πίστις, πραΰτης, ἐγκράτεια· κατὰ τῶν τοιούτων οὐκ ἔστιν νόμος.</p>
       <wg class="cl" n="480050220020210">
          <wg class="cl" n="480050220020150" head="true">
             <w class="conj"
@@ -23467,7 +23464,6 @@
                normalized="δέ"
                strong="1161"
                discontinuous="true">δὲ</w>
-            <milestone unit="verse" n="Gal.5.22">22</milestone>
             <wg class="cl" n="480050220010140">
                <wg role="s"
                    class="np"
@@ -23604,7 +23600,6 @@
                      number="singular"
                      gender="feminine"
                      case="nominative">πίστις,</w>
-                  <milestone unit="verse" n="Gal.5.23">23</milestone>
                   <w class="noun"
                      type="common"
                      osisId="Gal.5.23!1"
@@ -23703,9 +23698,10 @@
             </wg>
          </wg>
       </wg>
-   </wg>
-   <wg class="sentence">
-      <p>οἱ δὲ τοῦ Χριστοῦ Ἰησοῦ τὴν σάρκα ἐσταύρωσαν σὺν τοῖς παθήμασιν καὶ ταῖς ἐπιθυμίαις.</p>
+   </sentence>
+   <sentence>
+      <p>
+         <milestone>Gal.5.24</milestone>οἱ δὲ τοῦ Χριστοῦ Ἰησοῦ τὴν σάρκα ἐσταύρωσαν σὺν τοῖς παθήμασιν καὶ ταῖς ἐπιθυμίαις.</p>
       <wg class="cl" n="480050240020140">
          <w class="conj"
             osisId="Gal.5.24!2"
@@ -23714,7 +23710,6 @@
             normalized="δέ"
             strong="1161"
             discontinuous="true">δὲ</w>
-         <milestone unit="verse" n="Gal.5.24">24</milestone>
          <wg class="cl" n="480050240010130">
             <wg role="s" class="np" n="480050240010040">
                <w class="det"
@@ -23876,10 +23871,10 @@
             </wg>
          </wg>
       </wg>
-   </wg>
-   <milestone unit="verse" n="Gal.5.25">25</milestone>
-   <wg class="sentence">
-      <p>Εἰ ζῶμεν Πνεύματι, Πνεύματι καὶ στοιχῶμεν.</p>
+   </sentence>
+   <sentence>
+      <p>
+         <milestone>Gal.5.25</milestone>Εἰ ζῶμεν Πνεύματι, Πνεύματι καὶ στοιχῶμεν.</p>
       <wg class="cl" n="480050250010060">
          <wg class="cl" n="480050250010030">
             <w class="conj"
@@ -23954,10 +23949,10 @@
             </wg>
          </wg>
       </wg>
-   </wg>
-   <milestone unit="verse" n="Gal.5.26">26</milestone>
-   <wg class="sentence">
-      <p>μὴ γινώμεθα κενόδοξοι, ἀλλήλους προκαλούμενοι, ἀλλήλοις φθονοῦντες.</p>
+   </sentence>
+   <sentence>
+      <p>
+         <milestone>Gal.5.26</milestone>μὴ γινώμεθα κενόδοξοι, ἀλλήλους προκαλούμενοι, ἀλλήλοις φθονοῦντες.</p>
       <wg class="cl" n="480050260010070">
          <wg role="adv" class="advp" n="480050260010011">
             <w class="adv"
@@ -24053,11 +24048,10 @@
             </wg>
          </wg>
       </wg>
-   </wg>
-   <milestone unit="chapter" n="Gal.6">Gal 6</milestone>
-   <milestone unit="verse" n="Gal.6.1">1</milestone>
-   <wg class="sentence">
-      <p>Ἀδελφοί, ἐὰν καὶ προλημφθῇ ἄνθρωπος ἔν τινι παραπτώματι, ὑμεῖς οἱ πνευματικοὶ καταρτίζετε τὸν τοιοῦτον ἐν πνεύματι πραΰτητος, σκοπῶν σεαυτόν, μὴ καὶ σὺ πειρασθῇς.</p>
+   </sentence>
+   <sentence>
+      <p>
+         <milestone>Gal.6.1</milestone>Ἀδελφοί, ἐὰν καὶ προλημφθῇ ἄνθρωπος ἔν τινι παραπτώματι, ὑμεῖς οἱ πνευματικοὶ καταρτίζετε τὸν τοιοῦτον ἐν πνεύματι πραΰτητος, σκοπῶν σεαυτόν, μὴ καὶ σὺ πειρασθῇς.</p>
       <wg class="cl" n="480060010010230">
          <wg class="cl" n="480060010010012">
             <w class="noun"
@@ -24331,10 +24325,10 @@
             </wg>
          </wg>
       </wg>
-   </wg>
-   <milestone unit="verse" n="Gal.6.2">2</milestone>
-   <wg class="sentence">
-      <p>Ἀλλήλων τὰ βάρη βαστάζετε, καὶ οὕτως ἀναπληρώσετε τὸν νόμον τοῦ Χριστοῦ.</p>
+   </sentence>
+   <sentence>
+      <p>
+         <milestone>Gal.6.2</milestone>Ἀλλήλων τὰ βάρη βαστάζετε, καὶ οὕτως ἀναπληρώσετε τὸν νόμον τοῦ Χριστοῦ.</p>
       <wg class="cl" n="480060020010110">
          <wg class="cl" n="480060020010040" head="true">
             <wg role="o"
@@ -24475,9 +24469,10 @@
             </wg>
          </wg>
       </wg>
-   </wg>
-   <wg class="sentence">
-      <p>εἰ γὰρ δοκεῖ τις εἶναί τι μηδὲν ὤν, φρεναπατᾷ ἑαυτόν.</p>
+   </sentence>
+   <sentence>
+      <p>
+         <milestone>Gal.6.3</milestone>εἰ γὰρ δοκεῖ τις εἶναί τι μηδὲν ὤν, φρεναπατᾷ ἑαυτόν.</p>
       <wg class="cl" n="480060030020100">
          <w class="conj"
             osisId="Gal.6.3!2"
@@ -24486,7 +24481,6 @@
             normalized="γάρ"
             strong="1063"
             discontinuous="true">γὰρ</w>
-         <milestone unit="verse" n="Gal.6.3">3</milestone>
          <wg class="cl" n="480060030010090">
             <wg class="cl" n="480060030010070">
                <w class="conj"
@@ -24610,9 +24604,10 @@
             </wg>
          </wg>
       </wg>
-   </wg>
-   <wg class="sentence">
-      <p>τὸ δὲ ἔργον ἑαυτοῦ δοκιμαζέτω ἕκαστος, καὶ τότε εἰς ἑαυτὸν μόνον τὸ καύχημα ἕξει καὶ οὐκ εἰς τὸν ἕτερον·</p>
+   </sentence>
+   <sentence>
+      <p>
+         <milestone>Gal.6.4</milestone>τὸ δὲ ἔργον ἑαυτοῦ δοκιμαζέτω ἕκαστος, καὶ τότε εἰς ἑαυτὸν μόνον τὸ καύχημα ἕξει καὶ οὐκ εἰς τὸν ἕτερον·</p>
       <wg class="cl" n="480060040020190">
          <w class="conj"
             osisId="Gal.6.4!2"
@@ -24621,7 +24616,6 @@
             normalized="δέ"
             strong="1161"
             discontinuous="true">δὲ</w>
-         <milestone unit="verse" n="Gal.6.4">4</milestone>
          <wg class="cl" n="480060040010180">
             <wg class="cl" n="480060040010050" head="true">
                <wg role="o"
@@ -24832,9 +24826,10 @@
             </wg>
          </wg>
       </wg>
-   </wg>
-   <wg class="sentence">
-      <p>ἕκαστος γὰρ τὸ ἴδιον φορτίον βαστάσει.</p>
+   </sentence>
+   <sentence>
+      <p>
+         <milestone>Gal.6.5</milestone>ἕκαστος γὰρ τὸ ἴδιον φορτίον βαστάσει.</p>
       <wg class="cl" n="480060050020060">
          <w class="conj"
             osisId="Gal.6.5!2"
@@ -24843,7 +24838,6 @@
             normalized="γάρ"
             strong="1063"
             discontinuous="true">γὰρ</w>
-         <milestone unit="verse" n="Gal.6.5">5</milestone>
          <wg class="cl" n="480060050010050">
             <wg role="s" class="np" n="480060050010012">
                <w class="adj"
@@ -24909,9 +24903,10 @@
             </wg>
          </wg>
       </wg>
-   </wg>
-   <wg class="sentence">
-      <p>Κοινωνείτω δὲ ὁ κατηχούμενος τὸν λόγον τῷ κατηχοῦντι ἐν πᾶσιν ἀγαθοῖς.</p>
+   </sentence>
+   <sentence>
+      <p>
+         <milestone>Gal.6.6</milestone>Κοινωνείτω δὲ ὁ κατηχούμενος τὸν λόγον τῷ κατηχοῦντι ἐν πᾶσιν ἀγαθοῖς.</p>
       <wg class="cl" n="480060060020110">
          <w class="conj"
             osisId="Gal.6.6!2"
@@ -24920,7 +24915,6 @@
             normalized="δέ"
             strong="1161"
             discontinuous="true">δὲ</w>
-         <milestone unit="verse" n="Gal.6.6">6</milestone>
          <wg class="cl" n="480060060010100">
             <wg role="v" class="vp" n="480060060010011" head="true">
                <w class="verb"
@@ -25061,10 +25055,10 @@
             </wg>
          </wg>
       </wg>
-   </wg>
-   <milestone unit="verse" n="Gal.6.7">7</milestone>
-   <wg class="sentence">
-      <p>Μὴ πλανᾶσθε, Θεὸς οὐ μυκτηρίζεται.</p>
+   </sentence>
+   <sentence>
+      <p>
+         <milestone>Gal.6.7</milestone>Μὴ πλανᾶσθε, Θεὸς οὐ μυκτηρίζεται.</p>
       <wg class="cl" n="480060070010050">
          <wg class="cl" n="480060070010020" head="true">
             <wg role="adv" class="advp" n="480060070010011">
@@ -25127,9 +25121,10 @@
             </wg>
          </wg>
       </wg>
-   </wg>
-   <wg class="sentence">
-      <p>ὃ γὰρ ἐὰν σπείρῃ ἄνθρωπος, τοῦτο καὶ θερίσει· ὅτι ὁ σπείρων εἰς τὴν σάρκα ἑαυτοῦ ἐκ τῆς σαρκὸς θερίσει φθοράν, ὁ δὲ σπείρων εἰς τὸ Πνεῦμα ἐκ τοῦ Πνεύματος θερίσει ζωὴν αἰώνιον.</p>
+   </sentence>
+   <sentence>
+      <p>
+         <milestone>Gal.6.7</milestone>ὃ γὰρ ἐὰν σπείρῃ ἄνθρωπος, τοῦτο καὶ θερίσει· ὅτι ὁ σπείρων εἰς τὴν σάρκα ἑαυτοῦ ἐκ τῆς σαρκὸς θερίσει φθοράν, ὁ δὲ σπείρων εἰς τὸ Πνεῦμα ἐκ τοῦ Πνεύματος θερίσει ζωὴν αἰώνιον.</p>
       <wg class="cl" n="480060070070320">
          <w class="conj"
             osisId="Gal.6.7!7"
@@ -25225,7 +25220,6 @@
                   </wg>
                </wg>
             </wg>
-            <milestone unit="verse" n="Gal.6.8">8</milestone>
             <wg class="cl" n="480060080010240">
                <w class="conj"
                   osisId="Gal.6.8!1"
@@ -25541,9 +25535,10 @@
             </wg>
          </wg>
       </wg>
-   </wg>
-   <wg class="sentence">
-      <p>τὸ δὲ καλὸν ποιοῦντες μὴ ἐνκακῶμεν·</p>
+   </sentence>
+   <sentence>
+      <p>
+         <milestone>Gal.6.9</milestone>τὸ δὲ καλὸν ποιοῦντες μὴ ἐνκακῶμεν·</p>
       <wg class="cl" n="480060090020060">
          <w class="conj"
             osisId="Gal.6.9!2"
@@ -25552,7 +25547,6 @@
             normalized="δέ"
             strong="1161"
             discontinuous="true">δὲ</w>
-         <milestone unit="verse" n="Gal.6.9">9</milestone>
          <wg class="cl" n="480060090010050">
             <wg role="o" class="cl" n="480060090010030">
                <wg role="o"
@@ -25621,9 +25615,10 @@
             </wg>
          </wg>
       </wg>
-   </wg>
-   <wg class="sentence">
-      <p>καιρῷ γὰρ ἰδίῳ θερίσομεν μὴ ἐκλυόμενοι.</p>
+   </sentence>
+   <sentence>
+      <p>
+         <milestone>Gal.6.9</milestone>καιρῷ γὰρ ἰδίῳ θερίσομεν μὴ ἐκλυόμενοι.</p>
       <wg class="cl" n="480060090080060">
          <w class="conj"
             osisId="Gal.6.9!8"
@@ -25697,10 +25692,10 @@
             </wg>
          </wg>
       </wg>
-   </wg>
-   <milestone unit="verse" n="Gal.6.10">10</milestone>
-   <wg class="sentence">
-      <p>Ἄρα οὖν ὡς καιρὸν ἔχωμεν, ἐργαζώμεθα τὸ ἀγαθὸν πρὸς πάντας, μάλιστα δὲ πρὸς τοὺς οἰκείους τῆς πίστεως.</p>
+   </sentence>
+   <sentence>
+      <p>
+         <milestone>Gal.6.10</milestone>Ἄρα οὖν ὡς καιρὸν ἔχωμεν, ἐργαζώμεθα τὸ ἀγαθὸν πρὸς πάντας, μάλιστα δὲ πρὸς τοὺς οἰκείους τῆς πίστεως.</p>
       <wg class="cl" n="480060100010170">
          <w class="conj"
             osisId="Gal.6.10!1"
@@ -25899,10 +25894,10 @@
             </wg>
          </wg>
       </wg>
-   </wg>
-   <milestone unit="verse" n="Gal.6.11">11</milestone>
-   <wg class="sentence">
-      <p>Ἴδετε πηλίκοις ὑμῖν γράμμασιν ἔγραψα τῇ ἐμῇ χειρί.</p>
+   </sentence>
+   <sentence>
+      <p>
+         <milestone>Gal.6.11</milestone>Ἴδετε πηλίκοις ὑμῖν γράμμασιν ἔγραψα τῇ ἐμῇ χειρί.</p>
       <wg class="cl" n="480060110010080">
          <wg class="cl" n="480060110010013" head="true">
             <wg role="v" class="vp" n="480060110010011" head="true">
@@ -26009,10 +26004,10 @@
             </wg>
          </wg>
       </wg>
-   </wg>
-   <milestone unit="verse" n="Gal.6.12">12</milestone>
-   <wg class="sentence">
-      <p>Ὅσοι θέλουσιν εὐπροσωπῆσαι ἐν σαρκί, οὗτοι ἀναγκάζουσιν ὑμᾶς περιτέμνεσθαι, μόνον ἵνα τῷ σταυρῷ τοῦ Χριστοῦ μὴ διώκωνται.</p>
+   </sentence>
+   <sentence>
+      <p>
+         <milestone>Gal.6.12</milestone>Ὅσοι θέλουσιν εὐπροσωπῆσαι ἐν σαρκί, οὗτοι ἀναγκάζουσιν ὑμᾶς περιτέμνεσθαι, μόνον ἵνα τῷ σταυρῷ τοῦ Χριστοῦ μὴ διώκωνται.</p>
       <wg class="cl" n="480060120010170">
          <wg class="cl" n="480060120010090" head="true">
             <wg class="cl" n="480060120010050">
@@ -26227,9 +26222,10 @@
             </wg>
          </wg>
       </wg>
-   </wg>
-   <wg class="sentence">
-      <p>οὐδὲ γὰρ οἱ περιτεμνόμενοι αὐτοὶ νόμον φυλάσσουσιν, ἀλλὰ θέλουσιν ὑμᾶς περιτέμνεσθαι ἵνα ἐν τῇ ὑμετέρᾳ σαρκὶ καυχήσωνται.</p>
+   </sentence>
+   <sentence>
+      <p>
+         <milestone>Gal.6.13</milestone>οὐδὲ γὰρ οἱ περιτεμνόμενοι αὐτοὶ νόμον φυλάσσουσιν, ἀλλὰ θέλουσιν ὑμᾶς περιτέμνεσθαι ἵνα ἐν τῇ ὑμετέρᾳ σαρκὶ καυχήσωνται.</p>
       <wg class="cl" n="480060130020170">
          <w class="conj"
             osisId="Gal.6.13!2"
@@ -26238,7 +26234,6 @@
             normalized="γάρ"
             strong="1063"
             discontinuous="true">γὰρ</w>
-         <milestone unit="verse" n="Gal.6.13">13</milestone>
          <wg class="cl" n="480060130010160">
             <w class="adv"
                osisId="Gal.6.13!1"
@@ -26448,9 +26443,10 @@
             </wg>
          </wg>
       </wg>
-   </wg>
-   <wg class="sentence">
-      <p>ἐμοὶ δὲ μὴ γένοιτο καυχᾶσθαι εἰ μὴ ἐν τῷ σταυρῷ τοῦ Κυρίου ἡμῶν Ἰησοῦ Χριστοῦ, δι’ οὗ ἐμοὶ κόσμος ἐσταύρωται κἀγὼ κόσμῳ.</p>
+   </sentence>
+   <sentence>
+      <p>
+         <milestone>Gal.6.14</milestone>ἐμοὶ δὲ μὴ γένοιτο καυχᾶσθαι εἰ μὴ ἐν τῷ σταυρῷ τοῦ Κυρίου ἡμῶν Ἰησοῦ Χριστοῦ, δι’ οὗ ἐμοὶ κόσμος ἐσταύρωται κἀγὼ κόσμῳ.</p>
       <wg class="cl" n="480060140020220">
          <w class="conj"
             osisId="Gal.6.14!2"
@@ -26459,7 +26455,6 @@
             normalized="δέ"
             strong="1161"
             discontinuous="true">δὲ</w>
-         <milestone unit="verse" n="Gal.6.14">14</milestone>
          <wg class="cl" n="480060140010210">
             <wg class="cl" n="480060140010140" head="true">
                <wg class="cl" n="480060140010040" head="true">
@@ -26723,9 +26718,10 @@
             </wg>
          </wg>
       </wg>
-   </wg>
-   <wg class="sentence">
-      <p>οὔτε γὰρ περιτομή τί ἐστιν οὔτε ἀκροβυστία, ἀλλὰ καινὴ κτίσις.</p>
+   </sentence>
+   <sentence>
+      <p>
+         <milestone>Gal.6.15</milestone>οὔτε γὰρ περιτομή τί ἐστιν οὔτε ἀκροβυστία, ἀλλὰ καινὴ κτίσις.</p>
       <wg class="cl" n="480060150020100">
          <w class="conj"
             osisId="Gal.6.15!2"
@@ -26761,7 +26757,6 @@
                   mood="indicative"
                   discontinuous="true">ἐστιν</w>
             </wg>
-            <milestone unit="verse" n="Gal.6.15">15</milestone>
             <wg role="s" class="np" n="480060150010070">
                <wg class="advp" n="480060150010012">
                   <w class="conj"
@@ -26831,10 +26826,10 @@
             </wg>
          </wg>
       </wg>
-   </wg>
-   <milestone unit="verse" n="Gal.6.16">16</milestone>
-   <wg class="sentence">
-      <p>καὶ ὅσοι τῷ κανόνι τούτῳ στοιχήσουσιν, εἰρήνη ἐπ’ αὐτοὺς καὶ ἔλεος, καὶ ἐπὶ τὸν Ἰσραὴλ τοῦ Θεοῦ.</p>
+   </sentence>
+   <sentence>
+      <p>
+         <milestone>Gal.6.16</milestone>καὶ ὅσοι τῷ κανόνι τούτῳ στοιχήσουσιν, εἰρήνη ἐπ’ αὐτοὺς καὶ ἔλεος, καὶ ἐπὶ τὸν Ἰσραὴλ τοῦ Θεοῦ.</p>
       <wg class="cl" n="480060160010170">
          <w class="conj"
             osisId="Gal.6.16!1"
@@ -27032,10 +27027,10 @@
             </wg>
          </wg>
       </wg>
-   </wg>
-   <milestone unit="verse" n="Gal.6.17">17</milestone>
-   <wg class="sentence">
-      <p>Τοῦ λοιποῦ κόπους μοι μηδεὶς παρεχέτω· ἐγὼ γὰρ τὰ στίγματα τοῦ Ἰησοῦ ἐν τῷ σώματί μου βαστάζω.</p>
+   </sentence>
+   <sentence>
+      <p>
+         <milestone>Gal.6.17</milestone>Τοῦ λοιποῦ κόπους μοι μηδεὶς παρεχέτω· ἐγὼ γὰρ τὰ στίγματα τοῦ Ἰησοῦ ἐν τῷ σώματί μου βαστάζω.</p>
       <wg class="cl" n="480060170010170">
          <wg class="cl" n="480060170010060" head="true">
             <wg role="adv"
@@ -27248,10 +27243,10 @@
             </wg>
          </wg>
       </wg>
-   </wg>
-   <milestone unit="verse" n="Gal.6.18">18</milestone>
-   <wg class="sentence">
-      <p>Ἠ χάρις τοῦ Κυρίου ἡμῶν Ἰησοῦ Χριστοῦ μετὰ τοῦ πνεύματος ὑμῶν, ἀδελφοί· ἀμήν.</p>
+   </sentence>
+   <sentence>
+      <p>
+         <milestone>Gal.6.18</milestone>Ἠ χάρις τοῦ Κυρίου ἡμῶν Ἰησοῦ Χριστοῦ μετὰ τοῦ πνεύματος ὑμῶν, ἀδελφοί· ἀμήν.</p>
       <wg class="cl" n="480060180010130" articular="true" det="true">
          <wg class="cl"
              n="480060180010120"
@@ -27426,5 +27421,5 @@
                strong="281">ἀμήν.</w>
          </wg>
       </wg>
-   </wg>
+   </sentence>
 </book>

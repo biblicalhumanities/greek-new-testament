@@ -17,11 +17,15 @@ wg[class=header] w {
  height: 2em;
 }
 
-book {
+milestone {
+    display: block;
+}
+
+div[class=book]  {
   margin-top: 1in;
-  margin-left: 2in;
+  margin-left: 1in;
   margin-bottom: 1in;
-  line-height: 1.5;
+  line-height: 1.2;
   background-color: white;
   opacity: 1;
 }
@@ -34,15 +38,10 @@ book {
 */
 
 
-sentence:before {
+wg[class=sentence]::before {
   margin-top: 10px;
   padding-top: 10px;
   padding-bottom: 15px;
-}
-
-sentence cite {
-  color: blue;
-  font-size: larger;
 }
 
 wg {
