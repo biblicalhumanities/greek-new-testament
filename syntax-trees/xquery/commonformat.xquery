@@ -303,7 +303,7 @@ declare function local:node-type($node as element(Node))
         case "pron"
         case "verb"
         case "intj"
-	case "adjp"
+	    case "adjp"
         case "advp"
         case "np"
         case "nump"
@@ -330,7 +330,6 @@ declare function local:node-type($node as element(Node))
 
 declare function local:node($node as element(Node))
 {
-    local:milestones($node),
     switch (local:node-type($node))
         case "word"
             return
@@ -351,24 +350,27 @@ declare function local:node($node as element(Node))
 
 declare function local:straight-text($node)
 {
-    for $n in $node//Node[local:node-type(.) = 'word'] 
+    for $n at $i in $node//Node[local:node-type(.) = 'word'] 
     order by $n/@morphId
     return string($n)
 };
 
 declare function local:sentence($node)
 {
-    local:milestones($node),
-    <wg
-        class="sentence">
+    <sentence>
         {
-            <p>{ local:straight-text($node) }</p>,
+            <p>
+              <milestone>
+                { $node/@nodeId ! local:osisId(.) ! substring-before(., "!") }
+              </milestone>
+              { local:straight-text($node) }
+             </p>,
             $node/Node ! local:node(.)
         }
-    </wg>
+    </sentence>
 };
 
-processing-instruction xml-stylesheet {'href="pruned-tree.css"'},
+processing-instruction xml-stylesheet {'href="indent-lined.css"'},
 <book>
     {
         for $sentence in //Tree/Node
