@@ -53,10 +53,19 @@ wg[role]::before {
   content: attr(role);
 }
 
+w[role=v][mood=participle]::before {
+  color: blue;
+  content: "v.part ";
+}
+
+w[role=v][mood=infinitive]::before {
+  color: blue;
+  content: "v.inf ";
+}
+
 w[role]::before {
   color: blue;
-  font-size: x-small;
-  content: attr(role);
+  content: attr(role) " ";
 }
 
 wg[role] {
@@ -64,7 +73,13 @@ wg[role] {
     margin-left: 15px;
     padding-left: 5px;
     display: block;
-    /* border-left: 1px dotted blue; */
+}
+
+w[role] {
+    position: relative;
+    margin-left: 15px;
+    padding-left: 5px;
+    display: block;
 }
 
 milestone {

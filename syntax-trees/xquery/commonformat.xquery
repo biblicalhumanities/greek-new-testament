@@ -158,20 +158,35 @@ declare function local:osisId($nodeId)
     )
 };
 
+
+declare function local:oneword($node)
+(: If the Node governs a single word, return that word. :)
+{
+     if (count($node/Node) > 1) 
+     then ()
+     else if ($node/Node)
+     then local:oneword($node/Node)  
+     else $node
+};
+
 declare function local:clause($node)
 {
-    <wg>
-        {
-            local:attributes($node),
-            $node/Node ! local:node(.)
-        }
-    </wg>
+    if (local:oneword($node))
+    then (local:word(local:oneword($node)))
+    else
+        <wg>
+            {
+                local:attributes($node),
+                $node/Node ! local:node(.)
+            }
+        </wg>
 };
+
 
 declare function local:phrase($node)
 {
-    if (count($node/Node) = 1 and local:node-type($node/Node) = "word")
-    then local:word($node/Node, $node/@role)
+    if (local:oneword($node))
+    then (local:word(local:oneword($node)))
     else
         <wg>
           {
@@ -191,27 +206,14 @@ declare function local:role($node)
 {
     let $role := attribute role {lower-case($node/@Cat)}
     return
-        if (count($node/Node) > 1)
-        then
+        if (local:oneword($node))
+        then (local:word(local:oneword($node), $role))
+        else
             <wg>
                 {
                     $role, $node/Node ! local:node(.)
                 }
             </wg>
-        else
-            let $target := ($node/Node)
-            return
-                if (local:node-type($target) = "word")
-                then
-                    local:word($target, $role)
-                else
-                    <wg>
-                        {
-                            $role,
-                            local:attributes($target),
-                            $target/Node ! local:node(.)
-                        }
-                    </wg>
 };
 
 declare function local:milestones($node)
@@ -352,7 +354,7 @@ declare function local:straight-text($node)
 {
     for $n at $i in $node//Node[local:node-type(.) = 'word'] 
     order by $n/@morphId
-    return string($n)
+    return string($n/@Unicode)
 };
 
 declare function local:sentence($node)
