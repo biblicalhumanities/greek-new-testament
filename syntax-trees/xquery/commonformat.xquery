@@ -173,7 +173,7 @@ declare function local:clause($node)
 {
     if (local:oneword($node))
     then (local:word(local:oneword($node)))
-    else
+    else 
         <wg>
             {
                 local:attributes($node),
@@ -208,12 +208,21 @@ declare function local:role($node)
     return
         if (local:oneword($node))
         then (local:word(local:oneword($node), $role))
-        else
+        else if (count($node/Node) = 1)
+        then 
             <wg>
                 {
-                    $role, $node/Node ! local:node(.)
+                    $role,
+                    $node/Node/Node ! local:node(.) 
                 }
-            </wg>
+            </wg> 
+        else 
+            <wg>
+                {
+                    $role, 
+                    $node/Node/Node ! local:node(.)
+                }
+            </wg>        
 };
 
 declare function local:milestones($node)
