@@ -142,8 +142,7 @@ declare function local:attributes($node)
     $node/@Mood[. = ('Participle', 'Infinitive')] ! attribute type { local:verbal-noun-type($node) },
     $node/@Degree ! attribute degree {lower-case(.)},
     local:head($node),
-    $node[empty(*)] ! attribute discontinuous {"true"}[$node/following::Node[empty(*)][1]/@morphId lt $node/@morphId],
-    $node/@HasDet ! attribute det {"true"}
+    $node[empty(*)] ! attribute discontinuous {"true"}[$node/following::Node[empty(*)][1]/@morphId lt $node/@morphId]
 };
 
 declare function local:osisId($nodeId)
@@ -371,8 +370,8 @@ declare function local:sentence($node)
     <sentence>
         {
             <p>
-              <milestone>
-                { $node/@nodeId ! local:osisId(.) ! substring-before(., "!") }
+              <milestone unit="verse">
+                { $node/@nodeId ! local:osisId(.) ! substring-before(., "!") ! (attribute id { . }, .)}
               </milestone>
               { local:straight-text($node) }
              </p>,
