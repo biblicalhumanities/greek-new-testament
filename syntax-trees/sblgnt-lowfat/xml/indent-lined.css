@@ -34,14 +34,15 @@ book {
   line-height: 1.5;
   margin-left: 5em;
   margin-right: 10em;
+  /* background: linen; */
 }
 
 p {
-    color: blue;
-    font-size: x-large;
+    font-size: large;
+  /*  color: grey; */
     display: block;
-    margin-top: 25px;
-    margin-bottom: 25px;
+    margin-top: 1em;
+    margin-bottom: 1em;
 }
 
 
@@ -49,23 +50,51 @@ wg[class=sentence] {
 } 
 
 wg[role]::before {
-  color: blue;
+  color: grey;
   content: attr(role);
+  size: small;
 }
 
 w[role=v][mood=participle]::before {
-  color: blue;
+  color: grey;
   content: "v.part ";
+  size: small;
 }
 
 w[role=v][mood=infinitive]::before {
-  color: blue;
+  color: grey;
   content: "v.inf ";
+  size: small;
 }
 
 w[role]::before {
-  color: blue;
+  color: grey;
   content: attr(role) " ";
+  size: small;
+}
+
+w[discontinuous]::after {
+  content: "*";
+  vertical-align: super;
+  color: grey;
+  size: x-small;
+}
+
+w[class=conj] {
+  display: block;
+}
+
+w[case=vocative]::before {
+  color: grey;
+  content: "voc ";
+  size: small;
+}
+
+w[case=vocative] {
+    position: relative;
+    margin-left: 15px;
+    padding-left: 5px;
+    display: block;  
 }
 
 wg[role] {
@@ -83,7 +112,7 @@ w[role] {
 }
 
 milestone {
-    font-size: x-small; 
+    font-size: small; 
     color: blue;
     display: block;
 }
