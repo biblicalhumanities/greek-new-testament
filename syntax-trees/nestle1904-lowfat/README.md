@@ -11,8 +11,8 @@ Bible Society 1904.
 Please report bugs by creating issues on this github directory. You can also contact us at:
 
 - Twitter: @bibhumanities
-- Email: jonathan.robie@ibiblio.org
-- Forums: biblicalhumanities.org or ibiblio.org/bgreek
+- Email: jonathan.robie@biblicalhumanities.org
+- Forums: ibiblio.org/bgreek
 
 For other high quality resources suitable to scholarly study of Greek and Hebrew, see the [Biblical Humanities Dashboard](http://biblicalhumanities.org/dashboard/).
 
