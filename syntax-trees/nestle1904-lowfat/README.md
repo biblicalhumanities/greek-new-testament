@@ -2,8 +2,6 @@
 
 https://github.com/biblicalhumanities/greek-new-testament/syntax-trees/nestle1904
 
-Last modified: 5 Jan, 2017
-
 These syntax trees were created to be easier to query and to display using standard Web technologies. They are called "lowfat" because they are simpler and have fewer nodes than the equivalent GBI trees: about 1/2 as many elements, and about 1/3 as many attributes.
 
 They are based on the 1904 edition of Eberhard Nestle's Greek New
@@ -15,6 +13,8 @@ Please report bugs by creating issues on this github directory. You can also con
 - Twitter: @bibhumanities
 - Email: jonathan.robie@ibiblio.org
 - Forums: biblicalhumanities.org or ibiblio.org/bgreek
+
+For other high quality resources suitable to scholarly study of Greek and Hebrew, see the [Biblical Humanities Dashboard](http://biblicalhumanities.org/dashboard/).
 
 ## Copyright
 
@@ -44,15 +44,15 @@ This is an example of the current markup scheme:
          <wg role="v" class="vp" head="true">
             <w class="verb"
                osisId="John.11.35!1"
-               lemma="δακρύω"
-               normalized="ἐδάκρυσεν"
+               lemma="δακρύω"
+               normalized="ἐδάκρυσεν"
                strong="1145"
                number="singular"
                person="third"
                tense="aorist"
                voice="active"
                mood="indicative"
-               head="true">ἐδάκρυσεν</w>
+               head="true">ἐδάκρυσεν</w>
          </wg>
          <wg role="s" class="np" articular="true" det="true">
             <w class="det"
