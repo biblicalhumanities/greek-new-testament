@@ -30,7 +30,7 @@ div[class=book]  {
   opacity: 1;
 }
 
-book {
+book, passage {
   line-height: 1.5;
   margin-left: 5em;
   margin-right: 10em;
@@ -53,6 +53,10 @@ wg[role]::before {
   color: grey;
   content: attr(role);
   size: small;
+}
+
+wg[class=np] {
+ /* display: block; */
 }
 
 w[role=v][mood=participle]::before {
@@ -81,7 +85,7 @@ w[discontinuous]::after {
 }
 
 w[class=conj] {
-  display: block;
+ /* display: block; */
 }
 
 w[case=vocative]::before {
@@ -103,6 +107,7 @@ wg[role] {
     padding-left: 5px;
     display: block;
 }
+
 
 w[role] {
     position: relative;
