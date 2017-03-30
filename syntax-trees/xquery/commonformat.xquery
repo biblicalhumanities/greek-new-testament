@@ -1,3 +1,15 @@
+(: 
+    Convert GBI trees to Lowfat format.
+
+	NOTE: this should rarely be used now that the lowfat trees
+	are being independently, but I am keeping it in the repo 
+	for documentation purposes and also for quality assurance,
+	as a way of testing the lowfat trees against GBI as we
+	move forward.
+
+:)
+
+
 declare variable $retain-singletons := false();
 
 declare function local:osisBook($nodeId)
@@ -170,15 +182,12 @@ declare function local:oneword($node)
 
 declare function local:clause($node)
 {
-    if (local:oneword($node))
-    then (local:word(local:oneword($node)))
-    else 
-        <wg>
-            {
-                local:attributes($node),
-                $node/Node ! local:node(.)
-            }
-        </wg>
+    <wg>
+        {
+            local:attributes($node),
+            $node/Node ! local:node(.)
+        }
+    </wg>
 };
 
 
@@ -207,60 +216,13 @@ declare function local:role($node)
     return
         if (local:oneword($node))
         then (local:word(local:oneword($node), $role))
-        else if (count($node/Node) = 1)
-        then 
-            <wg>
-                {
-                    $role,
-                    $node/Node/Node ! local:node(.) 
-                }
-            </wg> 
         else 
             <wg>
                 {
                     $role, 
-                    $node/Node/Node ! local:node(.)
+                    $node/Node ! local:node(.)
                 }
             </wg>        
-};
-
-declare function local:milestones($node)
-{
-    let $nodeId := $node/@nodeId
-    let $parentId := $node/parent::Node/@nodeId
-    let $chapter := substring($nodeId, 3, 3)
-    let $verse := substring($nodeId, 6, 3)
-    let $word := substring($nodeId, 9, 3)
-    let $osisId := local:osisId($nodeId)
-    let $bookName := substring-before($osisId, ".")
-    let $chapterId := substring-before($osisId, ".1!")
-    let $verseId := substring-before($osisId, "!")
-    where substring($nodeId, 1, 11) != substring($parentId, 1, 11)
-    return
-        if ($verse = "001" and $word = "001")
-        then
-            (
-            <milestone
-                unit="chapter"
-                n="{$chapterId}">
-                {$bookName, xs:integer($chapter)}
-                </milestone>,
-            <milestone
-                unit="verse"
-                n="{$verseId}">
-                {xs:integer($verse)}
-                </milestone>
-            )
-        else
-            if ($word = "001")
-            then
-                <milestone
-                    unit="verse"
-                    n="{$verseId}">
-                    { xs:integer($verse) }
-                    </milestone>
-            else
-                ()
 };
 
 declare function local:word($node)
@@ -375,7 +337,12 @@ declare function local:sentence($node)
               </milestone>
               { local:straight-text($node) }
              </p>,
-            $node/Node ! local:node(.)
+             
+             if (count($node/Node) > 1 or not($node/Node/@node = 'CL'))
+             then <wg role="cl">{ $node/Node ! local:node(.) }</wg>
+             else local:node($node/Node)
+             
+             
         }
     </sentence>
 };
