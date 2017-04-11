@@ -1,0 +1,121 @@
+wg[class=header] {
+    display: block;
+    position: fixed;
+    width=6em;
+    top: 5px;
+    left: 15px;
+    background-color: white;
+    opacity: 1;
+    overflow: scroll;
+}
+
+milestone {
+    font-size: small; 
+    color: blue;
+    display: block;
+}
+
+p {
+    font-size: large;
+    display: block;
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+div[class=book]  {
+  margin-top: 1in;
+  margin-left: 1in;
+  margin-bottom: 1in;
+  line-height: 1.2;
+  background-color: white;
+  opacity: 1;
+}
+
+book, passage,root {
+  line-height: 1.5;
+  margin-left: 5em;
+  margin-right: 10em;
+  /* background: linen; */
+}
+
+
+
+/*
+  Only list rules I am willing to describe and defend ...
+*/
+
+/* WGs */
+
+wg[class=sentence] {
+} 
+
+wg[role]::before {
+  color: grey;
+  content: attr(role);
+  size: small;
+}
+
+wg[role] {
+    position: relative;
+    margin-left: 15px;
+    padding-left: 5px;
+    display: block;
+}
+
+wg[class=cl] + wg[class=cl]::before {
+  content: "- - -";
+  display: block;
+}
+
+
+/* Words */
+
+w[role=v][mood=participle]::before {
+  color: grey;
+  content: "v.part ";
+  size: small;
+}
+
+w[role=v][mood=infinitive]::before {
+  color: grey;
+  content: "v.inf ";
+  size: small;
+}
+
+w[role]::before {
+  color: grey;
+  content: attr(role) " ";
+  size: small;
+}
+
+w[discontinuous]::after {
+  content: "*";
+  vertical-align: super;
+  color: grey;
+  size: x-small;
+}
+
+w[class=conj] {
+ /* display: block; */
+}
+
+w[case=vocative]::before {
+  color: grey;
+  content: "voc ";
+  size: small;
+}
+
+w[case=vocative] {
+    position: relative;
+    margin-left: 15px;
+    padding-left: 5px;
+    display: block;  
+}
+
+
+w[role] {
+    position: relative;
+    margin-left: 15px;
+    padding-left: 5px;
+    display: block;
+}
