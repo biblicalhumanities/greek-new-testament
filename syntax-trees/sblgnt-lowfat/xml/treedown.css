@@ -49,6 +49,26 @@ book, passage,root {
 wg[class=sentence] {
 } 
 
+wg[class=sentence] wg[class=cl]::before {
+  content: "";
+}
+
+wg[class=cl] {
+  /* 
+    The nub of the spacing problem: 
+  
+    You really want spacing down to the last role before a word.
+    After that, you really don't want it.  Is there some way to
+    have it both ways with .css?
+  */
+  /*
+  position: relative;
+  display: block; 
+  */
+  padding-left: 20px;
+  display: block;
+}
+
 wg[role]::before {
   color: grey;
   content: attr(role);
@@ -57,15 +77,14 @@ wg[role]::before {
 
 wg[role] {
     position: relative;
-    margin-left: 15px;
-    padding-left: 5px;
-    display: block;
+    display: block;  
 }
 
 wg[class=cl] + wg[class=cl]::before {
-  content: "- - -";
+  content: ". . .";
   display: block;
 }
+
 
 
 /* Words */
@@ -95,8 +114,15 @@ w[discontinuous]::after {
   size: x-small;
 }
 
-w[class=conj] {
- /* display: block; */
+wg[class=cl] w[class=conj] {
+ /* 
+    Conjunctions are hard to get right with .css
+    alone.  It's important to know if it is coordinating
+    or subordinating, and whether it lives as a sibling
+    to things that have roles.
+  */  
+  display: block;   
+  
 }
 
 w[case=vocative]::before {
@@ -106,16 +132,12 @@ w[case=vocative]::before {
 }
 
 w[case=vocative] {
-    position: relative;
-    margin-left: 15px;
-    padding-left: 5px;
-    display: block;  
+    position: relative; 
+    display: block;
 }
 
 
 w[role] {
     position: relative;
-    margin-left: 15px;
-    padding-left: 5px;
-    display: block;
+    display: block; 
 }
