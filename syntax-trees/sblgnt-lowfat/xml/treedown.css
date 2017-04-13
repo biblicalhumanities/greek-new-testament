@@ -65,7 +65,7 @@ wg[class=cl] {
   position: relative;
   display: block; 
   */
-  padding-left: 20px;
+  padding-left: 1.8em;
   display: block;
 }
 
@@ -80,13 +80,11 @@ wg[role] {
     display: block;  
 }
 
-wg[class=cl] + wg[class=cl]::before {
-  content: ". . .";
-  display: block;
+wg:not(role)+wg:not(role)::before {
+    content: '- -';
+    display: block;
 }
-
-
-
+  
 /* Words */
 
 w[role=v][mood=participle]::before {
