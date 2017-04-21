@@ -67,12 +67,12 @@ wg[class=cl] {
   */
   padding-top: 0.25em;
   padding-bottom: 0.25em;
-  padding-left: 1.8em;
+  padding-left: 1em;
   display: block;
 
-  border-left: 1px dotted grey;
-  border-top: 1px dotted grey;
-  border-bottom: 1px dotted grey;
+  border-left: 1px inset grey;
+  border-top: 1px inset grey;
+  border-bottom: 1px inset grey;
 }
 
 wg[role]::before {
@@ -81,9 +81,11 @@ wg[role]::before {
   size: small;
 }
 
+/* If wg[role] is indented, w[role] must be indented the same amount. */
 wg[role] {
     position: relative;
-    display: block;  
+    display: block;
+    padding-left: 1em;
 }
   
 /* Words */
@@ -134,12 +136,14 @@ w[case=vocative]::before {
 w[case=vocative] {
     position: relative; 
     display: block;
+    padding-left: 1em;
 }
 
-
+/* If you indent this, indent wg[role] and w[case=vocative] by the same amount. */
 w[role] {
     position: relative;
     display: block; 
+    padding-left: 1em;
 }
 
 /* -----  Experimental stuff goes here -------- */
