@@ -7,6 +7,12 @@
 	as a way of testing the lowfat trees against GBI as we
 	move forward.
 
+	If it is used, remember to do the following steps:
+
+	- Search for duplicate IDs, removing the second GBI interpretation when there are duplicate subtrees.
+	- Search for the single instance where a word is not in any word group, but directly in a sentence.
+	- Do a diff to make sure things make sense.
+
 :)
 
 
@@ -216,13 +222,22 @@ declare function local:role($node)
     return
         if (local:oneword($node))
         then (local:word(local:oneword($node), $role))
-        else 
+        else  if (count($node/Node) > 1)
+        then
             <wg>
                 {
                     $role, 
                     $node/Node ! local:node(.)
                 }
-            </wg>        
+            </wg> 
+        else 
+            <wg>
+                {
+                    $role, 
+                    local:attributes($node/Node),
+                    $node/Node/Node ! local:node(.)
+                }
+            </wg> 
 };
 
 declare function local:word($node)
@@ -341,13 +356,12 @@ declare function local:sentence($node)
              if (count($node/Node) > 1 or not($node/Node/@node = 'CL'))
              then <wg role="cl">{ $node/Node ! local:node(.) }</wg>
              else local:node($node/Node)
-             
-             
+                         
         }
     </sentence>
 };
 
-processing-instruction xml-stylesheet {'href="indent-lined.css"'},
+processing-instruction xml-stylesheet {'href="treedown.css"'},
 <book>
     {
         for $sentence in //Tree/Node
