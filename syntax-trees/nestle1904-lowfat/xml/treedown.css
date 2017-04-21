@@ -79,11 +79,6 @@ wg[role] {
     position: relative;
     display: block;  
 }
-
-wg:not(role)+wg:not(role)::before {
-    content: '- -';
-    display: block;
-}
   
 /* Words */
 
@@ -118,9 +113,10 @@ wg[class=cl] w[class=conj] {
     alone.  It's important to know if it is coordinating
     or subordinating, and whether it lives as a sibling
     to things that have roles.
-  */  
+
   display: block;   
   
+  */  
 }
 
 w[case=vocative]::before {
@@ -132,6 +128,7 @@ w[case=vocative]::before {
 w[case=vocative] {
     position: relative; 
     display: block;
+    padding-left: 1em;
 }
 
 
@@ -139,3 +136,20 @@ w[role] {
     position: relative;
     display: block; 
 }
+
+/* -----  Experimental stuff goes here -------- */
+
+/*
+
+This is not specific enough to accurately identify parataxis, so I am commenting it out. 
+It currently causes more harm than good for the casual reader, but it is useful as
+a diagnostic.
+
+wg:not(role)+wg:not(role)::before {
+    content: '- -';
+    display: block;
+}
+
+
+*/
+
