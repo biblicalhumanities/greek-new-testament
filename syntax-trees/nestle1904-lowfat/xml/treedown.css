@@ -1,3 +1,5 @@
+
+
 wg[class=header] {
     display: block;
     position: fixed;
@@ -10,14 +12,14 @@ wg[class=header] {
 }
 
 milestone {
-    font-size: small; 
     color: blue;
-    display: block;
+    font-size: large;
+    display: inline;
 }
 
 p {
     font-size: large;
-    display: block;
+    display: inline;
     margin-top: 1em;
     margin-bottom: 1em;
 }
@@ -70,10 +72,12 @@ wg[class=cl] {
   padding-left: 1em;
   display: block;
 
+/*
   border-left: 1px inset grey;
   border-top: 1px inset grey;
-  border-bottom: 1px inset grey;
+  border-bottom: 1px inset grey; */
 }
+
 
 wg[role]::before {
   color: grey;
@@ -127,6 +131,8 @@ wg[class=cl] w[class=conj] {
   */  
 }
 
+/*
+
 w[case=vocative]::before {
   color: grey;
   content: "voc ";
@@ -138,6 +144,7 @@ w[case=vocative] {
     display: block;
     padding-left: 1em;
 }
+*/
 
 /* If you indent this, indent wg[role] and w[case=vocative] by the same amount. */
 w[role] {
@@ -149,6 +156,14 @@ w[role] {
 /* -----  Experimental stuff goes here -------- */
 
 /*
+wg:not(role)+wg:not(role)::before {
+  color: grey;
+  content: "cl";
+  size: small; 
+}
+*/
+
+/*
 
 This is not specific enough to accurately identify parataxis, so I am commenting it out. 
 It currently causes more harm than good for the casual reader, but it is useful as
@@ -157,6 +172,15 @@ a diagnostic.
 wg:not(role)+wg:not(role)::before {
     content: '- -';
     display: block;
+}
+
+This is overly broad, useful at least for debugging and thinking about what roles we may
+want to add.
+
+wg:not(role)[class=cl]::before {
+  color: grey;
+  content: "cl";
+  size: small; 
 }
 
 
