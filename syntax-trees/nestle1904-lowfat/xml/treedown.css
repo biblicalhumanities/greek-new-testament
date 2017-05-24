@@ -40,10 +40,6 @@ book, passage,root {
 
 
 
-/*
-  Only list rules I am willing to describe and defend ...
-*/
-
 /* WGs */
 
 wg[class=sentence] {
@@ -68,6 +64,11 @@ wg[class=cl] {
   display: block;
 }
 
+*[role] ~ *::before {
+  color: grey;
+  content: "+";
+  size: small;  
+}
 
 wg[role]::before {
   color: grey;
@@ -109,33 +110,6 @@ w[discontinuous]::after {
   size: x-small;
 }
 
-wg[class=cl] w[class=conj] {
- /* 
-    Conjunctions are hard to get right with .css
-    alone.  It's important to know if it is coordinating
-    or subordinating, and whether it lives as a sibling
-    to things that have roles.
-
-  display: block;   
-  
-  */  
-}
-
-/*
-
-w[case=vocative]::before {
-  color: grey;
-  content: "voc ";
-  size: small;
-}
-
-w[case=vocative] {
-    position: relative; 
-    display: block;
-    padding-left: 1em;
-}
-*/
-
 /* If you indent this, indent wg[role] and w[case=vocative] by the same amount. */
 w[role] {
     position: relative;
@@ -144,35 +118,3 @@ w[role] {
 }
 
 /* -----  Experimental stuff goes here -------- */
-
-/*
-wg:not(role)+wg:not(role)::before {
-  color: grey;
-  content: "cl";
-  size: small; 
-}
-*/
-
-/*
-
-This is not specific enough to accurately identify parataxis, so I am commenting it out. 
-It currently causes more harm than good for the casual reader, but it is useful as
-a diagnostic.
-
-wg:not(role)+wg:not(role)::before {
-    content: '- -';
-    display: block;
-}
-
-This is overly broad, useful at least for debugging and thinking about what roles we may
-want to add.
-
-wg:not(role)[class=cl]::before {
-  color: grey;
-  content: "cl";
-  size: small; 
-}
-
-
-*/
-
