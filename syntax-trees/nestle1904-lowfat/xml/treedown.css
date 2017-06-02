@@ -65,13 +65,13 @@ wg[class=cl] {
 }
 
 *[role] ~ *::before {
-  color: grey;
+  color: cadetblue;
   content: "+";
   size: small;  
 }
 
 wg[role]::before {
-  color: grey;
+  color: cadetblue;
   content: attr(role);
   size: small;
 }
@@ -86,19 +86,19 @@ wg[role] {
 /* Words */
 
 w[role=v][mood=participle]::before {
-  color: grey;
+  color: cadetblue;
   content: "v.part ";
   size: small;
 }
 
 w[role=v][mood=infinitive]::before {
-  color: grey;
+  color: cadetblue;
   content: "v.inf ";
   size: small;
 }
 
 w[role]::before {
-  color: grey;
+  color: cadetblue;
   content: attr(role) " ";
   size: small;
 }
@@ -106,7 +106,7 @@ w[role]::before {
 w[discontinuous]::after {
   content: "*";
   vertical-align: super;
-  color: grey;
+  color: cadetblue;
   size: x-small;
 }
 
