@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<head>
+<style>
+body {
+	background-color: antiquewhite;
+}
+form {
+	font-size: large;
+	font-weight: bold;
+	color: blue;
+}
+
+form input {
+	background-color: white;
+}
+
+div {
+	overflow: scroll;
+	background-color: antiquewhite;
+
+}
+</style>
+<script  type="text/javascript">
+/* Use lowercase for all book names when looking up */
+/*
+var books = {
+	"mt" : "01-matthew.xml",
+	"matt" : "01-matthew.xml",
+	"matthew" : "01-matthew.xml",
+	"mk" : "02-mark.xml",
+	"mark" "02-mark.xml",
+	"lk" : "03-luke.xml",
+	"luke" : "03-luke.xml",
+	"jn" : "04-john.xml",
+	"john" : "04-john.xml",
+	"ac" : "05-acts.xml",
+	"acts" : "05-acts.xml",
+	"ro" : "06-romans.xml",
+	"rm" : "06-romans.xml",
+	"romans" : "06-romans.xml",
+	"1co" : "07-1corinthians.xml",
+	"1cor" : "07-1corinthians.xml",
+	"1corinthians" : "07-1corinthians.xml",
+	"2co" : "08-2corinthians.xml",
+	"2cor" : "08-2corinthians.xml",
+	"2corinthians" : "08-2corinthians.xml"
+
+}  */
+
+function treeFile(passage, version) {
+	var trees = "https://raw.githubusercontent.com/biblicalhumanities/greek-new-testament/master/syntax-trees/" + version + "-lowfat/xml/";
+
+	var tokens = passage.split(/[\s,:\.]+/);
+
+	return tokens + " " + trees;
+}
+
+/*  For loading the file per se, see:
+
+https://stackoverflow.com/questions/16417211/load-xml-file-content-into-div-using-jquery#16417287
+*/
+
+function loadPassage() {
+	var passage = document.getElementById("passage").value;
+   
+    alert(treeFile(passage, "nestle1904"));
+}
+</script>
+</head>
+<html>
+<body>
+	<form action="javascript:loadPassage()">
+	  Lowfat Syntax Trees (Boxwood)<br/><br/>
+	  <input type="text" name="passage" id="passage" value="John.3.16" autofocus>
+	  <button>Go!</button></form> 
+	<div id="display">
+	</div>
+</body>
+</html>
