@@ -100,17 +100,23 @@ function localFile(tokens) {
     return books[book.toLowerCase()];
 }
 
+function osisId(tokens)
+{
+    return (isNaN(tokens[0]) ? tokens.join(".") : tokens[0]+tokens[1]+"."+tokens.slice(2).join("."));
+}
 
 function treeFile(passage, version) {
-    var trees = "https://raw.githubusercontent.com/biblicalhumanities/greek-new-testament/master/syntax-trees/" + version + "-lowfat/xml/";
+    var trees = "../" + version + "-lowfat/xml/";
     var tokens = passage.split(/[\s,:\.]+/);
-    return trees + localFile(tokens);
+    return trees + localFile(tokens) + '#' + osisId(tokens);
 }
 
 function loadPassage() {
     var passage = document.getElementById("passage").value;
-    
-    alert(treeFile(passage, "nestle1904"));
 
-    document.getElementById("display").src = "nestle1904-lowfat/xml/04-john.xml";
+    document.getElementById("display").src = treeFile(passage, "nestle1904");
 }
+
+// TODO: set anchor in address bar - http://shorts.jeffkreeftmeijer.com/2014/scroll-to-anchors-in-iframes/#anchor-3
+// TODO: let URI parameters load passage - https://www.sitepoint.com/get-url-parameters-with-javascript/
+// TODO: show/hide trees
