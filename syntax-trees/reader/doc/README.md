@@ -2,6 +2,8 @@
 
 This is a bare-bones browser for the Lowfat Syntax Trees.  To use it, simply type a verse reference into the text box and hit the "Go" button or hit the return key.  The browser positions to that verse.  You can scroll up and down to see neighboring verses.
 
+Note that the text in the boxes does not always preserve word order - the * indicates positions at which word order in the original text differs from word order in the trees. The original text always appears before the tree, so it is easy to compare the two.
+
 Boxes indicate clauses.  Within each clause, the following labels are used:
 
 Label | Part of Speech
