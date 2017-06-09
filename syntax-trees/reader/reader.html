@@ -21,8 +21,6 @@ iframe {
 	height: 100em;
 }
 </style>
-<script src="jquery-3.2.1.min.js"></script>
-
 <script src="boxwood-reader.js"></script>
 
 </head>
@@ -30,8 +28,9 @@ iframe {
 <body>
 	<div>
 		<form action="javascript:loadPassage()">
-	  	<h2>Lowfat Syntax Trees (Boxwood)</h2>
-	  	<input type="text" name="passage" id="passage" value="John 3:16" autofocus><button>Go!</button></form> 
+	  	  <h2>Lowfat Syntax Trees</h2>		  
+	  	  <input type="text" name="passage" id="passage" value="John 3:16" autofocus><button>Go!</button>
+		</form> 
 	</div>	
 	<iframe id="display" src=""></iframe> 
 </body>
