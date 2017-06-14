@@ -19,4 +19,4 @@ adv   | Adverbial (often used for adjuncts)
 
 This first version is intentionally very basic.  New features will be added to make it more useful, including queries and support for looking up words and viewing morphology, but it will be kept simple and focused on syntax trees.
 
-The syntax tree data is freely licensed - feel free to use it in your application.  For other freely licensed data, see the [biblicalhumanities.org dashboard](http://biblicalhumanities.org/dashboard/). To track progress on this and other related tools, follow [Jonathan's blog](jonathanrobie.biblicalhumanities.org).
+The syntax tree data is freely licensed - feel free to use it in your application.  For other freely licensed data, see the [biblicalhumanities.org dashboard](http://biblicalhumanities.org/dashboard/). To track progress on this and other related tools, follow [Jonathan's blog](http://jonathanrobie.biblicalhumanities.org).
