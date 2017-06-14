@@ -22,7 +22,6 @@ iframe {
 	height: 100em;
 }
 </style>
-<script src="jquery-3.2.1.min.js"></script>
 
 <script src="boxwood-reader.js"></script>
 
@@ -30,9 +29,14 @@ iframe {
 <html>
 <body>
 	<div>
-		<form action="javascript:loadPassage()">
-	  	<h2>Lowfat Syntax Trees (Boxwood)</h2>
-	  	<input type="text" name="passage" id="passage" value="John 3:16" autofocus><button>Go!</button></form> 
+	  	<h2>Lowfat Syntax Tree Browser</h2>
+
+	  	<p>Browse the <a href="https://github.com/biblicalhumanities/greek-new-testament/tree/master/syntax-trees/">Lowfat Syntax Trees</a>, a <a href="http://biblicalhumanities.org/dashboard/">biblicalhumanities.org</a> resource. See documentation <a href="https://github.com/biblicalhumanities/greek-new-testament/tree/master/syntax-trees/reader/doc">here</a>.  All data is freely licensed - follow developments on <a href="http://jonathanrobie.biblicalhumanities.org/">Jonathan's blog</a>.</p>
+	
+	  	<form action="javascript:loadPassage()">
+		  <input type="text" name="passage" id="passage" value="John 3:16" autofocus>
+		  <button>Go!</button>
+	  	</form> 
 	</div>	
 	<iframe id="display" src=""></iframe> 
 </body>
