@@ -42,7 +42,7 @@ assistance from Andi Wu.
 python GBITrees2MQL.py -o <MQL-output-file> <XML-input-file1> [<XML-input-file2> ...]
 ```
 
-If the MQL-output-file is called, say, "trees.mql", then two files are
+If the `MQL-output-file` is called, say, "trees.mql", then two files are
 produced:
 
 - trees.mql (contains the data)
