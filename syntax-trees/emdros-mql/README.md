@@ -71,7 +71,8 @@ $ mql -b 3 -d Nestle1904 Nestle1904.mql
 $ echo "VACUUM DATABASE ANALYZE GO" | mql -b 3 -d Nestle1904
 ```
 
-This will import it into the backend "SQLite3" (-b 3).  For other backends, run
+This will import it into the backend "SQLite3" (-b 3).  For
+information about other backends, run
 
 ```
 mql --help
