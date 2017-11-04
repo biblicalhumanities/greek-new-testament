@@ -48,6 +48,9 @@ produced:
 - trees.mql (contains the data)
 - trees.schema.mql (contains the MQL schema)
 
+Please  peruse the  MQL schema  file for  information on  which object
+types and features are present.   This varies with the kind attributes
+on the Node elements present in the input XML files.
 
 ## Example usage?
 
