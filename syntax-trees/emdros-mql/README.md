@@ -1,6 +1,6 @@
 # emdros-mql: Script(s) to convert syntax trees to Emdros MQL
 
-https://github.com/biblicalhumanities/greek-new-testament/master/syntax-trees/emdros-mql/
+https://github.com/biblicalhumanities/greek-new-testament/tree/master/syntax-trees/emdros-mql/
 
 ## What is this?
 
@@ -14,8 +14,8 @@ from the Global Bible Initiative are supported.
 
 In this repository, this means:
 
-- https://github.com/biblicalhumanities/greek-new-testament/master/syntax-trees/nestle1904/
-- https://github.com/biblicalhumanities/greek-new-testament/master/syntax-trees/sblgnt/
+- https://github.com/biblicalhumanities/greek-new-testament/tree/master/syntax-trees/nestle1904/
+- https://github.com/biblicalhumanities/greek-new-testament/tree/master/syntax-trees/sblgnt/
 
 ## What is Emdros?
 
