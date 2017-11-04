@@ -82,6 +82,11 @@ mql --help
 ```
 
 
+## Python2? Python3?
+
+Both.  If not, please report a bug to that effect.
+
+
 ## How to report issues?
 
 Please report bugs by creating issues on this github directory.
