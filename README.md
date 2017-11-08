@@ -1,7 +1,7 @@
 greek-new-testament
 ===================
 
-This directory contains the SBLGNT and Nestle1904 editions of the Greek New Testament with syntax trees produced by the Global Bible Initiative, and Lowfat trees created from them.
+This directory contains the SBLGNT and Nestle1904 editions of the Greek New Testament with syntax trees produced by the Global Bible Initiative, and Lowfat trees created from them.  It also contains a transformation of the [PROIEL Greek New Testament](https://proiel.github.io) transformed to make it more easily comparable to the Lowfat treebanks.
 
 If we publish other representations of the Greek New Testament, they will be added to this directory.
 
