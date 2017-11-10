@@ -2,6 +2,10 @@
 
 https://github.com/biblicalhumanities/greek-new-testament/syntax-trees/nestle1904
 
+This repository contains data useful for programmers and data analysis.  Users who simply want to look up the structure of a sentence can see this data with a very simple user interface here:
+
+- [Lowfat Syntax Tree Browser](http://ibiblio.org/bgreek/resources/syntax-trees/reader/)
+
 These syntax trees were created to be easier to query and to display using standard Web technologies. They are called "lowfat" because they are simpler and have fewer nodes than the equivalent GBI trees: about 1/2 as many elements, and about 1/3 as many attributes.
 
 They are based on the 1904 edition of Eberhard Nestle's Greek New Testament, often referred to as the Nestle 1904 or British Foreign Bible Society 1904.  If you need the original paragraph markings, quotations, and contextualized glosses for this text, please see the following repository: [Nestle 1904 Greek New Testament](https://github.com/biblicalhumanities/nestle1904).
