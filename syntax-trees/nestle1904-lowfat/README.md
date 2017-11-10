@@ -113,3 +113,9 @@ A &lt;w> can have the following attributes:
 - tense: aorist, present, imperfect, future, perfect, or pluperfect
 - voice: active, passive, middle, or middlepassive
 - mood: indicative, imperative, subjunctive, optative, participle, or infinitive
+
+## Python Tutorial
+
+Here is an introductory tutorial showing how to use the Lowfat syntax trees using Python and XPath in a Jupyter Notebook:
+
+- [Tutorial: Python 3, lxml, and Greek Syntax Trees](labnotes/lxml-tutorial.ipynb)
