@@ -2,7 +2,7 @@
 
 https://github.com/biblicalhumanities/greek-new-testament/syntax-trees/nestle1904
 
-This repository contains data useful for programmers and data analysis.  Users who simply want to look up the structure of a sentence can see this data with a very simple user interface here:
+This repository contains syntax trees in a format useful for programmers and data analysis.  Users who simply want to look up the structure of a sentence can see this data with a very simple user interface here:
 
 - [Lowfat Syntax Tree Browser](http://ibiblio.org/bgreek/resources/syntax-trees/reader/)
 
