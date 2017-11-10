@@ -8,7 +8,9 @@ This repository contains data useful for programmers and data analysis.  Users w
 
 These syntax trees were created to be easier to query and to display using standard Web technologies. They are called "lowfat" because they are simpler and have fewer nodes than the equivalent GBI trees: about 1/2 as many elements, and about 1/3 as many attributes.
 
-They are based on the 1904 edition of Eberhard Nestle's Greek New Testament, often referred to as the Nestle 1904 or British Foreign Bible Society 1904.  If you need the original paragraph markings, quotations, and contextualized glosses for this text, please see the following repository: [Nestle 1904 Greek New Testament](https://github.com/biblicalhumanities/nestle1904).
+They are based on the 1904 edition of Eberhard Nestle's Greek New Testament, often referred to as the Nestle 1904 or British Foreign Bible Society 1904.  If you need the original paragraph markings, quotations, and contextualized glosses for this text, please see the following repository: 
+
+- [Nestle 1904 Greek New Testament](https://github.com/biblicalhumanities/nestle1904).
 
 Please report bugs by creating issues on this github directory. You can also contact us at:
 
