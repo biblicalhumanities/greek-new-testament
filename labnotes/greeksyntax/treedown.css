@@ -1,0 +1,129 @@
+wg[class=header] {
+    display: block;
+    position: fixed;
+    width=6em;
+    top: 5px;
+    left: 15px;
+    background-color: white;
+    opacity: 1;
+    overflow: scroll;
+}
+
+milestone {
+    color: blue;
+    font-size: large;
+    display: inline;
+}
+
+p {
+    font-size: large;
+    display: inline;
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+pc {
+   font-size: x-large;
+   font-weight: bold;
+   display: inline;
+}
+
+pc::before {
+}
+
+div[class=book]  {
+  margin-top: 1in;
+  margin-left: 1in;
+  margin-bottom: 1in;
+  line-height: 1.2;
+  background-color: white;
+  opacity: 1;
+}
+
+book, passage,root {
+  line-height: 1.5;
+  margin-left: 5em;
+  margin-right: 10em;
+  /* background: linen; */
+}
+
+
+
+/* WGs */
+
+wg[class=sentence] {
+} 
+
+wg[class=sentence] wg[class=cl]::before {
+  content: "";
+}
+
+wg[class=cl] {
+  /* 
+    The nub of the spacing problem: 
+  
+    You really want spacing down to the last role before a word.
+    After that, you really don't want it.  Is there some way to
+    have it both ways with .css?
+  */
+
+  padding-top: 0.25em;
+  padding-bottom: 0.25em;
+  padding-left: 1em;
+  display: block;
+}
+
+*[role] ~ *::before {
+  color: cadetblue;
+  content: "+";
+  size: small;  
+}
+
+wg[role]::before {
+  color: cadetblue;
+  content: attr(role);
+  size: small;
+}
+
+/* If wg[role] is indented, w[role] must be indented the same amount. */
+wg[role] {
+    position: relative;
+    display: block;
+    padding-left: 1em;
+}
+  
+/* Words */
+
+w[role=v][mood=participle]::before {
+  color: cadetblue;
+  content: "v.part ";
+  size: small;
+}
+
+w[role=v][mood=infinitive]::before {
+  color: cadetblue;
+  content: "v.inf ";
+  size: small;
+}
+
+w[role]::before {
+  color: cadetblue;
+  content: attr(role) " ";
+  size: small;
+}
+
+w[discontinuous]::after {
+  content: "*";
+  vertical-align: super;
+  color: cadetblue;
+  size: x-small;
+}
+
+/* If you indent this, indent wg[role] and w[case=vocative] by the same amount. */
+w[role] {
+    position: relative;
+    display: block; 
+    padding-left: 1em;
+}
+
+/* -----  Experimental stuff goes here -------- */
