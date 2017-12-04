@@ -46,7 +46,7 @@ class query:
 	          </p>"""
 	    display(HTML(xquery(q)))
 
-	def morph_query_string(query):
+	def morph_query_string(self, query):
 	    return r"""
 	       for $h in """ + query + r"""
 	       let $words := $h/descendant-or-self::w
@@ -69,7 +69,7 @@ class query:
 	            }
 	          </p>"""
 
-	def milestone(m):
+	def milestone(self, m):
 	    if m.count("!") == 1:
 	        return "//w[@osisId='" + m + "']"
 	    elif m.count(".") == 2:
@@ -77,10 +77,10 @@ class query:
 	    else:
 	        return "//sentence[milestone[starts-with(@id,'" + m + "')]]"
 
-	def find(query):
+	def find(self, query):
 	    display(HTML(xquery(morph_query_string(query))))
 
-	def wrap(query):
+	def wrap(self, query):
 		return "<results xmlns:xi='http://www.w3.org/2001/XInclude'>{" + query + "}</results>"
 
 	def raw(query):
