@@ -5,7 +5,11 @@ This directory contains the SBLGNT and Nestle1904 editions of the Greek New Test
 
 If we publish other representations of the Greek New Testament, they will be added to this directory.
 
-These files are generally too large to read online, please download them in order to use them. They are designed to be used by software, not to be read by end users.  Here is an introductory tutorial showing how to use the Lowfat syntax trees using Python and XPath in a Jupyter Notebook:
+These files are generally too large to read online, please download them in order to use them. They are designed to be used by software, not to be read by end users.  Here is a simple visualization that can be used by end-users (it exposes only a subset of the data):
+
+- [Lowfat Syntax Tree Browser](http://ibiblio.org/bgreek/resources/syntax-trees/reader/)
+
+Here is an introductory tutorial showing how to use the Lowfat syntax trees using Python and XPath in a Jupyter Notebook:
 
 - [Tutorial: Greek Syntax Queries using Lowfat and Jupyter Notebooks](http://jonathanrobie.biblicalhumanities.org/assets/greeksyntax-tutorial.html)
 
