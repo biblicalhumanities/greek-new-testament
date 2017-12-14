@@ -121,7 +121,8 @@ declare function local:morphology($t)
     local:mood($morph),
     local:degree($morph),
     local:strength($morph),
-    local:inflection($morph)    
+    local:inflection($morph),
+    local:information-status($t/@information-status)    
   )
 };
 
@@ -172,6 +173,11 @@ declare function local:class($t)
     )
 };
 
+declare function local:information-status($tis)
+{
+  attribute information-status { $tis }
+};
+
 declare function local:token($t)
 {
   <w>
@@ -179,7 +185,7 @@ declare function local:token($t)
       local:class($t),
       attribute role {$t/@relation},
       local:morphology($t),
-      attribute id {$t/@id},
+      attribute n {$t/@id},
       $t/@head-id ! attribute head-id {$t/@head-id }
     }
     {
