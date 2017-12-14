@@ -175,7 +175,7 @@ declare function local:class($t)
 
 declare function local:information-status($tis)
 {
-  attribute information-status { $tis }
+  $tis ! attribute information-status { $tis }
 };
 
 declare function local:token($t)
