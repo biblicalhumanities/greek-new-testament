@@ -49,10 +49,10 @@ def highlight_query_string(query):
 					{
 						for $s in $sentencewords
 						let $title := attribute title { $s ! (@class, ": ", @lemma, @number, @gender, @case, @tense, @voice, @mood)}
-						let $content := string($s)
+						let $content := string-join(($s, $s/following-sibling::*[1][local-name(.)='pc']),"")
 						return
 							if ($s/@n = $hitwords/@n)
-								then <w style="color:blue">{ $title, $content }</w>
+								then <w style="color:red">{ $title, $content }</w>
 								else <w>{ $title, $content }</w>
 					}
 				</p>"""
@@ -75,7 +75,7 @@ def morph_query_string(query):
 					return
 						<w>
 							{ attribute title {$w ! (@class, ": ", @lemma, @number, @gender, @case, @tense, @voice, @mood)}}
-							{ $w ! string(.) }
+							{ $w ! string-join((., following-sibling::*[1][local-name(.)='pc']),"") }
 						</w>
 				}
 			</p>"""
@@ -105,7 +105,7 @@ def sentence_query_string(query):
 					$sentencewords !
 						<w>
 							{ attribute title {@class, ": ", @lemma, @number, @gender, @case, @tense, @voice, @mood}}
-							{ string(.) }
+							{ string-join((., following-sibling::*[1][local-name(.)='pc']),"") }
 						</w>
 				}
 				<br/>
@@ -113,7 +113,7 @@ def sentence_query_string(query):
 				<b>{ $hitwords[1]/@osisId ! string(.) }</b>
 				{ " " }
 				{
-					$hitwords ! string(.)
+					$hitwords ! string-join((., following-sibling::*[1][local-name(.)='pc']),"")
 				}
 			</p>"""
 
