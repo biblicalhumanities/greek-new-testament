@@ -52,8 +52,8 @@ def highlight_query_string(query):
 						let $content := string-join(($s, $s/following-sibling::*[1][local-name(.)='pc']),"")
 						return
 							if ($s/@n = $hitwords/@n)
-								then <w style="color:red">{ $title, $content }</w>
-								else <w>{ $title, $content }</w>
+								then <span style="color:red">{ $title, $content }</span>
+								else <span>{ $title, $content }</span>
 					}
 				</p>"""
 
@@ -73,10 +73,10 @@ def morph_query_string(query):
 					for $w in $words
 					order by $w/@n
 					return
-						<w>
+						<span>
 							{ attribute title {$w ! (@class, ": ", @lemma, @number, @gender, @case, @tense, @voice, @mood)}}
 							{ $w ! string-join((., following-sibling::*[1][local-name(.)='pc']),"") }
-						</w>
+						</span>
 				}
 			</p>"""
 
@@ -103,10 +103,10 @@ def sentence_query_string(query):
 				{" "}
 				{
 					$sentencewords !
-						<w>
+						<span>
 							{ attribute title {@class, ": ", @lemma, @number, @gender, @case, @tense, @voice, @mood}}
 							{ string-join((., following-sibling::*[1][local-name(.)='pc']),"") }
-						</w>
+						</span>
 				}
 				<br/>
 				{ "➡️ " }
@@ -132,6 +132,9 @@ class lowfat:
 
 	def highlight(self, query):
 		display(HTML(self.xquery(highlight_query_string(query))))
+
+	def html(self, query):
+		print(HTML(self.xquery(highlight_query_string(query))))
 
 	def raw(self, m):
 		print(self.xquery(
