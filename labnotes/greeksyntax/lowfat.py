@@ -138,7 +138,7 @@ class lowfat:
 
 	def show(self, html):
 		display(HTML('<style type="text/css">{}</style>{}'.format (
-				"""div.output_html {
+				"""div.output_html.rendered_html.output_subarea {
   						max-height: 600px;
   						overflow: scroll;)""",
 				html
