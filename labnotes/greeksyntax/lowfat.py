@@ -128,19 +128,18 @@ class lowfat:
 		return self.session.query(query).execute()
 
 	def find(self, query):
-		display(HTML(self.xquery(morph_query_string(query))))
+		self.show(self.xquery(morph_query_string(query)))
 
 	def highlight(self, query):
-		display(HTML(self.xquery(highlight_query_string(query))))
-
-	def html(self, query):
-		print(HTML(self.xquery(highlight_query_string(query))))
-
-	def raw(self, m):
-		print(self.xquery(
-			"<results xmlns:xi='http://www.w3.org/2001/XInclude'>{"
-			   + milestone(m)
-			+"}</results>"))
+		self.show(self.xquery(highlight_query_string(query)))
 
 	def sentence(self, query):
-		display(HTML(self.xquery(sentence_query_string(query))))
+		self.show(self.xquery(sentence_query_string(query)))
+
+	def show(self, html):
+		display(HTML('<style type="text/css">{}</style>{}'.format (
+				"""div.output_html {
+  						max-height: 600px;
+  						overflow: scroll;)""",
+				html
+			)))
