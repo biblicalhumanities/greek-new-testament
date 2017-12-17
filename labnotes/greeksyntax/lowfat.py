@@ -48,7 +48,7 @@ def highlight_query_string(query):
 					<br/>
 					{
 						for $s in $sentencewords
-						let $title := attribute title { $s ! (@class, ": ", @lemma, @number, @gender, @case, @tense, @voice, @mood)}
+						let $title := attribute title { $s ! (@class, ": ", @lemma, @number, @gender, @case, @tense, @voice, @mood, " - ", @gloss)}
 						let $content := string-join(($s, $s/following-sibling::*[1][local-name(.)='pc']),"")
 						return
 							if ($s/@n = $hitwords/@n)
@@ -74,7 +74,7 @@ def morph_query_string(query):
 					order by $w/@n
 					return
 						<span>
-							{ attribute title {$w ! (@class, ": ", @lemma, @number, @gender, @case, @tense, @voice, @mood)}}
+							{ attribute title {$w ! (@class, ": ", @lemma, @number, @gender, @case, @tense, @voice, @mood, " - ", @gloss)}}
 							{ $w ! string-join((., following-sibling::*[1][local-name(.)='pc']),"") }
 						</span>
 				}
@@ -104,7 +104,7 @@ def sentence_query_string(query):
 				{
 					$sentencewords !
 						<span>
-							{ attribute title {@class, ": ", @lemma, @number, @gender, @case, @tense, @voice, @mood}}
+							{ attribute title {@class, ": ", @lemma, @number, @gender, @case, @tense, @voice, @mood, " - ", @gloss}}
 							{ string-join((., following-sibling::*[1][local-name(.)='pc']),"") }
 						</span>
 				}
@@ -116,6 +116,24 @@ def sentence_query_string(query):
 					$hitwords ! string-join((., following-sibling::*[1][local-name(.)='pc']),"")
 				}
 			</p>"""
+
+def glosses_query_string(query):
+	return """
+	  <table>
+	   	{
+			let $in := """ + query + """
+			for $w in $in/descendant-or-self::w
+			order by $w/@n
+			return
+				<tr>
+					<td style="text-align:left;">{ string($w) }</td>
+					<td style="text-align:left;">{ string-join($w ! (@class, ": ", @lemma, @number, @gender, @case, @tense, @voice, @mood)," ") }</td>
+					<td style="text-align:left;">{ string($w/@gloss) }</td>
+				</tr>
+	    }
+	  </table>"""
+
+
 
 class lowfat:
 	session = {}
@@ -136,10 +154,8 @@ class lowfat:
 	def sentence(self, query):
 		self.show(self.xquery(sentence_query_string(query)))
 
+	def glosses(self, query):
+		self.show(self.xquery(glosses_query_string(query)))
+
 	def show(self, html):
-		display(HTML('<style type="text/css">{}</style>{}'.format (
-				"""div.output_html.rendered_html.output_subarea {
-  						max-height: 600px;
-  						overflow: scroll;)""",
-				html
-			)))
+		display(HTML(html))
