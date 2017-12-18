@@ -7,9 +7,6 @@ from pygments.lexers import XmlLexer
 from pygments.formatters import HtmlFormatter
 from IPython.display import HTML
 
-def wrap(query):
-	return "<results xmlns:xi='http://www.w3.org/2001/XInclude'>{" + query + "}</results>"
-
 def pretty(xml):
 	formatter = HtmlFormatter()
 	display(
