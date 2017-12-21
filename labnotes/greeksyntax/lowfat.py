@@ -147,7 +147,10 @@ class lowfat:
 		except OSError as err:
 			print("Error:", err)
 		else:
-			return result
+			if result:
+				return result
+			else:
+				return "No results."
 
 	def find(self, query):
 		self.show(self.xquery(morph_query_string(query)))
