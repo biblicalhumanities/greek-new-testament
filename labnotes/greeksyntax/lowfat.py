@@ -115,12 +115,22 @@ def sentence_query_string(query):
 				}
 			</p>"""
 
-def interlinear_query_string(query):
+# TODO: Debug count parameter below.  Works fine if no count is specified.
+
+def interlinear_query_string(query, count):
+	if count == 0:
+		where = ""
+	else:
+	    where = """
+	    	let $normalized := $w/@normalized
+	    	where count(//w[@normalized=$normalized]) <
+	    """ + str(count)
+
 	return """
 	  <table>
 		{
 			let $in := """ + query + """
-			for $w in $in/descendant-or-self::w
+			for $w in $in/descendant-or-self::w """ + where + """
 			order by $w/@n
 			return
 				<tr>
@@ -161,8 +171,8 @@ class lowfat:
 	def sentence(self, query):
 		self.show(self.xquery(sentence_query_string(query)))
 
-	def interlinear(self, query):
-		self.show(self.xquery(interlinear_query_string(query)))
+	def interlinear(self, query, count=0):
+		self.show(self.xquery(interlinear_query_string(query, count)))
 
 	def show(self, html):
 		display(HTML(html))
