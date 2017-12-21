@@ -114,20 +114,20 @@ def sentence_query_string(query):
 				}
 			</p>"""
 
-def glosses_query_string(query):
+def interlinear_query_string(query):
 	return """
 	  <table>
-	   	{
+		{
 			let $in := """ + query + """
 			for $w in $in/descendant-or-self::w
 			order by $w/@n
 			return
 				<tr>
 					<td style="text-align:left;">{ string($w) }</td>
-					<td style="text-align:left;">{ string-join($w ! (@class, ": ", @lemma, @number, @gender, @case, @tense, @voice, @mood)," ") }</td>
 					<td style="text-align:left;">{ string($w/@gloss) }</td>
+					<td style="text-align:left;">{ string-join($w ! (@class, ": ", @lemma, @number, @gender, @case, @tense, @voice, @mood)," ") }</td>
 				</tr>
-	    }
+		}
 	  </table>"""
 
 
@@ -138,9 +138,15 @@ class lowfat:
 	def __init__(self, dbname):
 		self.session = BaseXClient.Session('localhost', 1984, 'admin', 'admin')
 		self.session.execute("open " + dbname)
+		print(self.session.info())
 
 	def xquery(self, query):
-		return self.session.query(query).execute()
+		try:
+			result = self.session.query(query).execute()
+		except:
+			result = ""
+		finally:
+			return result
 
 	def find(self, query):
 		self.show(self.xquery(morph_query_string(query)))
@@ -151,8 +157,8 @@ class lowfat:
 	def sentence(self, query):
 		self.show(self.xquery(sentence_query_string(query)))
 
-	def glosses(self, query):
-		self.show(self.xquery(glosses_query_string(query)))
+	def interlinear(self, query):
+		self.show(self.xquery(interlinear_query_string(query)))
 
 	def show(self, html):
 		display(HTML(html))
