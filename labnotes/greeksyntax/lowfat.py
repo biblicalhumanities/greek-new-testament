@@ -1,4 +1,5 @@
 import os
+import sys
 from BaseXClient import BaseXClient
 
 from IPython.display import HTML
@@ -143,9 +144,9 @@ class lowfat:
 	def xquery(self, query):
 		try:
 			result = self.session.query(query).execute()
-		except:
-			result = ""
-		finally:
+		except OSError as err:
+			print("Error:", err)
+		else:
 			return result
 
 	def find(self, query):
