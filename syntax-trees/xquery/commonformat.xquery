@@ -176,6 +176,16 @@ declare function local:osisId($nodeId)
 };
 
 
+declare function local:osisVerseId($nodeId)
+{
+    concat(local:osisBook($nodeId),
+    ".",
+    xs:integer(substring($nodeId, 3, 3)),
+    ".",
+    xs:integer(substring($nodeId, 6, 3))
+    )
+};
+
 declare function local:oneword($node)
 (: If the Node governs a single word, return that word. :)
 {
@@ -347,9 +357,13 @@ declare function local:sentence($node)
     <sentence>
         {
             <p>
-              <milestone unit="verse">
-                { $node/@nodeId ! local:osisId(.) ! substring-before(., "!") ! (attribute id { . }, .)}
-              </milestone>
+              {
+                for $verse in distinct-values($node//Node/@morphId ! local:osisVerseId(.))
+                return
+                    <milestone unit="verse">
+                        { attribute id { $verse }, $verse}
+                    </milestone>            
+              }
               { local:straight-text($node) }
              </p>,
              
