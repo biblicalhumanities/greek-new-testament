@@ -78,6 +78,10 @@ def morph_query_string(query):
 				}
 			</p>"""
 
+def css_display(css, html):
+	display(
+		HTML('<style type="text/css">{}</style>{}'.format (css, html)))
+
 
 def sentence_query_string(query):
 	return r"""
@@ -173,6 +177,12 @@ class lowfat:
 
 	def interlinear(self, query, count=0):
 		self.show(self.xquery(interlinear_query_string(query, count)))
+
+	def boxwood(self, query):
+		cwd = os.path.dirname(os.path.abspath(__file__))+'/'
+		treedown = open(cwd+'/'+'treedown.css', 'r').read()
+		boxwood = open(cwd+'/'+'boxwood.css', 'r').read()
+		css_display(treedown+boxwood, self.xquery(query))
 
 	def show(self, html):
 		display(HTML(html))
