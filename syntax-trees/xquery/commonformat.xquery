@@ -380,6 +380,7 @@ declare function local:sentence($node)
 };
 
 processing-instruction xml-stylesheet {'href="treedown.css"'},
+processing-instruction xml-stylesheet {'href="boxwood.css"'},
 <book>
     {
         for $sentence in //Tree/Node
