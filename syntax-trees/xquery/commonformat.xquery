@@ -361,7 +361,7 @@ declare function local:sentence($node)
                 for $verse in distinct-values($node//Node/@morphId ! local:osisVerseId(.))
                 return
                     <milestone unit="verse">
-                        { attribute id { $verse }, $verse}
+                        { attribute id { $verse }, " ", $verse}
                     </milestone>            
               }
               { local:straight-text($node) }
