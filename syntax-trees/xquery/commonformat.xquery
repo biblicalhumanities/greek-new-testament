@@ -383,7 +383,11 @@ processing-instruction xml-stylesheet {'href="treedown.css"'},
 processing-instruction xml-stylesheet {'href="boxwood.css"'},
 <book>
     {
-        for $sentence in //Tree/Node
+        (:
+            If a sentence has multiple interpretations, Sentence/Trees may contain
+            multiple Tree nodes.  We want only the first.
+        :)
+        for $sentence in //Tree[1]/Node
         return
             local:sentence($sentence)
     }
