@@ -19,9 +19,9 @@ def milestone(m):
 	if m.count("!") == 1:
 		return "//w[@osisId='" + m + "']"
 	elif m.count(".") == 2:
-		return "//sentence[milestone[@id='" + m + "']]"
+		return "//sentence[.//milestone[@id='" + m + "']]"
 	else:
-		return "//sentence[milestone[starts-with(@id,'" + m + "')]]"
+		return "//sentence[.//milestone[starts-with(@id,'" + m + "')]]"
 
 
 def highlight_query_string(query):
@@ -40,7 +40,7 @@ def highlight_query_string(query):
 				<p>
 					<b>
 					{
-						$sentence/milestone/@id ! string(.)
+						$sentence//milestone/@id ! string(.)
 					}
 					</b>
 					<br/>
@@ -99,7 +99,7 @@ def sentence_query_string(query):
 			<p>
 				<b>
 				{
-					$sentence/milestone/@id ! string(.)
+					$sentence//milestone/@id ! string(.)
 				}
 				</b>
 				{" "}
@@ -183,6 +183,12 @@ class lowfat:
 		treedown = open(cwd+'/'+'treedown.css', 'r').read()
 		boxwood = open(cwd+'/'+'boxwood.css', 'r').read()
 		css_display(treedown+boxwood, self.xquery(query))
+
+	def treedown(self, query):
+		cwd = os.path.dirname(os.path.abspath(__file__))+'/'
+		treedown = open(cwd+'/'+'treedown.css', 'r').read()
+		rules = open(cwd+'/'+'rules.css', 'r').read()
+		css_display(treedown+rules, self.xquery(query))
 
 	def show(self, html):
 		display(HTML(html))
