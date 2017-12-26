@@ -184,11 +184,14 @@ class lowfat:
 		boxwood = open(cwd+'/'+'boxwood.css', 'r').read()
 		css_display(treedown+boxwood, self.xquery(query))
 
-	def treedown(self, query):
+	def treedown(self, query, box=False, rules=False):
 		cwd = os.path.dirname(os.path.abspath(__file__))+'/'
-		treedown = open(cwd+'/'+'treedown.css', 'r').read()
-		rules = open(cwd+'/'+'rules.css', 'r').read()
-		css_display(treedown+rules, self.xquery(query))
+		css = open(cwd+'/'+'treedown.css', 'r').read()
+		if box:
+			css = css + open(cwd+'/'+'boxwood.css', 'r').read()
+		if rules:
+			css = css + open(cwd+'/'+'rules.css', 'r').read()
+		css_display(css, self.xquery(query))
 
 	def show(self, html):
 		display(HTML(html))
