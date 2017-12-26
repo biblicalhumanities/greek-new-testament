@@ -1,0 +1,11 @@
+wg[rule]::before {
+  color: blue;
+  content: attr(role) " " attr(rule);
+  size: small;
+}
+
+wg[rule] {
+    position: relative;
+    display: block;
+    padding-left: 1em;
+}
