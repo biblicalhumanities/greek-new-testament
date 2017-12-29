@@ -156,6 +156,8 @@ class lowfat:
 		print(self.session.info())
 
 	def xquery(self, query):
+		collation = "declare default collation 'http://basex.org/collation?lang=el;strength=secondary';\n"
+		query = collation + query
 		try:
 			result = self.session.query(query).execute()
 		except OSError as err:
