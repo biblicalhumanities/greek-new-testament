@@ -168,6 +168,9 @@ class lowfat:
 			else:
 				return "No results."
 
+	def count(self, query):
+		self.show(self.xquery('count(' + query + ')'))
+
 	def find(self, query):
 		self.show(self.xquery(morph_query_string(query)))
 
