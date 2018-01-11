@@ -5,6 +5,9 @@ import fnmatch
 import sys
 import os
 
+if len(sys.argv) < 2:
+	print("Normalize files to Unicode NFKC. Specify names of files in the current directory - wildcards are supported.")
+
 for file in os.listdir('.'):
 	for arg in sys.argv:
 		if fnmatch.fnmatch(file, arg):
