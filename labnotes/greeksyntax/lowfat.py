@@ -174,6 +174,9 @@ class lowfat:
 	def find(self, query):
 		self.show(self.xquery(morph_query_string(query)))
 
+	def heading(self, query):
+		self.show(self.xquery(query))
+
 	def highlight(self, query):
 		self.show(self.xquery(highlight_query_string(query)))
 
