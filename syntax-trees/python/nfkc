@@ -1,0 +1,16 @@
+#!/usr/bin/env python3
+
+import unicodedata
+import fnmatch
+import sys
+import os
+
+for file in os.listdir('.'):
+	for arg in sys.argv:
+		if fnmatch.fnmatch(file, arg):
+			inf = file + '.bak'
+			os.rename(file, inf)
+			with open(inf) as inf:
+				with open(file,'w+') as outf:
+					for line in inf:
+						outf.write(unicodedata.normalize("NFKC", line))
