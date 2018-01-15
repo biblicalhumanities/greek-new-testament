@@ -13,22 +13,13 @@ milestone {
     color: blue;
     font-size: large;
     display: inline;
+    padding-right: 6px;
 }
 
 p {
-    font-size: large;
     display: inline;
     margin-top: 1em;
     margin-bottom: 1em;
-}
-
-pc {
-   font-size: x-large;
-   font-weight: bold;
-   display: inline;
-}
-
-pc::before {
 }
 
 div[class=book]  {
@@ -52,16 +43,16 @@ book, passage,root {
 /* WGs */
 
 wg[class=sentence] {
-} 
+}
 
 wg[class=sentence] wg[class=cl]::before {
   content: "";
 }
 
 wg[class=cl] {
-  /* 
-    The nub of the spacing problem: 
-  
+  /*
+    The nub of the spacing problem:
+
     You really want spacing down to the last role before a word.
     After that, you really don't want it.  Is there some way to
     have it both ways with .css?
@@ -76,7 +67,7 @@ wg[class=cl] {
 *[role] ~ *::before {
   color: cadetblue;
   content: "+";
-  size: small;  
+  size: small;
 }
 
 wg[role]::before {
@@ -91,7 +82,7 @@ wg[role] {
     display: block;
     padding-left: 1em;
 }
-  
+
 /* Words */
 
 w[role=v][mood=participle]::before {
@@ -122,7 +113,7 @@ w[discontinuous]::after {
 /* If you indent this, indent wg[role] and w[case=vocative] by the same amount. */
 w[role] {
     position: relative;
-    display: block; 
+    display: block;
     padding-left: 1em;
 }
 
