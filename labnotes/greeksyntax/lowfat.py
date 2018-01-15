@@ -43,7 +43,6 @@ def highlight_query_string(query):
 						$sentence//milestone/@id ! string(.)
 					}
 					</b>
-					<br/>
 					{
 						for $s in $sentencewords
 						let $title := attribute title { $s ! (@class, ": ", @lemma, @number, @gender, @case, @tense, @voice, @mood, " - ", @gloss)}
