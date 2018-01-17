@@ -13,7 +13,7 @@ class csv:
 		self.session.execute("open " + dbname)
 		print(self.session.info())
 
-	def xquery(self, query):
+	def _xquery(self, query):
 		collation = "declare default collation 'http://basex.org/collation?lang=el;strength=secondary';\n"
 		query = collation + query
 		try:
@@ -26,8 +26,11 @@ class csv:
 			else:
 				return "No results."
 
+	def xquery(self, query):
+		print(self._xquery(query))
+
 	def count(self, query):
-		self.show(self.xquery('count(' + query + ')'))
+		self.show(self._xquery('count(' + query + ')'))
 
 	def show(self, html):
 		display(HTML(html))

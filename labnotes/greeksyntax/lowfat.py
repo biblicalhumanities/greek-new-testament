@@ -154,7 +154,7 @@ class lowfat:
 		self.session.execute("open " + dbname)
 		print(self.session.info())
 
-	def xquery(self, query):
+	def _xquery(self, query):
 		collation = "declare default collation 'http://basex.org/collation?lang=el;strength=secondary';\n"
 		query = collation + query
 		try:
@@ -167,29 +167,37 @@ class lowfat:
 			else:
 				return "No results."
 
+	def xquery(self, query):
+		print(self._xquery(query))
+
 	def count(self, query):
-		self.show(self.xquery('count(' + query + ')'))
+		self.show(self._xquery('count(' + query + ')'))
 
 	def find(self, query):
-		self.show(self.xquery(morph_query_string(query)))
+		self.show(self._xquery(morph_query_string(query)))
 
 	def heading(self, query):
-		self.show(self.xquery(query))
+		self.show(self._xquery(query))
+
+	# TODO: let the scope text drive display using a different query string
+	# TODO: can we allow css fragments for query results?
+	def highlight(self, scope, query):
+		self.show(self._xquery(highlight_query_string("("+scope+")"+query)))
 
 	def highlight(self, query):
-		self.show(self.xquery(highlight_query_string(query)))
+		self.show(self._xquery(highlight_query_string(query)))
 
 	def sentence(self, query):
-		self.show(self.xquery(sentence_query_string(query)))
+		self.show(self._xquery(sentence_query_string(query)))
 
 	def interlinear(self, query, count=0):
-		self.show(self.xquery(interlinear_query_string(query, count)))
+		self.show(self._xquery(interlinear_query_string(query, count)))
 
 	def boxwood(self, query):
 		cwd = os.path.dirname(os.path.abspath(__file__))+'/'
 		treedown = open(cwd+'/'+'treedown.css', 'r').read()
 		boxwood = open(cwd+'/'+'boxwood.css', 'r').read()
-		css_display(treedown+boxwood, self.xquery(query))
+		css_display(treedown+boxwood, self._xquery(query))
 
 	def treedown(self, query, box=False, rules=False):
 		cwd = os.path.dirname(os.path.abspath(__file__))+'/'
@@ -198,7 +206,7 @@ class lowfat:
 			css = css + open(cwd+'/'+'boxwood.css', 'r').read()
 		if rules:
 			css = css + open(cwd+'/'+'rules.css', 'r').read()
-		css_display(css, self.xquery(query))
+		css_display(css, self._xquery(query))
 
 	def show(self, html):
 		display(HTML(html))
