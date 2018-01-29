@@ -5,7 +5,7 @@ from IPython.display import HTML
 
 
 
-class csv:
+class xml:
 	session = {}
 
 	def __init__(self, dbname):
