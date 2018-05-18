@@ -31,7 +31,7 @@ Morphological parsing and lemmatization by Dr. Ulrik Sandborg-Petersen
 of Emergence Consult and Aalborg University, Denmark, and released
 into the public domain. Available at https://github.com/biblicalhumanities/Nestle1904.
 
-Greek text transcribed by Diego Renato dos Santos, available at
+Greek text transcribed by Diego Renato dos Santos and released to the [public domain](https://creativecommons.org/publicdomain/mark/1.0/), available at
 https://sites.google.com/site/nestle1904/.
 
 These syntax trees were automatically generated, then carefully corrected by hand.  Please report any errors you encounter.
