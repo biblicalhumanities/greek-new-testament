@@ -64,17 +64,31 @@ wg[class=cl] {
   display: block;
 }
 
+/*
+
+This was intended to be used to flag things as adjuncts if not marked. Not sure we need this, commenting out for now.
+
 *[role] ~ *::before {
   color: cadetblue;
   content: "+";
   size: small;
 }
 
+*/
+
 wg[role]::before {
   color: cadetblue;
   content: attr(role);
   size: small;
 }
+
+
+wg[role=adv]::before {
+  color: cadetblue;
+  content: "+";
+  size: small;
+}
+
 
 /* If wg[role] is indented, w[role] must be indented the same amount. */
 wg[role] {
@@ -129,24 +143,25 @@ w[case=vocative] {
     padding-left: 1em;
 }
 
-
+w[class=conj] {
+   padding-left: 1em;
+}
 /* -----  Experimental stuff goes here -------- */
 
 /* Apposition */
 
 
-wg[rule=Np-Appos]:not(:first-child)::before {
+wg[rule=Np-Appos] > wg:not(:first-child)::before {
     content: ":";
     color: cadetblue;
     size: small;
     padding-left: 1em;
 }
 
-wg[rule=Np-Appos]:not(:first-child) {
+wg[rule=Np-Appos] > wg:not(:first-child) {
     display: block;
 }
 
 wg[role=cl] pc::before {
     content: initial;
 }
-
