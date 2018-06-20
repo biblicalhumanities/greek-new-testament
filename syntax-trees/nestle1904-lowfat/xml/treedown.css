@@ -134,14 +134,15 @@ w[case=vocative] {
 
 /* Apposition */
 
-wg[rule=Np-Appos]:nth-child(2)::before {
+
+wg[rule=Np-Appos]:not(:first-child)::before {
     content: ":";
     color: cadetblue;
     size: small;
     padding-left: 1em;
 }
 
-wg[rule=Np-Appos]:nth-child(2) {
+wg[rule=Np-Appos]:not(:first-child) {
     display: block;
 }
 
