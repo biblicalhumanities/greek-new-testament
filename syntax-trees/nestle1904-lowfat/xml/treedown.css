@@ -89,7 +89,6 @@ wg[role=adv]::before {
   size: small;
 }
 
-
 /* If wg[role] is indented, w[role] must be indented the same amount. */
 wg[role] {
     position: relative;
@@ -117,6 +116,12 @@ w[role]::before {
   size: small;
 }
 
+w[role=adv]::before {
+  color: cadetblue;
+  content: "+";
+  size: small;
+}
+
 w[discontinuous]::after {
   content: "*";
   vertical-align: super;
@@ -130,6 +135,7 @@ w[role] {
     display: block;
     padding-left: 1em;
 }
+
 
 w[case=vocative]::before {
   color: cadetblue;
