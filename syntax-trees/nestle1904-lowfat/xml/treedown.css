@@ -46,7 +46,7 @@ wg[class=sentence] {
 }
 
 wg[class=sentence] wg[class=cl]::before {
-  content: "";
+  content: default;
 }
 
 wg[class=cl] {
@@ -67,10 +67,9 @@ wg[class=cl] {
 /*
 
 This was intended to be used to flag things as adjuncts if not marked. Not sure we need this, commenting out for now.
-
 *[role] ~ *::before {
   color: cadetblue;
-  content: "+";
+  content: "+ ";
   size: small;
 }
 
@@ -82,11 +81,17 @@ wg[role]::before {
   size: small;
 }
 
-
+/* sub-CL rules probably indicate adverbials in Treedown's model. */
+wg[rule=sub-CL]::before,
 wg[role=adv]::before {
   color: cadetblue;
-  content: "+";
+  content: "+ ";
   size: small;
+}
+
+wg[rule=sub-CL],
+wg[role=adv] {
+  padding-left: 1em;
 }
 
 /* If wg[role] is indented, w[role] must be indented the same amount. */
@@ -118,7 +123,7 @@ w[role]::before {
 
 w[role=adv]::before {
   color: cadetblue;
-  content: "+";
+  content: "+ ";
   size: small;
 }
 
@@ -150,24 +155,38 @@ w[case=vocative] {
 }
 
 w[class=conj] {
-   padding-left: 1em;
 }
 /* -----  Experimental stuff goes here -------- */
 
 /* Apposition */
 
-
-wg[rule=Np-Appos] > wg:not(:first-child)::before {
-    content: ":";
+wg[rule=Np-Appos] > wg:not(:first-child)::before,
+wg[rule=Np-Appos] > w:not(:first-child)::before {
+    content: ": ";
     color: cadetblue;
     size: small;
     padding-left: 1em;
 }
 
-wg[rule=Np-Appos] > wg:not(:first-child) {
+wg[rule=Np-Appos] > wg:not(:first-child),
+wg[rule=Np-Appos] > w:not(:first-child) {
     display: block;
 }
 
-wg[role=cl] pc::before {
+/* Probably want to put brackets around single words, but right now it cascades badly. */
+
+wg[rule=Np-Appos] > wg:first-child::before {
+    content: "[";
+    color: cadetblue;   
+}
+
+wg[rule=Np-Appos]> wg:first-child::after {
+    content: "]";
+    color: cadetblue;
+}
+
+pc::before {
     content: initial;
 }
+
+

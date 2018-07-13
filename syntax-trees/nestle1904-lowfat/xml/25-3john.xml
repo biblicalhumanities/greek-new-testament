@@ -3,8 +3,8 @@
 <?xml-stylesheet href="boxwood.css"?>
 <book>
    <sentence>
-      <milestone unit="verse" id="3John.1.1">3John.1.1</milestone>
-      <p>Ὁ πρεσβύτερος Γαΐῳ τῷ ἀγαπητῷ, ὃν ἐγὼ ἀγαπῶ ἐν ἀληθείᾳ.</p>
+      <p>
+         <milestone unit="verse" id="3John.1.1">3John.1.1</milestone> Ὁ πρεσβύτερος Γαΐῳ τῷ ἀγαπητῷ, ὃν ἐγὼ ἀγαπῶ ἐν ἀληθείᾳ.</p>
       <wg role="cl">
          <wg class="cl" n="640010010010100" articular="true" rule="S-IO">
             <wg role="s"
@@ -21,8 +21,7 @@
                   strong="3588"
                   number="singular"
                   gender="masculine"
-                  case="nominative"
-                  gloss="The">Ὁ</w>
+                  case="nominative">Ὁ</w>
                <w class="adj"
                   osisId="3John.1.1!2"
                   n="640010010020010"
@@ -33,8 +32,7 @@
                   gender="masculine"
                   case="nominative"
                   degree="comparative"
-                  head="true"
-                  gloss="elder">πρεσβύτερος</w>
+                  head="true">πρεσβύτερος</w>
             </wg>
             <wg role="io" class="np" n="640010010030080" rule="NP-CL">
                <wg class="np" n="640010010030030" head="true" rule="NPDetAdj">
@@ -48,8 +46,7 @@
                      number="singular"
                      gender="masculine"
                      case="dative"
-                     head="true"
-                     gloss="To Gaius">Γαΐῳ</w>
+                     head="true">Γαΐῳ</w>
                   <wg class="np" n="640010010040020" articular="true" rule="DetAdj">
                      <w class="det"
                         osisId="3John.1.1!4"
@@ -59,8 +56,7 @@
                         strong="3588"
                         number="singular"
                         gender="masculine"
-                        case="dative"
-                        gloss="the">τῷ</w>
+                        case="dative">τῷ</w>
                      <w class="adj"
                         osisId="3John.1.1!5"
                         n="640010010050010"
@@ -70,8 +66,7 @@
                         number="singular"
                         gender="masculine"
                         case="dative"
-                        head="true"
-                        gloss="beloved">ἀγαπητῷ</w><pc>,</pc>
+                        head="true">ἀγαπητῷ,</w>
                   </wg>
                </wg>
                <wg class="cl" n="640010010060050" rule="O-S-V-ADV">
@@ -85,8 +80,7 @@
                      strong="3739"
                      number="singular"
                      gender="masculine"
-                     case="accusative"
-                     gloss="whom">ὃν</w>
+                     case="accusative">ὃν</w>
                   <w role="s"
                      class="pron"
                      type="personal"
@@ -96,8 +90,7 @@
                      normalized="ἐγώ"
                      strong="1473"
                      number="singular"
-                     case="nominative"
-                     gloss="I">ἐγὼ</w>
+                     case="nominative">ἐγὼ</w>
                   <w role="v"
                      class="verb"
                      osisId="3John.1.1!8"
@@ -110,16 +103,14 @@
                      tense="present"
                      voice="active"
                      mood="indicative"
-                     head="true"
-                     gloss="love">ἀγαπῶ</w>
+                     head="true">ἀγαπῶ</w>
                   <wg role="adv" class="pp" n="640010010090020" rule="PrepNp">
                      <w class="prep"
                         osisId="3John.1.1!9"
                         n="640010010090010"
                         lemma="ἐν"
                         normalized="ἐν"
-                        strong="1722"
-                        gloss="in">ἐν</w>
+                        strong="1722">ἐν</w>
                      <w class="noun"
                         type="common"
                         osisId="3John.1.1!10"
@@ -130,8 +121,7 @@
                         number="singular"
                         gender="feminine"
                         case="dative"
-                        head="true"
-                        gloss="truth">ἀληθείᾳ</w><pc>.</pc>
+                        head="true">ἀληθείᾳ.</w>
                   </wg>
                </wg>
             </wg>
@@ -139,8 +129,8 @@
       </wg>
    </sentence>
    <sentence>
-      <milestone unit="verse" id="3John.1.2">3John.1.2</milestone>
-      <p>Ἀγαπητέ, περὶ πάντων εὔχομαί σε εὐοδοῦσθαι καὶ ὑγιαίνειν, καθὼς εὐοδοῦταί σου ἡ ψυχή.</p>
+      <p>
+         <milestone unit="verse" id="3John.1.2">3John.1.2</milestone> Ἀγαπητέ, περὶ πάντων εὔχομαί σε εὐοδοῦσθαι καὶ ὑγιαίνειν, καθὼς εὐοδοῦταί σου ἡ ψυχή.</p>
       <wg role="cl">
          <wg class="cl" n="640010020010130" rule="ClCl2">
             <wg class="cl" n="640010020010013" rule="Np2CL">
@@ -152,161 +142,146 @@
                   strong="27"
                   number="singular"
                   gender="masculine"
-                  case="vocative"
-                  gloss="Beloved">Ἀγαπητέ</w><pc>,</pc>
+                  case="vocative">Ἀγαπητέ,</w>
             </wg>
-            <wg class="cl" n="640010020020120" head="true" rule="ClCl">
-               <wg class="cl" n="640010020020070" head="true" rule="ADV-V-O">
-                  <wg role="adv" class="pp" n="640010020020020" rule="PrepNp">
-                     <w class="prep"
-                        osisId="3John.1.2!2"
-                        n="640010020020010"
-                        lemma="περί"
-                        normalized="περί"
-                        strong="4012"
-                        gloss="concerning">περὶ</w>
-                     <w class="adj"
-                        osisId="3John.1.2!3"
-                        n="640010020030010"
-                        lemma="πᾶς"
-                        normalized="πάντων"
-                        strong="3956"
-                        number="plural"
-                        gender="neuter"
-                        case="genitive"
-                        head="true"
-                        gloss="all things">πάντων</w>
-                  </wg>
-                  <w role="v"
-                     class="verb"
-                     osisId="3John.1.2!4"
-                     n="640010020040010"
-                     lemma="εὔχομαι"
-                     normalized="εὔχομαι"
-                     strong="2172"
-                     number="singular"
-                     person="first"
-                     tense="present"
-                     voice="middlepassive"
-                     mood="indicative"
-                     head="true"
-                     gloss="I pray">εὔχομαί</w>
-                  <wg role="o" class="cl" n="640010020050040" rule="S-V">
-                     <w role="s"
-                        class="pron"
-                        type="personal"
-                        osisId="3John.1.2!5"
-                        n="640010020050010"
-                        lemma="σύ"
-                        normalized="σε"
-                        strong="4771"
-                        number="singular"
-                        case="accusative"
-                        gloss="you">σε</w>
-                     <wg role="v"
-                         class="vp"
-                         n="640010020060030"
-                         head="true"
-                         rule="Conj2VP">
-                        <w class="verb"
-                           osisId="3John.1.2!6"
-                           n="640010020060010"
-                           lemma="εὐοδόω"
-                           normalized="εὐοδοῦσθαι"
-                           strong="2137"
-                           tense="present"
-                           voice="passive"
-                           mood="infinitive"
-                           type="?"
-                           head="true"
-                           gloss="to prosper">εὐοδοῦσθαι</w>
-                        <w class="conj"
-                           osisId="3John.1.2!7"
-                           n="640010020070010"
-                           lemma="καί"
-                           normalized="καί"
-                           strong="2532"
-                           gloss="and">καὶ</w>
-                        <w class="verb"
-                           osisId="3John.1.2!8"
-                           n="640010020080010"
-                           lemma="ὑγιαίνω"
-                           normalized="ὑγιαίνειν"
-                           strong="5198"
-                           tense="present"
-                           voice="active"
-                           mood="infinitive"
-                           type="?"
-                           gloss="to be in good health">ὑγιαίνειν</w><pc>,</pc>
-                     </wg>
-                  </wg>
+            <wg class="cl" n="640010020020070" head="true" rule="ADV-V-O">
+               <wg role="adv" class="pp" n="640010020020020" rule="PrepNp">
+                  <w class="prep"
+                     osisId="3John.1.2!2"
+                     n="640010020020010"
+                     lemma="περί"
+                     normalized="περί"
+                     strong="4012">περὶ</w>
+                  <w class="adj"
+                     osisId="3John.1.2!3"
+                     n="640010020030010"
+                     lemma="πᾶς"
+                     normalized="πάντων"
+                     strong="3956"
+                     number="plural"
+                     gender="neuter"
+                     case="genitive"
+                     head="true">πάντων</w>
                </wg>
-               <wg class="cl" n="640010020090050" rule="sub-CL">
-                  <w class="conj"
-                     osisId="3John.1.2!9"
-                     n="640010020090010"
-                     lemma="καθώς"
-                     normalized="καθώς"
-                     strong="2531"
-                     gloss="just as">καθὼς</w>
-                  <wg class="cl" n="640010020100040" rule="V-S">
-                     <w role="v"
-                        class="verb"
-                        osisId="3John.1.2!10"
-                        n="640010020100010"
+               <w role="v"
+                  class="verb"
+                  osisId="3John.1.2!4"
+                  n="640010020040010"
+                  lemma="εὔχομαι"
+                  normalized="εὔχομαι"
+                  strong="2172"
+                  number="singular"
+                  person="first"
+                  tense="present"
+                  voice="middlepassive"
+                  mood="indicative"
+                  head="true">εὔχομαί</w>
+               <wg role="o" class="cl" n="640010020050040" rule="S-V">
+                  <w role="s"
+                     class="pron"
+                     type="personal"
+                     osisId="3John.1.2!5"
+                     n="640010020050010"
+                     lemma="σύ"
+                     normalized="σε"
+                     strong="4771"
+                     number="singular"
+                     case="accusative">σε</w>
+                  <wg role="v"
+                      class="vp"
+                      n="640010020060030"
+                      head="true"
+                      rule="Conj2VP">
+                     <w class="verb"
+                        osisId="3John.1.2!6"
+                        n="640010020060010"
                         lemma="εὐοδόω"
-                        normalized="εὐοδοῦται"
+                        normalized="εὐοδοῦσθαι"
                         strong="2137"
-                        number="singular"
-                        person="third"
                         tense="present"
                         voice="passive"
-                        mood="indicative"
-                        head="true"
-                        gloss="prospers">εὐοδοῦταί</w>
-                     <wg role="s"
-                         class="np"
-                         n="640010020110030"
+                        mood="infinitive"
+                        type="?"
+                        head="true">εὐοδοῦσθαι</w>
+                     <w class="conj"
+                        osisId="3John.1.2!7"
+                        n="640010020070010"
+                        lemma="καί"
+                        normalized="καί"
+                        strong="2532">καὶ</w>
+                     <w class="verb"
+                        osisId="3John.1.2!8"
+                        n="640010020080010"
+                        lemma="ὑγιαίνω"
+                        normalized="ὑγιαίνειν"
+                        strong="5198"
+                        tense="present"
+                        voice="active"
+                        mood="infinitive"
+                        type="?">ὑγιαίνειν,</w>
+                  </wg>
+               </wg>
+            </wg>
+            <wg class="cl" n="640010020090050" rule="sub-CL">
+               <w class="conj"
+                  osisId="3John.1.2!9"
+                  n="640010020090010"
+                  lemma="καθώς"
+                  normalized="καθώς"
+                  strong="2531">καθὼς</w>
+               <wg class="cl" n="640010020100040" rule="V-S">
+                  <w role="v"
+                     class="verb"
+                     osisId="3John.1.2!10"
+                     n="640010020100010"
+                     lemma="εὐοδόω"
+                     normalized="εὐοδοῦται"
+                     strong="2137"
+                     number="singular"
+                     person="third"
+                     tense="present"
+                     voice="passive"
+                     mood="indicative"
+                     head="true">εὐοδοῦταί</w>
+                  <wg role="s"
+                      class="np"
+                      n="640010020110030"
+                      articular="true"
+                      rule="ofNPNP">
+                     <w class="pron"
+                        type="personal"
+                        osisId="3John.1.2!11"
+                        n="640010020110010"
+                        lemma="σύ"
+                        normalized="σου"
+                        strong="4771"
+                        number="singular"
+                        case="genitive">σου</w>
+                     <wg class="np"
+                         n="640010020120020"
                          articular="true"
-                         rule="ofNPNP">
-                        <w class="pron"
-                           type="personal"
-                           osisId="3John.1.2!11"
-                           n="640010020110010"
-                           lemma="σύ"
-                           normalized="σου"
-                           strong="4771"
+                         head="true"
+                         rule="DetNP">
+                        <w class="det"
+                           osisId="3John.1.2!12"
+                           n="640010020120010"
+                           lemma="ὁ"
+                           normalized="ἡ"
+                           strong="3588"
                            number="singular"
-                           case="genitive"
-                           gloss="your">σου</w>
-                        <wg class="np"
-                            n="640010020120020"
-                            articular="true"
-                            head="true"
-                            rule="DetNP">
-                           <w class="det"
-                              osisId="3John.1.2!12"
-                              n="640010020120010"
-                              lemma="ὁ"
-                              normalized="ἡ"
-                              strong="3588"
-                              number="singular"
-                              gender="feminine"
-                              case="nominative"
-                              gloss="-">ἡ</w>
-                           <w class="noun"
-                              type="common"
-                              osisId="3John.1.2!13"
-                              n="640010020130010"
-                              lemma="ψυχή"
-                              normalized="ψυχή"
-                              strong="5590"
-                              number="singular"
-                              gender="feminine"
-                              case="nominative"
-                              head="true"
-                              gloss="soul">ψυχή</w><pc>.</pc>
-                        </wg>
+                           gender="feminine"
+                           case="nominative">ἡ</w>
+                        <w class="noun"
+                           type="common"
+                           osisId="3John.1.2!13"
+                           n="640010020130010"
+                           lemma="ψυχή"
+                           normalized="ψυχή"
+                           strong="5590"
+                           number="singular"
+                           gender="feminine"
+                           case="nominative"
+                           head="true">ψυχή.</w>
                      </wg>
                   </wg>
                </wg>
@@ -315,8 +290,8 @@
       </wg>
    </sentence>
    <sentence>
-      <milestone unit="verse" id="3John.1.3">3John.1.3</milestone>
-      <p>ἐχάρην γὰρ λίαν ἐρχομένων ἀδελφῶν καὶ μαρτυρούντων σου τῇ ἀληθείᾳ, καθὼς σὺ ἐν ἀληθείᾳ περιπατεῖς.</p>
+      <p>
+         <milestone unit="verse" id="3John.1.3">3John.1.3</milestone> ἐχάρην γὰρ λίαν ἐρχομένων ἀδελφῶν καὶ μαρτυρούντων σου τῇ ἀληθείᾳ, καθὼς σὺ ἐν ἀληθείᾳ περιπατεῖς.</p>
       <wg role="cl">
          <wg class="cl" n="640010030020150" rule="Conj-CL">
             <w class="conj"
@@ -325,200 +300,181 @@
                lemma="γάρ"
                normalized="γάρ"
                strong="1063"
-               discontinuous="true"
-               gloss="for">γὰρ</w>
-            <wg class="cl" n="640010030010140" rule="ClCl">
-               <wg class="cl" n="640010030010020" head="true" rule="V-ADV">
+               discontinuous="true">γὰρ</w>
+            <wg class="cl" n="640010030010020" head="true" rule="V-ADV">
+               <w role="v"
+                  class="verb"
+                  osisId="3John.1.3!1"
+                  n="640010030010010"
+                  lemma="χαίρω"
+                  normalized="ἐχάρην"
+                  strong="5463"
+                  number="singular"
+                  person="first"
+                  tense="aorist"
+                  voice="passive"
+                  mood="indicative"
+                  head="true">ἐχάρην</w>
+               <w role="adv"
+                  class="adv"
+                  osisId="3John.1.3!3"
+                  n="640010030030010"
+                  lemma="λίαν"
+                  normalized="λίαν"
+                  strong="3029">λίαν</w>
+            </wg>
+            <wg class="cl" n="640010030040070" head="true" rule="CLaCL">
+               <wg class="cl" n="640010030040020" head="true" rule="V-S">
                   <w role="v"
                      class="verb"
-                     osisId="3John.1.3!1"
-                     n="640010030010010"
-                     lemma="χαίρω"
-                     normalized="ἐχάρην"
-                     strong="5463"
-                     number="singular"
-                     person="first"
-                     tense="aorist"
-                     voice="passive"
-                     mood="indicative"
-                     head="true"
-                     gloss="I rejoiced">ἐχάρην</w>
-                  <w role="adv"
-                     class="adv"
-                     osisId="3John.1.3!3"
-                     n="640010030030010"
-                     lemma="λίαν"
-                     normalized="λίαν"
-                     strong="3029"
-                     gloss="exceedingly">λίαν</w>
+                     osisId="3John.1.3!4"
+                     n="640010030040010"
+                     lemma="ἔρχομαι"
+                     normalized="ἐρχομένων"
+                     strong="2064"
+                     number="plural"
+                     gender="masculine"
+                     case="genitive"
+                     tense="present"
+                     voice="middlepassive"
+                     mood="participle"
+                     type="?"
+                     head="true">ἐρχομένων</w>
+                  <w role="s"
+                     class="noun"
+                     type="common"
+                     osisId="3John.1.3!5"
+                     n="640010030050010"
+                     lemma="ἀδελφός"
+                     normalized="ἀδελφῶν"
+                     strong="80"
+                     number="plural"
+                     gender="masculine"
+                     case="genitive">ἀδελφῶν</w>
                </wg>
-               <wg class="cl" n="640010030040120" rule="ClCl">
-                  <wg class="cl" n="640010030040070" head="true" rule="CLaCL">
-                     <wg class="cl" n="640010030040020" head="true" rule="V-S">
-                        <w role="v"
-                           class="verb"
-                           osisId="3John.1.3!4"
-                           n="640010030040010"
-                           lemma="ἔρχομαι"
-                           normalized="ἐρχομένων"
-                           strong="2064"
-                           number="plural"
-                           gender="masculine"
-                           case="genitive"
-                           tense="present"
-                           voice="middlepassive"
-                           mood="participle"
-                           type="?"
-                           head="true"
-                           gloss="coming">ἐρχομένων</w>
-                        <w role="s"
-                           class="noun"
+               <w class="conj"
+                  osisId="3John.1.3!6"
+                  n="640010030060010"
+                  lemma="καί"
+                  normalized="καί"
+                  strong="2532">καὶ</w>
+               <wg class="cl" n="640010030070040" rule="V-ADV">
+                  <w role="v"
+                     class="verb"
+                     osisId="3John.1.3!7"
+                     n="640010030070010"
+                     lemma="μαρτυρέω"
+                     normalized="μαρτυρούντων"
+                     strong="3140"
+                     number="plural"
+                     gender="masculine"
+                     case="genitive"
+                     tense="present"
+                     voice="active"
+                     mood="participle"
+                     type="?"
+                     head="true">μαρτυρούντων</w>
+                  <wg role="adv"
+                      class="np"
+                      n="640010030080030"
+                      articular="true"
+                      rule="ofNPNP">
+                     <w class="pron"
+                        type="personal"
+                        osisId="3John.1.3!8"
+                        n="640010030080010"
+                        lemma="σύ"
+                        normalized="σου"
+                        strong="4771"
+                        number="singular"
+                        case="genitive">σου</w>
+                     <wg class="np"
+                         n="640010030090020"
+                         articular="true"
+                         head="true"
+                         rule="DetNP">
+                        <w class="det"
+                           osisId="3John.1.3!9"
+                           n="640010030090010"
+                           lemma="ὁ"
+                           normalized="τῇ"
+                           strong="3588"
+                           number="singular"
+                           gender="feminine"
+                           case="dative">τῇ</w>
+                        <w class="noun"
                            type="common"
-                           osisId="3John.1.3!5"
-                           n="640010030050010"
-                           lemma="ἀδελφός"
-                           normalized="ἀδελφῶν"
-                           strong="80"
-                           number="plural"
-                           gender="masculine"
-                           case="genitive"
-                           gloss="of [the] brothers">ἀδελφῶν</w>
-                     </wg>
-                     <w class="conj"
-                        osisId="3John.1.3!6"
-                        n="640010030060010"
-                        lemma="καί"
-                        normalized="καί"
-                        strong="2532"
-                        gloss="and">καὶ</w>
-                     <wg class="cl" n="640010030070040" rule="V-ADV">
-                        <w role="v"
-                           class="verb"
-                           osisId="3John.1.3!7"
-                           n="640010030070010"
-                           lemma="μαρτυρέω"
-                           normalized="μαρτυρούντων"
-                           strong="3140"
-                           number="plural"
-                           gender="masculine"
-                           case="genitive"
-                           tense="present"
-                           voice="active"
-                           mood="participle"
-                           type="?"
-                           head="true"
-                           gloss="bearing witness">μαρτυρούντων</w>
-                        <wg role="adv"
-                            class="np"
-                            n="640010030080030"
-                            articular="true"
-                            rule="ofNPNP">
-                           <w class="pron"
-                              type="personal"
-                              osisId="3John.1.3!8"
-                              n="640010030080010"
-                              lemma="σύ"
-                              normalized="σου"
-                              strong="4771"
-                              number="singular"
-                              case="genitive"
-                              gloss="of your">σου</w>
-                           <wg class="np"
-                               n="640010030090020"
-                               articular="true"
-                               head="true"
-                               rule="DetNP">
-                              <w class="det"
-                                 osisId="3John.1.3!9"
-                                 n="640010030090010"
-                                 lemma="ὁ"
-                                 normalized="τῇ"
-                                 strong="3588"
-                                 number="singular"
-                                 gender="feminine"
-                                 case="dative"
-                                 gloss="-">τῇ</w>
-                              <w class="noun"
-                                 type="common"
-                                 osisId="3John.1.3!10"
-                                 n="640010030100010"
-                                 lemma="ἀλήθεια"
-                                 normalized="ἀληθείᾳ"
-                                 strong="225"
-                                 number="singular"
-                                 gender="feminine"
-                                 case="dative"
-                                 head="true"
-                                 gloss="truth">ἀληθείᾳ</w><pc>,</pc>
-                           </wg>
-                        </wg>
+                           osisId="3John.1.3!10"
+                           n="640010030100010"
+                           lemma="ἀλήθεια"
+                           normalized="ἀληθείᾳ"
+                           strong="225"
+                           number="singular"
+                           gender="feminine"
+                           case="dative"
+                           head="true">ἀληθείᾳ,</w>
                      </wg>
                   </wg>
-                  <wg class="cl" n="640010030110050" rule="sub-CL">
-                     <w class="conj"
-                        osisId="3John.1.3!11"
-                        n="640010030110010"
-                        lemma="καθώς"
-                        normalized="καθώς"
-                        strong="2531"
-                        gloss="just as">καθὼς</w>
-                     <wg class="cl" n="640010030120040" rule="S-ADV-V">
-                        <w role="s"
-                           class="pron"
-                           type="personal"
-                           osisId="3John.1.3!12"
-                           n="640010030120010"
-                           lemma="σύ"
-                           normalized="σύ"
-                           strong="4771"
-                           number="singular"
-                           case="nominative"
-                           gloss="you">σὺ</w>
-                        <wg role="adv" class="pp" n="640010030130020" rule="PrepNp">
-                           <w class="prep"
-                              osisId="3John.1.3!13"
-                              n="640010030130010"
-                              lemma="ἐν"
-                              normalized="ἐν"
-                              strong="1722"
-                              gloss="in">ἐν</w>
-                           <w class="noun"
-                              type="common"
-                              osisId="3John.1.3!14"
-                              n="640010030140010"
-                              lemma="ἀλήθεια"
-                              normalized="ἀληθείᾳ"
-                              strong="225"
-                              number="singular"
-                              gender="feminine"
-                              case="dative"
-                              head="true"
-                              gloss="truth">ἀληθείᾳ</w>
-                        </wg>
-                        <w role="v"
-                           class="verb"
-                           osisId="3John.1.3!15"
-                           n="640010030150010"
-                           lemma="περιπατέω"
-                           normalized="περιπατεῖς"
-                           strong="4043"
-                           number="singular"
-                           person="second"
-                           tense="present"
-                           voice="active"
-                           mood="indicative"
-                           head="true"
-                           gloss="are walking">περιπατεῖς</w><pc>.</pc>
-                     </wg>
+               </wg>
+            </wg>
+            <wg class="cl" n="640010030110050" rule="sub-CL">
+               <w class="conj"
+                  osisId="3John.1.3!11"
+                  n="640010030110010"
+                  lemma="καθώς"
+                  normalized="καθώς"
+                  strong="2531">καθὼς</w>
+               <wg class="cl" n="640010030120040" rule="S-ADV-V">
+                  <w role="s"
+                     class="pron"
+                     type="personal"
+                     osisId="3John.1.3!12"
+                     n="640010030120010"
+                     lemma="σύ"
+                     normalized="σύ"
+                     strong="4771"
+                     number="singular"
+                     case="nominative">σὺ</w>
+                  <wg role="adv" class="pp" n="640010030130020" rule="PrepNp">
+                     <w class="prep"
+                        osisId="3John.1.3!13"
+                        n="640010030130010"
+                        lemma="ἐν"
+                        normalized="ἐν"
+                        strong="1722">ἐν</w>
+                     <w class="noun"
+                        type="common"
+                        osisId="3John.1.3!14"
+                        n="640010030140010"
+                        lemma="ἀλήθεια"
+                        normalized="ἀληθείᾳ"
+                        strong="225"
+                        number="singular"
+                        gender="feminine"
+                        case="dative"
+                        head="true">ἀληθείᾳ</w>
                   </wg>
+                  <w role="v"
+                     class="verb"
+                     osisId="3John.1.3!15"
+                     n="640010030150010"
+                     lemma="περιπατέω"
+                     normalized="περιπατεῖς"
+                     strong="4043"
+                     number="singular"
+                     person="second"
+                     tense="present"
+                     voice="active"
+                     mood="indicative"
+                     head="true">περιπατεῖς.</w>
                </wg>
             </wg>
          </wg>
       </wg>
    </sentence>
    <sentence>
-      <milestone unit="verse" id="3John.1.4">3John.1.4</milestone>
-      <p>μειζοτέραν τούτων οὐκ ἔχω χαράν, ἵνα ἀκούω τὰ ἐμὰ τέκνα ἐν τῇ ἀληθείᾳ περιπατοῦντα.</p>
+      <p>
+         <milestone unit="verse" id="3John.1.4">3John.1.4</milestone> μειζοτέραν τούτων οὐκ ἔχω χαράν, ἵνα ἀκούω τὰ ἐμὰ τέκνα ἐν τῇ ἀληθείᾳ περιπατοῦντα.</p>
       <wg role="cl">
          <wg class="cl" n="640010040010140" rule="ClCl">
             <wg class="cl" n="640010040010050" head="true" rule="O-ADV-ADV-V">
@@ -532,8 +488,7 @@
                      number="singular"
                      gender="feminine"
                      case="accusative"
-                     degree="comparative"
-                     gloss="Greater">μειζοτέραν</w>
+                     degree="comparative">μειζοτέραν</w>
                   <w class="noun"
                      type="common"
                      osisId="3John.1.4!5"
@@ -545,8 +500,7 @@
                      gender="feminine"
                      case="accusative"
                      head="true"
-                     discontinuous="true"
-                     gloss="joy">χαράν</w><pc>,</pc>
+                     discontinuous="true">χαράν,</w>
                </wg>
                <w role="adv"
                   class="pron"
@@ -558,16 +512,14 @@
                   strong="3778"
                   number="plural"
                   gender="neuter"
-                  case="genitive"
-                  gloss="than these things">τούτων</w>
+                  case="genitive">τούτων</w>
                <w role="adv"
                   class="adv"
                   osisId="3John.1.4!3"
                   n="640010040030010"
                   lemma="οὐ"
                   normalized="οὐκ"
-                  strong="3756"
-                  gloss="not">οὐκ</w>
+                  strong="3756">οὐκ</w>
                <w role="v"
                   class="verb"
                   osisId="3John.1.4!4"
@@ -580,8 +532,7 @@
                   tense="present"
                   voice="active"
                   mood="indicative"
-                  head="true"
-                  gloss="I have">ἔχω</w>
+                  head="true">ἔχω</w>
             </wg>
             <wg class="cl" n="640010040060090" rule="that-VP">
                <w class="adv"
@@ -589,8 +540,7 @@
                   n="640010040060010"
                   lemma="ἵνα"
                   normalized="ἵνα"
-                  strong="2443"
-                  gloss="that">ἵνα</w>
+                  strong="2443">ἵνα</w>
                <wg class="cl" n="640010040070080" rule="V-O">
                   <w role="v"
                      class="verb"
@@ -604,8 +554,7 @@
                      tense="present"
                      voice="active"
                      mood="subjunctive"
-                     head="true"
-                     gloss="I should hear of">ἀκούω</w>
+                     head="true">ἀκούω</w>
                   <wg role="o" class="cl" n="640010040080070" rule="S-ADV-V">
                      <wg role="s"
                          class="np"
@@ -620,8 +569,7 @@
                            strong="3588"
                            number="plural"
                            gender="neuter"
-                           case="accusative"
-                           gloss="-">τὰ</w>
+                           case="accusative">τὰ</w>
                         <wg class="np" n="640010040090020" head="true" rule="AdjpNp">
                            <w class="adj"
                               osisId="3John.1.4!9"
@@ -631,8 +579,7 @@
                               strong="1699"
                               number="plural"
                               gender="neuter"
-                              case="accusative"
-                              gloss="my">ἐμὰ</w>
+                              case="accusative">ἐμὰ</w>
                            <w class="noun"
                               type="common"
                               osisId="3John.1.4!10"
@@ -643,8 +590,7 @@
                               number="plural"
                               gender="neuter"
                               case="accusative"
-                              head="true"
-                              gloss="children">τέκνα</w>
+                              head="true">τέκνα</w>
                         </wg>
                      </wg>
                      <wg role="adv"
@@ -657,8 +603,7 @@
                            n="640010040110010"
                            lemma="ἐν"
                            normalized="ἐν"
-                           strong="1722"
-                           gloss="in">ἐν</w>
+                           strong="1722">ἐν</w>
                         <wg class="np"
                             n="640010040120020"
                             articular="true"
@@ -672,8 +617,7 @@
                               strong="3588"
                               number="singular"
                               gender="feminine"
-                              case="dative"
-                              gloss="the">τῇ</w>
+                              case="dative">τῇ</w>
                            <w class="noun"
                               type="common"
                               osisId="3John.1.4!13"
@@ -684,8 +628,7 @@
                               number="singular"
                               gender="feminine"
                               case="dative"
-                              head="true"
-                              gloss="truth">ἀληθείᾳ</w>
+                              head="true">ἀληθείᾳ</w>
                         </wg>
                      </wg>
                      <w role="v"
@@ -702,8 +645,7 @@
                         voice="active"
                         mood="participle"
                         type="?"
-                        head="true"
-                        gloss="walking">περιπατοῦντα</w><pc>.</pc>
+                        head="true">περιπατοῦντα.</w>
                   </wg>
                </wg>
             </wg>
@@ -711,9 +653,9 @@
       </wg>
    </sentence>
    <sentence>
-      <milestone unit="verse" id="3John.1.5">3John.1.5</milestone>
-      <milestone unit="verse" id="3John.1.6">3John.1.6</milestone>
-      <p>Ἀγαπητέ, πιστὸν ποιεῖς ὃ ἐὰν ἐργάσῃ εἰς τοὺς ἀδελφοὺς καὶ τοῦτο ξένους, οἳ ἐμαρτύρησάν σου τῇ ἀγάπῃ ἐνώπιον ἐκκλησίας, οὓς καλῶς ποιήσεις προπέμψας ἀξίως τοῦ Θεοῦ·</p>
+      <p>
+         <milestone unit="verse" id="3John.1.5">3John.1.5</milestone> 
+         <milestone unit="verse" id="3John.1.6">3John.1.6</milestone> Ἀγαπητέ, πιστὸν ποιεῖς ὃ ἐὰν ἐργάσῃ εἰς τοὺς ἀδελφοὺς καὶ τοῦτο ξένους, οἳ ἐμαρτύρησάν σου τῇ ἀγάπῃ ἐνώπιον ἐκκλησίας, οὓς καλῶς ποιήσεις προπέμψας ἀξίως τοῦ Θεοῦ·</p>
       <wg role="cl">
          <wg class="cl" n="640010050010260" rule="ClCl2">
             <wg class="cl" n="640010050010013" rule="Np2CL">
@@ -725,8 +667,7 @@
                   strong="27"
                   number="singular"
                   gender="masculine"
-                  case="vocative"
-                  gloss="Beloved">Ἀγαπητέ</w><pc>,</pc>
+                  case="vocative">Ἀγαπητέ,</w>
             </wg>
             <wg class="cl" n="640010050020250" head="true" rule="CLaCL">
                <wg class="cl" n="640010050020080" head="true" rule="O-V-ADV">
@@ -739,8 +680,7 @@
                      strong="4103"
                      number="singular"
                      gender="neuter"
-                     case="accusative"
-                     gloss="faithfully">πιστὸν</w>
+                     case="accusative">πιστὸν</w>
                   <w role="v"
                      class="verb"
                      osisId="3John.1.5!3"
@@ -753,8 +693,7 @@
                      tense="present"
                      voice="active"
                      mood="indicative"
-                     head="true"
-                     gloss="you are doing">ποιεῖς</w>
+                     head="true">ποιεῖς</w>
                   <wg role="adv" class="np" n="640010050050061" rule="CL2NP">
                      <wg class="cl" n="640010050050060" rule="PtclCL">
                         <w class="ptcl"
@@ -763,8 +702,7 @@
                            lemma="ἐάν"
                            normalized="ἐάν"
                            strong="1437"
-                           discontinuous="true"
-                           gloss="if">ἐὰν</w>
+                           discontinuous="true">ἐὰν</w>
                         <wg class="cl" n="640010050040050" head="true" rule="O-V-ADV">
                            <w role="o"
                               class="pron"
@@ -776,8 +714,7 @@
                               strong="3739"
                               number="singular"
                               gender="neuter"
-                              case="accusative"
-                              gloss="whatever">ὃ</w>
+                              case="accusative">ὃ</w>
                            <w role="v"
                               class="verb"
                               osisId="3John.1.5!6"
@@ -790,8 +727,7 @@
                               tense="aorist"
                               voice="middle"
                               mood="subjunctive"
-                              head="true"
-                              gloss="you might have done">ἐργάσῃ</w>
+                              head="true">ἐργάσῃ</w>
                            <wg role="adv"
                                class="pp"
                                n="640010050070030"
@@ -802,8 +738,7 @@
                                  n="640010050070010"
                                  lemma="εἰς"
                                  normalized="εἰς"
-                                 strong="1519"
-                                 gloss="toward">εἰς</w>
+                                 strong="1519">εἰς</w>
                               <wg class="np"
                                   n="640010050080020"
                                   articular="true"
@@ -817,8 +752,7 @@
                                     strong="3588"
                                     number="plural"
                                     gender="masculine"
-                                    case="accusative"
-                                    gloss="the">τοὺς</w>
+                                    case="accusative">τοὺς</w>
                                  <w class="noun"
                                     type="common"
                                     osisId="3John.1.5!9"
@@ -829,8 +763,7 @@
                                     number="plural"
                                     gender="masculine"
                                     case="accusative"
-                                    head="true"
-                                    gloss="brothers">ἀδελφοὺς</w>
+                                    head="true">ἀδελφοὺς</w>
                               </wg>
                            </wg>
                         </wg>
@@ -842,8 +775,7 @@
                   n="640010050100010"
                   lemma="καί"
                   normalized="καί"
-                  strong="2532"
-                  gloss="and">καὶ</w>
+                  strong="2532">καὶ</w>
                <wg class="cl" n="640010050110160" rule="O-ADV">
                   <w role="o"
                      class="pron"
@@ -856,8 +788,7 @@
                      number="singular"
                      gender="neuter"
                      case="accusative"
-                     head="true"
-                     gloss="they are">τοῦτο</w>
+                     head="true">τοῦτο</w>
                   <wg role="adv" class="np" n="640010050120150" rule="NP-CL">
                      <wg class="np" n="640010050120080" head="true" rule="NP-CL">
                         <w class="adj"
@@ -869,8 +800,7 @@
                            number="plural"
                            gender="masculine"
                            case="accusative"
-                           head="true"
-                           gloss="strangers">ξένους</w><pc>,</pc>
+                           head="true">ξένους,</w>
                         <wg class="cl" n="640010060010070" rule="S-V-ADV-ADV">
                            <w role="s"
                               class="pron"
@@ -882,8 +812,7 @@
                               strong="3739"
                               number="plural"
                               gender="masculine"
-                              case="nominative"
-                              gloss="who">οἳ</w>
+                              case="nominative">οἳ</w>
                            <w role="v"
                               class="verb"
                               osisId="3John.1.6!2"
@@ -896,8 +825,7 @@
                               tense="aorist"
                               voice="active"
                               mood="indicative"
-                              head="true"
-                              gloss="testified">ἐμαρτύρησάν</w>
+                              head="true">ἐμαρτύρησάν</w>
                            <wg role="adv"
                                class="np"
                                n="640010060030030"
@@ -911,8 +839,7 @@
                                  normalized="σου"
                                  strong="4771"
                                  number="singular"
-                                 case="genitive"
-                                 gloss="of your">σου</w>
+                                 case="genitive">σου</w>
                               <wg class="np"
                                   n="640010060040020"
                                   articular="true"
@@ -926,8 +853,7 @@
                                     strong="3588"
                                     number="singular"
                                     gender="feminine"
-                                    case="dative"
-                                    gloss="-">τῇ</w>
+                                    case="dative">τῇ</w>
                                  <w class="noun"
                                     type="common"
                                     osisId="3John.1.6!5"
@@ -938,8 +864,7 @@
                                     number="singular"
                                     gender="feminine"
                                     case="dative"
-                                    head="true"
-                                    gloss="love">ἀγάπῃ</w>
+                                    head="true">ἀγάπῃ</w>
                               </wg>
                            </wg>
                            <wg role="adv" class="pp" n="640010060060020" rule="PrepNp">
@@ -948,8 +873,7 @@
                                  n="640010060060010"
                                  lemma="ἐνώπιον"
                                  normalized="ἐνώπιον"
-                                 strong="1799"
-                                 gloss="before">ἐνώπιον</w>
+                                 strong="1799">ἐνώπιον</w>
                               <w class="noun"
                                  type="common"
                                  osisId="3John.1.6!7"
@@ -960,8 +884,7 @@
                                  number="singular"
                                  gender="feminine"
                                  case="genitive"
-                                 head="true"
-                                 gloss="[the] church">ἐκκλησίας</w><pc>,</pc>
+                                 head="true">ἐκκλησίας,</w>
                            </wg>
                         </wg>
                      </wg>
@@ -976,16 +899,14 @@
                            strong="3739"
                            number="plural"
                            gender="masculine"
-                           case="accusative"
-                           gloss="whom">οὓς</w>
+                           case="accusative">οὓς</w>
                         <w role="adv"
                            class="adv"
                            osisId="3John.1.6!9"
                            n="640010060090010"
                            lemma="καλῶς"
                            normalized="καλῶς"
-                           strong="2573"
-                           gloss="well">καλῶς</w>
+                           strong="2573">καλῶς</w>
                         <w role="v"
                            class="verb"
                            osisId="3John.1.6!10"
@@ -998,8 +919,7 @@
                            tense="future"
                            voice="active"
                            mood="indicative"
-                           head="true"
-                           gloss="you will do">ποιήσεις</w>
+                           head="true">ποιήσεις</w>
                         <wg role="adv" class="cl" n="640010060110040" rule="V-ADV-ADV">
                            <w role="v"
                               class="verb"
@@ -1015,16 +935,14 @@
                               voice="active"
                               mood="participle"
                               type="?"
-                              head="true"
-                              gloss="having set forward">προπέμψας</w>
+                              head="true">προπέμψας</w>
                            <w role="adv"
                               class="adv"
                               osisId="3John.1.6!12"
                               n="640010060120010"
                               lemma="ἀξίως"
                               normalized="ἀξίως"
-                              strong="516"
-                              gloss="worthily">ἀξίως</w>
+                              strong="516">ἀξίως</w>
                            <wg role="adv"
                                class="np"
                                n="640010060130020"
@@ -1038,8 +956,7 @@
                                  strong="3588"
                                  number="singular"
                                  gender="masculine"
-                                 case="genitive"
-                                 gloss="-">τοῦ</w>
+                                 case="genitive">τοῦ</w>
                               <w class="noun"
                                  type="common"
                                  osisId="3John.1.6!14"
@@ -1050,8 +967,7 @@
                                  number="singular"
                                  gender="masculine"
                                  case="genitive"
-                                 head="true"
-                                 gloss="of God">Θεοῦ</w><pc>·</pc>
+                                 head="true">Θεοῦ·</w>
                            </wg>
                         </wg>
                      </wg>
@@ -1062,8 +978,8 @@
       </wg>
    </sentence>
    <sentence>
-      <milestone unit="verse" id="3John.1.7">3John.1.7</milestone>
-      <p>ὑπὲρ γὰρ τοῦ Ὀνόματος ἐξῆλθαν μηδὲν λαμβάνοντες ἀπὸ τῶν ἐθνικῶν.</p>
+      <p>
+         <milestone unit="verse" id="3John.1.7">3John.1.7</milestone> ὑπὲρ γὰρ τοῦ Ὀνόματος ἐξῆλθαν μηδὲν λαμβάνοντες ἀπὸ τῶν ἐθνικῶν.</p>
       <wg role="cl">
          <wg class="cl" n="640010070020100" rule="Conj-CL">
             <w class="conj"
@@ -1072,8 +988,7 @@
                lemma="γάρ"
                normalized="γάρ"
                strong="1063"
-               discontinuous="true"
-               gloss="for">γὰρ</w>
+               discontinuous="true">γὰρ</w>
             <wg class="cl" n="640010070010090" rule="ADV-V-ADV">
                <wg role="adv"
                    class="pp"
@@ -1085,8 +1000,7 @@
                      n="640010070010010"
                      lemma="ὑπέρ"
                      normalized="ὑπέρ"
-                     strong="5228"
-                     gloss="On behalf">ὑπὲρ</w>
+                     strong="5228">ὑπὲρ</w>
                   <wg class="np"
                       n="640010070030020"
                       articular="true"
@@ -1100,8 +1014,7 @@
                         strong="3588"
                         number="singular"
                         gender="neuter"
-                        case="genitive"
-                        gloss="of the">τοῦ</w>
+                        case="genitive">τοῦ</w>
                      <w class="noun"
                         type="common"
                         osisId="3John.1.7!4"
@@ -1112,8 +1025,7 @@
                         number="singular"
                         gender="neuter"
                         case="genitive"
-                        head="true"
-                        gloss="name">Ὀνόματος</w>
+                        head="true">Ὀνόματος</w>
                   </wg>
                </wg>
                <w role="v"
@@ -1128,8 +1040,7 @@
                   tense="aorist"
                   voice="active"
                   mood="indicative"
-                  head="true"
-                  gloss="they went forth">ἐξῆλθαν</w>
+                  head="true">ἐξῆλθαν</w>
                <wg role="adv" class="cl" n="640010070060050" rule="O-V-ADV">
                   <w role="o"
                      class="adj"
@@ -1140,8 +1051,7 @@
                      strong="3367"
                      number="singular"
                      gender="neuter"
-                     case="accusative"
-                     gloss="nothing">μηδὲν</w>
+                     case="accusative">μηδὲν</w>
                   <w role="v"
                      class="verb"
                      osisId="3John.1.7!7"
@@ -1156,8 +1066,7 @@
                      voice="active"
                      mood="participle"
                      type="?"
-                     head="true"
-                     gloss="accepting">λαμβάνοντες</w>
+                     head="true">λαμβάνοντες</w>
                   <wg role="adv"
                       class="pp"
                       n="640010070080030"
@@ -1168,8 +1077,7 @@
                         n="640010070080010"
                         lemma="ἀπό"
                         normalized="ἀπό"
-                        strong="575"
-                        gloss="from">ἀπὸ</w>
+                        strong="575">ἀπὸ</w>
                      <wg class="np"
                          n="640010070090020"
                          articular="true"
@@ -1183,8 +1091,7 @@
                            strong="3588"
                            number="plural"
                            gender="masculine"
-                           case="genitive"
-                           gloss="the">τῶν</w>
+                           case="genitive">τῶν</w>
                         <w class="adj"
                            osisId="3John.1.7!10"
                            n="640010070100010"
@@ -1194,8 +1101,7 @@
                            number="plural"
                            gender="masculine"
                            case="genitive"
-                           head="true"
-                           gloss="Gentiles">ἐθνικῶν</w><pc>.</pc>
+                           head="true">ἐθνικῶν.</w>
                      </wg>
                   </wg>
                </wg>
@@ -1204,8 +1110,8 @@
       </wg>
    </sentence>
    <sentence>
-      <milestone unit="verse" id="3John.1.8">3John.1.8</milestone>
-      <p>ἡμεῖς οὖν ὀφείλομεν ὑπολαμβάνειν τοὺς τοιούτους, ἵνα συνεργοὶ γινώμεθα τῇ ἀληθείᾳ.</p>
+      <p>
+         <milestone unit="verse" id="3John.1.8">3John.1.8</milestone> ἡμεῖς οὖν ὀφείλομεν ὑπολαμβάνειν τοὺς τοιούτους, ἵνα συνεργοὶ γινώμεθα τῇ ἀληθείᾳ.</p>
       <wg role="cl">
          <wg class="cl" n="640010080020110" rule="Conj-CL">
             <w class="conj"
@@ -1214,141 +1120,128 @@
                lemma="οὖν"
                normalized="οὖν"
                strong="3767"
-               discontinuous="true"
-               gloss="therefore">οὖν</w>
-            <wg class="cl" n="640010080010100" rule="ClCl">
-               <wg class="cl" n="640010080010050" head="true" rule="S-V-O">
-                  <w role="s"
-                     class="pron"
-                     type="personal"
-                     osisId="3John.1.8!1"
-                     n="640010080010010"
-                     lemma="ἐγώ"
-                     normalized="ἡμεῖς"
-                     strong="1473"
-                     number="plural"
-                     case="nominative"
-                     gloss="We">ἡμεῖς</w>
+               discontinuous="true">οὖν</w>
+            <wg class="cl" n="640010080010050" head="true" rule="S-V-O">
+               <w role="s"
+                  class="pron"
+                  type="personal"
+                  osisId="3John.1.8!1"
+                  n="640010080010010"
+                  lemma="ἐγώ"
+                  normalized="ἡμεῖς"
+                  strong="1473"
+                  number="plural"
+                  case="nominative">ἡμεῖς</w>
+               <w role="v"
+                  class="verb"
+                  osisId="3John.1.8!3"
+                  n="640010080030010"
+                  lemma="ὀφείλω"
+                  normalized="ὀφείλομεν"
+                  strong="3784"
+                  number="plural"
+                  person="first"
+                  tense="present"
+                  voice="active"
+                  mood="indicative"
+                  head="true">ὀφείλομεν</w>
+               <wg role="o" class="cl" n="640010080040030" rule="V-O">
                   <w role="v"
                      class="verb"
-                     osisId="3John.1.8!3"
-                     n="640010080030010"
-                     lemma="ὀφείλω"
-                     normalized="ὀφείλομεν"
-                     strong="3784"
+                     osisId="3John.1.8!4"
+                     n="640010080040010"
+                     lemma="ὑπολαμβάνω"
+                     normalized="ὑπολαμβάνειν"
+                     strong="5274"
+                     tense="present"
+                     voice="active"
+                     mood="infinitive"
+                     type="?"
+                     head="true">ὑπολαμβάνειν</w>
+                  <wg role="o"
+                      class="np"
+                      n="640010080050020"
+                      articular="true"
+                      rule="DetNP">
+                     <w class="det"
+                        osisId="3John.1.8!5"
+                        n="640010080050010"
+                        lemma="ὁ"
+                        normalized="τούς"
+                        strong="3588"
+                        number="plural"
+                        gender="masculine"
+                        case="accusative">τοὺς</w>
+                     <w class="pron"
+                        type="demonstrative"
+                        osisId="3John.1.8!6"
+                        n="640010080060010"
+                        lemma="τοιοῦτος"
+                        normalized="τοιούτους"
+                        strong="5108"
+                        number="plural"
+                        gender="masculine"
+                        case="accusative"
+                        head="true">τοιούτους,</w>
+                  </wg>
+               </wg>
+            </wg>
+            <wg class="cl" n="640010080070050" rule="sub-CL">
+               <w class="conj"
+                  osisId="3John.1.8!7"
+                  n="640010080070010"
+                  lemma="ἵνα"
+                  normalized="ἵνα"
+                  strong="2443">ἵνα</w>
+               <wg class="cl" n="640010080080040" rule="P-VC-ADV">
+                  <w role="p"
+                     class="adj"
+                     osisId="3John.1.8!8"
+                     n="640010080080010"
+                     lemma="συνεργός"
+                     normalized="συνεργοί"
+                     strong="4904"
+                     number="plural"
+                     gender="masculine"
+                     case="nominative"
+                     head="true">συνεργοὶ</w>
+                  <w role="vc"
+                     class="verb"
+                     osisId="3John.1.8!9"
+                     n="640010080090010"
+                     lemma="γίνομαι"
+                     normalized="γινώμεθα"
+                     strong="1096"
                      number="plural"
                      person="first"
                      tense="present"
-                     voice="active"
-                     mood="indicative"
-                     head="true"
-                     gloss="ought">ὀφείλομεν</w>
-                  <wg role="o" class="cl" n="640010080040030" rule="V-O">
-                     <w role="v"
-                        class="verb"
-                        osisId="3John.1.8!4"
-                        n="640010080040010"
-                        lemma="ὑπολαμβάνω"
-                        normalized="ὑπολαμβάνειν"
-                        strong="5274"
-                        tense="present"
-                        voice="active"
-                        mood="infinitive"
-                        type="?"
-                        head="true"
-                        gloss="to receive">ὑπολαμβάνειν</w>
-                     <wg role="o"
-                         class="np"
-                         n="640010080050020"
-                         articular="true"
-                         rule="DetNP">
-                        <w class="det"
-                           osisId="3John.1.8!5"
-                           n="640010080050010"
-                           lemma="ὁ"
-                           normalized="τούς"
-                           strong="3588"
-                           number="plural"
-                           gender="masculine"
-                           case="accusative"
-                           gloss="-">τοὺς</w>
-                        <w class="pron"
-                           type="demonstrative"
-                           osisId="3John.1.8!6"
-                           n="640010080060010"
-                           lemma="τοιοῦτος"
-                           normalized="τοιούτους"
-                           strong="5108"
-                           number="plural"
-                           gender="masculine"
-                           case="accusative"
-                           head="true"
-                           gloss="such [men]">τοιούτους</w><pc>,</pc>
-                     </wg>
-                  </wg>
-               </wg>
-               <wg class="cl" n="640010080070050" rule="sub-CL">
-                  <w class="conj"
-                     osisId="3John.1.8!7"
-                     n="640010080070010"
-                     lemma="ἵνα"
-                     normalized="ἵνα"
-                     strong="2443"
-                     gloss="so that">ἵνα</w>
-                  <wg class="cl" n="640010080080040" rule="P-VC-ADV">
-                     <w role="p"
-                        class="adj"
-                        osisId="3John.1.8!8"
-                        n="640010080080010"
-                        lemma="συνεργός"
-                        normalized="συνεργοί"
-                        strong="4904"
-                        number="plural"
-                        gender="masculine"
-                        case="nominative"
-                        head="true"
-                        gloss="fellow workers">συνεργοὶ</w>
-                     <w role="vc"
-                        class="verb"
-                        osisId="3John.1.8!9"
-                        n="640010080090010"
-                        lemma="γίνομαι"
-                        normalized="γινώμεθα"
-                        strong="1096"
-                        number="plural"
-                        person="first"
-                        tense="present"
-                        voice="middlepassive"
-                        mood="subjunctive"
-                        gloss="we may be">γινώμεθα</w>
-                     <wg role="adv"
-                         class="np"
-                         n="640010080100020"
-                         articular="true"
-                         rule="DetNP">
-                        <w class="det"
-                           osisId="3John.1.8!10"
-                           n="640010080100010"
-                           lemma="ὁ"
-                           normalized="τῇ"
-                           strong="3588"
-                           number="singular"
-                           gender="feminine"
-                           case="dative"
-                           gloss="in the">τῇ</w>
-                        <w class="noun"
-                           type="common"
-                           osisId="3John.1.8!11"
-                           n="640010080110010"
-                           lemma="ἀλήθεια"
-                           normalized="ἀληθείᾳ"
-                           strong="225"
-                           number="singular"
-                           gender="feminine"
-                           case="dative"
-                           head="true"
-                           gloss="truth">ἀληθείᾳ</w><pc>.</pc>
-                     </wg>
+                     voice="middlepassive"
+                     mood="subjunctive">γινώμεθα</w>
+                  <wg role="adv"
+                      class="np"
+                      n="640010080100020"
+                      articular="true"
+                      rule="DetNP">
+                     <w class="det"
+                        osisId="3John.1.8!10"
+                        n="640010080100010"
+                        lemma="ὁ"
+                        normalized="τῇ"
+                        strong="3588"
+                        number="singular"
+                        gender="feminine"
+                        case="dative">τῇ</w>
+                     <w class="noun"
+                        type="common"
+                        osisId="3John.1.8!11"
+                        n="640010080110010"
+                        lemma="ἀλήθεια"
+                        normalized="ἀληθείᾳ"
+                        strong="225"
+                        number="singular"
+                        gender="feminine"
+                        case="dative"
+                        head="true">ἀληθείᾳ.</w>
                   </wg>
                </wg>
             </wg>
@@ -1356,8 +1249,8 @@
       </wg>
    </sentence>
    <sentence>
-      <milestone unit="verse" id="3John.1.9">3John.1.9</milestone>
-      <p>Ἔγραψά τι τῇ ἐκκλησίᾳ·</p>
+      <p>
+         <milestone unit="verse" id="3John.1.9">3John.1.9</milestone> Ἔγραψά τι τῇ ἐκκλησίᾳ·</p>
       <wg role="cl">
          <wg class="cl" n="640010090010040" rule="V-O-IO">
             <w role="v"
@@ -1372,8 +1265,7 @@
                tense="aorist"
                voice="active"
                mood="indicative"
-               head="true"
-               gloss="I have written">Ἔγραψά</w>
+               head="true">Ἔγραψά</w>
             <w role="o"
                class="pron"
                type="indefinite"
@@ -1384,8 +1276,7 @@
                strong="5100"
                number="singular"
                gender="neuter"
-               case="accusative"
-               gloss="something">τι</w>
+               case="accusative">τι</w>
             <wg role="io"
                 class="np"
                 n="640010090030020"
@@ -1399,8 +1290,7 @@
                   strong="3588"
                   number="singular"
                   gender="feminine"
-                  case="dative"
-                  gloss="to the">τῇ</w>
+                  case="dative">τῇ</w>
                <w class="noun"
                   type="common"
                   osisId="3John.1.9!4"
@@ -1411,15 +1301,14 @@
                   number="singular"
                   gender="feminine"
                   case="dative"
-                  head="true"
-                  gloss="church">ἐκκλησίᾳ</w><pc>·</pc>
+                  head="true">ἐκκλησίᾳ·</w>
             </wg>
          </wg>
       </wg>
    </sentence>
    <sentence>
-      <milestone unit="verse" id="3John.1.9">3John.1.9</milestone>
-      <p>ἀλλ’ ὁ φιλοπρωτεύων αὐτῶν Διοτρεφὴς οὐκ ἐπιδέχεται ἡμᾶς.</p>
+      <p>
+         <milestone unit="verse" id="3John.1.9">3John.1.9</milestone> ἀλλ’ ὁ φιλοπρωτεύων αὐτῶν Διοτρεφὴς οὐκ ἐπιδέχεται ἡμᾶς.</p>
       <wg role="cl">
          <wg class="cl" n="640010090050080" rule="Conj-CL">
             <w class="conj"
@@ -1427,8 +1316,7 @@
                n="640010090050010"
                lemma="ἀλλά"
                normalized="ἀλλ’"
-               strong="235"
-               gloss="but">ἀλλ’</w>
+               strong="235">ἀλλ’</w>
             <wg class="cl" n="640010090060070" rule="S-ADV-V-O">
                <wg role="s"
                    class="np"
@@ -1448,8 +1336,7 @@
                         strong="3588"
                         number="singular"
                         gender="masculine"
-                        case="nominative"
-                        gloss="the [one]">ὁ</w>
+                        case="nominative">ὁ</w>
                      <wg class="cl" n="640010090070020" head="true" rule="V-ADV">
                         <w role="v"
                            class="verb"
@@ -1465,8 +1352,7 @@
                            voice="active"
                            mood="participle"
                            type="?"
-                           head="true"
-                           gloss="loving to be first">φιλοπρωτεύων</w>
+                           head="true">φιλοπρωτεύων</w>
                         <w role="adv"
                            class="pron"
                            type="personal"
@@ -1477,8 +1363,7 @@
                            strong="846"
                            number="plural"
                            gender="feminine"
-                           case="genitive"
-                           gloss="among them">αὐτῶν</w>
+                           case="genitive">αὐτῶν</w>
                      </wg>
                   </wg>
                   <w class="noun"
@@ -1490,8 +1375,7 @@
                      strong="1361"
                      number="singular"
                      gender="masculine"
-                     case="nominative"
-                     gloss="Diotrephes">Διοτρεφὴς</w>
+                     case="nominative">Διοτρεφὴς</w>
                </wg>
                <w role="adv"
                   class="adv"
@@ -1499,8 +1383,7 @@
                   n="640010090100010"
                   lemma="οὐ"
                   normalized="οὐκ"
-                  strong="3756"
-                  gloss="not">οὐκ</w>
+                  strong="3756">οὐκ</w>
                <w role="v"
                   class="verb"
                   osisId="3John.1.9!11"
@@ -1513,8 +1396,7 @@
                   tense="present"
                   voice="middlepassive"
                   mood="indicative"
-                  head="true"
-                  gloss="welcomes">ἐπιδέχεται</w>
+                  head="true">ἐπιδέχεται</w>
                <w role="o"
                   class="pron"
                   type="personal"
@@ -1524,15 +1406,14 @@
                   normalized="ἡμᾶς"
                   strong="1473"
                   number="plural"
-                  case="accusative"
-                  gloss="us">ἡμᾶς</w><pc>.</pc>
+                  case="accusative">ἡμᾶς.</w>
             </wg>
          </wg>
       </wg>
    </sentence>
    <sentence>
-      <milestone unit="verse" id="3John.1.10">3John.1.10</milestone>
-      <p>διὰ τοῦτο, ἐὰν ἔλθω, ὑπομνήσω αὐτοῦ τὰ ἔργα ἃ ποιεῖ λόγοις πονηροῖς φλυαρῶν ἡμᾶς,</p>
+      <p>
+         <milestone unit="verse" id="3John.1.10">3John.1.10</milestone> διὰ τοῦτο, ἐὰν ἔλθω, ὑπομνήσω αὐτοῦ τὰ ἔργα ἃ ποιεῖ λόγοις πονηροῖς φλυαρῶν ἡμᾶς,</p>
       <wg role="cl">
          <wg class="cl" n="640010100010140" rule="ADV-ADV-V-O">
             <wg role="adv" class="pp" n="640010100010020" rule="PrepNp">
@@ -1541,8 +1422,7 @@
                   n="640010100010010"
                   lemma="διά"
                   normalized="διά"
-                  strong="1223"
-                  gloss="Because of">διὰ</w>
+                  strong="1223">διὰ</w>
                <w class="pron"
                   type="demonstrative"
                   osisId="3John.1.10!2"
@@ -1553,8 +1433,7 @@
                   number="singular"
                   gender="neuter"
                   case="accusative"
-                  head="true"
-                  gloss="this">τοῦτο</w><pc>,</pc>
+                  head="true">τοῦτο,</w>
             </wg>
             <wg role="adv" class="cl" n="640010100030020" rule="sub-CL">
                <w class="conj"
@@ -1562,8 +1441,7 @@
                   n="640010100030010"
                   lemma="ἐάν"
                   normalized="ἐάν"
-                  strong="1437"
-                  gloss="if">ἐὰν</w>
+                  strong="1437">ἐὰν</w>
                <wg class="cl" n="640010100040013" rule="V2CL">
                   <w role="v"
                      class="verb"
@@ -1576,8 +1454,7 @@
                      person="first"
                      tense="aorist"
                      voice="active"
-                     mood="subjunctive"
-                     gloss="I might come">ἔλθω</w><pc>,</pc>
+                     mood="subjunctive">ἔλθω,</w>
                </wg>
             </wg>
             <w role="v"
@@ -1592,8 +1469,7 @@
                tense="future"
                voice="active"
                mood="indicative"
-               head="true"
-               gloss="I will bring to remembrance">ὑπομνήσω</w>
+               head="true">ὑπομνήσω</w>
             <wg role="o"
                 class="np"
                 n="640010100060090"
@@ -1613,8 +1489,7 @@
                      strong="846"
                      number="singular"
                      gender="masculine"
-                     case="genitive"
-                     gloss="of him">αὐτοῦ</w>
+                     case="genitive">αὐτοῦ</w>
                   <wg class="np"
                       n="640010100070020"
                       articular="true"
@@ -1628,8 +1503,7 @@
                         strong="3588"
                         number="plural"
                         gender="neuter"
-                        case="accusative"
-                        gloss="the">τὰ</w>
+                        case="accusative">τὰ</w>
                      <w class="noun"
                         type="common"
                         osisId="3John.1.10!8"
@@ -1640,8 +1514,7 @@
                         number="plural"
                         gender="neuter"
                         case="accusative"
-                        head="true"
-                        gloss="works">ἔργα</w>
+                        head="true">ἔργα</w>
                   </wg>
                </wg>
                <wg class="cl" n="640010100090060" rule="O-V-ADV">
@@ -1655,8 +1528,7 @@
                      strong="3739"
                      number="plural"
                      gender="neuter"
-                     case="accusative"
-                     gloss="which">ἃ</w>
+                     case="accusative">ἃ</w>
                   <w role="v"
                      class="verb"
                      osisId="3John.1.10!10"
@@ -1669,8 +1541,7 @@
                      tense="present"
                      voice="active"
                      mood="indicative"
-                     head="true"
-                     gloss="he is doing">ποιεῖ</w>
+                     head="true">ποιεῖ</w>
                   <wg role="adv" class="cl" n="640010100110040" rule="ADV-V-O">
                      <wg role="adv" class="np" n="640010100110020" rule="NpAdjp">
                         <w class="noun"
@@ -1683,8 +1554,7 @@
                            number="plural"
                            gender="masculine"
                            case="dative"
-                           head="true"
-                           gloss="with words">λόγοις</w>
+                           head="true">λόγοις</w>
                         <w class="adj"
                            osisId="3John.1.10!12"
                            n="640010100120010"
@@ -1693,8 +1563,7 @@
                            strong="4190"
                            number="plural"
                            gender="masculine"
-                           case="dative"
-                           gloss="evil">πονηροῖς</w>
+                           case="dative">πονηροῖς</w>
                      </wg>
                      <w role="v"
                         class="verb"
@@ -1710,8 +1579,7 @@
                         voice="active"
                         mood="participle"
                         type="?"
-                        head="true"
-                        gloss="prating against">φλυαρῶν</w>
+                        head="true">φλυαρῶν</w>
                      <w role="o"
                         class="pron"
                         type="personal"
@@ -1721,8 +1589,7 @@
                         normalized="ἡμᾶς"
                         strong="1473"
                         number="plural"
-                        case="accusative"
-                        gloss="us">ἡμᾶς</w><pc>,</pc>
+                        case="accusative">ἡμᾶς,</w>
                   </wg>
                </wg>
             </wg>
@@ -1730,8 +1597,8 @@
       </wg>
    </sentence>
    <sentence>
-      <milestone unit="verse" id="3John.1.10">3John.1.10</milestone>
-      <p>καὶ μὴ ἀρκούμενος ἐπὶ τούτοις οὔτε αὐτὸς ἐπιδέχεται τοὺς ἀδελφοὺς καὶ τοὺς βουλομένους κωλύει καὶ ἐκ τῆς ἐκκλησίας ἐκβάλλει.</p>
+      <p>
+         <milestone unit="verse" id="3John.1.10">3John.1.10</milestone> καὶ μὴ ἀρκούμενος ἐπὶ τούτοις οὔτε αὐτὸς ἐπιδέχεται τοὺς ἀδελφοὺς καὶ τοὺς βουλομένους κωλύει καὶ ἐκ τῆς ἐκκλησίας ἐκβάλλει.</p>
       <wg role="cl">
          <wg class="cl" n="640010100150190" rule="Conj-CL">
             <w class="conj"
@@ -1739,249 +1606,228 @@
                n="640010100150010"
                lemma="καί"
                normalized="καί"
-               strong="2532"
-               gloss="and">καὶ</w>
-            <wg class="cl" n="640010100160180" rule="ClCl2">
-               <wg class="cl" n="640010100160040" rule="ADV-V-ADV">
-                  <w role="adv"
-                     class="adv"
-                     osisId="3John.1.10!16"
-                     n="640010100160010"
-                     lemma="μή"
-                     normalized="μή"
-                     strong="3361"
-                     gloss="not">μὴ</w>
-                  <w role="v"
-                     class="verb"
-                     osisId="3John.1.10!17"
-                     n="640010100170010"
-                     lemma="ἀρκέω"
-                     normalized="ἀρκούμενος"
-                     strong="714"
+               strong="2532">καὶ</w>
+            <wg class="cl" n="640010100160040" rule="ADV-V-ADV">
+               <w role="adv"
+                  class="adv"
+                  osisId="3John.1.10!16"
+                  n="640010100160010"
+                  lemma="μή"
+                  normalized="μή"
+                  strong="3361">μὴ</w>
+               <w role="v"
+                  class="verb"
+                  osisId="3John.1.10!17"
+                  n="640010100170010"
+                  lemma="ἀρκέω"
+                  normalized="ἀρκούμενος"
+                  strong="714"
+                  number="singular"
+                  gender="masculine"
+                  case="nominative"
+                  tense="present"
+                  voice="passive"
+                  mood="participle"
+                  type="?"
+                  head="true">ἀρκούμενος</w>
+               <wg role="adv" class="pp" n="640010100180020" rule="PrepNp">
+                  <w class="prep"
+                     osisId="3John.1.10!18"
+                     n="640010100180010"
+                     lemma="ἐπί"
+                     normalized="ἐπί"
+                     strong="1909">ἐπὶ</w>
+                  <w class="pron"
+                     type="demonstrative"
+                     osisId="3John.1.10!19"
+                     n="640010100190010"
+                     lemma="οὗτος"
+                     normalized="τούτοις"
+                     strong="3778"
+                     number="plural"
+                     gender="masculine"
+                     case="dative"
+                     head="true">τούτοις</w>
+               </wg>
+            </wg>
+            <wg class="cl" n="640010100200140" head="true" rule="aCLaCLaCL">
+               <w class="conj"
+                  osisId="3John.1.10!20"
+                  n="640010100200010"
+                  lemma="οὔτε"
+                  normalized="οὔτε"
+                  strong="3777">οὔτε</w>
+               <wg class="cl" n="640010100210040" head="true" rule="S-V-O">
+                  <w role="s"
+                     class="pron"
+                     type="personal"
+                     osisId="3John.1.10!21"
+                     n="640010100210010"
+                     lemma="αὐτός"
+                     normalized="αὐτός"
+                     strong="846"
                      number="singular"
                      gender="masculine"
-                     case="nominative"
+                     case="nominative">αὐτὸς</w>
+                  <w role="v"
+                     class="verb"
+                     osisId="3John.1.10!22"
+                     n="640010100220010"
+                     lemma="ἐπιδέχομαι"
+                     normalized="ἐπιδέχεται"
+                     strong="1926"
+                     number="singular"
+                     person="third"
                      tense="present"
-                     voice="passive"
-                     mood="participle"
-                     type="?"
-                     head="true"
-                     gloss="being satisfied">ἀρκούμενος</w>
-                  <wg role="adv" class="pp" n="640010100180020" rule="PrepNp">
-                     <w class="prep"
-                        osisId="3John.1.10!18"
-                        n="640010100180010"
-                        lemma="ἐπί"
-                        normalized="ἐπί"
-                        strong="1909"
-                        gloss="with">ἐπὶ</w>
-                     <w class="pron"
-                        type="demonstrative"
-                        osisId="3John.1.10!19"
-                        n="640010100190010"
-                        lemma="οὗτος"
-                        normalized="τούτοις"
-                        strong="3778"
+                     voice="middlepassive"
+                     mood="indicative"
+                     head="true">ἐπιδέχεται</w>
+                  <wg role="o"
+                      class="np"
+                      n="640010100230020"
+                      articular="true"
+                      rule="DetNP">
+                     <w class="det"
+                        osisId="3John.1.10!23"
+                        n="640010100230010"
+                        lemma="ὁ"
+                        normalized="τούς"
+                        strong="3588"
                         number="plural"
                         gender="masculine"
-                        case="dative"
-                        head="true"
-                        gloss="these">τούτοις</w>
+                        case="accusative">τοὺς</w>
+                     <w class="noun"
+                        type="common"
+                        osisId="3John.1.10!24"
+                        n="640010100240010"
+                        lemma="ἀδελφός"
+                        normalized="ἀδελφούς"
+                        strong="80"
+                        number="plural"
+                        gender="masculine"
+                        case="accusative"
+                        head="true">ἀδελφοὺς</w>
                   </wg>
                </wg>
-               <wg class="cl" n="640010100200140" head="true" rule="aCLaCLaCL">
-                  <w class="conj"
-                     osisId="3John.1.10!20"
-                     n="640010100200010"
-                     lemma="οὔτε"
-                     normalized="οὔτε"
-                     strong="3777"
-                     gloss="neither">οὔτε</w>
-                  <wg class="cl" n="640010100210040" head="true" rule="S-V-O">
-                     <w role="s"
-                        class="pron"
-                        type="personal"
-                        osisId="3John.1.10!21"
-                        n="640010100210010"
-                        lemma="αὐτός"
-                        normalized="αὐτός"
-                        strong="846"
-                        number="singular"
+               <w class="conj"
+                  osisId="3John.1.10!25"
+                  n="640010100250010"
+                  lemma="καί"
+                  normalized="καί"
+                  strong="2532">καὶ</w>
+               <wg class="cl" n="640010100260030" rule="O-V">
+                  <wg role="o"
+                      class="np"
+                      n="640010100260020"
+                      articular="true"
+                      rule="DetCL">
+                     <w class="det"
+                        osisId="3John.1.10!26"
+                        n="640010100260010"
+                        lemma="ὁ"
+                        normalized="τούς"
+                        strong="3588"
+                        number="plural"
                         gender="masculine"
-                        case="nominative"
-                        gloss="himself">αὐτὸς</w>
-                     <w role="v"
-                        class="verb"
-                        osisId="3John.1.10!22"
-                        n="640010100220010"
-                        lemma="ἐπιδέχομαι"
-                        normalized="ἐπιδέχεται"
-                        strong="1926"
-                        number="singular"
-                        person="third"
-                        tense="present"
-                        voice="middlepassive"
-                        mood="indicative"
-                        head="true"
-                        gloss="he receives">ἐπιδέχεται</w>
-                     <wg role="o"
-                         class="np"
-                         n="640010100230020"
+                        case="accusative">τοὺς</w>
+                     <wg class="cl" n="640010100270013" head="true" rule="V2CL">
+                        <w role="v"
+                           class="verb"
+                           osisId="3John.1.10!27"
+                           n="640010100270010"
+                           lemma="βούλομαι"
+                           normalized="βουλομένους"
+                           strong="1014"
+                           number="plural"
+                           gender="masculine"
+                           case="accusative"
+                           tense="present"
+                           voice="middlepassive"
+                           mood="participle"
+                           type="?"
+                           head="true">βουλομένους</w>
+                     </wg>
+                  </wg>
+                  <w role="v"
+                     class="verb"
+                     osisId="3John.1.10!28"
+                     n="640010100280010"
+                     lemma="κωλύω"
+                     normalized="κωλύει"
+                     strong="2967"
+                     number="singular"
+                     person="third"
+                     tense="present"
+                     voice="active"
+                     mood="indicative"
+                     head="true">κωλύει</w>
+               </wg>
+               <w class="conj"
+                  osisId="3John.1.10!29"
+                  n="640010100290010"
+                  lemma="καί"
+                  normalized="καί"
+                  strong="2532">καὶ</w>
+               <wg class="cl" n="640010100300040" rule="ADV-V">
+                  <wg role="adv"
+                      class="pp"
+                      n="640010100300030"
+                      articular="true"
+                      rule="PrepNp">
+                     <w class="prep"
+                        osisId="3John.1.10!30"
+                        n="640010100300010"
+                        lemma="ἐκ"
+                        normalized="ἐκ"
+                        strong="1537">ἐκ</w>
+                     <wg class="np"
+                         n="640010100310020"
                          articular="true"
+                         head="true"
                          rule="DetNP">
                         <w class="det"
-                           osisId="3John.1.10!23"
-                           n="640010100230010"
+                           osisId="3John.1.10!31"
+                           n="640010100310010"
                            lemma="ὁ"
-                           normalized="τούς"
+                           normalized="τῆς"
                            strong="3588"
-                           number="plural"
-                           gender="masculine"
-                           case="accusative"
-                           gloss="the">τοὺς</w>
+                           number="singular"
+                           gender="feminine"
+                           case="genitive">τῆς</w>
                         <w class="noun"
                            type="common"
-                           osisId="3John.1.10!24"
-                           n="640010100240010"
-                           lemma="ἀδελφός"
-                           normalized="ἀδελφούς"
-                           strong="80"
-                           number="plural"
-                           gender="masculine"
-                           case="accusative"
-                           head="true"
-                           gloss="brothers">ἀδελφοὺς</w>
+                           osisId="3John.1.10!32"
+                           n="640010100320010"
+                           lemma="ἐκκλησία"
+                           normalized="ἐκκλησίας"
+                           strong="1577"
+                           number="singular"
+                           gender="feminine"
+                           case="genitive"
+                           head="true">ἐκκλησίας</w>
                      </wg>
                   </wg>
-                  <w class="conj"
-                     osisId="3John.1.10!25"
-                     n="640010100250010"
-                     lemma="καί"
-                     normalized="καί"
-                     strong="2532"
-                     gloss="and">καὶ</w>
-                  <wg class="cl" n="640010100260030" rule="O-V">
-                     <wg role="o"
-                         class="np"
-                         n="640010100260020"
-                         articular="true"
-                         rule="DetCL">
-                        <w class="det"
-                           osisId="3John.1.10!26"
-                           n="640010100260010"
-                           lemma="ὁ"
-                           normalized="τούς"
-                           strong="3588"
-                           number="plural"
-                           gender="masculine"
-                           case="accusative"
-                           gloss="those">τοὺς</w>
-                        <wg class="cl" n="640010100270013" head="true" rule="V2CL">
-                           <w role="v"
-                              class="verb"
-                              osisId="3John.1.10!27"
-                              n="640010100270010"
-                              lemma="βούλομαι"
-                              normalized="βουλομένους"
-                              strong="1014"
-                              number="plural"
-                              gender="masculine"
-                              case="accusative"
-                              tense="present"
-                              voice="middlepassive"
-                              mood="participle"
-                              type="?"
-                              head="true"
-                              gloss="purposing">βουλομένους</w>
-                        </wg>
-                     </wg>
-                     <w role="v"
-                        class="verb"
-                        osisId="3John.1.10!28"
-                        n="640010100280010"
-                        lemma="κωλύω"
-                        normalized="κωλύει"
-                        strong="2967"
-                        number="singular"
-                        person="third"
-                        tense="present"
-                        voice="active"
-                        mood="indicative"
-                        head="true"
-                        gloss="he forbids">κωλύει</w>
-                  </wg>
-                  <w class="conj"
-                     osisId="3John.1.10!29"
-                     n="640010100290010"
-                     lemma="καί"
-                     normalized="καί"
-                     strong="2532"
-                     gloss="and">καὶ</w>
-                  <wg class="cl" n="640010100300040" rule="ADV-V">
-                     <wg role="adv"
-                         class="pp"
-                         n="640010100300030"
-                         articular="true"
-                         rule="PrepNp">
-                        <w class="prep"
-                           osisId="3John.1.10!30"
-                           n="640010100300010"
-                           lemma="ἐκ"
-                           normalized="ἐκ"
-                           strong="1537"
-                           gloss="from">ἐκ</w>
-                        <wg class="np"
-                            n="640010100310020"
-                            articular="true"
-                            head="true"
-                            rule="DetNP">
-                           <w class="det"
-                              osisId="3John.1.10!31"
-                              n="640010100310010"
-                              lemma="ὁ"
-                              normalized="τῆς"
-                              strong="3588"
-                              number="singular"
-                              gender="feminine"
-                              case="genitive"
-                              gloss="the">τῆς</w>
-                           <w class="noun"
-                              type="common"
-                              osisId="3John.1.10!32"
-                              n="640010100320010"
-                              lemma="ἐκκλησία"
-                              normalized="ἐκκλησίας"
-                              strong="1577"
-                              number="singular"
-                              gender="feminine"
-                              case="genitive"
-                              head="true"
-                              gloss="church">ἐκκλησίας</w>
-                        </wg>
-                     </wg>
-                     <w role="v"
-                        class="verb"
-                        osisId="3John.1.10!33"
-                        n="640010100330010"
-                        lemma="ἐκβάλλω"
-                        normalized="ἐκβάλλει"
-                        strong="1544"
-                        number="singular"
-                        person="third"
-                        tense="present"
-                        voice="active"
-                        mood="indicative"
-                        head="true"
-                        gloss="he casts [them] out">ἐκβάλλει</w><pc>.</pc>
-                  </wg>
+                  <w role="v"
+                     class="verb"
+                     osisId="3John.1.10!33"
+                     n="640010100330010"
+                     lemma="ἐκβάλλω"
+                     normalized="ἐκβάλλει"
+                     strong="1544"
+                     number="singular"
+                     person="third"
+                     tense="present"
+                     voice="active"
+                     mood="indicative"
+                     head="true">ἐκβάλλει.</w>
                </wg>
             </wg>
          </wg>
       </wg>
    </sentence>
    <sentence>
-      <milestone unit="verse" id="3John.1.11">3John.1.11</milestone>
-      <p>Ἀγαπητέ, μὴ μιμοῦ τὸ κακὸν ἀλλὰ τὸ ἀγαθόν.</p>
+      <p>
+         <milestone unit="verse" id="3John.1.11">3John.1.11</milestone> Ἀγαπητέ, μὴ μιμοῦ τὸ κακὸν ἀλλὰ τὸ ἀγαθόν.</p>
       <wg role="cl">
          <wg class="cl" n="640010110010080" articular="true" rule="ClCl2">
             <wg class="cl" n="640010110010013" rule="Np2CL">
@@ -1993,8 +1839,7 @@
                   strong="27"
                   number="singular"
                   gender="masculine"
-                  case="vocative"
-                  gloss="Beloved">Ἀγαπητέ</w><pc>,</pc>
+                  case="vocative">Ἀγαπητέ,</w>
             </wg>
             <wg class="cl"
                 n="640010110020070"
@@ -2006,8 +1851,7 @@
                   n="640010110020010"
                   lemma="μή"
                   normalized="μή"
-                  strong="3361"
-                  gloss="not">μὴ</w>
+                  strong="3361">μὴ</w>
                <wg class="cl" n="640010110030030" rule="V-O">
                   <w role="v"
                      class="verb"
@@ -2021,8 +1865,7 @@
                      tense="present"
                      voice="middlepassive"
                      mood="imperative"
-                     head="true"
-                     gloss="do imitate">μιμοῦ</w>
+                     head="true">μιμοῦ</w>
                   <wg role="o"
                       class="np"
                       n="640010110040020"
@@ -2036,8 +1879,7 @@
                         strong="3588"
                         number="singular"
                         gender="neuter"
-                        case="accusative"
-                        gloss="what [is]">τὸ</w>
+                        case="accusative">τὸ</w>
                      <w class="adj"
                         osisId="3John.1.11!5"
                         n="640010110050010"
@@ -2047,8 +1889,7 @@
                         number="singular"
                         gender="neuter"
                         case="accusative"
-                        head="true"
-                        gloss="evil">κακὸν</w>
+                        head="true">κακὸν</w>
                   </wg>
                </wg>
                <w class="conj"
@@ -2056,8 +1897,7 @@
                   n="640010110060010"
                   lemma="ἀλλά"
                   normalized="ἀλλά"
-                  strong="235"
-                  gloss="but">ἀλλὰ</w>
+                  strong="235">ἀλλὰ</w>
                <wg class="cl"
                    n="640010110070022"
                    articular="true"
@@ -2077,8 +1917,7 @@
                         strong="3588"
                         number="singular"
                         gender="neuter"
-                        case="accusative"
-                        gloss="what [is]">τὸ</w>
+                        case="accusative">τὸ</w>
                      <w class="adj"
                         osisId="3John.1.11!8"
                         n="640010110080010"
@@ -2088,8 +1927,7 @@
                         number="singular"
                         gender="neuter"
                         case="accusative"
-                        head="true"
-                        gloss="good">ἀγαθόν</w><pc>.</pc>
+                        head="true">ἀγαθόν.</w>
                   </wg>
                </wg>
             </wg>
@@ -2097,8 +1935,8 @@
       </wg>
    </sentence>
    <sentence>
-      <milestone unit="verse" id="3John.1.11">3John.1.11</milestone>
-      <p>ὁ ἀγαθοποιῶν ἐκ τοῦ Θεοῦ ἐστιν·</p>
+      <p>
+         <milestone unit="verse" id="3John.1.11">3John.1.11</milestone> ὁ ἀγαθοποιῶν ἐκ τοῦ Θεοῦ ἐστιν·</p>
       <wg role="cl">
          <wg class="cl" n="640010110090060" articular="true" rule="S-P-VC">
             <wg role="s"
@@ -2114,8 +1952,7 @@
                   strong="3588"
                   number="singular"
                   gender="masculine"
-                  case="nominative"
-                  gloss="The [one]">ὁ</w>
+                  case="nominative">ὁ</w>
                <wg class="cl" n="640010110100013" head="true" rule="V2CL">
                   <w role="v"
                      class="verb"
@@ -2131,8 +1968,7 @@
                      voice="active"
                      mood="participle"
                      type="?"
-                     head="true"
-                     gloss="doing good">ἀγαθοποιῶν</w>
+                     head="true">ἀγαθοποιῶν</w>
                </wg>
             </wg>
             <wg role="p"
@@ -2146,8 +1982,7 @@
                   n="640010110110010"
                   lemma="ἐκ"
                   normalized="ἐκ"
-                  strong="1537"
-                  gloss="of">ἐκ</w>
+                  strong="1537">ἐκ</w>
                <wg class="np"
                    n="640010110120020"
                    articular="true"
@@ -2161,8 +1996,7 @@
                      strong="3588"
                      number="singular"
                      gender="masculine"
-                     case="genitive"
-                     gloss="-">τοῦ</w>
+                     case="genitive">τοῦ</w>
                   <w class="noun"
                      type="common"
                      osisId="3John.1.11!13"
@@ -2173,8 +2007,7 @@
                      number="singular"
                      gender="masculine"
                      case="genitive"
-                     head="true"
-                     gloss="God">Θεοῦ</w>
+                     head="true">Θεοῦ</w>
                </wg>
             </wg>
             <w role="vc"
@@ -2188,14 +2021,13 @@
                person="third"
                tense="present"
                voice="active"
-               mood="indicative"
-               gloss="is">ἐστιν</w><pc>·</pc>
+               mood="indicative">ἐστιν·</w>
          </wg>
       </wg>
    </sentence>
    <sentence>
-      <milestone unit="verse" id="3John.1.11">3John.1.11</milestone>
-      <p>ὁ κακοποιῶν οὐχ ἑώρακεν τὸν Θεόν.</p>
+      <p>
+         <milestone unit="verse" id="3John.1.11">3John.1.11</milestone> ὁ κακοποιῶν οὐχ ἑώρακεν τὸν Θεόν.</p>
       <wg role="cl">
          <wg class="cl" n="640010110150060" rule="S-ADV-V-O">
             <wg role="s"
@@ -2211,8 +2043,7 @@
                   strong="3588"
                   number="singular"
                   gender="masculine"
-                  case="nominative"
-                  gloss="the [one]">ὁ</w>
+                  case="nominative">ὁ</w>
                <wg class="cl" n="640010110160013" head="true" rule="V2CL">
                   <w role="v"
                      class="verb"
@@ -2228,8 +2059,7 @@
                      voice="active"
                      mood="participle"
                      type="?"
-                     head="true"
-                     gloss="doing evil">κακοποιῶν</w>
+                     head="true">κακοποιῶν</w>
                </wg>
             </wg>
             <w role="adv"
@@ -2238,8 +2068,7 @@
                n="640010110170010"
                lemma="οὐ"
                normalized="οὐχ"
-               strong="3756"
-               gloss="not">οὐχ</w>
+               strong="3756">οὐχ</w>
             <w role="v"
                class="verb"
                osisId="3John.1.11!18"
@@ -2252,8 +2081,7 @@
                tense="perfect"
                voice="active"
                mood="indicative"
-               head="true"
-               gloss="has seen">ἑώρακεν</w>
+               head="true">ἑώρακεν</w>
             <wg role="o"
                 class="np"
                 n="640010110190020"
@@ -2267,8 +2095,7 @@
                   strong="3588"
                   number="singular"
                   gender="masculine"
-                  case="accusative"
-                  gloss="-">τὸν</w>
+                  case="accusative">τὸν</w>
                <w class="noun"
                   type="common"
                   osisId="3John.1.11!20"
@@ -2279,15 +2106,14 @@
                   number="singular"
                   gender="masculine"
                   case="accusative"
-                  head="true"
-                  gloss="God">Θεόν</w><pc>.</pc>
+                  head="true">Θεόν.</w>
             </wg>
          </wg>
       </wg>
    </sentence>
    <sentence>
-      <milestone unit="verse" id="3John.1.12">3John.1.12</milestone>
-      <p>Δημητρίῳ μεμαρτύρηται ὑπὸ πάντων καὶ ὑπὸ αὐτῆς τῆς ἀληθείας·</p>
+      <p>
+         <milestone unit="verse" id="3John.1.12">3John.1.12</milestone> Δημητρίῳ μεμαρτύρηται ὑπὸ πάντων καὶ ὑπὸ αὐτῆς τῆς ἀληθείας·</p>
       <wg role="cl">
          <wg class="cl" n="640010120010090" rule="ADV-V-ADV">
             <w role="adv"
@@ -2300,8 +2126,7 @@
                strong="1216"
                number="singular"
                gender="masculine"
-               case="dative"
-               gloss="To Demetrius">Δημητρίῳ</w>
+               case="dative">Δημητρίῳ</w>
             <w role="v"
                class="verb"
                osisId="3John.1.12!2"
@@ -2314,8 +2139,7 @@
                tense="perfect"
                voice="passive"
                mood="indicative"
-               head="true"
-               gloss="witness has been given">μεμαρτύρηται</w>
+               head="true">μεμαρτύρηται</w>
             <wg role="adv" class="pp" n="640010120030070" rule="Conj2Pp">
                <wg class="pp" n="640010120030020" head="true" rule="PrepNp">
                   <w class="prep"
@@ -2323,8 +2147,7 @@
                      n="640010120030010"
                      lemma="ὑπό"
                      normalized="ὑπό"
-                     strong="5259"
-                     gloss="by">ὑπὸ</w>
+                     strong="5259">ὑπὸ</w>
                   <w class="adj"
                      osisId="3John.1.12!4"
                      n="640010120040010"
@@ -2334,24 +2157,21 @@
                      number="plural"
                      gender="masculine"
                      case="genitive"
-                     head="true"
-                     gloss="all">πάντων</w>
+                     head="true">πάντων</w>
                </wg>
                <w class="conj"
                   osisId="3John.1.12!5"
                   n="640010120050010"
                   lemma="καί"
                   normalized="καί"
-                  strong="2532"
-                  gloss="and">καὶ</w>
+                  strong="2532">καὶ</w>
                <wg class="pp" n="640010120060040" articular="true" rule="PrepNp">
                   <w class="prep"
                      osisId="3John.1.12!6"
                      n="640010120060010"
                      lemma="ὑπό"
                      normalized="ὑπό"
-                     strong="5259"
-                     gloss="by">ὑπὸ</w>
+                     strong="5259">ὑπὸ</w>
                   <wg class="np"
                       n="640010120070030"
                       articular="true"
@@ -2366,8 +2186,7 @@
                         strong="846"
                         number="singular"
                         gender="feminine"
-                        case="genitive"
-                        gloss="itself">αὐτῆς</w>
+                        case="genitive">αὐτῆς</w>
                      <wg class="np"
                          n="640010120080020"
                          articular="true"
@@ -2381,8 +2200,7 @@
                            strong="3588"
                            number="singular"
                            gender="feminine"
-                           case="genitive"
-                           gloss="the">τῆς</w>
+                           case="genitive">τῆς</w>
                         <w class="noun"
                            type="common"
                            osisId="3John.1.12!9"
@@ -2393,8 +2211,7 @@
                            number="singular"
                            gender="feminine"
                            case="genitive"
-                           head="true"
-                           gloss="truth">ἀληθείας</w><pc>·</pc>
+                           head="true">ἀληθείας·</w>
                      </wg>
                   </wg>
                </wg>
@@ -2403,8 +2220,8 @@
       </wg>
    </sentence>
    <sentence>
-      <milestone unit="verse" id="3John.1.12">3John.1.12</milestone>
-      <p>καὶ ἡμεῖς δὲ μαρτυροῦμεν, καὶ οἶδας ὅτι ἡ μαρτυρία ἡμῶν ἀληθής ἐστιν.</p>
+      <p>
+         <milestone unit="verse" id="3John.1.12">3John.1.12</milestone> καὶ ἡμεῖς δὲ μαρτυροῦμεν, καὶ οἶδας ὅτι ἡ μαρτυρία ἡμῶν ἀληθής ἐστιν.</p>
       <wg role="cl">
          <wg class="cl" n="640010120120120" rule="Conj-CL">
             <w class="conj"
@@ -2413,8 +2230,7 @@
                lemma="δέ"
                normalized="δέ"
                strong="1161"
-               discontinuous="true"
-               gloss="also">δὲ</w>
+               discontinuous="true">δὲ</w>
             <wg class="cl" n="640010120100110" rule="CLaCL">
                <wg class="cl" n="640010120100030" head="true" rule="S-V">
                   <wg role="s" class="np" n="640010120100020" rule="AdvpNp">
@@ -2423,8 +2239,7 @@
                         n="640010120100010"
                         lemma="καί"
                         normalized="καί"
-                        strong="2532"
-                        gloss="and">καὶ</w>
+                        strong="2532">καὶ</w>
                      <w class="pron"
                         type="personal"
                         osisId="3John.1.12!11"
@@ -2434,8 +2249,7 @@
                         strong="1473"
                         number="plural"
                         case="nominative"
-                        head="true"
-                        gloss="we">ἡμεῖς</w>
+                        head="true">ἡμεῖς</w>
                   </wg>
                   <w role="v"
                      class="verb"
@@ -2449,108 +2263,97 @@
                      tense="present"
                      voice="active"
                      mood="indicative"
-                     head="true"
-                     gloss="bear witness">μαρτυροῦμεν</w><pc>,</pc>
+                     head="true">μαρτυροῦμεν,</w>
                </wg>
                <w class="conj"
                   osisId="3John.1.12!14"
                   n="640010120140010"
                   lemma="καί"
                   normalized="καί"
-                  strong="2532"
-                  gloss="and">καὶ</w>
-               <wg class="cl" n="640010120150070" rule="ClCl">
-                  <wg class="cl" n="640010120150013" head="true" rule="V2CL">
-                     <w role="v"
-                        class="verb"
-                        osisId="3John.1.12!15"
-                        n="640010120150010"
-                        lemma="οἶδα"
-                        normalized="οἶδας"
-                        strong="1492"
-                        number="singular"
-                        person="second"
-                        tense="perfect"
-                        voice="active"
-                        mood="indicative"
-                        head="true"
-                        gloss="you know">οἶδας</w>
-                  </wg>
-                  <wg class="cl" n="640010120160060" rule="that-VP">
-                     <w class="conj"
-                        osisId="3John.1.12!16"
-                        n="640010120160010"
-                        lemma="ὅτι"
-                        normalized="ὅτι"
-                        strong="3754"
-                        gloss="that">ὅτι</w>
-                     <wg class="cl" n="640010120170050" rule="S-P-VC">
-                        <wg role="s"
-                            class="np"
-                            n="640010120170030"
-                            articular="true"
-                            rule="DetNP">
-                           <w class="det"
-                              osisId="3John.1.12!17"
-                              n="640010120170010"
-                              lemma="ὁ"
-                              normalized="ἡ"
-                              strong="3588"
+                  strong="2532">καὶ</w>
+               <wg class="cl" n="640010120150013" head="true" rule="V2CL">
+                  <w role="v"
+                     class="verb"
+                     osisId="3John.1.12!15"
+                     n="640010120150010"
+                     lemma="οἶδα"
+                     normalized="οἶδας"
+                     strong="1492"
+                     number="singular"
+                     person="second"
+                     tense="perfect"
+                     voice="active"
+                     mood="indicative"
+                     head="true">οἶδας</w>
+               </wg>
+               <wg class="cl" n="640010120160060" rule="that-VP">
+                  <w class="conj"
+                     osisId="3John.1.12!16"
+                     n="640010120160010"
+                     lemma="ὅτι"
+                     normalized="ὅτι"
+                     strong="3754">ὅτι</w>
+                  <wg class="cl" n="640010120170050" rule="S-P-VC">
+                     <wg role="s"
+                         class="np"
+                         n="640010120170030"
+                         articular="true"
+                         rule="DetNP">
+                        <w class="det"
+                           osisId="3John.1.12!17"
+                           n="640010120170010"
+                           lemma="ὁ"
+                           normalized="ἡ"
+                           strong="3588"
+                           number="singular"
+                           gender="feminine"
+                           case="nominative">ἡ</w>
+                        <wg class="np" n="640010120180020" head="true" rule="NPofNP">
+                           <w class="noun"
+                              type="common"
+                              osisId="3John.1.12!18"
+                              n="640010120180010"
+                              lemma="μαρτυρία"
+                              normalized="μαρτυρία"
+                              strong="3141"
                               number="singular"
                               gender="feminine"
                               case="nominative"
-                              gloss="the">ἡ</w>
-                           <wg class="np" n="640010120180020" head="true" rule="NPofNP">
-                              <w class="noun"
-                                 type="common"
-                                 osisId="3John.1.12!18"
-                                 n="640010120180010"
-                                 lemma="μαρτυρία"
-                                 normalized="μαρτυρία"
-                                 strong="3141"
-                                 number="singular"
-                                 gender="feminine"
-                                 case="nominative"
-                                 head="true"
-                                 gloss="testimony">μαρτυρία</w>
-                              <w class="pron"
-                                 type="personal"
-                                 osisId="3John.1.12!19"
-                                 n="640010120190010"
-                                 lemma="ἐγώ"
-                                 normalized="ἡμῶν"
-                                 strong="1473"
-                                 number="plural"
-                                 case="genitive"
-                                 gloss="of us">ἡμῶν</w>
-                           </wg>
+                              head="true">μαρτυρία</w>
+                           <w class="pron"
+                              type="personal"
+                              osisId="3John.1.12!19"
+                              n="640010120190010"
+                              lemma="ἐγώ"
+                              normalized="ἡμῶν"
+                              strong="1473"
+                              number="plural"
+                              case="genitive">ἡμῶν</w>
                         </wg>
-                        <w role="p"
-                           class="adj"
-                           osisId="3John.1.12!20"
-                           n="640010120200010"
-                           lemma="ἀληθής"
-                           normalized="ἀληθής"
-                           strong="227"
-                           number="singular"
-                           gender="feminine"
-                           case="nominative"
-                           head="true"
-                           gloss="true">ἀληθής</w>
-                        <w role="vc"
-                           class="verb"
-                           osisId="3John.1.12!21"
-                           n="640010120210010"
-                           lemma="εἰμί"
-                           normalized="ἐστιν"
-                           strong="1510"
-                           number="singular"
-                           person="third"
-                           tense="present"
-                           voice="active"
-                           mood="indicative"
-                           gloss="is">ἐστιν</w><pc>.</pc>
                      </wg>
+                     <w role="p"
+                        class="adj"
+                        osisId="3John.1.12!20"
+                        n="640010120200010"
+                        lemma="ἀληθής"
+                        normalized="ἀληθής"
+                        strong="227"
+                        number="singular"
+                        gender="feminine"
+                        case="nominative"
+                        head="true">ἀληθής</w>
+                     <w role="vc"
+                        class="verb"
+                        osisId="3John.1.12!21"
+                        n="640010120210010"
+                        lemma="εἰμί"
+                        normalized="ἐστιν"
+                        strong="1510"
+                        number="singular"
+                        person="third"
+                        tense="present"
+                        voice="active"
+                        mood="indicative">ἐστιν.</w>
                   </wg>
                </wg>
             </wg>
@@ -2558,8 +2361,8 @@
       </wg>
    </sentence>
    <sentence>
-      <milestone unit="verse" id="3John.1.13">3John.1.13</milestone>
-      <p>Πολλὰ εἶχον γράψαι σοι, ἀλλ’ οὐ θέλω διὰ μέλανος καὶ καλάμου σοι γράφειν·</p>
+      <p>
+         <milestone unit="verse" id="3John.1.13">3John.1.13</milestone> Πολλὰ εἶχον γράψαι σοι, ἀλλ’ οὐ θέλω διὰ μέλανος καὶ καλάμου σοι γράφειν·</p>
       <wg role="cl">
          <wg class="cl" n="640010130020130" rule="CLaCL">
             <wg class="cl" n="640010130020040" head="true" rule="V-O">
@@ -2576,8 +2379,7 @@
                   voice="active"
                   mood="indicative"
                   head="true"
-                  discontinuous="true"
-                  gloss="I had">εἶχον</w>
+                  discontinuous="true">εἶχον</w>
                <wg role="o" class="cl" n="640010130010030" rule="O-V-IO">
                   <w role="o"
                      class="adj"
@@ -2588,8 +2390,7 @@
                      strong="4183"
                      number="plural"
                      gender="neuter"
-                     case="accusative"
-                     gloss="Many things">Πολλὰ</w>
+                     case="accusative">Πολλὰ</w>
                   <w role="v"
                      class="verb"
                      osisId="3John.1.13!3"
@@ -2601,8 +2402,7 @@
                      voice="active"
                      mood="infinitive"
                      type="?"
-                     head="true"
-                     gloss="to write">γράψαι</w>
+                     head="true">γράψαι</w>
                   <w role="io"
                      class="pron"
                      type="personal"
@@ -2612,8 +2412,7 @@
                      normalized="σοι"
                      strong="4771"
                      number="singular"
-                     case="dative"
-                     gloss="to you">σοι</w><pc>,</pc>
+                     case="dative">σοι,</w>
                </wg>
             </wg>
             <w class="conj"
@@ -2621,8 +2420,7 @@
                n="640010130050010"
                lemma="ἀλλά"
                normalized="ἀλλ’"
-               strong="235"
-               gloss="but">ἀλλ’</w>
+               strong="235">ἀλλ’</w>
             <wg class="cl" n="640010130060080" rule="ADV-V-O">
                <w role="adv"
                   class="adv"
@@ -2630,8 +2428,7 @@
                   n="640010130060010"
                   lemma="οὐ"
                   normalized="οὐ"
-                  strong="3756"
-                  gloss="not">οὐ</w>
+                  strong="3756">οὐ</w>
                <w role="v"
                   class="verb"
                   osisId="3John.1.13!7"
@@ -2644,8 +2441,7 @@
                   tense="present"
                   voice="active"
                   mood="indicative"
-                  head="true"
-                  gloss="I desire">θέλω</w>
+                  head="true">θέλω</w>
                <wg role="o" class="cl" n="640010130080060" rule="ADV-IO-V">
                   <wg role="adv" class="pp" n="640010130080040" rule="PrepNp">
                      <w class="prep"
@@ -2653,8 +2449,7 @@
                         n="640010130080010"
                         lemma="διά"
                         normalized="διά"
-                        strong="1223"
-                        gloss="with">διὰ</w>
+                        strong="1223">διὰ</w>
                      <wg class="np" n="640010130090030" head="true" rule="NpaNp">
                         <w class="adj"
                            osisId="3John.1.13!9"
@@ -2665,15 +2460,13 @@
                            number="singular"
                            gender="neuter"
                            case="genitive"
-                           head="true"
-                           gloss="ink">μέλανος</w>
+                           head="true">μέλανος</w>
                         <w class="conj"
                            osisId="3John.1.13!10"
                            n="640010130100010"
                            lemma="καί"
                            normalized="καί"
-                           strong="2532"
-                           gloss="and">καὶ</w>
+                           strong="2532">καὶ</w>
                         <w class="noun"
                            type="common"
                            osisId="3John.1.13!11"
@@ -2683,8 +2476,7 @@
                            strong="2563"
                            number="singular"
                            gender="masculine"
-                           case="genitive"
-                           gloss="pen">καλάμου</w>
+                           case="genitive">καλάμου</w>
                      </wg>
                   </wg>
                   <w role="io"
@@ -2696,8 +2488,7 @@
                      normalized="σοι"
                      strong="4771"
                      number="singular"
-                     case="dative"
-                     gloss="to you">σοι</w>
+                     case="dative">σοι</w>
                   <w role="v"
                      class="verb"
                      osisId="3John.1.13!13"
@@ -2709,16 +2500,15 @@
                      voice="active"
                      mood="infinitive"
                      type="?"
-                     head="true"
-                     gloss="to write">γράφειν</w><pc>·</pc>
+                     head="true">γράφειν·</w>
                </wg>
             </wg>
          </wg>
       </wg>
    </sentence>
    <sentence>
-      <milestone unit="verse" id="3John.1.14">3John.1.14</milestone>
-      <p>ἐλπίζω δὲ εὐθέως σε ἰδεῖν, καὶ στόμα πρὸς στόμα λαλήσομεν.</p>
+      <p>
+         <milestone unit="verse" id="3John.1.14">3John.1.14</milestone> ἐλπίζω δὲ εὐθέως σε ἰδεῖν, καὶ στόμα πρὸς στόμα λαλήσομεν.</p>
       <wg role="cl">
          <wg class="cl" n="640010140020100" rule="Conj-CL">
             <w class="conj"
@@ -2727,8 +2517,7 @@
                lemma="δέ"
                normalized="δέ"
                strong="1161"
-               discontinuous="true"
-               gloss="however">δὲ</w>
+               discontinuous="true">δὲ</w>
             <wg class="cl" n="640010140010090" rule="CLaCL">
                <wg class="cl" n="640010140010040" head="true" rule="V-O">
                   <w role="v"
@@ -2743,8 +2532,7 @@
                      tense="present"
                      voice="active"
                      mood="indicative"
-                     head="true"
-                     gloss="I hope">ἐλπίζω</w>
+                     head="true">ἐλπίζω</w>
                   <wg role="o" class="cl" n="640010140030030" rule="ADV-O-V">
                      <w role="adv"
                         class="adv"
@@ -2752,8 +2540,7 @@
                         n="640010140030010"
                         lemma="εὐθέως"
                         normalized="εὐθέως"
-                        strong="2112"
-                        gloss="soon">εὐθέως</w>
+                        strong="2112">εὐθέως</w>
                      <w role="o"
                         class="pron"
                         type="personal"
@@ -2763,8 +2550,7 @@
                         normalized="σε"
                         strong="4771"
                         number="singular"
-                        case="accusative"
-                        gloss="you">σε</w>
+                        case="accusative">σε</w>
                      <w role="v"
                         class="verb"
                         osisId="3John.1.14!5"
@@ -2776,8 +2562,7 @@
                         voice="active"
                         mood="infinitive"
                         type="?"
-                        head="true"
-                        gloss="to see">ἰδεῖν</w><pc>,</pc>
+                        head="true">ἰδεῖν,</w>
                   </wg>
                </wg>
                <w class="conj"
@@ -2785,8 +2570,7 @@
                   n="640010140060010"
                   lemma="καί"
                   normalized="καί"
-                  strong="2532"
-                  gloss="and">καὶ</w>
+                  strong="2532">καὶ</w>
                <wg class="cl" n="640010140070040" rule="ADV-V">
                   <wg role="adv" class="np" n="640010140070030" rule="NpPp">
                      <w class="noun"
@@ -2799,16 +2583,14 @@
                         number="singular"
                         gender="neuter"
                         case="accusative"
-                        head="true"
-                        gloss="mouth">στόμα</w>
+                        head="true">στόμα</w>
                      <wg class="pp" n="640010140080020" rule="PrepNp">
                         <w class="prep"
                            osisId="3John.1.14!8"
                            n="640010140080010"
                            lemma="πρός"
                            normalized="πρός"
-                           strong="4314"
-                           gloss="to">πρὸς</w>
+                           strong="4314">πρὸς</w>
                         <w class="noun"
                            type="common"
                            osisId="3John.1.14!9"
@@ -2819,8 +2601,7 @@
                            number="singular"
                            gender="neuter"
                            case="accusative"
-                           head="true"
-                           gloss="mouth">στόμα</w>
+                           head="true">στόμα</w>
                      </wg>
                   </wg>
                   <w role="v"
@@ -2835,16 +2616,15 @@
                      tense="future"
                      voice="active"
                      mood="indicative"
-                     head="true"
-                     gloss="we will speak">λαλήσομεν</w><pc>.</pc>
+                     head="true">λαλήσομεν.</w>
                </wg>
             </wg>
          </wg>
       </wg>
    </sentence>
    <sentence>
-      <milestone unit="verse" id="3John.1.15">3John.1.15</milestone>
-      <p>Εἰρήνη σοι.</p>
+      <p>
+         <milestone unit="verse" id="3John.1.15">3John.1.15</milestone> Εἰρήνη σοι.</p>
       <wg role="cl">
          <wg class="cl" n="640010150010020" rule="S-IO">
             <w role="s"
@@ -2858,8 +2638,7 @@
                number="singular"
                gender="feminine"
                case="nominative"
-               head="true"
-               gloss="Peace">Εἰρήνη</w>
+               head="true">Εἰρήνη</w>
             <w role="io"
                class="pron"
                type="personal"
@@ -2869,14 +2648,13 @@
                normalized="σοι"
                strong="4771"
                number="singular"
-               case="dative"
-               gloss="to you">σοι</w><pc>.</pc>
+               case="dative">σοι.</w>
          </wg>
       </wg>
    </sentence>
    <sentence>
-      <milestone unit="verse" id="3John.1.15">3John.1.15</milestone>
-      <p>ἀσπάζονταί σε οἱ φίλοι.</p>
+      <p>
+         <milestone unit="verse" id="3John.1.15">3John.1.15</milestone> ἀσπάζονταί σε οἱ φίλοι.</p>
       <wg role="cl">
          <wg class="cl" n="640010150030040" rule="V-O-S">
             <w role="v"
@@ -2891,8 +2669,7 @@
                tense="present"
                voice="middlepassive"
                mood="indicative"
-               head="true"
-               gloss="Greet">ἀσπάζονταί</w>
+               head="true">ἀσπάζονταί</w>
             <w role="o"
                class="pron"
                type="personal"
@@ -2902,8 +2679,7 @@
                normalized="σε"
                strong="4771"
                number="singular"
-               case="accusative"
-               gloss="you">σε</w>
+               case="accusative">σε</w>
             <wg role="s"
                 class="np"
                 n="640010150050020"
@@ -2917,8 +2693,7 @@
                   strong="3588"
                   number="plural"
                   gender="masculine"
-                  case="nominative"
-                  gloss="the">οἱ</w>
+                  case="nominative">οἱ</w>
                <w class="adj"
                   osisId="3John.1.15!6"
                   n="640010150060010"
@@ -2928,15 +2703,14 @@
                   number="plural"
                   gender="masculine"
                   case="nominative"
-                  head="true"
-                  gloss="friends">φίλοι</w><pc>.</pc>
+                  head="true">φίλοι.</w>
             </wg>
          </wg>
       </wg>
    </sentence>
    <sentence>
-      <milestone unit="verse" id="3John.1.15">3John.1.15</milestone>
-      <p>ἀσπάζου τοὺς φίλους κατ’ ὄνομα.</p>
+      <p>
+         <milestone unit="verse" id="3John.1.15">3John.1.15</milestone> ἀσπάζου τοὺς φίλους κατ’ ὄνομα.</p>
       <wg role="cl">
          <wg class="cl" n="640010150070050" rule="V-O-ADV">
             <w role="v"
@@ -2951,8 +2725,7 @@
                tense="present"
                voice="middlepassive"
                mood="imperative"
-               head="true"
-               gloss="Greet">ἀσπάζου</w>
+               head="true">ἀσπάζου</w>
             <wg role="o"
                 class="np"
                 n="640010150080020"
@@ -2966,8 +2739,7 @@
                   strong="3588"
                   number="plural"
                   gender="masculine"
-                  case="accusative"
-                  gloss="the">τοὺς</w>
+                  case="accusative">τοὺς</w>
                <w class="adj"
                   osisId="3John.1.15!9"
                   n="640010150090010"
@@ -2977,8 +2749,7 @@
                   number="plural"
                   gender="masculine"
                   case="accusative"
-                  head="true"
-                  gloss="friends">φίλους</w>
+                  head="true">φίλους</w>
             </wg>
             <wg role="adv" class="pp" n="640010150100020" rule="PrepNp">
                <w class="prep"
@@ -2986,8 +2757,7 @@
                   n="640010150100010"
                   lemma="κατά"
                   normalized="κατ’"
-                  strong="2596"
-                  gloss="by">κατ’</w>
+                  strong="2596">κατ’</w>
                <w class="noun"
                   type="common"
                   osisId="3John.1.15!11"
@@ -2998,8 +2768,7 @@
                   number="singular"
                   gender="neuter"
                   case="accusative"
-                  head="true"
-                  gloss="">ὄνομα</w><pc>.</pc>
+                  head="true">ὄνομα.</w>
             </wg>
          </wg>
       </wg>
