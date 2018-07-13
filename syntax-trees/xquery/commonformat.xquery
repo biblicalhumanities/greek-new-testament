@@ -1,8 +1,8 @@
-(: 
+(:
     Convert GBI trees to Lowfat format.
 
 	NOTE: this should rarely be used now that the lowfat trees
-	are being independently, but I am keeping it in the repo 
+	are being independently, but I am keeping it in the repo
 	for documentation purposes and also for quality assurance,
 	as a way of testing the lowfat trees against GBI as we
 	move forward.
@@ -131,7 +131,7 @@ declare function local:head($node)
         let $following := count($node/following-sibling::Node)
         return
             if ($preceding + $following > 0)
-            then 
+            then
                 if ($preceding = $node/parent::*/@Head and $node/parent::*/@Cat != 'conj')
                 then attribute head { true() }
                 else ()
@@ -190,21 +190,64 @@ declare function local:osisVerseId($nodeId)
 declare function local:oneword($node)
 (: If the Node governs a single word, return that word. :)
 {
-     if (count($node/Node) > 1) 
+     if (count($node/Node) > 1)
      then ()
      else if ($node/Node)
-     then local:oneword($node/Node)  
+     then local:oneword($node/Node)
      else $node
 };
 
-declare function local:clause($node)
+declare function local:sub-CL-adjunct($node)
 {
-    <wg>
-        {
-            local:attributes($node),
-            $node/Node ! local:node(.)
-        }
-    </wg>
+};
+
+declare function local:sub-CL-adjunct-parent($node)
+{
+
+       let $first := $node/Node[1]
+       let $second := $node/Node[2]
+       return
+         if ($first[@Rule='sub-CL']) then
+              <wg>
+                {
+                  local:attributes($second),
+                  <!-- one -->,
+                  $first ! local:node(.),
+                  $second/Node ! local:node(.)
+                }
+              </wg>
+         else if ($second[@Rule='sub-CL']) then
+               <wg>
+                {
+                  local:attributes($first),
+                  <!-- two -->,
+                  $first/Node ! local:node(.),
+                  $second ! local:node(.)
+                }
+              </wg>
+          else <error>{ "Something went wrong.",  "First:", $first, "Second:", $second }</error>
+};
+
+declare function local:is-worth-preserving($clause)
+{
+    local:node-type($clause/parent::*) = 'role'
+    or $clause/@Rule='sub-CL'
+    or not($clause/@Rule=('ClCl','ClCl2'))
+};
+
+declare function local:clause($node)
+(:  This is probably too simple as written - need to do restructuring of clauses based on @rule attributes  :)
+{
+      if (local:is-worth-preserving($node))
+      then       
+        <wg>
+          {
+              local:attributes($node),
+              $node/Node ! local:node(.)
+          }
+        </wg>
+      else        
+        $node/Node ! local:node(.)      
 };
 
 
@@ -237,18 +280,18 @@ declare function local:role($node)
         then
             <wg>
                 {
-                    $role, 
+                    $role,
                     $node/Node ! local:node(.)
                 }
-            </wg> 
-        else 
+            </wg>
+        else
             <wg>
                 {
-                    $role, 
+                    $role,
                     local:attributes($node/Node),
                     $node/Node/Node ! local:node(.)
                 }
-            </wg> 
+            </wg>
 };
 
 declare function local:word($node)
@@ -288,7 +331,7 @@ declare function local:node-type($node as element(Node))
 {
     if ($node/@UnicodeLemma)
       then "word"
-    else 
+    else
     switch ($node/@Cat)
         case "adj"
         case "adv"
@@ -348,7 +391,7 @@ declare function local:node($node as element(Node))
 
 declare function local:straight-text($node)
 {
-    for $n at $i in $node//Node[local:node-type(.) = 'word'] 
+    for $n at $i in $node//Node[local:node-type(.) = 'word']
     order by $n/@morphId
     return string($n/@Unicode)
 };
@@ -364,17 +407,17 @@ declare function local:sentence($node)
                     <milestone unit="verse">
                         { attribute id { $verse }, $verse}
                     </milestone>
-                    ,  
+                    ,
                     " "
                 )
               }
               { local:straight-text($node) }
              </p>,
-             
+
              if (count($node/Node) > 1 or not($node/Node/@node = 'CL'))
              then <wg role="cl">{ $node/Node ! local:node(.) }</wg>
              else local:node($node/Node)
-                         
+
         }
     </sentence>
 };
