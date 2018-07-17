@@ -5,7 +5,7 @@ wg[class=header] {
     position: fixed;
     width=6em;
     top: 5px;
-    left: 15px;
+    left: 5px;
     background-color: white;
     opacity: 1;
     overflow: scroll;
@@ -39,123 +39,93 @@ book, passage,root {
 }
 
 
-
 /* WGs */
 
 wg[class=sentence] {
 }
 
-wg[class=sentence] wg[class=cl]::before {
-  content: default;
-}
-
 wg[class=cl] {
-  /*
-    The nub of the spacing problem:
-
-    You really want spacing down to the last role before a word.
-    After that, you really don't want it.  Is there some way to
-    have it both ways with .css?
-  */
-
   padding-top: 0.25em;
   padding-bottom: 0.25em;
-  padding-left: 1em;
   display: block;
 }
 
-/*
-
-This was intended to be used to flag things as adjuncts if not marked. Not sure we need this, commenting out for now.
-*[role] ~ *::before {
-  color: cadetblue;
-  content: "+ ";
-  size: small;
-}
-
-*/
-
-wg[role]::before {
-  color: cadetblue;
-  content: attr(role);
-  size: small;
-}
-
-/* sub-CL rules probably indicate adverbials in Treedown's model. */
-wg[rule=sub-CL]::before,
-wg[role=adv]::before {
-  color: cadetblue;
-  content: "+ ";
-  size: small;
-}
-
+wg[rule=that-VP],
 wg[rule=sub-CL],
-wg[role=adv] {
-  padding-left: 1em;
-}
-
-/* If wg[role] is indented, w[role] must be indented the same amount. */
 wg[role] {
     position: relative;
     display: block;
-    padding-left: 1em;
 }
 
 /* Words */
 
+w[role] {
+    position: relative;
+    display: block;
+}
+
+w[case=vocative] {
+    position: relative;
+    display: block;
+}
+
+/* Generated Text */
+
+/*
+  Spacing problem:  generated text usually belongs on the previous level,
+  not on the new indent leve.  Not sure how to do that with CSS.
+*/
+
+wg[class=sentence] wg[class=cl]::before {
+  content: initial;
+}
+
+wg[role]::before {
+  color: cadetblue;
+  content: attr(role);
+}
+
+wg[rule=that-VP]::before,
+wg[rule=sub-CL]::before,
+wg[role=adv]::before {
+  color: cadetblue;
+  content: "+ ";
+}
+
+
 w[role=v][mood=participle]::before {
   color: cadetblue;
   content: "v.part ";
-  size: small;
 }
 
 w[role=v][mood=infinitive]::before {
   color: cadetblue;
   content: "v.inf ";
-  size: small;
 }
 
 w[role]::before {
   color: cadetblue;
   content: attr(role) " ";
-  size: small;
 }
 
 w[role=adv]::before {
   color: cadetblue;
   content: "+ ";
-  size: small;
 }
 
 w[discontinuous]::after {
   content: "*";
   vertical-align: super;
   color: cadetblue;
-  size: x-small;
+  font-size: small;
 }
-
-/* If you indent this, indent wg[role] and w[case=vocative] by the same amount. */
-w[role] {
-    position: relative;
-    display: block;
-    padding-left: 1em;
-}
-
 
 w[case=vocative]::before {
   color: cadetblue;
   content: "voc" " ";
-  size: small;
 }
 
-w[case=vocative] {
-    position: relative;
-    display: block;
-    padding-left: 1em;
-}
 
-w[class=conj] {
-}
 /* -----  Experimental stuff goes here -------- */
 
 /* Apposition */
@@ -164,8 +134,7 @@ wg[rule=Np-Appos] > wg:not(:first-child)::before,
 wg[rule=Np-Appos] > w:not(:first-child)::before {
     content: ": ";
     color: cadetblue;
-    size: small;
-    padding-left: 1em;
+    margin-left: 1em;
 }
 
 wg[rule=Np-Appos] > wg:not(:first-child),
@@ -177,7 +146,7 @@ wg[rule=Np-Appos] > w:not(:first-child) {
 
 wg[rule=Np-Appos] > wg:first-child::before {
     content: "[";
-    color: cadetblue;   
+    color: cadetblue;
 }
 
 wg[rule=Np-Appos]> wg:first-child::after {
@@ -189,4 +158,9 @@ pc::before {
     content: initial;
 }
 
+/* ------ Left spacing --------- */
 
+wg[class=cl] {
+  margin-left: 1em;
+  position: relative;
+}
