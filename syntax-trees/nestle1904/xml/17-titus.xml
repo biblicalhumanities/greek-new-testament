@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8" ?>
+<?xml version="1.0" encoding="utf-8" ?>
 <Sentences>
 <Sentence ID = "Tit1:1:1-1:4:6">
 <Trees>
@@ -1344,7 +1344,7 @@
           <Node Cat="CL" Start="3" End="7" Rule="S-V-ADV" Head="1" nodeId="560020010040050">
             <Node Cat="S" Start="3" End="3" Rule="Np2S" Head="0" nodeId="560020010040012">
               <Node Cat="np" Start="3" End="3" Rule="Pron2NP" Head="0" nodeId="560020010040011">
-                <Node Cat="pron" Start="3" End="3" StrongNumber="3739" UnicodeLemma="ὅς" Gender="Neuter" Number="Plural" FunctionalTag="R-APN" Type="Relative" morphId="56002001004" NormalizedForm="ἅ" Case="Accusative" Unicode="ἃ" FormalTag="R-APN" nodeId="560020010040010">ἃ</Node>
+                <Node Cat="pron" Start="3" End="3" StrongNumber="3739" UnicodeLemma="ὅς" Gender="Neuter" Number="Plural" FunctionalTag="R-NPN" Type="Relative" morphId="56002001004" NormalizedForm="ἅ" Case="Nominative" Unicode="ἃ" FormalTag="R-NPN" nodeId="560020010040010">ἃ</Node>
               </Node>
             </Node>
             <Node Cat="V" Start="4" End="4" Rule="Vp2V" Head="0" nodeId="560020010050012">
@@ -3328,7 +3328,7 @@
         <Node Cat="S" Start="8" End="8" Rule="Np2S" Head="0" nodeId="560030130090013">
           <Node Cat="np" Start="8" End="8" Rule="Adj2NP" Head="0" nodeId="560030130090012">
             <Node Cat="adjp" Start="8" End="8" Rule="Adj2Adjp" Head="0" nodeId="560030130090011">
-              <Node Cat="adj" Start="8" End="8" StrongNumber="3367" UnicodeLemma="μηδείς" Gender="Neuter" Number="Singular" FunctionalTag="A-ASN-N" Type="" morphId="56003013009" NormalizedForm="μηδέν" Case="Accusative" Unicode="μηδὲν" FormalTag="A-ASN-N" nodeId="560030130090010">μηδὲν</Node>
+              <Node Cat="adj" Start="8" End="8" StrongNumber="3367" UnicodeLemma="μηδείς" Gender="Neuter" Number="Singular" FunctionalTag="A-NSN-N" Type="" morphId="56003013009" NormalizedForm="μηδέν" Case="Nominative" Unicode="μηδὲν" FormalTag="A-NSN-N" nodeId="560030130090010">μηδὲν</Node>
             </Node>
           </Node>
         </Node>
