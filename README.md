@@ -1,7 +1,9 @@
 greek-new-testament
 ===================
 
-**IMPORTANT** - This data has moved to the [Macula Greek](https://github.com/Clear-Bible/macula-greek) repository, and is no longer maintained here. This repository still exists because it contains some useful data, such as the PROIEL data, that has not been moved to the new repository, and it is sometimes useful for comparison.
+**THIS REPOSITORY IS OBSOLETE** - This data has moved to the [Macula Greek](https://github.com/Clear-Bible/macula-greek) repository, and is no longer maintained here. This repository still exists because it contains some useful data, such as the PROIEL data, that has not been moved to the new repository, and it is sometimes useful for comparison.
+
+--------------
 
 This directory contains the SBLGNT and Nestle1904 editions of the Greek New Testament with syntax trees produced by the Global Bible Initiative, and Lowfat trees created from them.  It also contains a transformation of the [PROIEL Greek New Testament](https://proiel.github.io) transformed to make it more easily comparable to the Lowfat treebanks.
 
